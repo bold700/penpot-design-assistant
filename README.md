@@ -10,7 +10,7 @@ Out of the box configured for Material Design 3. Easily swappable to your own de
 
 - [Node.js](https://nodejs.org) (any recent version)
 - Penpot (cloud or self-hosted)
-- An OpenAI API key (or a local LLM via Ollama / LM Studio)
+- An API key or access to a local LLM
 
 ### Run locally
 
@@ -20,18 +20,7 @@ cd penpot-design-assistant
 cp config.example.json config.json
 ```
 
-Edit `config.json` and fill in your API key:
-
-```json
-{
-  "apiKey": "YOUR_API_KEY",
-  "apiUrl": "https://api.openai.com/v1/chat/completions",
-  "model": "gpt-4o",
-  "systemPromptFile": "prompt.txt"
-}
-```
-
-Then start the server:
+Edit `config.json` and fill in your settings (see configuration below), then:
 
 ```bash
 npm start
@@ -45,39 +34,74 @@ npm start
 4. Enter the URL: `http://localhost:7780/manifest.json`
 5. Click **Install**
 
-## Switching to a different LLM
+---
 
-Update `config.json` to point to any OpenAI-compatible API:
+## Configuration
 
-**Ollama (local):**
+All settings live in `config.json` (not committed to git). Copy `config.example.json` to get started.
+
+### Using OpenAI
+
+```json
+{
+  "apiKey": "sk-...",
+  "apiUrl": "https://api.openai.com/v1/chat/completions",
+  "model": "gpt-4o",
+  "systemPromptFile": "prompt.txt"
+}
+```
+
+### Using a local LLM (Ollama)
+
 ```json
 {
   "apiKey": "ollama",
-  "apiUrl": "http://localhost:11434/v1/chat/completions",
-  "model": "llama3"
+  "apiUrl": "http://YOUR_SERVER:11434/v1/chat/completions",
+  "model": "YOUR_MODEL_NAME",
+  "systemPromptFile": "prompt.txt"
 }
 ```
 
-**LM Studio (local):**
+### Using a local LLM (LM Studio)
+
 ```json
 {
   "apiKey": "lm-studio",
-  "apiUrl": "http://localhost:1234/v1/chat/completions",
-  "model": "your-model-name"
+  "apiUrl": "http://YOUR_SERVER:1234/v1/chat/completions",
+  "model": "YOUR_MODEL_NAME",
+  "systemPromptFile": "prompt.txt"
 }
 ```
 
-## Switching to a different knowledge source
+### What to ask your cloud/infrastructure team
 
-Edit `prompt.txt` to replace the design system content. For example, paste in your Confluence documentation or internal design guidelines.
+To fill in the config above, you need the following from your team:
 
-You can also point to a different file:
+| Setting | What to ask |
+|---|---|
+| `apiUrl` | What is the endpoint of our internal LLM? |
+| `model` | What is the model name we should use? |
+| `apiKey` | Do we need an API key, and if so which one? |
 
+---
+
+## Knowledge source
+
+The assistant's knowledge comes from `prompt.txt`. Edit this file to change what the assistant knows about.
+
+**To use your own design system:**
+1. Open `prompt.txt`
+2. Replace the content with your design system documentation
+3. You can paste content exported from Confluence or any other source
+
+To use a different file:
 ```json
 {
-  "systemPromptFile": "my-design-system.txt"
+  "systemPromptFile": "our-design-system.txt"
 }
 ```
+
+---
 
 ## No build step
 
