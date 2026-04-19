@@ -1,0 +1,8 @@
+{
+  "name": "penpot-design-assistant",
+  "version": "1.0.0",
+  "description": "AI design system assistant for Penpot",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
