@@ -1,40 +1,39 @@
 #!/usr/bin/env node
-const http = require('http');
-const fs   = require('fs');
-const path = require('path');
+const http  = require('http');
+const https = require('https');
+const fs    = require('fs');
+const path  = require('path');
+const url   = require('url');
 
 const PORT = 7780;
 
-// Load config
+// ── Config ─────────────────────────────────────────────────
+// To switch LLM or knowledge source, only edit config.json and prompt.txt
 let config = {};
 try {
   config = JSON.parse(fs.readFileSync(path.join(__dirname, 'config.json'), 'utf8'));
 } catch (e) {
-  console.error('config.json not found or invalid. Copy config.example.json to config.json and fill in your API key.');
+  console.error('config.json not found. Copy config.example.json to config.json and fill in your settings.');
   process.exit(1);
 }
 
-const OPENAI_API_KEY = config.openaiApiKey;
-const MODEL          = config.model || 'gpt-4o';
+const API_KEY  = config.apiKey;
+const API_URL  = config.apiUrl  || 'https://api.openai.com/v1/chat/completions';
+const MODEL    = config.model   || 'gpt-4o';
+const PROMPT_FILE = config.systemPromptFile || 'prompt.txt';
 
-const SYSTEM_PROMPT = `You are an expert on Material Design 3 (M3), Google's design system.
-You help designers and developers working in Penpot understand and apply M3 principles.
+// ── System prompt ──────────────────────────────────────────
+// Edit prompt.txt to change the knowledge source (M3, Confluence, etc.)
+let SYSTEM_PROMPT = '';
+try {
+  SYSTEM_PROMPT = fs.readFileSync(path.join(__dirname, PROMPT_FILE), 'utf8');
+  console.log(`System prompt loaded from: ${PROMPT_FILE}`);
+} catch (e) {
+  console.error(`Could not load system prompt from ${PROMPT_FILE}`);
+  process.exit(1);
+}
 
-You have deep knowledge of:
-- M3 color system: dynamic color, tonal palettes, color roles (primary, secondary, tertiary, surface, etc.)
-- M3 typography: type scale, roles (Display, Headline, Title, Body, Label)
-- M3 components: buttons, cards, dialogs, navigation, chips, FABs, etc.
-- M3 elevation and shadow system
-- M3 shape system (rounded corners)
-- M3 motion and interaction guidelines
-- M3 tokens and how they map to design tools
-- Dark/light theme principles
-
-Reference: https://m3.material.io/
-
-Keep answers concise and practical. When relevant, mention specific token names or values.
-If a question is about implementing something in a design tool like Penpot, give practical advice.`;
-
+// ── MIME types ─────────────────────────────────────────────
 const MIME = {
   '.html': 'text/html',
   '.js':   'text/javascript',
@@ -43,80 +42,77 @@ const MIME = {
   '.css':  'text/css',
 };
 
+// ── LLM call ───────────────────────────────────────────────
+// Supports any OpenAI-compatible API (OpenAI, Ollama, LM Studio, etc.)
+function callLLM(messages) {
+  return new Promise((resolve, reject) => {
+    const payload = JSON.stringify({
+      model: MODEL,
+      messages: [
+        { role: 'system', content: SYSTEM_PROMPT },
+        ...messages,
+      ],
+      max_tokens: 1024,
+      temperature: 0.4,
+    });
+
+    const parsed   = new url.URL(API_URL);
+    const isHttps  = parsed.protocol === 'https:';
+    const reqLib   = isHttps ? https : http;
+
+    const options = {
+      hostname: parsed.hostname,
+      port:     parsed.port || (isHttps ? 443 : 80),
+      path:     parsed.pathname,
+      method:   'POST',
+      headers: {
+        'Content-Type':   'application/json',
+        'Authorization':  `Bearer ${API_KEY}`,
+        'Content-Length': Buffer.byteLength(payload),
+      },
+    };
+
+    const apiReq = reqLib.request(options, apiRes => {
+      let data = '';
+      apiRes.on('data', chunk => data += chunk);
+      apiRes.on('end', () => {
+        try {
+          const json = JSON.parse(data);
+          if (json.error) return reject(new Error(json.error.message));
+          resolve(json.choices[0].message.content);
+        } catch (e) {
+          reject(new Error('Failed to parse LLM response'));
+        }
+      });
+    });
+
+    apiReq.on('error', reject);
+    apiReq.write(payload);
+    apiReq.end();
+  });
+}
+
+// ── Server ─────────────────────────────────────────────────
 http.createServer((req, res) => {
-  // CORS
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
-  if (req.method === 'OPTIONS') {
-    res.writeHead(204);
-    res.end();
-    return;
-  }
+  if (req.method === 'OPTIONS') { res.writeHead(204); res.end(); return; }
 
-  // Chat API endpoint
+  // Chat endpoint
   if (req.method === 'POST' && req.url === '/api/chat') {
     let body = '';
     req.on('data', chunk => body += chunk);
     req.on('end', async () => {
       try {
         const { messages } = JSON.parse(body);
-
-        const payload = JSON.stringify({
-          model: MODEL,
-          messages: [
-            { role: 'system', content: SYSTEM_PROMPT },
-            ...messages,
-          ],
-          max_tokens: 1024,
-          temperature: 0.4,
-        });
-
-        // Call OpenAI
-        const options = {
-          hostname: 'api.openai.com',
-          path: '/v1/chat/completions',
-          method: 'POST',
-          headers: {
-            'Content-Type':  'application/json',
-            'Authorization': `Bearer ${OPENAI_API_KEY}`,
-            'Content-Length': Buffer.byteLength(payload),
-          },
-        };
-
-        const apiReq = require('https').request(options, apiRes => {
-          let data = '';
-          apiRes.on('data', chunk => data += chunk);
-          apiRes.on('end', () => {
-            try {
-              const json = JSON.parse(data);
-              if (json.error) {
-                res.writeHead(500, { 'Content-Type': 'application/json' });
-                res.end(JSON.stringify({ error: json.error.message }));
-                return;
-              }
-              const reply = json.choices[0].message.content;
-              res.writeHead(200, { 'Content-Type': 'application/json' });
-              res.end(JSON.stringify({ reply }));
-            } catch (e) {
-              res.writeHead(500, { 'Content-Type': 'application/json' });
-              res.end(JSON.stringify({ error: 'Failed to parse OpenAI response' }));
-            }
-          });
-        });
-
-        apiReq.on('error', e => {
-          res.writeHead(500, { 'Content-Type': 'application/json' });
-          res.end(JSON.stringify({ error: e.message }));
-        });
-
-        apiReq.write(payload);
-        apiReq.end();
-
+        const reply = await callLLM(messages);
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ reply }));
       } catch (e) {
-        res.writeHead(400, { 'Content-Type': 'application/json' });
-        res.end(JSON.stringify({ error: 'Invalid request' }));
+        res.writeHead(500, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ error: e.message }));
       }
     });
     return;
@@ -137,4 +133,5 @@ http.createServer((req, res) => {
   console.log(`Design Assistant running at http://localhost:${PORT}`);
   console.log(`Install in Penpot: http://localhost:${PORT}/manifest.json`);
   console.log(`Model: ${MODEL}`);
+  console.log(`API:   ${API_URL}`);
 });

@@ -1,0 +1,6 @@
+{
+  "apiKey": "JOUW_API_KEY_HIER",
+  "apiUrl": "https://api.openai.com/v1/chat/completions",
+  "model": "gpt-4o",
+  "systemPromptFile": "prompt.txt"
+}
