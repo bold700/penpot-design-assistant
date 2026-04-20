@@ -5,10 +5,10 @@ const fs    = require('fs');
 const path  = require('path');
 const url   = require('url');
 
-const PORT = 7780;
+const PORT         = 7780;
+const KNOWLEDGE_DIR = path.join(__dirname, 'knowledge');
 
 // ── Config ─────────────────────────────────────────────────
-// To switch LLM or knowledge source, only edit config.json and prompt.txt
 let config = {};
 try {
   config = JSON.parse(fs.readFileSync(path.join(__dirname, 'config.json'), 'utf8'));
@@ -17,20 +17,83 @@ try {
   process.exit(1);
 }
 
-const API_KEY  = config.apiKey;
-const API_URL  = config.apiUrl  || 'https://api.openai.com/v1/chat/completions';
-const MODEL    = config.model   || 'gpt-4o';
+const API_KEY     = config.apiKey;
+const API_URL     = config.apiUrl  || 'https://api.openai.com/v1/chat/completions';
+const MODEL       = config.model   || 'gpt-4o';
 const PROMPT_FILE = config.systemPromptFile || 'prompt.txt';
 
-// ── System prompt ──────────────────────────────────────────
-// Edit prompt.txt to change the knowledge source (M3, Confluence, etc.)
-let SYSTEM_PROMPT = '';
+// ── Base system prompt ─────────────────────────────────────
+let BASE_PROMPT = '';
 try {
-  SYSTEM_PROMPT = fs.readFileSync(path.join(__dirname, PROMPT_FILE), 'utf8');
-  console.log(`System prompt loaded from: ${PROMPT_FILE}`);
+  BASE_PROMPT = fs.readFileSync(path.join(__dirname, PROMPT_FILE), 'utf8');
 } catch (e) {
   console.error(`Could not load system prompt from ${PROMPT_FILE}`);
   process.exit(1);
+}
+
+// ── Knowledge base ─────────────────────────────────────────
+// Load all scraped markdown files into memory at startup
+const knowledge = {}; // { 'components/buttons': '...content...' }
+
+function loadKnowledge(dir, prefix) {
+  if (!fs.existsSync(dir)) return;
+  for (const file of fs.readdirSync(dir)) {
+    const fullPath = path.join(dir, file);
+    const stat = fs.statSync(fullPath);
+    if (stat.isDirectory()) {
+      loadKnowledge(fullPath, prefix ? `${prefix}/${file}` : file);
+    } else if (file.endsWith('.md') && file !== 'INDEX.md') {
+      const key = (prefix ? `${prefix}/` : '') + file.replace('.md', '');
+      knowledge[key] = fs.readFileSync(fullPath, 'utf8');
+    }
+  }
+}
+
+loadKnowledge(KNOWLEDGE_DIR, '');
+console.log(`Knowledge base loaded: ${Object.keys(knowledge).length} files`);
+
+// ── Knowledge retrieval ────────────────────────────────────
+// Find the most relevant knowledge files for a given question
+function findRelevantKnowledge(question) {
+  const q = question.toLowerCase();
+  const scored = [];
+
+  for (const [key, content] of Object.entries(knowledge)) {
+    let score = 0;
+    const keyWords = key.replace(/[-\/]/g, ' ').split(' ');
+
+    // Score based on keyword matches in question
+    for (const word of keyWords) {
+      if (word.length > 2 && q.includes(word)) score += 3;
+    }
+
+    // Score based on content relevance (simple word overlap)
+    const contentLower = content.toLowerCase();
+    const questionWords = q.split(/\s+/).filter(w => w.length > 3);
+    for (const word of questionWords) {
+      const count = (contentLower.match(new RegExp(word, 'g')) || []).length;
+      score += Math.min(count, 5); // cap per word
+    }
+
+    if (score > 0) scored.push({ key, content, score });
+  }
+
+  // Return top 3 most relevant files
+  scored.sort((a, b) => b.score - a.score);
+  return scored.slice(0, 3).map(s => s.content);
+}
+
+function buildSystemPrompt(question) {
+  const relevant = findRelevantKnowledge(question);
+  if (relevant.length === 0) return BASE_PROMPT;
+
+  return `${BASE_PROMPT}
+
+---
+
+The following is the actual M3 documentation relevant to this question. Use this as your primary source:
+
+${relevant.join('\n\n---\n\n')}`;
 }
 
 // ── MIME types ─────────────────────────────────────────────
@@ -43,22 +106,25 @@ const MIME = {
 };
 
 // ── LLM call ───────────────────────────────────────────────
-// Supports any OpenAI-compatible API (OpenAI, Ollama, LM Studio, etc.)
 function callLLM(messages) {
   return new Promise((resolve, reject) => {
+    // Use the last user message to find relevant knowledge
+    const lastUser = [...messages].reverse().find(m => m.role === 'user');
+    const systemPrompt = lastUser ? buildSystemPrompt(lastUser.content) : BASE_PROMPT;
+
     const payload = JSON.stringify({
       model: MODEL,
       messages: [
-        { role: 'system', content: SYSTEM_PROMPT },
+        { role: 'system', content: systemPrompt },
         ...messages,
       ],
       max_tokens: 1024,
-      temperature: 0.4,
+      temperature: 0.3,
     });
 
-    const parsed   = new url.URL(API_URL);
-    const isHttps  = parsed.protocol === 'https:';
-    const reqLib   = isHttps ? https : http;
+    const parsed  = new url.URL(API_URL);
+    const isHttps = parsed.protocol === 'https:';
+    const reqLib  = isHttps ? https : http;
 
     const options = {
       hostname: parsed.hostname,
@@ -100,7 +166,6 @@ http.createServer((req, res) => {
 
   if (req.method === 'OPTIONS') { res.writeHead(204); res.end(); return; }
 
-  // Chat endpoint
   if (req.method === 'POST' && req.url === '/api/chat') {
     let body = '';
     req.on('data', chunk => body += chunk);
@@ -132,6 +197,5 @@ http.createServer((req, res) => {
 }).listen(PORT, () => {
   console.log(`Design Assistant running at http://localhost:${PORT}`);
   console.log(`Install in Penpot: http://localhost:${PORT}/manifest.json`);
-  console.log(`Model: ${MODEL}`);
-  console.log(`API:   ${API_URL}`);
+  console.log(`Model: ${MODEL} | API: ${API_URL}`);
 });
