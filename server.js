@@ -185,7 +185,10 @@ http.createServer((req, res) => {
 
   // Static files
   const pathname = req.url.split('?')[0];
-  const filePath = path.join(__dirname, pathname === '/' ? '/index.html' : pathname);
+  const resolved = pathname === '/' ? '/index.html'
+                 : pathname.endsWith('/') ? pathname + 'index.html'
+                 : pathname;
+  const filePath = path.join(__dirname, resolved);
   const ext = path.extname(filePath);
 
   fs.readFile(filePath, (err, data) => {
