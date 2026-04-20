@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "AI design system assistant for Penpot",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "scrape": "node scripts/scrape-m3.js"
+  },
+  "devDependencies": {
+    "puppeteer": "^22.15.0"
   }
 }
