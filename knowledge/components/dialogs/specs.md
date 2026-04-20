@@ -1,9 +1,5 @@
 <!-- Source: https://m3.material.io/components/dialogs/specs -->
-<!-- Scraped: 2026-04-20T08:06:13.954Z -->
-
-link
-Copy link
-Link copied
+<!-- Scraped: 2026-04-20T18:08:57.261Z -->
 
 ## Tokens & specs
 
@@ -17,23 +13,14 @@ Select a component variant below to see its elements, attributes,
             More on tokens
           
   , and their values.
-link
-Copy link
-Link copied
 Token
 Enabled
 Hovered
 Focused
 Pressed (ripple)
-link
-Copy link
-Link copied
 
 ## Basic dialogs
 
-link
-Copy link
-Link copied
 - Container
 - Icon (optional)
 - Headline (optional)
@@ -41,9 +28,6 @@ Link copied
 - Divider (optional)
 - Button label text
 - Scrim
-link
-Copy link
-Link copied
 
 ### Basic dialog color
 
@@ -57,28 +41,16 @@ Color values are implemented through
             More on tokens
           
   . For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. Learn more about design tokens
-link
-Copy link
-Link copied
 Basic dialog color roles used for light and dark themes:
 - Surface container high
 - Secondary
 - On surface
 - On surface variant
 - Primary
-link
-Copy link
-Link copied
 
 ### Basic dialog measurements
 
-link
-Copy link
-Link copied
 Basic dialog padding and size measurements
-link
-Copy link
-Link copied
 | Attribute | Value |
 | Container shape | 28dp corner radius |
 | Container height | Dynamic |
@@ -94,21 +66,12 @@ Link copied
 | Padding between title and body | 16dp |
 | Padding between icon and title | 16dp |
 | Padding between body and actions | 24dp |
-link
-Copy link
-Link copied
 
 ## Full-screen dialogs
 
-link
-Copy link
-Link copied
 - Header
 - Icon (close affordance)
 - Text button
-link
-Copy link
-Link copied
 
 ### Full-screen dialog color
 
@@ -122,23 +85,11 @@ Color values are implemented through
             More on tokens
           
   . For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value.
-link
-Copy link
-Link copied
 Full-screen dialog color roles used for light and dark themes:
-link
-Copy link
-Link copied
 
 ### Full-screen dialog measurements
 
-link
-Copy link
-Link copied
 Full-screen dialog padding and size measurements
-link
-Copy link
-Link copied
 | Attribute | Value |
 | Container shape | 0dp corner radius |
 | Container height | Dynamic |

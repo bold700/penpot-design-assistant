@@ -1,13 +1,10 @@
 <!-- Source: https://m3.material.io/blog/android-stable-release-1-12-0/develop -->
-<!-- Scraped: 2026-04-20T07:18:20.703Z -->
+<!-- Scraped: 2026-04-20T17:17:33.907Z -->
 
 Posted by
 James Williams
 , Material Developer Advocate
 Material Design Components versions 1.11 and 1.12 come on the eve of our yearly developer conference Google I/O and offer a number of new options for Carousel control, an expansion to color theming, and non-text contrast updates for progress indicators and sliders. The minimum SDK version for MDC Views raises to API 19 in version 1.12, similar to the rest of AndroidX. 1.12 also updates its dependency on androidx.transition (used in SharedElement transitions, Fade, and Predictive Back animations) to version 1.5.0 from 1.2.0.
-link
-Copy link
-Link copied
 
 ## Carousel Updates
 
@@ -24,9 +21,6 @@ CarouselSnapHelper
 snapHelper
 attachToRecyclerView
 carouselRecyclerView
-link
-Copy link
-Link copied
 
 ## Color Changes
 
@@ -187,9 +181,6 @@ As is the case with progress indicators, you can configure these attributes inXM
 MDC 1.11 version of Sliders
 Basic Slider Options
 Advanced Slider Options
-link
-Copy link
-Link copied
 
 ## What’s next for MDC?
 

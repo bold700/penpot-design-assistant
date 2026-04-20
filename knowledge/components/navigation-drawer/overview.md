@@ -1,17 +1,11 @@
 <!-- Source: https://m3.material.io/components/navigation-drawer/overview -->
-<!-- Scraped: 2026-04-20T08:10:53.441Z -->
+<!-- Scraped: 2026-04-20T18:13:48.257Z -->
 
-link
-Copy link
-Link copied
 star
 Note:
 The navigation drawer is no longer recommended in the Material 3 expressive update. For those who have updated, use an
 expanded navigation rail
 , which has mostly the same functionality of the navigation drawer and adapts better across window size classes.
-link
-Copy link
-Link copied
 - Use standard navigation drawers in 
     
     expanded
@@ -60,20 +54,11 @@ Link copied
 - Can be open or closed by default
 - Two variants: standard and modal
 - Put the most frequent destinations at the top and group related destinations together
-link
-Copy link
-Link copied
 - Standard navigation drawer
 - Modal navigation drawer
-link
-Copy link
-Link copied
 
 ## Availability & resources
 
-link
-Copy link
-Link copied
 | Type | Resource | Status |
 | Design |
 | Design Kit (Figma) | Available |
@@ -82,15 +67,9 @@ Link copied
 | Jetpack Compose | Available |
 | MDC-Android | Available |
 | Web | Unavailable |
-link
-Copy link
-Link copied
 
 ## M3 Expressive update
 
-link
-Copy link
-Link copied
 May 2025
 The navigation drawer is no longer recommended. Use the 
     
@@ -102,15 +81,9 @@ The navigation drawer is no longer recommended. Use the
             More on navigation rails
           
    instead. More on M3 Expressive
-link
-Copy link
-Link copied
 
 ## Differences from M2
 
-link
-Copy link
-Link copied
 - Color: New color mappings and compatibility with 
     
     dynamic color
@@ -129,11 +102,5 @@ Link copied
             More on states
           
   : Updated color and shape for indicating selected state
-link
-Copy link
-Link copied
 M2: Navigation drawer had square corners and a rectangular shape indicating the active destination
 M3: Navigation drawer has rounded corners, new color mappings, and an updated style for indicating the active destination
-link
-Copy link
-Link copied

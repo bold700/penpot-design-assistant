@@ -1,21 +1,15 @@
 <!-- Source: https://m3.material.io/blog/android-stable-release-1-3-0/accessibility -->
-<!-- Scraped: 2026-04-20T07:19:03.400Z -->
+<!-- Scraped: 2026-04-20T17:18:17.238Z -->
 
 Posted by
 Nick Rout
 , Material Developer Advocate
 We’re excited to announce the release of Material Design Components (MDC) 1.3.0! A host of exciting new features have been added along with many bug fixes and accessibility improvements. Get the rundown below.
 Be sure to check out the release notes. If you’re using MDC for the first time, also take a look at our getting started guide.
-link
-Copy link
-Link copied
 
 ## What’s new in 1.3.0?
 
 A fair bit has changed since we launched 1.2.1 in September last year – we added the progress indicator and time picker components, made extensive internationalization and localization string updates, and more. The things you loved from the alpha, beta, and RC releases of 1.3.0 are now officially stable. If you haven’t yet started using 1.3.0 of MDC, there’s never been a better time to update.
-link
-Copy link
-Link copied
 
 ## ProgressIndicator
 
@@ -78,9 +72,6 @@ app
 indicatorDirectionCircular
 "clockwise"
 Learn more about how to implement progress indicators in our documentation.
-link
-Copy link
-Link copied
 
 ## MaterialTimePicker
 
@@ -116,17 +107,11 @@ fragmentManager
 "tag"
 Note: MaterialTimePicker can be used with the Navigation component using the <dialog> tag. Learn more about navigating to dialog destinations here.
 Learn more about how to implement time pickers in our documentation.
-link
-Copy link
-Link copied
 
 ## Internationalization and localization
 
 Certain MDC components include strings as part of their anatomy—think of the “Choose a date” title and “OK” button in date pickers. Additionally there might be built-in strings for accessibility so that screen readers can announce actions and content descriptions.
 As part of MDC 1.3.0 these strings have been translated for all languages supported by Android! The affected components include date picker, time picker, bottom sheet, text field, chips, badges, and dialogs.
-link
-Copy link
-Link copied
 
 ## BadgeUtils
 
@@ -159,9 +144,6 @@ toolbar
 menuItemId
 Note: BadgeUtils is considered experimental and the APIs are subject to change. You’ll need to use the @ExperimentalBadgeUtils annotation when accessing this class.
 Learn more about how to implement badges in our documentation.
-link
-Copy link
-Link copied
 
 ## Material Motion updates
 
@@ -203,9 +185,6 @@ apply
 interpolator
 BounceInterpolator
 Learn more about how to implement motion in our documentation.
-link
-Copy link
-Link copied
 
 ## … and more
 
@@ -221,9 +200,6 @@ Here are some of the highlights:
 - Updated Snackbar dimensions to match spec
 - Support for content padding in ShapeableImageView
 - Better support for system gesture nav insets in BottomSheetBehavior
-link
-Copy link
-Link copied
 
 ## What’s next for MDC?
 

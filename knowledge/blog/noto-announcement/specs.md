@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/noto-announcement/specs -->
-<!-- Scraped: 2026-04-20T07:52:28.438Z -->
+<!-- Scraped: 2026-04-20T17:55:05.494Z -->
 
 Posted by
 Susanna Zaraysky

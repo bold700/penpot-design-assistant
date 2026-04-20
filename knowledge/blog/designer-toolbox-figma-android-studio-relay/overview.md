@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/designer-toolbox-figma-android-studio-relay/overview -->
-<!-- Scraped: 2026-04-20T07:27:36.914Z -->
+<!-- Scraped: 2026-04-20T17:26:43.405Z -->
 
 Posted by
 Ivy Knight
@@ -7,9 +7,6 @@ Ivy Knight
 Euphrates Dahout
 , Material Systems Design Lead
 Material Design is an open source design system for creating beautiful projects at Google scale, and we’ve been busy making resources tools for you to use Material Design all from your Figma canvas. Read on about how to get the most out of the Figma design resources.
-link
-Copy link
-Link copied
 
 ## Make the Design Kit your own
 
@@ -22,9 +19,6 @@ The Material Design system is adaptable in use, from a foundation to your own sy
 - Material includes three theming systems (color, type, shape), but you may have other style attributes. Add them as styles and connect to components.
 - Tricks for using components (maybe talk about the building blocks or structure)
 - The building blocks are hidden on most components, but can be revealed to show how they are built out at a system level.
-link
-Copy link
-Link copied
 
 ## Start building
 
@@ -42,18 +36,12 @@ Tips and tricks for working with Material Theme Builder and the design kit
 If swapping doesn’t seem to be working, try selecting smaller groups or layers. The design kit and plugin have a lot of pieces to them! Sometimes Figma takes a little bit longer to load.
 Close the plugin if it times out, styles are generated first and needed to swap.
 For a more in-depth tutorial on using the Material Theme Builder to create a custom theme and apply it to Material components, dive into the Customizing Material color lab on Figma. With this Figma project, you’ll learn how to create a custom theme with the Material Theme Builder and apply that theme to design mockups.
-link
-Copy link
-Link copied
 
 ## Need inspiration?
 
 If you are looking for some more inspiration and samples, check out some sample projects. Like Now in Android, which is the Figma file for the published Now in Android app and gives a thorough view of the app in multiple form factors and themes. Or Pesto, a study for advanced theming in Flutter.
 Many of the samples are built with common layout patterns in mind, which can be used as a starting point for your own app. Some even have matching code samples!
 For a more guided approach, try out one of the design labs, they come with sample screens and a walk through of various topics, including dynamic color and variable fonts.
-link
-Copy link
-Link copied
 
 ## Outside the design system
 
@@ -62,9 +50,6 @@ Of course any product will extend past the app with app icons, notifications, an
 - The kit is divided into components for the system UI elements and templates for full system UI screens.
 - Build a notification from one of the template types and copy into the Lockscreen and Notification shade templates.
 - Use the Adaptive app icon template to design and preview your app icon for adaptive shape and color, plus legacy.
-link
-Copy link
-Link copied
 
 ## Into code
 

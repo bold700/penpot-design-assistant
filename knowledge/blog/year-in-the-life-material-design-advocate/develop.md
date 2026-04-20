@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/year-in-the-life-material-design-advocate/develop -->
-<!-- Scraped: 2026-04-20T08:00:44.749Z -->
+<!-- Scraped: 2026-04-20T18:03:10.163Z -->
 
 Posted by
 Yasmine Evjen
@@ -11,9 +11,6 @@ My name is Yasmine Evjen and I lead the Material Design Advocacy team at Google.
 On stage with Liam at Google Developer Days
 My team helps designers and developers build with our guidelines, code components, and tools through education, resources, and hands-on partner engagements. Some days are spent writing blog posts, creating a talk, or filming for our YouTube channel. Other days are spent creating resources, such as interactive examples and tools to help make it easier to build beautiful UI on Android, the Web, or Flutter. We also work directly with external partners and internal teams across Google to help them implement and gain actionable feedback on how we can improve the Design System. And we get paid to tweet.
 I tried really hard to do a “day in the life” post and even explored doing a month-overview, but the reality is that the format could never capture the full story. I decided to do a “year in the life,” focusing on Google I/O. In Developer Relations (DevRel) at Google, the first quarter of the year is all centered around getting ready for Google I/O, our annual developer conference that usually takes place in May. There are products to finalize, narratives to develop, physical sandboxes to plan, demos to build, and content to create.
-link
-Copy link
-Link copied
 
 ## Google I/O 2018
 
@@ -33,9 +30,6 @@ In December 2018, we flew to New York City and gave our talk Material Theming: B
 ##### — Asia Hoe (@asiahoe) December 12, 2018
 
 It was a great way to wrap up the year.
-link
-Copy link
-Link copied
 
 ## Google I/O 2019
 

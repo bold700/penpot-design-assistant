@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/android-material-motion/guidelines -->
-<!-- Scraped: 2026-04-20T07:16:09.505Z -->
+<!-- Scraped: 2026-04-20T17:15:16.763Z -->
 
 Posted by
 Hunter Stich
@@ -12,9 +12,6 @@ The Material motion system, recently released as part of the MDC-Android library
 We’ve implemented these transitions on top of the Android platform & AndroidX Transition system so they can easily be used when moving between Activities, Fragments, and Views.
 This post introduces each pattern and explains how to add them to your app. I’ll illustrate each step by implementing it for our example app Reply, a simple and easy-to-use email client. Three of the app’s flows will get the motion transitions: opening an email, opening the search page, and switching mailboxes.
 If you’re more of a hands-on learner and want to get right into the code, then consider doing the Material motion codelab, which lets you practice these techniques by executing each step as you go along.
-link
-Copy link
-Link copied
 
 ## Container transform: Opening an email
 
@@ -94,9 +91,6 @@ startPostponedEnterTransition
 () }
 In your own app, you may need to experiment with these two methods to find the right time to start postponed transitions depending on how and when you’re populating your UI. If you find your return animation isn’t running, starting transitions before a shared element is ready is likely the cause.
 Moving on to our search screen!
-link
-Copy link
-Link copied
 
 ## Shared Axis: Opening the search page
 
@@ -165,9 +159,6 @@ toLong
 Notice the current fragment’s exit transition and the search fragment’s enter transition use the same value for forward –  true. The same goes for the current fragment’s reenter transition and the search fragment’s return transition.
 Next, by default, transitions run on all child views within their scene root hierarchy. This means that a shared axis transition will be applied to each email in the list page and each child of the search page. This can be a neat feature if you want to “propagate” or “stagger” animations, but since we want to animate the root of each fragment as a whole, we need to set `android:transitionGroup="true"` on both our email list RecyclerView and our search page root view group.
 With that, we should have a nice shared z-axis transition to and from our search page! Shared axis is a really flexible transition that can work in a lot of different scenarios  –  from page transitions, to smart reply selections, to onboarding or vertical stepper flows. Now that you have the set up configured, you can also experiment with MaterialSharedAxis’ s `axis` parameter to check out what the other axis animations look like.
-link
-Copy link
-Link copied
 
 ## Fade Through: Switching mailboxes
 
@@ -188,9 +179,6 @@ reply_motion_duration_large
 toLong
 The need to set android:transitionGroup="true" on our list of email’s RecyclerView also applies here, but this has already been taken care of during our shared axis configuration step.
 That’s it for the fade through transition! Find fun places to use the fade through pattern in your own apps – like switching between bottom navigation destinations, swapping a list of items, or replacing a toolbar menu.
-link
-Copy link
-Link copied
 
 ## Keep on moving!
 

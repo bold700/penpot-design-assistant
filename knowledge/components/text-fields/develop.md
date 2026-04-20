@@ -1,9 +1,6 @@
 <!-- Source: https://m3.material.io/components/text-fields/develop -->
-<!-- Scraped: 2026-04-20T08:17:20.993Z -->
+<!-- Scraped: 2026-04-20T18:19:55.426Z -->
 
-link
-Copy link
-Link copied
 - Make sure text fields look interactive
 - Two variants: 
     
@@ -36,20 +33,11 @@ Link copied
     
       
             More on dialogs
-link
-Copy link
-Link copied
 - Filled text field
 - Outlined text field
-link
-Copy link
-Link copied
 
 ## Availability & resources
 
-link
-Copy link
-Link copied
 | Type | Resource | Status |
 | Design |
 | Design Kit (Figma) | Available |
@@ -58,15 +46,9 @@ Link copied
 | Jetpack Compose | Available |
 | MDC-Android | Available |
 | Web | Available |
-link
-Copy link
-Link copied
 
 ## Differences from M2
 
-link
-Copy link
-Link copied
 - Color: New color mappings and compatibility with 
     
     dynamic color

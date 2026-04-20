@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/fonts-are-software-video/specs -->
-<!-- Scraped: 2026-04-20T07:31:19.567Z -->
+<!-- Scraped: 2026-04-20T17:31:01.002Z -->
 
 Posted by
 Susanna Zaraysky

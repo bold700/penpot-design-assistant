@@ -25,7 +25,8 @@ async function scrapePage(page, targetUrl) {
   return await page.evaluate(() => {
     const toRemove = document.querySelectorAll(
       'nav, footer, script, style, noscript, header, svg, ' +
-      '[aria-hidden="true"], [role="navigation"], [role="banner"]'
+      '[aria-hidden="true"], [role="navigation"], [role="banner"], ' +
+      '[aria-label="Copy link"], [data-clipboard-target]'
     );
     toRemove.forEach(el => el.remove());
 
@@ -39,10 +40,12 @@ async function scrapePage(page, targetUrl) {
     const lines = [];
     const seen  = new Set();
 
+    const NOISE = new Set(['link', 'copy link', 'link copied', 'copy', 'copied']);
+
     function processNode(node) {
       if (node.nodeType === 3) {
         const text = node.textContent.trim();
-        if (text.length > 2) lines.push(text);
+        if (text.length > 2 && !NOISE.has(text.toLowerCase())) lines.push(text);
         return;
       }
       if (node.nodeType !== 1) return;
@@ -88,7 +91,7 @@ async function scrapePage(page, targetUrl) {
 }
 
 async function run() {
-  // Read known pages from INDEX.md
+  // Read known pages from INDEX.md — only top-level pages (no sub-pages)
   const indexText = fs.readFileSync(INDEX_FILE, 'utf8');
   const basePages = indexText
     .split('\n')
@@ -97,7 +100,8 @@ async function run() {
       const m = l.match(/\((.+?)\)/);
       return m ? m[1].replace('.md', '') : null;
     })
-    .filter(Boolean);
+    .filter(Boolean)
+    .filter(p => !SUB_PAGES.some(sub => p.endsWith('/' + sub))); // exclude already-sub pages
 
   // Build sub-page URLs to try
   const toScrape = [];
@@ -149,11 +153,11 @@ async function run() {
 
   await browser.close();
 
-  // Append new pages to INDEX.md
+  // Append new pages to INDEX.md (sub-pages only, never re-added as base)
   if (newPages.length > 0) {
     const append = newPages.map(p => `- [${p.file}](${p.file}) — ${p.url}`).join('\n');
     fs.appendFileSync(INDEX_FILE, '\n' + append + '\n', 'utf8');
-    console.log(`\nAdded ${newPages.length} sub-pages to INDEX.md`);
+    console.log(`Added ${newPages.length} sub-pages to INDEX.md`);
   }
 
   console.log(`\nDone. ${success} sub-pages saved, ${failed} skipped/failed.`);

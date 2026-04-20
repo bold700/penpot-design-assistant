@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/research-state-of-design-systems-2020/accessibility -->
-<!-- Scraped: 2026-04-20T07:55:52.615Z -->
+<!-- Scraped: 2026-04-20T17:58:08.388Z -->
 
 Posted by
 Abla Hamilton
@@ -9,9 +9,6 @@ This is Material Design’s second year partnering with Clarity, a design system
 We updated the survey for 2020 in a few ways. First, the Clarity 2020 conference was shifted to an online format. With that change, we expected a potential shift in the respondents’ experience level using or creating design systems. We also added distribution channels via Material Design’s newsletter and social media accounts to broaden the reach to people who were not participating in this year’s conference.
 We also plan to interpret the results in a series of two articles. In this article, we’ll look at an overview of the survey results with comparisons to last year’s survey. In early 2021, we’ll take a deep dive on the evolution of design systems.
 With that in mind, on we go!
-link
-Copy link
-Link copied
 
 ## About the respondents
 
@@ -23,9 +20,6 @@ We also saw a change in level of role experience in our respondents. Last year, 
 Having a more even distribution gave us a wider breadth of experiences to learn from.
 When considering the people involved in creating or using design systems, let’s use Nikolas Klein’s definitions from his article, The spectrum of maturity of design systems.1 He defines creators as “people that either invent new patterns or document existing patterns for others to use,” and consumers as “people using the patterns that were previously defined.”
 Using these definitions, 76% of respondents could be identified as “creators,” either as part of their organization’s design system team or as members of the product team that contributed to a design system. So we have a high majority with hands-on experience who shared that experience via this survey.
-link
-Copy link
-Link copied
 
 ## What’s included in a design system?
 
@@ -39,9 +33,6 @@ Most respondents (74%) also reported their design system had a component code li
 Figure 1: Percentage of responses for a specific artifact included in their organization’s design system (Responses=465)
 There are two key items to consider here. First, 75% of the survey respondents are focused on design work at either the product level or design system level.
 Second, documenting an organization's visual language is one of the first steps in a design systems development. An organization’s visual language is expressed in the style guide and icons, and embedded into the UI Kit used during the product design phase. Having a high percentage of visual design artifacts, like the style guide and icons, aligns with the early design system evolution phase.
-link
-Copy link
-Link copied
 
 ## What drives in-house design systems creation?
 
@@ -54,9 +45,6 @@ The top three stated reasons why companies created their in-house design system 
 - Address their product’s specific use cases (22%)
 - Framework or tech stack constraints (14%)
 Figure 2: Percentage of responses providing reasons for creating in-house design systems (Responses=350)
-link
-Copy link
-Link copied
 
 ## Which design systems have you used?
 
@@ -70,9 +58,6 @@ Figure 3: Percentage of choices of design system used or tried in past 2 years (
 In this year’s results, one of the new additions, Bootstrap, came in third on our list behind Google’s Material Design and Apple’s Human Interface Guidelines (HIG).
 When we take into consideration that a high majority (80%) of reported that their organization has created their own in-house design system and review the different design systems used by just those respondents, we can conclude a majority are using these design systems as a reference to influence and inform their own in house design systems.
 This further confirms a finding documented in last year’s survey that ”...companies increasingly want to develop their own design systems, but will use off-the shelf design systems as a reference and an influence.”2
-link
-Copy link
-Link copied
 
 ## What are the top tools used for designing digital products?
 
@@ -84,9 +69,6 @@ The top 3 tools selected by our respondents are:
 Figure 4: Percentage of responses for selecting design tools used (Responses=497)
 When we compare tool preference with company size (see Figure 5), Figma is the preference for companies with under 500 employees, while Sketch is the top choice at very large multinational corporations sized 10,000 employees and above.
 Figure 5: Percentage of responses selecting a specific design tools used by the respondent’s company size (Responses=453)
-link
-Copy link
-Link copied
 
 ## What are the top tools used for design documentation and hand-off?
 
@@ -98,9 +80,6 @@ In last year’s survey, this handoff was identified as a pain point that design
 Figure 6: Percentage of responses selecting hand-off UX documentation tools used (Responses=451)
 When we compare tools for hand-off of UX documentation usage with company size, Figma is selected by almost all company sizes except for large companies, which use InVision more often.
 Figure 7: Percentage of responses selecting a specific hand-off tools used by the respondent’s company size (Responses=451)
-link
-Copy link
-Link copied
 
 ## What are the top tools used for managing design systems?
 
@@ -109,9 +88,6 @@ In 2019, when we asked about tools to manage design systems, the top tool select
 Figure 8: Percentage of responses selecting design system management tools used (Responses=452)
 Again, when we review design system management tool usage by company size, Figma is selected by almost all companies except for large companies, which use Sketch more for this activity.
 Figure 9: Percentage of responses selecting design management tools by the respondent’s company size (Responses=452)
-link
-Copy link
-Link copied
 
 ## How do you support a design system?
 
@@ -123,9 +99,6 @@ The top support activities reported include:
 Figure 10: Percentage of responses selecting design system support activities used (Responses=371)
 After the launch of a design system, the next step toward success is adoption of the design system by product teams. Providing onboarding to show how to use the design system and demonstrate the value of the system can help raise awareness and adoption.
 Additionally, a stated goal for using a design system is maintaining product consistency. Having design system team members give feedback during product design reviews, or providing the product teams the capability to file bugs against the design system itself, provide mechanisms and opportunities to keep design systems and their associated products consistent and in-sync.
-link
-Copy link
-Link copied
 
 ## What is the current growth trend for design systems?
 
@@ -134,9 +107,6 @@ Figure 11: Percentage of responses selecting number of years design system in pl
 Consolidating the tenure data into two clusters (0 - 2 years; 2 - 4+ years) and analyzing with company size (see Figure 12), the data show that small to large regional companies (up to 5,000 employees) are creating more design systems than the larger multinational companies (with more 5,000 employees).
 More mid-size companies (50 - 1500 employees) are increasingly using design systems to improve their product’s design and development team processes, product consistency, and quality.
 Figure 12: Count of design systems by respondent’s company size (Responses=389)
-link
-Copy link
-Link copied
 
 ## What’s next?
 

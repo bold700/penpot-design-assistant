@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/how-to-make-text-more-accessible/accessibility -->
-<!-- Scraped: 2026-04-20T07:35:32.601Z -->
+<!-- Scraped: 2026-04-20T17:35:58.878Z -->
 
 Posted by
 Rebecca Hsiao
@@ -10,9 +10,6 @@ Google Fonts
 Google Fonts is proud to offer many typefaces that were designed to make reading easier. The site also has typefaces that were approved by some international educational institutions for educational materials and to teach handwriting.
 Below you will find a summary of articles about those typefaces and other subjects related to readability, legibility, and text accessibility.
 If you want to see the usage statistics for any of the fonts listed below, go to the About section of any specimen page on fonts.google.com and scroll to the Usage section.
-link
-Copy link
-Link copied
 
 ## Typefaces designed for improved accessibility
 
@@ -42,9 +39,6 @@ Readex Pro uses vision research to possibly make reading easier for Arabic reade
 ‏خط ‏Readex Pro: استكشاف حدود سهولة قراءة النص من خلال خط عربي جديد (Arabic) |
 | Shantell Sans
 Years after discovering she was dyslexic, artist and philosopher Shantell Martin partnered with Stephen Nixon and Anya Danilova to create Shantell Sans in Latin and Cyrillic to empower people to read and write, despite their relationship to words. | Download Shantell Sans | The Story of Shantell Sans: How an artist created a typeface in Latin and Cyrillic |
-link
-Copy link
-Link copied
 
 ## Optical Size variable fonts
 
@@ -55,9 +49,6 @@ To find a font that has an optical size axis, go to the variable fonts page and 
 Step 1: Select “opsz” in the dropdown menu.
 Step 2:  Scroll through the list of available fonts and select one.
 Step 3: Go to the Type Tester and see how the selected text changes with and without the optical size axis.
-link
-Copy link
-Link copied
 
 ## Information about reading research, readability and accessibility in type
 

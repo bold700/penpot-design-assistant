@@ -1,27 +1,14 @@
 <!-- Source: https://m3.material.io/components/lists/accessibility -->
-<!-- Scraped: 2026-04-20T08:09:17.489Z -->
-
-link
-Copy link
-Link copied
+<!-- Scraped: 2026-04-20T18:12:07.334Z -->
 
 ## Use cases
 
-link
-Copy link
-Link copied
 People should be able to do the following with assistive technology:
 - Navigate to a list item
 - Select a list item
-link
-Copy link
-Link copied
 
 ## Indicate selection with more than color
 
-link
-Copy link
-Link copied
 To make selected items clear for everyone, don't rely on color as the only visual cue.
 Use an additional indicator that an item is selected such as:
 - Radio buttons
@@ -42,23 +29,14 @@ Use an additional indicator that an item is selected such as:
 - Leading or trailing icons
 - A visual style not related to color, like underlined text
 Use two visual cues to show a list item is selected, like a leading checkmark and filled color
-link
-Copy link
-Link copied
 
 ## Interaction & style
 
-link
-Copy link
-Link copied
 
 ### Touch
 
 When a person taps on a list item, a touch ripple appears, indicating interaction feedback.
 A ripple appears when a person taps on a list item to select it
-link
-Copy link
-Link copied
 
 ### Cursor
 
@@ -74,9 +52,6 @@ When hovered, the
    state provides a visual cue that a list item is interactive.
 Cursor: Hover
 Cursor: Selected
-link
-Copy link
-Link copied
 
 ### Keyboard & switch
 
@@ -93,15 +68,9 @@ A focused state communicates when a user has highlighted an element, using an in
    and action can be taken.
 When a person interacts with the focused list item via Space or Enter, the action is performed.
 Tab key navigates to the list. Space or Enter keys activate items.
-link
-Copy link
-Link copied
 
 ## Focus
 
-link
-Copy link
-Link copied
 
 ### Single-action lists
 
@@ -117,14 +86,8 @@ The first element in a list should always receive focus, unless the list has a s
   , a person should be able to navigate within the list using arrow keys.
 Tab key focuses on the first item or the selected item
 Arrow keys navigate up and down through list items
-link
-Copy link
-Link copied
 All list items must be able to be activated using the Space or Enter key.  More on single-action lists
 Space or Enter keys activate an element in a list
-link
-Copy link
-Link copied
 
 ### Multi-action lists
 
@@ -136,35 +99,20 @@ A person should be able to use a keyboard to:
 More on multi-action lists
 Tab brings the focus to the first action
 Down and Right arrow keys move focus to the next action of the list item, or to the first action in the next item
-link
-Copy link
-Link copied
 Up and Left arrow keys move focus to the previous action of the list item
 If the focus is on a list item’s first action, the Up and Left arrows move focus back to the last action of the previous item
 The Space or Enter key activates a selected action in a list
-link
-Copy link
-Link copied
 
 ## Keyboard navigation
 
-link
-Copy link
-Link copied
 | Keys | Actions |
 | Tab | To move focus to the first list item, last list item, or outside of the list component |
 | Down and right arrow keys | Moves to the next element in the list; if the focused element is the last in the list, it wraps back to the top of the list |
 | Up and left arrow keys | Moves to the previous element in the list; if the focused element is the first in the list, it wraps back to the bottom of the list |
 | Space or Enter | To select a list item not yet selected |
-link
-Copy link
-Link copied
 
 ## Labeling elements
 
-link
-Copy link
-Link copied
 Accessibility
     
       Accessible design makes products usable for people with all kinds of abilities.
@@ -176,15 +124,9 @@ Accessibility
 The accessibility label for a list item is typically the same as the label text and supporting text.
 Some labels, roles, and states are dependent on platform.
 A list item’s label text and supporting text is used for its accessibility label
-link
-Copy link
-Link copied
 
 ### Platform-specific labels
 
-link
-Copy link
-Link copied
 
 #### Single-select lists
 
@@ -192,9 +134,6 @@ Link copied
 | Aria label | Container label: Should describe selection typeList item: Should match the visible label text | List item: Should match the visible label text | List item: Should match the visible label text |
 | Role | Container: List box  List item: Option | List item: Radio button | List item: Radio button |
 | State | Selected or Not-selected | Checked or Not-checked | Checked or Not-checked |
-link
-Copy link
-Link copied
 
 #### Multi-select lists
 
@@ -202,20 +141,11 @@ Link copied
 | Aria label | Container label: Should describe selection typeList item: Should match the visible label text | List item: Should match the visible label text | List item: Should match the visible label text |
 | Role | Container: List box  List item: Option | List item: Checkbox | List item: Checkbox |
 | State | Selected or Not-selected | Checked or Not-checked | Checked or Not-checked |
-link
-Copy link
-Link copied
 On web, a list container’s accessibility label describes the type of selection that can be made, and the role is List box.
 On web, a list container’s role is List box
-link
-Copy link
-Link copied
 On Jetpack Compose, the role applies to the list item as a whole.
 If a list isn't selectable, the label text is read out without a role.
 When selectable, the role Checkbox applies to the entire list item on Jetpack Compose
-link
-Copy link
-Link copied
 On MDC-Android, components contained within the list should be labeled according to that component’s specific guidelines:
 - Checkbox
 - Radio button

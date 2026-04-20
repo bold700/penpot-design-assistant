@@ -1,34 +1,21 @@
 <!-- Source: https://m3.material.io/foundations/writing/develop -->
-<!-- Scraped: 2026-04-20T08:32:28.755Z -->
-
-link
-Copy link
-Link copied
+<!-- Scraped: 2026-04-20T18:31:21.681Z -->
 
 ## Accessibility text
 
 Accessibility text refers to text that is used by screen reader accessibility software, such as Google’s TalkBack on Android, Apple’s VoiceOver on iOS, and Freedom Scientific’s JAWS on desktop. Screen readers read aloud the on-screen text and elements (such as buttons), including both visible and nonvisible alternative text.
-link
-Copy link
-Link copied
 
 ### Adjacent text
 
 To make an image more accessible, the text in and around images should consider presenting key information about the image.
 - Image
 - Caption
-link
-Copy link
-Link copied
 
 ### Captions
 
 Captions are the text that appear below an image. They explain contextual information about the image to help the reader understand how it relates to the content. Both sighted and screen reader users rely on captions for descriptions of images.
 check
 Use captions to help readers understand how the image relates to the content
-link
-Copy link
-Link copied
 
 ### Embedded text in images
 
@@ -36,9 +23,6 @@ Screen readers are unable to read text that is embedded in imagery. If there is 
 exclamation
 Caution
 Take caution when embedding essential information anywhere a screenreader can't access, like text inside an image
-link
-Copy link
-Link copied
 
 ### Alternative text (Alt text)
 
@@ -48,15 +32,9 @@ Learn more about writing alt text
 check
 Use alt text to convey what the image is showing in an informative, short phrase.
 Alt text example: A DJ performs a set under lights and lasers
-link
-Copy link
-Link copied
 
 ## Text color
 
-link
-Copy link
-Link copied
 
 ### Essential and non-essential elements
 

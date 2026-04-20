@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/sil-typefaces/specs -->
-<!-- Scraped: 2026-04-20T07:57:44.221Z -->
+<!-- Scraped: 2026-04-20T18:00:04.607Z -->
 
 Posted by
 Susanna Zaraysky
@@ -7,9 +7,6 @@ Susanna Zaraysky
 Rebecca Hsiao
 , Interaction Designer, Fonts
 SIL International recently released three typefaces for lesser-served writing systems (Tai Viet, Yi, Lepcha) used in Asia. SIL has also created Andika, which is specially designed to maximize legibility for new readers.
-link
-Copy link
-Link copied
 
 ## SIL and lesser-served languages
 
@@ -26,9 +23,6 @@ Linguists, language educators, and translators often reach out to SIL to request
 “Before we release a font, we seek feedback from script experts. During development we will often create pre-release versions that can be used for testing. We rely on people from the language community to give us accurate information about how the characters should look. When possible, they provide documentation such as printed items, scans of printed materials, or handwriting samples,” explained Olsen.
 SIL has been making typefaces for over 50 years. With all of the accumulated knowledge about different languages and writing systems, SIL built ScriptSource to gather all the information they and others have learned and share it with the wider computing and design community.
 The SIL Open Font License (OFL) is widely used by font designers worldwide, not only those who are working on SIL’s own fonts. The OFL is a libre software license and permits fonts to be used, modified, and distributed without restrictions or fees.
-link
-Copy link
-Link copied
 
 ## SIL adds new and updated typefaces for lesser-served language and scripts
 
@@ -50,9 +44,6 @@ Approximate population of Lepcha speakers: 57,930
 Lepcha (Róng) is written from left-to-right. The name "Mingzat" means "treasure of letters" in the Lepcha language. The Lepcha script is derived from Tibetan writing and has been used since the 18th century in India, Nepal, and Bhutan for the Tibeto-Burman Lepcha language.
 SIL font developers worked with Jason Glavy, the original designer of this custom-encoded font, to first re-license it under SIL’s Open Font License (OFL), and then upgrade all of the characters to the Unicode Standard for Lepcha script. This led to further re-engineering to meet current industry standards, and it was finally released along with all source files.
 Read more on SIL’s homepage, ScriptSource, Unicode, Wikipedia, Wiktionary, Richard Ishida’s r12a site.
-link
-Copy link
-Link copied
 
 ## Smart font technology
 
@@ -66,9 +57,6 @@ Step 2: The OpenType code for this font first substitutes an alternate glyph (2)
 Step 3: Next the OpenType code moves the tone mark from its original position (3) a bit higher (4) to give adequate space between the strokes.
 Step 4: The final rendering of the word after OpenType code was applied.
 SIL also uses their own libre and open source Graphite font shaping technology, that was developed to handle complex scripts which OpenType can’t handle yet.
-link
-Copy link
-Link copied
 
 ## Andika: a typeface for global literacy
 

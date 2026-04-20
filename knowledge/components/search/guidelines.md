@@ -1,30 +1,15 @@
 <!-- Source: https://m3.material.io/components/search/guidelines -->
-<!-- Scraped: 2026-04-20T08:13:03.003Z -->
+<!-- Scraped: 2026-04-20T18:15:55.739Z -->
 
-link
-Copy link
-Link copied
 When focused, a search bar can show a list of search suggestions. As text is entered, search results appear.
-link
-Copy link
-Link copied
 
 ## Usage
 
-link
-Copy link
-Link copied
 Search helps people find information quickly.Use search for products with many items to manage, such as files or messages.
 Search helps people find information in large inboxes like messages or emails
-link
-Copy link
-Link copied
 
 ### Different ways to search
 
-link
-Copy link
-Link copied
 The search entry point is dependent on a product’s needs, and should be easy to find:
 - Search bar
     
@@ -59,15 +44,9 @@ The search entry point is dependent on a product’s needs, and should be easy t
             More on icon buttons
           
   : Use when search is a secondary action or not the main focus
-link
-Copy link
-Link copied
 Add a search bar below a title to search specific content
 For global search, use a persistent search app bar, integrated into an app bar
 Use a search icon button when search is a secondary action
-link
-Copy link
-Link copied
 
 ### Focused search
 
@@ -95,9 +74,6 @@ When a search entry point is selected, it opens
    when search is focused
 More on search states
 When focused, a search bar expands to show search suggestions or results in a list
-link
-Copy link
-Link copied
 If search is the primary action, focused search can be a standalone destination reached from a 
     
     navigation bar
@@ -109,9 +85,6 @@ If search is the primary action, focused search can be a standalone destination 
           
   .
 Focused search can be a standalone destination, reached by selecting an item in a navigation bar
-link
-Copy link
-Link copied
 
 ### Search suggestions & results
 
@@ -130,33 +103,18 @@ Search suggestions and results both appear in a
 - Avatars or other high-priority items
 - Filter chips to narrow down results
 Include high-priority items like avatars in search suggestions or results
-link
-Copy link
-Link copied
 
 ### Gaps
 
 Use gaps to separate a list of suggestions or results into groups.More on using gaps in lists
 To separate list items into distinct groups, use a gap
-link
-Copy link
-Link copied
 
 ## Placement
 
-link
-Copy link
-Link copied
 A search bar is typically placed at the top of a screen to remain prominent and accessible. Its location depends on whether search is the primary focus of a product or a secondary action.
-link
-Copy link
-Link copied
 A search bar can be the primary focus of a page
 Search bars should usually be placed at the top of the content
 Search can be a secondary action
-link
-Copy link
-Link copied
 
 ### Focused search layouts
 
@@ -166,32 +124,20 @@ When focused, search suggestions and results appear in a list below the search b
 More on adaptive design
 Docked layout on a tablet
 Full-screen layout on mobile
-link
-Copy link
-Link copied
 
 ## Anatomy
 
-link
-Copy link
-Link copied
 - Search bar container
 - Leading icon
 - Supporting text
 - Avatar or trailing icon (optional)
 - Input text
 - Container for search suggestions or results
-link
-Copy link
-Link copied
 In the contained style, the search bar container remains the same shape in both the unfocused and focused states. Avoid changing the container behavior. The container’s margins should be:
 - Unfocused: 24dp
 - Focused: 12dp
 In the divided (baseline) style, a divider separates the search bar and results.
 Search bar containers have persistent, rounded corners
-link
-Copy link
-Link copied
 
 #### Container color
 
@@ -206,16 +152,10 @@ Search bars use the surface container high
           
   . This role applies when the screen background is white or a tonal surface color, ensuring the container has clear contrast.
 Search bars use surface container high to provide clear contrast
-link
-Copy link
-Link copied
 Avoid using a surface container high color on a surface container background. This can cause the search bar to blend in, making it difficult for people to find.To ensure proper contrast, use surface container roles that are more than one step apart.
 exclamation
 Caution
 Using a surface container high color on a surface container background reduces contrast and may affect accessibility
-link
-Copy link
-Link copied
 
 ### Icons & icon buttons
 
@@ -226,9 +166,6 @@ The leading side of a search bar should include either:
 - A navigational icon button, such as a menu or arrow
 - A non-functional search icon
 A search bar can contain a non-functional search icon
-link
-Copy link
-Link copied
 
 #### Trailing icons
 
@@ -238,14 +175,8 @@ A search bar should have one or two trailing icons or icon buttons.Trailing acti
 - An overflow menu
 - A decorative search icon
 Use a maximum of two trailing icons
-link
-Copy link
-Link copied
 Combine an avatar with up to one other trailing icon button
 Focused search can show an optional clear icon to remove input text
-link
-Copy link
-Link copied
 
 ### Text
 
@@ -255,23 +186,14 @@ Link copied
 Provide a short description of the information people can search, like Search replies or Search your messages.
 When a person starts typing, the hinted text is replaced with the input text.
 Hinted search text is replaced when a search query is entered
-link
-Copy link
-Link copied
 
 ## Adaptive design
 
-link
-Copy link
-Link copied
 The search bar position and alignment should scale with the layout, and stay close to the searchable content.In most cases, a search bar should:
 - Stay in its pane and scale in width accordingly
 - Internal elements anchor to the left and right as the parent container scales
 More on applying layout
 Keep the search bar close to the content a person can search
-link
-Copy link
-Link copied
 When focused, search can switch between showing suggestions or results in a:
 - Docked layout: Best for 
     
@@ -303,36 +225,18 @@ When focused, search can switch between showing suggestions or results in a:
 More on search layouts
 - A docked layout on a large screen
 - A full-screen layout, the default for compact screens
-link
-Copy link
-Link copied
 Search suggestions or results should swap from full-screen in compact windows to docked in larger window sizes.
 Search suggestions and results should adapt to fit different window sizes
-link
-Copy link
-Link copied
 
 ## Behavior
 
-link
-Copy link
-Link copied
-link
-Copy link
-Link copied
 When a search bar is selected, search becomes focused and can:
 - Show historical suggestions before typing
 - Show suggestions or results as someone is typing
 - Wait to show suggestions or results until a search is queried
 The back icon releases focus, dismisses any suggestions or results, and returns the search bar to its original state.
-link
-Copy link
-Link copied
 When focused, a list of search suggestions can appear
 Focus is released when the back icon is selected
-link
-Copy link
-Link copied
 
 ### Scroll
 
@@ -340,9 +244,6 @@ Depending on needs, a search bar can:
 - Scroll away with content, then reappear when a person begins scrolling up
 - Remain fixed at the top of the screen
 A search bar can scroll up with content, then reappear when a person scrolls down
-link
-Copy link
-Link copied
 
 ### Search results
 
@@ -360,14 +261,8 @@ Search results appear in a
           
    below the bar, and scroll beneath the bar.   For accessibility, focused search needs a clear status indicator that it’s searching content, like a search icon or Results label. More on search accessibility
 Show search results in a compact, organized list, with an indicator like Quick results
-link
-Copy link
-Link copied
 When search results are queried, the input text should remain visible, but not in focus.
 Search suggestions and results display in a list, and the input text remains visible
-link
-Copy link
-Link copied
 
 ### Predictive back
 

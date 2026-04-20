@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/asset-people-1/overview -->
-<!-- Scraped: 2026-04-20T07:22:14.251Z -->
+<!-- Scraped: 2026-04-20T17:21:19.135Z -->
 
 Posted by
 CC Cassidy
@@ -12,9 +12,6 @@ A product can be effective at a human level if human qualities, like the natural
 An approach we’ve taken on Material is to insert “real” people into our working designs. Although they are actually fabricated, we respect these people as real individuals with personalities and lifestyles, who use a constellation of apps—not just the one instance the designer may be focusing on at that moment. By giving a name and a face and a life to a mock-content person, the designer makes eye contact with them and a human connection is made.
 Because Material’s design system is product agnostic, meaning we build a system and provide guidance that accommodates many types of products, we are in a position to consider how the many apps individuals use might change person to person based on life experiences. Along with our research efforts to connect with the many human relationships with technology, our designers continuously consider what someone might be reading, scrolling through, and sharing with their social and family circles, as they design. What does their message inbox look like? What music are they listening to? What types of restaurants may they be looking for?
 By building a set of holistically considered people to insert into designs and prototypes, and by giving them names and full diverse lives, we are better equipped to consider real world lives and how digital products may impact them.
-link
-Copy link
-Link copied
 
 ## Creating people to create for people
 
@@ -22,9 +19,6 @@ When our asset production kicked off for the Material 3 release, it was clear th
 Celebrate people who are not ourselves. There is a whole world out there which makes it possible to avoid using examples that are exclusively the interests and locations of the creator. Creators located in Silicon Valley, the Bay Area, or other American coastal cities have a tendency to fill in mock content with their own world view because it’s familiar, easy, and saves time. This centers the creator which does not reflect the reality of diverse life experiences and limits the imagination of possibility.
 Celebrate the non-dominant narratives of our society, like non-binary gendering, multiracial & multicultural fluidity, multilingual experiences, non-homogenous interests and style, community-forward occupations, and non-nuclear family structures. Consciously avoid idealized mainstream beauty, body, and age standards and take care to do this authentically to avoid reaffirming stereotypes.
 Keep naming flexible so names can work for more than one gender or nationality. A name may have cultural and regional connotations, but people’s lives are much more nuanced. The reality is that people move and travel the world and often take their names with them. It’s also important to do some research to make sure the chosen names are not notable people—good or bad. If the name doesn’t have a Wikipedia or news article, the name usually passes the test.
-link
-Copy link
-Link copied
 
 ## Introducing the people in our assets
 

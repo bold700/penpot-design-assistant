@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/asset-people-2/specs -->
-<!-- Scraped: 2026-04-20T07:22:42.742Z -->
+<!-- Scraped: 2026-04-20T17:21:47.848Z -->
 
 Posted by
 Emily Blank
@@ -10,9 +10,6 @@ The first step was to decide which agencies to work with. Because our guidelines
 From there, another challenge surfaced. Stock imagery is extremely convenient, and more affordable than commissioning custom art, but in using stock I am limited to what’s available in their libraries. I needed to figure out a way to create genuine and cohesive depictions of people with prefabricated options.
 My goal in art direction is to create a feeling of connection throughout a body of work by producing imagery with a consistent look and feel. As I started working through each profile, I began to realize the benefit of using stock imagery – it was the variety of lighting, styles, and subjects that made these collections believable.
 Visual representation of life doesn't have to be overly polished. Perfect visual cohesion is not always realistic. Instead of thinking of everything being coordinated, I imagined how specific images would surface in each person’s life. From there, I was able to create convincing profiles.
-link
-Copy link
-Link copied
 
 ## Case study: Sam Pietersen
 

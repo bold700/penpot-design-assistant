@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/android-material-theme-shape/guidelines -->
-<!-- Scraped: 2026-04-20T07:16:58.746Z -->
+<!-- Scraped: 2026-04-20T17:16:06.348Z -->
 
 Posted by
 Nick Rout
@@ -8,9 +8,6 @@ Material Theming is a way to customize Material Components to align with your br
 On Android, Material Theming can be implemented using the Material Components (MDC) library, from version 1.1.0 onwards. If you’re looking to migrate from the Design Support Library or MDC 1.0.0, take a look at our migration guide.
 This article will be focusing on shape theming.
 Most widgets have a background shape, but have you ever thought about the ways that shape influences user behavior? Just like color and typography, shape can guide a user’s attention, suggest interaction, and visually distinguish elements in your UI. Material’s shape theming gives you the ability to define global shape values that change the style of components across your app – for example, giving all your cards, dialogs, and menus really friendly rounded corners.
-link
-Copy link
-Link copied
 
 ## Shape attributes
 
@@ -43,9 +40,6 @@ MediumComponent
 /item>
 style
 ShapeAppearance styles and the corresponding attributes are new to MDC. These are discussed in more detail in the Shape resources section below.
-link
-Copy link
-Link copied
 
 ## Picking shape
 
@@ -54,24 +48,15 @@ Figuring out which shape categories to use and the values within them may be the
 - shapeAppearanceMediumComponent is for medium-size components like cards and dialogs
 - shapeAppearanceLargeComponent is for large-size components like bottom sheets
 See the shape guidelines for a complete list of mappings from component to shape categories.
-link
-Copy link
-Link copied
 
 ## Shape tool
 
 Material Design provides a useful shape customization tool for previewing shape categories and how changes apply to the corners of various components.
 Shape customization tool
-link
-Copy link
-Link copied
 
 ## Shape resources
 
 Shape resources consist mainly of ShapeAppearance styles. These are analogous to TextAppearance styles for type theming; in this case a “style” only concerned with shape attributes. Let’s take a look at what’s available on Android vs. MDC and a few things to keep in mind when declaring styles.
-link
-Copy link
-Link copied
 
 ## XML shapes and android:background
 
@@ -102,9 +87,6 @@ There are times when this approach is necessary but there are drawbacks to consi
 - It lacks many of the useful features of other theming systems (like color and type); predefined attributes to specify shape at the theme level, overlays and the ability to abstract away shape values in styles
 - Material Design’s shape system supports both rounded and cut corners, but there isn’t an elegant solution to achieve cut corners in XML or programmatically
 - Applying complex shape treatments, such as the top edge indent on a bottom app bar, would not be possible and would require implementing a custom Drawable
-link
-Copy link
-Link copied
 
 ## ShapeAppearance styles
 
@@ -167,9 +149,6 @@ name
 /item>
 ...
 /style>
-link
-Copy link
-Link copied
 
 ## ShapeAppearance overlays
 
@@ -212,9 +191,6 @@ name
 /item>
 /style>
 Note: Some MDC widgets have overlays applied by default which you may need to consider when adjusting their shapeAppearance. Examples of this include FloatingActionButtonand Chip which both set their cornerSize to 50% via an overlay.
-link
-Copy link
-Link copied
 
 ## Fill and stroke
 
@@ -250,9 +226,6 @@ shapeAppearanceLargeComponent
 /item>
 /style>
 Note: ShapeAppearance styles and the backing MaterialShapeDrawable class only support solid colors for fills and strokes. There is currently no support for gradients and you would need to use XML drawables with a <gradient> in this case.
-link
-Copy link
-Link copied
 
 ## Overriding shape categories in an app theme
 
@@ -294,9 +267,6 @@ LargeComponent
 /style>
 Material Design components will respond to theme-level shape overrides:
 Material Design components responding to theme-level shape overrides
-link
-Copy link
-Link copied
 
 ## MaterialShapeDrawable
 
@@ -327,9 +297,6 @@ msdFromWidget
 widget
 background
 MaterialShapeDrawable
-link
-Copy link
-Link copied
 
 ## ShapeAppearanceModel
 
@@ -365,9 +332,6 @@ toBuilder
 ...
 build
 For a more advanced example involving edges and custom paths, see BottomAppBarCutCornersTopEdge from the MDC catalog.
-link
-Copy link
-Link copied
 MaterialShapeDrawable handles rendering of fill and stroke. A number of methods exist to adjust these properties:
 xxxxxxxxxx
 // Fill color
@@ -382,9 +346,6 @@ strokeColorStateList
 msd
 setStrokeWidth
 strokeWidthDimension
-link
-Copy link
-Link copied
 
 ## Elevation and overlays
 
@@ -399,9 +360,6 @@ msd
 setElevation
 elevation
 Take a look at the color theming article as well as Chris Banes’ article on dark theme for more information.
-link
-Copy link
-Link copied
 
 ## Shadow rendering
 
@@ -415,9 +373,6 @@ xxxxxxxxxx
 msd
 setShadowCompatibilityMode
 shadowMode
-link
-Copy link
-Link copied
 
 ## Corner interpolation
 
@@ -427,9 +382,6 @@ xxxxxxxxxx
 msd
 setInterpolation
 0.5
-link
-Copy link
-Link copied
 
 ## ShapeableImageView
 
@@ -489,24 +441,15 @@ strokeColor
 app
 strokeWidth
 "2dp"
-link
-Copy link
-Link copied
 
 ## Shape in MDC widgets
 
 Earlier we said that MDC widgets respond to overrides of theme level shape attributes. But how would you know, for example, that a button uses shapeAppearanceSmallComponent as the style for its container? Let’s take a look at a few options.
-link
-Copy link
-Link copied
 
 ## MDC developer docs
 
 The MDC developer docs have recently been refreshed. As part of this we’ve included attribute tables which include design terminology and default values used in the library. For example, check out the “Anatomy and key properties” sections of the updated buttons doc.
 MDC button dev doc attribute table with default shape values
-link
-Copy link
-Link copied
 
 ## Source code
 
@@ -516,16 +459,10 @@ An interesting observation is how MDC widgets use default styles to ensure Mater
 - If no background is detected when parsing attributes, instantiate a MaterialShapeDrawable programmatically and set this as the background
 - If a background has been set (eg. in a layout or custom style) then respect this and do not use MaterialShapeDrawable
 MDC button default style with shape values
-link
-Copy link
-Link copied
 
 ## Shape in custom views
 
 Your app may include custom widgets you’ve built or gotten from an existing library. Making these views responsive to Material Theming is useful when using them alongside standard MDC widgets. Let’s take a look at what to keep in mind when supporting shape theming for custom widgets.
-link
-Copy link
-Link copied
 
 ## Use MDC attrs in <declare-styleable>s and default styles
 
@@ -560,9 +497,6 @@ shapeAppearanceMediumComponent
 /item>
 ...
 /style>
-link
-Copy link
-Link copied
 
 ## Keep elevation and overlays in mind
 
@@ -589,9 +523,6 @@ elevation
 materialShapeDrawable
 setElevation
 elevation
-link
-Copy link
-Link copied
 
 ## OK Google, what’s next?
 

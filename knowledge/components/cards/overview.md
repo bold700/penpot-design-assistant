@@ -1,9 +1,6 @@
 <!-- Source: https://m3.material.io/components/cards/overview -->
-<!-- Scraped: 2026-04-20T08:03:47.116Z -->
+<!-- Scraped: 2026-04-20T18:06:23.260Z -->
 
-link
-Copy link
-Link copied
 - Use cards to contain related elements
 - Three variants: 
     
@@ -52,21 +49,12 @@ Link copied
             More on layout
           
    and dimensions based on their contents
-link
-Copy link
-Link copied
 - Elevated card
 - Filled card
 - Outlined card
-link
-Copy link
-Link copied
 
 ## Availability & resources
 
-link
-Copy link
-Link copied
 | Type | Resource | Status |
 | Design |
 | Design Kit (Figma) | Available |
@@ -75,15 +63,9 @@ Link copied
 | MDC-Android | Available |
 | Jetpack Compose | Available |
 | Web | Unavailable |
-link
-Copy link
-Link copied
 
 ## Differences from M2
 
-link
-Copy link
-Link copied
 - Color: New color mappings and compatibility with 
     
     dynamic color

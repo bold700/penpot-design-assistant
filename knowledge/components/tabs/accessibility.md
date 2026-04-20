@@ -1,15 +1,8 @@
 <!-- Source: https://m3.material.io/components/tabs/accessibility -->
-<!-- Scraped: 2026-04-20T08:16:44.588Z -->
-
-link
-Copy link
-Link copied
+<!-- Scraped: 2026-04-20T18:19:19.272Z -->
 
 ## Use cases
 
-link
-Copy link
-Link copied
 Users should be able to:
 - Undertake actions or invoke navigation to a new destination with assistive tech
 - Select an action or destination from an off screen tab with assistive tech
@@ -21,15 +14,9 @@ Users should be able to:
     
       
             More on states
-link
-Copy link
-Link copied
 
 ## Interaction & style
 
-link
-Copy link
-Link copied
 Touch
 - When a user taps on an 
     
@@ -43,9 +30,6 @@ Touch
   , a touch ripple appears, indicating interaction feedback
 - The selected indicator becomes active and shifts into position once the touch has been engaged
 Touch: Tap
-link
-Copy link
-Link copied
 Scrollable
 - When a set of tabs cannot fit on screen, scrollable tabs are used. They are best used for browsing on touch interfaces.
 - To navigate between scrollable tabs, users swipe the set left or right. Users can also use arrow/tab to navigate through.
@@ -53,9 +37,6 @@ Scrollable
 - To select an individual tab, users tap or press space/enter.
 - Horizontal scrolling tabs meet accessibility requirements because they need to increase in width to respond to label text without affecting the layout, and horizontal scrolling is necessary to view those labels.
 Scrollable: Scrollable Tabs
-link
-Copy link
-Link copied
 Cursor
 - When hovered, the 
     
@@ -77,9 +58,6 @@ Cursor
           
    is interactive. When clicked (in both active and inactive states), a ripple appears and the indicator shifts into position, showing the user feedback.
 Cursor: Hover, Click
-link
-Copy link
-Link copied
 Keyboard/Switch
 - When tabbed, a focus indicator appears, providing a visual cue to the user that the destination is now selected
 - When the user engages with the selected tab via Space/Enter in active 
@@ -94,23 +72,14 @@ Keyboard/Switch
   , the user is taken to a new destination
 - Within the tab menu, the user is able to arrow/tab through the menu items, Space/Enter to select an item, or tab to exit the active state
 Keyboard/Switch: Tab, Space/Enter, Arrow
-link
-Copy link
-Link copied
 
 ### Avoid applying density by default
 
 Don't apply density to tabs by default — this lowers their targets below our best practice of 48x48 CSS pixels. Instead, give people a way to choose a higher density, like selecting a denser layout or changing the theme.
 To ensure that this density setting can be easily reverted when it's active, keep all the targets to change it at minimum 48x48 CSS pixels each.
-link
-Copy link
-Link copied
 
 ## Initial focus
 
-link
-Copy link
-Link copied
 On arrow/tab in a tab 
     
     menu
@@ -126,15 +95,9 @@ Use Arrow/Tab to navigate through items
 close
 Don’t
 Don't use Space/Enter for navigating tabs. Space/Enter is only used for completing actions.
-link
-Copy link
-Link copied
 
 ## Keyboard navigation
 
-link
-Copy link
-Link copied
 | Keys | Actions |
 | Arrow | Focus lands on the next available navigation destination |
 | Space / Enter | Activates the 
@@ -157,15 +120,9 @@ Link copied
             More on menus
           
    items |
-link
-Copy link
-Link copied
 
 ## Labeling elements
 
-link
-Copy link
-Link copied
 When the visible UI text is ambiguous, or there is no visible UI text, 
     
     accessibility

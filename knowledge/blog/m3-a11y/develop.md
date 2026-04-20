@@ -1,20 +1,14 @@
 <!-- Source: https://m3.material.io/blog/m3-a11y/develop -->
-<!-- Scraped: 2026-04-20T07:38:49.260Z -->
+<!-- Scraped: 2026-04-20T17:39:47.883Z -->
 
 Posted by
 Material Design
-link
-Copy link
-Link copied
 
 ## Let’s get personal: Accessible design at I/O 2022
 
 This year at I/O, Material Design is putting a spotlight on accessibility. Our tech sessions, new guidelines, and developer learning pathways are designed to both introduce and expand upon Material's approach to accessible product design.
 Last year at I/O we introduced Material You, an evolution of our design language that foregrounds personal preferences and adaptive capabilities. This year, we’re excited to showcase how the dynamic color system is just the beginning of how Material helps you design and build for the needs of individuals.
 In researching and building accessibility foundations for Material You, the design team resonated with wisdom found in disability studies: “I try to position people with disabilities, in their own claimed bodies, as makers of meaning—rather than as surfaces reflecting the meaning of others.” (Jay Timothy Dolmage, Disability Rhetoric)
-link
-Copy link
-Link copied
 
 ## Launching at I/O 2022
 

@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/material-3-compose-1-3/guidelines -->
-<!-- Scraped: 2026-04-20T07:40:41.117Z -->
+<!-- Scraped: 2026-04-20T17:41:58.266Z -->
 
 Posted by
 Rebecca Franks
@@ -11,16 +11,10 @@ Version 1.3 introduces:
 - Built-in predictive back support for some Material Components.
 - Color token alignment to be more colorful while still having accessible color contrast
 - Previously experimental APIs have been stabilized
-link
-Copy link
-Link copied
 
 ## Breaking API changes
 
 To improve performance, the Material components have been migrated to use the new Ripple APIs, and no longer query RippleTheme. If you have set a custom ripple in your applications, you will need to perform a migration to use the new APIs as Material will no longer query LocalRippleTheme. See the “Migrate to Indication and Ripple APIs” documentation for more information about how to migrate your ripple theme.
-link
-Copy link
-Link copied
 
 ## Carousel component
 
@@ -175,9 +169,6 @@ contentDescription
 contentScale
 ContentScale
 Crop
-link
-Copy link
-Link copied
 
 ## Component updates
 
@@ -275,9 +266,6 @@ Text
 text
 "Item ${itemCount - it}"
 ) })
-link
-Copy link
-Link copied
 
 ## Predictive back support
 
@@ -287,9 +275,6 @@ The following components will now automatically handle predictive back on device
 - SearchBar
 - ModalDrawerSheet
 - DismissibleDrawerSheet
-link
-Copy link
-Link copied
 
 ## Color Token Alignment / Tonal Surface Colors
 
@@ -328,9 +313,6 @@ Promotion of experimental APIs to Stable
 The experimental Material components continue to be evaluated and adjusted based on your feedback and bug reports. In this release, we’ve graduated more APIs and removed the experimental annotations from:
 - SegmentedButton and associated APIs are now stable.
 - SwipeToDismissBox and associated APIs are now stable.
-link
-Copy link
-Link copied
 
 ## Learn more
 

@@ -1,14 +1,11 @@
 <!-- Source: https://m3.material.io/blog/jetpack-compose-catalog/specs -->
-<!-- Scraped: 2026-04-20T07:37:45.546Z -->
+<!-- Scraped: 2026-04-20T17:38:34.669Z -->
 
 Posted by
 Nick Rout
 , Material Developer Advocate
 We’re excited to announce a new canonical reference of Material Design components, theming, dark theme, and how to implement these features in Jetpack Compose: the Compose Material Catalog.
 If you’d like to learn more about the Material Design features of Compose, check out our blog post.
-link
-Copy link
-Link copied
 
 ## Catalog features
 
@@ -41,9 +38,6 @@ The “more” menu contains links to design guidelines, developer docs, source 
 
 The app responds to the system dark theme. You can see Material Dark Theme features in action, like elevation overlays and limited color accents.
 Dark theme in the Compose Material Catalog
-link
-Copy link
-Link copied
 
 ## In sync and up-to-date
 
@@ -53,9 +47,6 @@ Let’s take a look at an example:
 - The @sample tag reference to ButtonSample in the Button KDoc
 - The Button API reference doc showing the ButtonSample code snippet
 - The app using the ButtonSample as an example for buttons
-link
-Copy link
-Link copied
 
 ## Get the catalog
 

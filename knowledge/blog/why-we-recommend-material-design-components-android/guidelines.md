@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/why-we-recommend-material-design-components-android/guidelines -->
-<!-- Scraped: 2026-04-20T08:00:11.766Z -->
+<!-- Scraped: 2026-04-20T18:02:36.655Z -->
 
 Posted by
 Nick Butcher
@@ -9,9 +9,6 @@ Nick Butcher
 
 Since your app exists alongside other apps installed on a user’s phone, it’s recommended that applications follow the Material Design guidelines to ensure that apps operate consistently, and that patterns learned in one app can be used in another.
 To implement this, you can use the Material Components for Android (MDC) library. This post outlines the many benefits of using MDC, explaining why it’s our recommended solution.
-link
-Copy link
-Link copied
 
 ## Widgets
 
@@ -52,9 +49,6 @@ style
 One of my favorite additions is TextViews being replaced with MaterialTextViews which add support for specifying line heights in TextAppearances. Handy.
 As well as adding to existing widgets, MDC offers a number of new widgets, not available in the platform or AppCompat. You’ve likely seen Bottom Navigation, Bottom Sheet and Floating Action Buttons but might not have come across Chips, Date Picker or Time Picker.
 For a complete list of components offered by the library, see the components section.
-link
-Copy link
-Link copied
 
 ## Material Theming
 
@@ -62,31 +56,19 @@ Material Theming is a systematic way to customize Material Design to reflect you
 You can think of Material Theming as a design system for creating design systems 🤯. You configure the color, type and shape inputs and get out a complete design system for your brand.
 Nick Rout goes in depth into each of the three sub-systems in the following posts:
 Building a Material Theme on Android: ColorBuilding a Material Theme on Android: TypographyBuilding a Material Theme on Android: Shape
-link
-Copy link
-Link copied
 
 ## Dark Theme
 
 MDC widgets implement Material’s dark theme guidance, with many widgets adapting their colors to dark themes and offering elevation overlays to communicate elevation when shadows don’t read.
 Chris Banes goes in depth about MDC's dark theme support in another post.
-link
-Copy link
-Link copied
 
 ## Material Motion
 
 Material Design provides guidance for screen transitions. Better than guidance alone, MDC now implements these patterns as Transitions ready to be dropped into your app. Hunter Stich introduces you to the material motion library in this post.
-link
-Copy link
-Link copied
 
 ## Get Composed
 
 Jetpack Compose is Android’s next-generation UI toolkit, currently in alpha. While it is not yet stable, it will offer an implementation of material components and material theming. Adopting MDC now will prepare your codebase for later adopting Jetpack Compose — it uses the same concepts, design vocabulary and components. It even becomes possible to ease your migration with libraries like MDC-Android Compose Theme Adapter which converts an MDC XML theme into a Compose MaterialTheme.
-link
-Copy link
-Link copied
 
 ## Material Recommendation
 

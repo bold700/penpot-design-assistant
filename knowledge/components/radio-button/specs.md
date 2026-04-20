@@ -1,35 +1,20 @@
 <!-- Source: https://m3.material.io/components/radio-button/specs -->
-<!-- Scraped: 2026-04-20T08:12:26.698Z -->
+<!-- Scraped: 2026-04-20T18:15:21.150Z -->
 
-link
-Copy link
-Link copied
 - Radio button icon
-link
-Copy link
-Link copied
 
 ## Tokens & specs
 
 Learn more about design tokens
-link
-Copy link
-Link copied
 Token
 Enabled
 Disabled
 Hovered
 Focused
 Pressed (ripple)
-link
-Copy link
-Link copied
 
 ## Color
 
-link
-Copy link
-Link copied
 Color values are implemented through 
     
     design tokens
@@ -40,15 +25,9 @@ Color values are implemented through
             More on tokens
           
   . For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. Learn more about design tokens
-link
-Copy link
-Link copied
 Radio button color roles used for light and dark themes:
 - Primary
 - On surface variant
-link
-Copy link
-Link copied
 
 ### Adjacent text label color
 
@@ -61,9 +40,6 @@ Use the
       
    on surface for adjacent text labels. This remains the same even if interacting with the label or component.
 The text color remains the same regardless if the button is selected or not
-link
-Copy link
-Link copied
 
 ## States
 
@@ -75,31 +51,16 @@ States
             More on states
           
    are visual representations used to communicate the status of a component or interactive element. Learn more about interaction states
-link
-Copy link
-Link copied
 - Enabled
 - Hover
 - Focus
 - Pressed
 - Disabled
-link
-Copy link
-Link copied
 State specs are in the token module above
-link
-Copy link
-Link copied
 
 ## Measurements
 
-link
-Copy link
-Link copied
 Radio button size measurements
-link
-Copy link
-Link copied
 | Attribute | Value |
 | Icon size | 20dp |
 | State layer size | 40dp |

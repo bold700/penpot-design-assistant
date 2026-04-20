@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/announcing-material-you/specs -->
-<!-- Scraped: 2026-04-20T07:21:51.142Z -->
+<!-- Scraped: 2026-04-20T17:20:58.370Z -->
 
 Posted by
 Material Design
@@ -7,48 +7,30 @@ Material Design
 ##### Updated October 28, 2021: Material Design 3 is now live! Read about our latest resources, guidelines, and code in our new post.
 
 Today at I/O we unveiled Material You, a radical new way to think about design. Material You will transform design for Android, for Google, and for the entire tech industry. Over the coming months, we plan to share more details about Material You, and how it is shaping everything we do at Google. Let’s start with the vision.
-link
-Copy link
-Link copied
 
 ## Material You embraces emotion and expressiveness
 
 When we introduced Material Design in 2014, our vision was to help make technology simple and beautiful for everyone, and to rationalize experiences across mobile and the web. The challenge today has broadened. Computing continues to grow with more screens appearing in more areas of our lives. Also, users are demanding more expressiveness and control over their personal devices. They’re seeking experiences that are more than just practical and functional—experiences that also evoke emotion.
 Designers across Google from Hardware, Android, and App teams came together to respond to this challenge, asking themselves, “What if form did not just follow function, but also followed feeling?” Material You explores a more humanistic approach to design. One that celebrates the tension between design sensibility and personal preference, and does not shy away from emotion. Without compromising the functional foundations of our apps, Material You seeks to create designs that are personal for every style, accessible for every need, alive and adaptive for every screen.
-link
-Copy link
-Link copied
 
 ## Personal for every style
 
 Users customize their desktops in the physical and digital worlds with images that are personal and provide comfort and joy. We built upon this insight to generate unique Material palettes for everyone, derived from a personal signal—wallpaper—that can be applied to their entire experience.
 We mix color science with years of investment in the disciplines of interaction design and engineering to make it possible to tailor any app—not just Google’s—to the user’s unique Material palette in real time. Material You includes users as co-creators, delivering a mode for every mood.
-link
-Copy link
-Link copied
 
 ## Alive & Adaptive for every screen
 
 As technology has moved into different aspects of people’s lives, apps have been challenged to adapt to new screen sizes, device types, input modalities, and context. The ways in which technology responds to this challenge will determine how it is perceived by people.
 In addition to making it easy to adapt to different screen sizes and types, Material You uses motion to help understand space, convey brand, and elicit trust. The UI reacts to screen changes, context changes, and input in a way that is consistent but also human. Little surprises and playful quirkiness augment basic storytelling—making technology approachable and comfortable.
-link
-Copy link
-Link copied
 
 ## Accessible for every need
 
 Accessibility is core to Google’s mission. We recognize that some people have ongoing accessibility needs, and others have situational needs that require UIs to adapt. Our ambition is to solve this universally—for all people, in all places. By sharing control of contrast, size, and line width, with a contextually aware system that can customize UIs in more ways than previously possible, we can tailor a UI for every user.
-link
-Copy link
-Link copied
 
 ## Material You, Pixel and Android 12
 
 Our ambitious vision for Material You is a multiyear journey that will evolve all of Google’s products and ecosystems. Material You comes first to Google Pixel this fall; developers get a preview today, with Android 12.
 We’ll be sharing more about Material You and what it means for designers and developers over the summer, with components and guidance coming this fall. Follow along on material.io, our YouTube channel, and Twitter for conversations with design leadership, the making of Material You, and more.
-link
-Copy link
-Link copied
 
 ## Learn more about Material You @ Google I/O 2021
 

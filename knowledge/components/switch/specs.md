@@ -1,34 +1,19 @@
 <!-- Source: https://m3.material.io/components/switch/specs -->
-<!-- Scraped: 2026-04-20T08:15:59.571Z -->
+<!-- Scraped: 2026-04-20T18:18:36.411Z -->
 
-link
-Copy link
-Link copied
 - Track
 - Handle (formerly "thumb")
 - Icon
-link
-Copy link
-Link copied
 
 ## Tokens & specs
 
-link
-Copy link
-Link copied
 Browse the component elements, attributes, tokens, and their values. Learn more about design tokens
-link
-Copy link
-Link copied
 Token
 Enabled
 Disabled
 Hovered
 Focused
 Pressed (ripple)
-link
-Copy link
-Link copied
 
 ## Color
 
@@ -42,18 +27,12 @@ Color values are implemented through
             More on tokens
           
   . For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. Learn more about design tokens
-link
-Copy link
-Link copied
 Switch color roles used for light and dark themes:
 - Surface container highest
 - Outline
 - Primary
 - On primary
 - On primary container
-link
-Copy link
-Link copied
 
 ### Adjacent text label color
 
@@ -68,9 +47,6 @@ Use the
           
    on surface for adjacent text labels. This remains the same even if interacting with the label or component.
 The text label uses on surface. Supporting text may use on surface variant.
-link
-Copy link
-Link copied
 
 ## States
 
@@ -82,37 +58,19 @@ States
             More on states
           
    are visual representations used to communicate the status of a component or interactive element. Learn more about interaction states
-link
-Copy link
-Link copied
 - Enabled
 - Hovered
 - Focused
 - Pressed
 - Disabled
-link
-Copy link
-Link copied
 State specs are in the token module above
-link
-Copy link
-Link copied
 
 ## Measurements
 
-link
-Copy link
-Link copied
 Switches without icons
 Pressed switches without icons
-link
-Copy link
-Link copied
 Switches with icons
 Pressed switches with icons
-link
-Copy link
-Link copied
 | Element | Attribute | Value |
 | Track | Height | 32dp |
 | Width | 52dp |
@@ -132,15 +90,9 @@ Link copied
 | Target | Size | 48dp |
 | Icon | Size (selected) | 16dp |
 | Icon | Size (unselected) | 16dp |
-link
-Copy link
-Link copied
 
 ## Configurations
 
-link
-Copy link
-Link copied
 - Without icons
 - Icon on selected switch
 - Icon on selected and unselected switch

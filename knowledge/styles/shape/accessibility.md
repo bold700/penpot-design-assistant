@@ -1,39 +1,21 @@
 <!-- Source: https://m3.material.io/styles/shape/accessibility -->
-<!-- Scraped: 2026-04-20T08:39:49.539Z -->
+<!-- Scraped: 2026-04-20T18:36:35.789Z -->
 
-link
-Copy link
-Link copied
 - Use abstract shapes thoughtfully to add emphasis and decorative flair
 - Leverage Material shapes for built-in shape morphing
 - Rectangular shapes are fully rounded in all corners by default
 - Individual corners can be adjusted to create asymmetrical rectangular shapes
-link
-Copy link
-Link copied
 Abstract shapes can help people express themselves
-link
-Copy link
-Link copied
 
 ## Availability & resources
 
-link
-Copy link
-Link copied
 | Type | Resource | Status |
 | Design | Shape library (Figma Design Kit) | Available |
 | Implementation | Jetpack Compose (Shape Library) | Available |
 | MDC-Android | Available |
-link
-Copy link
-Link copied
 
 ## M3 Expressive update
 
-link
-Copy link
-Link copied
 May 2025
 Added 35 new shapes and shape morphing to Material Shape Library (Figma Design Kit) and Jetpack Compose.
 Added new shape principles and a refreshed art direction.
@@ -44,28 +26,16 @@ Added corner radii tokens:
 - Updated fully rounded corners to use full. Previously, this was defined using 50% of the component size.
 More on M3 Expressive
 Overview of Material shapes
-link
-Copy link
-Link copied
 
 ## Shape library
 
-link
-Copy link
-Link copied
 M3 has 35 shapes to easily apply to designs
-link
-Copy link
-Link copied
 
 ## Use shapes and text in harmony
 
 Shapes are expressive elements of Material 3 that echo key visual attributes of M3 typography.
 Use shape and type together for products to feel cohesive and polished.
 M3 shapes and Google Sans Flex share roundness visual attributes
-link
-Copy link
-Link copied
 Shape morphing should respond to user interaction
 
 ## Morph shapes to connect function and feeling
@@ -75,9 +45,6 @@ Shapes should morph to improve understanding and add moments of delight. Use sha
 - Actions in progress, like a friend typing, or a page loading
 - Changes in the environment, like sound, temperature, or time of day
 Think about how shapes could react to different interactions, such as tapping, swiping, scrolling, releasing, and long pressing.
-link
-Copy link
-Link copied
 
 ## Be bold and dare to embrace tension
 
@@ -85,9 +52,6 @@ Tension happens when the shape story changes unexpectedly, such as when contrast
 Material historically focused on rounded shapes. However, using sharp shapes, thereby adding tension, creates more dynamic design, one that’s more memorable and expressive.
 This tension can be used in many ways, like conveying states, drawing attention to an element, or to improve the visual aesthetic.
 Create tension by using a combination of round and square shapes
-link
-Copy link
-Link copied
 Shapes and motion can communicate actions in progress
 
 ## Shape is versatile, not semantic
@@ -103,9 +67,6 @@ For example, the
             More on loading indicators
           
    can be wavy, but the waveform is not a strict symbol of progression. Progress could just as easily be shown using rotating shapes or shape morph. Plus, waveforms could be used in other places unrelated to progress, like button containers.
-link
-Copy link
-Link copied
 
 ## Use abstract shapes sparingly
 
@@ -114,22 +75,13 @@ When incorporating diverse shapes, think about how they fit into the overall des
 exclamation
 Caution
 Shapes without clear meaning behind why they’re different can add more visual clutter than delight
-link
-Copy link
-Link copied
 Essential shapes can use shape morph to communicate change
-link
-Copy link
-Link copied
 Use abstract shapes on imagery and decorative UI
 
 ## Emphasize aesthetic moments with shape
 
 Get creative when using shape in graphics, for photography cropping, personalized avatar masking, and other non-interactive elements.
 Decorative moments offer the most flexible and creative uses of shape.
-link
-Copy link
-Link copied
 
 ## Shape can be 2.5D
 

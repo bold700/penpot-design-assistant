@@ -1,29 +1,17 @@
 <!-- Source: https://m3.material.io/components/segmented-buttons/accessibility -->
-<!-- Scraped: 2026-04-20T08:13:36.911Z -->
+<!-- Scraped: 2026-04-20T18:16:26.886Z -->
 
-link
-Copy link
-Link copied
 star
 Note:
 Segmented buttons are no longer recommended in the Material 3 expressive update. For those who have updated, use the
 connected button group
 instead, which has mostly the same functionality but with an updated visual design.
-link
-Copy link
-Link copied
 
 ## Use cases
 
-link
-Copy link
-Link copied
 Users should be able to:
 - Navigate to and activate segmented buttons with assistive tech
 - Understand what each segment selection will do
-link
-Copy link
-Link copied
 
 ### Interaction & style
 
@@ -43,9 +31,6 @@ For multi-select segments, Space or Enter will:
 - select all of the segments
 - un-select a selected segment
 Use Tab to navigate through segments and Space/Enter to select/unselect.
-link
-Copy link
-Link copied
 
 ### Color contrast
 
@@ -56,18 +41,12 @@ Use an outline with a surface contrast of at least 3:1
 close
 Don’t
 The segmented button shouldn't have a contrast outline less than 3:1
-link
-Copy link
-Link copied
 
 ### Initial focus
 
 Focus will start in the first segment. Depending on the direction of the language, it is either the most left or the most right segment.
 For single select and multi-select, the first segment will be focused regardless of selection state.
 Focus begins on the left for left-to-right languages and on the right for right-to-left languages
-link
-Copy link
-Link copied
 
 ### Keyboard navigation
 
@@ -92,9 +71,6 @@ Link copied
             More on focused state
           
    segment | Select and unselect focused segment |
-link
-Copy link
-Link copied
 
 ### Labeling elements
 
@@ -109,9 +85,6 @@ The
           
    label for a segmented button comes from the visible label text on such as Relevance and Distance. If the segmented button displays icons without label text, the accessibility label describes the action that the button is expressing, such as Inexpensive for one currency symbol.
 The label for segmented button matches the text label
-link
-Copy link
-Link copied
 Single-select segmented buttons behave like 
     
     radio buttons

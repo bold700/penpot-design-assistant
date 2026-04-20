@@ -1,9 +1,6 @@
 <!-- Source: https://m3.material.io/components/side-sheets/overview -->
-<!-- Scraped: 2026-04-20T08:13:49.179Z -->
+<!-- Scraped: 2026-04-20T18:16:36.556Z -->
 
-link
-Copy link
-Link copied
 - Use side sheets to provide optional content and actions without interrupting the main content
 - Two variants: 
     
@@ -19,20 +16,11 @@ Link copied
       Modal side sheets appear in front of app content, disabling all other app functionality when they appear, and remaining on screen until confirmed, dismissed, or a required action has been taken. They're often used in compact window sizes, like mobile, due to limited screen size.
 - People can navigate to another region within the sheet
 - Side sheets can contain a back icon for navigation
-link
-Copy link
-Link copied
 - Standard side sheet
 - Modal side sheet
-link
-Copy link
-Link copied
 
 ## Availability & resources
 
-link
-Copy link
-Link copied
 | Type | Resource | Status |
 | Design |
 | Design Kit (Figma) | Available |
@@ -41,15 +29,9 @@ Link copied
 | Jetpack Compose | Unavailable |
 | MDC-Android | Available |
 | Web | Unavailable |
-link
-Copy link
-Link copied
 
 ## Differences from M2
 
-link
-Copy link
-Link copied
 - Right-to-left (RTL) language support with left side sheet
 - Color: New color mappings and compatibility with 
     

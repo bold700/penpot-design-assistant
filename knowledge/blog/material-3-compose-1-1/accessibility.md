@@ -1,14 +1,11 @@
 <!-- Source: https://m3.material.io/blog/material-3-compose-1-1/accessibility -->
-<!-- Scraped: 2026-04-20T07:39:56.874Z -->
+<!-- Scraped: 2026-04-20T17:41:07.859Z -->
 
 Posted by
 Gurupreet Singh
 , Material Design, Developer Advocate
 The 1.1 release of Compose Material 3 is here, bringing new components, improved APIs, and many other updates and enhancements you’ve been asking us for. Material Design 3 is the next evolution of Material Design, enabling you to build expressive, spirited, and personal apps. Start using Material Design 3 in your production apps today!
 Note: The terms "Material Design 3", "Material 3", and "M3" are used interchangeably.
-link
-Copy link
-Link copied
 
 ## New components
 
@@ -303,9 +300,6 @@ Filled
 People
 contentDescription
 "Add others"
-link
-Copy link
-Link copied
 
 ## Stable components
 
@@ -313,9 +307,6 @@ With the 1.1 release, many key components have graduated from the experimental s
 Components like Scaffold, Surface, Navigation drawers, and many others are building blocks of your apps, and you can now be assured that they will not have any major breaking changes.
 Navigation rail and Navigation drawer
 When updating to the latest release, you can remove the @OptIn(ExperimentalMaterial3Api::class) annotation from the stable components.
-link
-Copy link
-Link copied
 
 ## Motion and animations
 
@@ -375,9 +366,6 @@ scrollBehavior
 content
 /* Scrollable content */
 Material 3 provides all these animations as part of the components, with easy ways to customize them for your project.
-link
-Copy link
-Link copied
 
 ## Resources
 

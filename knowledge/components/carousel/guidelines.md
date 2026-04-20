@@ -1,19 +1,10 @@
 <!-- Source: https://m3.material.io/components/carousel/guidelines -->
-<!-- Scraped: 2026-04-20T08:04:28.429Z -->
+<!-- Scraped: 2026-04-20T18:07:07.756Z -->
 
-link
-Copy link
-Link copied
 Carousel items adapt dynamically based on window size
-link
-Copy link
-Link copied
 
 ## Usage
 
-link
-Copy link
-Link copied
 Carousels display a scrollable list of items. Carousel items emphasize visuals, but can also contain brief text that adapts to the item size.
 There are four carousel layouts:
 - Multi-browse
@@ -40,22 +31,13 @@ Carousels can scroll in two ways:
 - Default: Standard scrolling. Recommended for uncontained layouts.
 - Snap-scrolling: Scrolled items snap to the carousel's layout. Recommended for multi-browse, hero, and full-screen layouts
 A carousel can contain different sized items
-link
-Copy link
-Link copied
 Choose the best carousel layout for your product. Some layouts are more visual-focused, while others are more customizable.
-link
-Copy link
-Link copied
 | Layout | Best used for |
 | Multi-browse | Browsing many visual items at once (like photos), dynamic designs |
 | Uncontained | Highly-customized or text-heavy carousels, stacked imaged and text, traditional carousel behavior |
 | Hero | Spotlighting very large visual items (like a movie or featured app) |
 | Center-aligned hero | Centered, large visual items |
 | Full-screen | Vertically-scrolling video or image feeds, immersive experiences |
-link
-Copy link
-Link copied
 Carousel items must be fully visible on-screen (except for the 
     
     uncontained layout
@@ -69,9 +51,6 @@ Set the large carousel item size to ensure the images and text are easy to read 
 close
 Don’t
 Avoid setting carousel items so small that the image isn't recognizable
-link
-Copy link
-Link copied
 
 ### Accessibility requirements on scrolling pages
 
@@ -87,9 +66,6 @@ Material recommends adding a Show all button below the carousel, which opens a d
 If the carousel has a header, you can use an arrow icon button instead.
 View the accessibility tab for more details and alternate solutions.
 Make sure users can scroll vertically through all carousel items
-link
-Copy link
-Link copied
 
 ### Multi-browse
 
@@ -104,17 +80,11 @@ The
 On larger screens, more large and medium items are visible in this layout.
 Avoid using this layout if the carousel items need lots of text or have complicated imagery.
 A multi-browse layout has different sized items within the carousel
-link
-Copy link
-Link copied
 In compact windows, only show up to three carousel items if they have text.
 If you need to show more than three items, make sure the images and content are easy to understand and recognize.
 exclamation
 Caution
 In compact windows, only show more than three items if the items are easy to understand and recognize
-link
-Copy link
-Link copied
 
 ### Uncontained
 
@@ -129,9 +99,6 @@ The
 Both default scrolling and snap-scrolling work well with this layout.
 Since items don't change size, this layout can be customized to show more text or other UI above or below each item without the text being masked or cropped.
 Carousel items are all the same size in an uncontained layout
-link
-Copy link
-Link copied
 
 ### Uncontained multi-aspect ratio
 
@@ -150,9 +117,6 @@ The uncontained multi-aspect ratio layout shows carousel items of various widths
 Item widths can range anywhere between 9:16 for min width size to 16:9 for max width.
 Only use this carousel layout if the items have various widths.
 Carousel items are of various sizes in an uncontained multi-aspect ratio layout
-link
-Copy link
-Link copied
 
 ### Hero
 
@@ -167,9 +131,6 @@ The
 On larger screens, more large items are visible.
 Use snap-scrolling so users can easily cycle through items one at a time.
 A hero carousel in compact windows should show one large item and one small item
-link
-Copy link
-Link copied
 
 ### Center-aligned hero
 
@@ -182,9 +143,6 @@ When the
       
    is center-aligned, it adds an additional previewed item on the leading edge, making the large carousel item centered.
 A centered hero carousel has two small carousel items, with a large item centered
-link
-Copy link
-Link copied
 
 ### Full-screen
 
@@ -199,23 +157,14 @@ The
 This layout works best with content that is taller than it is wide, and scrolls vertically. It only works in portrait orientation in compact and medium windows. Don't use this layout in landscape orientation.
 Use snap-scrolling for full-screen layouts. Don't use default scrolling.
 Full-screen carousels fill the entire content area of the screen
-link
-Copy link
-Link copied
 
 ## Anatomy
 
-link
-Copy link
-Link copied
 Multi-browse carousel (left) and hero carousel (right):
 - Container
 - Large carousel item
 - Medium carousel item
 - Small carousel item
-link
-Copy link
-Link copied
 The carousel container holds all carousel items. The number of carousel items visible in the container can change based on the carousel 
     
     layout
@@ -236,29 +185,17 @@ The carousel container holds all carousel items. The number of carousel items vi
           
   .
 The carousel container is a rectangle. It can be used in many ways and stretched to any size.
-link
-Copy link
-Link copied
 
 ### Carousel items
 
 Carousel items hold content. A carousel item has no fixed width; it changes width depending on the window size or its position in the carousel's layout. There are three dynamic widths an item can be: large, medium, and small.
-link
-Copy link
-Link copied
 Large items have a max width that can be adjusted. This changes how all other large, medium, and small carousel items fit on screen. Large items must remain big enough to be easy to understand and recognize.
 Medium items adjust width dynamically to the carousel size and available space.
 Small items have a width range of 40–56dp.
 - Large item
 - Small item
-link
-Copy link
-Link copied
 When the large item's max width is narrow enough, more items can be shown on screen at once. In compact windows, this is only recommended for carousels with simple imagery.
 - Medium item
-link
-Copy link
-Link copied
 
 ### Item text (optional)
 
@@ -283,23 +220,14 @@ If your carousel items require a lot of text, consider using the
 exclamation
 Caution
 Avoid exceeding two lines of text in carousel items in compact windows unless the background is simple, like a single color.
-link
-Copy link
-Link copied
 Content within a carousel item can adapt dynamically based on the container and window size.
 Text should always be understandable at each size. Consider adapting the text to use brief labels on smaller carousel items.
 - Large carousel item with the full title and label text
 - Medium carousel item hiding the title text
 - Small carousel item abbreviating the label text
-link
-Copy link
-Link copied
 
 ## Responsive layout
 
-link
-Copy link
-Link copied
 As the carousel container size increases, so do the number of carousel items visible at a time.
 In 
     
@@ -319,15 +247,9 @@ Full-screen carousels
       
    only ever show one item at once.
 Carousels can show more items at once on larger screens
-link
-Copy link
-Link copied
 
 ## Behavior
 
-link
-Copy link
-Link copied
 
 ### Scrolling
 
@@ -363,9 +285,6 @@ The snap-scrolling behavior aligns carousel items to the layout grid after they'
       
   .
 Carousel items with snap-scrolling maintain the same layout when released
-link
-Copy link
-Link copied
 In full-screen layouts, make sure the carousel items snap to the edges of the carousel container. Avoid letting them scroll freely or stop halfway.
 Full-screen layouts must use snap-scrolling.
 close

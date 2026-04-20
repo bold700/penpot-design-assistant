@@ -1,13 +1,10 @@
 <!-- Source: https://m3.material.io/blog/google-io-2024/overview -->
-<!-- Scraped: 2026-04-20T07:34:05.625Z -->
+<!-- Scraped: 2026-04-20T17:34:12.136Z -->
 
 Posted by
 Liam Spradlin
 , Senior UX Designer, Material Design
 Google I/O 2024 is right around the corner, and the Material Design team will be there with the latest updates and on-demand content. It’s time to start planning your agenda, and we’ve collected all the Material content you won’t want to miss right here.
-link
-Copy link
-Link copied
 
 ## Sessions
 
@@ -20,9 +17,6 @@ Learn how to design and develop apps that adapt beautifully across multiple Andr
 Building UI with the Material 3 adaptive library
 Conrad Chen and Ian Clifton
 Use the Material 3 adaptive library, now in beta, to create adaptive UI. Automatically adjust the number of panes you're showing by making use of new composables for list-detail and supporting pane canonical layouts, easily swap between navigation UI components based on window size classes, and use the building block composables to create your own custom experiences.
-link
-Copy link
-Link copied
 
 ## Codelabs
 
@@ -30,9 +24,6 @@ Create a personalized and accessible theme and brand with Material 3
 In this codelab, you learn how your brand guidelines and M3 theming can work together to create an accessible and personalized experience. From building up a custom theme to developer handoff, we provide tools to help along the way.
 Design an adaptive layout with Material Design (Updated)
 Learn how to use adaptive design principles in Material Design to achieve consistency across screen sizes. In this updated codelab, you take a mobile design to tablet format, and learn about the responsive grid, adaptive composition patterns, and the correct components.
-link
-Copy link
-Link copied
 
 ## Community
 

@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/android-dark-theme-tutorial/specs -->
-<!-- Scraped: 2026-04-20T07:15:40.100Z -->
+<!-- Scraped: 2026-04-20T17:14:45.415Z -->
 
 Posted by
 Chris Banes
@@ -10,9 +10,6 @@ This post is going to build upon that to see how we can adapt our apps to suppor
 User selectable dark themes were added to the Android platform in Android 10, but that does not mean they’re new to app developers. The default theme for Android devices was dark up until Android 5.0 (Lollipop)!
 The difference last year was that the platform added a device-wide setting. Meaning that the user has additional control over the theme of the device, but also of apps.
 Alongside the recent device-wide setting, we now also have comprehensive design guidance on material.io, which we will talk about later in this blog post.
-link
-Copy link
-Link copied
 
 ## Why support dark theme?
 
@@ -20,9 +17,6 @@ First up, why support a dark theme at all? The material.io page on Dark Theme ha
 Dark themes reduce the luminance emitted by device screens […]. They help improve visual ergonomics by reducing eye strain, adjusting brightness to current lighting conditions, and facilitating screen use in dark environments — all while conserving battery power [for OLED displays].
 The most important reason though is that your users want it. The Android team added the system-wide dark theme setting because it consistently came up as a top requested feature by users.
 Now that I’ve convinced you to support dark themes in your app, let’s look at how you add one…
-link
-Copy link
-Link copied
 
 ## Quick start
 
@@ -52,9 +46,6 @@ If you would like to read more about how the night mode feature in AppCompat wor
 
 And there we have the basis of a dark theme! It’s time to test it out by checking each part of the app in both light and dark themes. Look out for any dark text on dark backgrounds, and hardcoded colors which do not have enough contrast against the dark backgrounds (typically, greys).
 If you are using hard coded color values in your app, I recommend reading this blog post by Nick Butcher, which talks about preferring theme attributes. We also cover this in our ‘Theming with Style’ talk at Android Dev Summit ‘19.
-link
-Copy link
-Link copied
 
 ## Material Dark Theme
 
@@ -233,9 +224,6 @@ name
 #000000
 /item>
 /style>
-link
-Copy link
-Link copied
 
 ## Elevation overlays
 
@@ -245,9 +233,6 @@ For light surface colors, such as white, that change is imperceptible since it i
 Elevation overlays lighten as the elevation value increases
 This is where elevation overlays come into play. The behavior of lightening the surface color is expressed as compositing a translucent white overlay of onSurface, over the surface color. The greater the elevation, the more opaque the overlay.
 Going back to address the earlier points, this is why you need to test at the different elevations. As the visual surface changes based on the elevation, you need to make sure that any foreground colors provide enough contrast. Ideally you set a single onSurface color which works for all of the elevation values used in your app.
-link
-Copy link
-Link copied
 
 ## Widget support
 
@@ -313,9 +298,6 @@ There are some theme attributes which you can set to change the behavior of elev
 - ?attr/elevationOverlayEnabled allows you to turn on/off elevation overlays for your theme. This defaults to true in dark theme, false in light theme.
 - ?attr/elevationOverlayColor allows you to change the color of any elevation overlays. This defaults to ?attr/colorOnSurface.
 You shouldn’t really need to change these values though.
-link
-Copy link
-Link copied
 
 ## Custom views
 
@@ -381,9 +363,6 @@ onZChanged
 () {
 // Tell the ShapeDrawable what our new Z value is
 shapeDrawable
-link
-Copy link
-Link copied
 
 ## OK Google, goodnight 🌚
 

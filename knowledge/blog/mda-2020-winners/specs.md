@@ -1,21 +1,15 @@
 <!-- Source: https://m3.material.io/blog/mda-2020-winners/specs -->
-<!-- Scraped: 2026-04-20T07:50:03.985Z -->
+<!-- Scraped: 2026-04-20T17:52:48.471Z -->
 
 Posted by
 Rich Fulcher
 , Director of UX, Material Design
-link
-Copy link
-Link copied
 
 ## Announcing the Material Design Award Winners for 2020
 
 It’s time once again to celebrate the product teams who used ingenuity and creativity to bring Material to life. The Material Design Award winners serve as great examples of Material Design in action, using the system as a flexible, customizable foundation for beautiful, usable experiences.
 This year’s winners were selected from hundreds of open nominations, across three specific categories: Material theming, motion, and dark theme. They’ve each adapted Material in meaningful ways – from designing a gentle app for those living with epilepsy, to building a comprehensive approach to color, imagery, and components that helps users navigate an online store with ease.
 Read about each of the winners below, and stay tuned for more in-depth content on how each team created their award-winning experiences.
-link
-Copy link
-Link copied
 
 ## Material Theming Winner: Moooi.com
 
@@ -24,9 +18,6 @@ Large, graphic headlines and body text set in Sang Bleu are complemented by body
 Moooi’s approach to color is restrained—moments of full-bleed color blocking are used to indicate where a visitor is within the site, and the simple palettes of taupe, white, and black are mirrored by immersive imagery that introduces products and collections. The homepage is led by a dark background and immersive imagery, transitioning into lighter backgrounds and images as one continues down the page.
 Underpinning Moooi’s approaches to typography, color, and imagery, a series of reusable components allow users to confidently navigate the site and perform actions like filtering and reviewing product specifications.
 We can't highlight Moooi's application of Material Theming without commending them for their accessibility effort. They are using accessible color contrast between text, iconography and background colors, and have invested in a multimodal approach that uses clear hierarchy and semantics which allows users to navigate with their keyboard or voice to move through the site.
-link
-Copy link
-Link copied
 
 ## Material Motion Winner: Epsy
 
@@ -34,9 +25,6 @@ For an app whose aim is to better the lives of those living with epilepsy, Epsy 
 Motion serves a clear purpose in Epsy, and is crafted with care and restraint; from gentle inter-screen choreography to custom animated progress indicators and icons in the bottom navigation bar.
 Most animations in the app use longer timing to impart a feeling of calmness and ease. Typically utilitarian elements and features like a calendar grid that might otherwise feel clinical instead become more engaging and meaningful with motion.
 These touches don’t just help to guide users toward more confident mental models when navigating the app – they provide subtle encouragement to continually take actions that help power the experience. Epsy’s thoughtful application of motion design facilitates a richer environment for keeping record of an individual’s experience with epilepsy, aiming to help create better outcomes outside the digital environment.
-link
-Copy link
-Link copied
 
 ## Dark Theme Winner: KAYAK
 

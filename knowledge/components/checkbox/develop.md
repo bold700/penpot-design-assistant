@@ -1,9 +1,6 @@
 <!-- Source: https://m3.material.io/components/checkbox/develop -->
-<!-- Scraped: 2026-04-20T08:05:08.048Z -->
+<!-- Scraped: 2026-04-20T18:07:49.370Z -->
 
-link
-Copy link
-Link copied
 - Use checkboxes (instead of 
     
     switches
@@ -32,19 +29,10 @@ Link copied
             More on lists
 - Label should be scannable
 - Selected items are more prominent than unselected items
-link
-Copy link
-Link copied
 Unselected, selected (hover), and indeterminate checkboxes
-link
-Copy link
-Link copied
 
 ## Availability & resources
 
-link
-Copy link
-Link copied
 | Type | Resource | Status |
 | Design |
 | Design Kit (Figma) | Available |
@@ -53,15 +41,9 @@ Link copied
 | Jetpack Compose | Available |
 | MDC-Android | Available |
 | Web | Available |
-link
-Copy link
-Link copied
 
 ## Differences from M2
 
-link
-Copy link
-Link copied
 - Color: New color mappings and compatibility with 
     
     dynamic color

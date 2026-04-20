@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/android-material-theme-color/develop -->
-<!-- Scraped: 2026-04-20T07:16:44.327Z -->
+<!-- Scraped: 2026-04-20T17:15:51.687Z -->
 
 Posted by
 Nick Rout
@@ -7,9 +7,6 @@ Nick Rout
 Material Theming is a way to customize Material Components to align with your brand. A Material theme includes color, typography and shape parameters which you can adjust to get near-infinite variations of the components – all while maintaining their core anatomy and usability.
 On Android, Material Theming can be implemented using the Material Components (MDC) library, from version 1.1.0 onwards. If you’re looking to migrate from the Design Support Library or MDC 1.0.0, take a look at our migration guide.
 This article will be focusing on color theming.
-link
-Copy link
-Link copied
 
 ## Color attributes
 
@@ -37,9 +34,6 @@ You might recognize some of these color attributes like colorPrimary. That’s b
 | colorOnBackground | MDC |
 | colorError | AppCompat |
 | colorOnError | MDC |
-link
-Copy link
-Link copied
 
 ## Picking colors
 
@@ -50,9 +44,6 @@ Figuring out which color values to use for each slot may be the responsibility o
 - android:colorBackground is the window background color of your app
 - colorError is, as the name suggests, for errors and warnings
 - The various “On” colors (colorOnPrimary, colorOnSecondary, colorOnSurface, etc.) are used to tint foreground content (such as text and icons) displayed on top of the other colors. They need to meet accessibility requirements and have sufficient contrast against the colors they’re displayed on.
-link
-Copy link
-Link copied
 
 ## Color tools
 
@@ -60,9 +51,6 @@ Material Design provides useful tools for previewing colors and determining suit
 - Material color tool: Get light/dark variants of your primary and secondary colors as well as the appropriate “On” color. Preview how these will look in sample screens.
 - Material palette generator: Generate a full tonal palette (shade 50 - 900) of a color. Get suggestions for complementary, analogous, and triadic colors.
 Material color tool (left) and Material palette generator (right)
-link
-Copy link
-Link copied
 
 ## Things to consider
 
@@ -70,9 +58,6 @@ Link copied
 - You don’t have to override all colors. Some, such as colorSurface, use neutral colors so relying on the default values is perfectly fine.
 - If your brand does not define any kind of secondary or accent color, it’s ok to use a single color for both colorPrimary and colorSecondary. The same can be said of variants (eg. colorPrimary and colorPrimaryVariant could be the same).
 - Despite being separate attributes, there’s an inherent link between a color, its variant (if one exists), and its “On” color (eg. colorPrimary, colorPrimaryVariant and colorOnPrimary). Overriding one means you need to check the others to see if they make sense and meet accessibility requirements.
-link
-Copy link
-Link copied
 
 ## Additional color slots
 
@@ -97,9 +82,6 @@ color
 ...
 /item>
 /style>
-link
-Copy link
-Link copied
 
 ## Color resources
 
@@ -137,9 +119,6 @@ name
 "green_500"
 #00A956
 /color>
-link
-Copy link
-Link copied
 
 ## Overriding colors in an app theme
 
@@ -214,16 +193,10 @@ green_300
 <!-- Using default values for colorOnPrimary, colorSurface, colorError, etc. -->
 /style>
 Material Components will respond to theme-level color overrides:
-link
-Copy link
-Link copied
 
 ## Color reusability and best practice
 
 There are many circumstances which involve using colors in layouts, drawables, styles, and elsewhere. We’re going to go through some approaches to make your code as reusable as possible, regardless of the color values specified in your app theme.
-link
-Copy link
-Link copied
 
 ## Prefer attrs
 
@@ -244,9 +217,6 @@ android
 textColor
 "?attr/colorOnPrimary"
 Take a look at Nick Butcher’s “Android Styling: Prefer Theme Attributes” article for further explanations and some exceptions to the rule.
-link
-Copy link
-Link copied
 
 ## Colors with alpha
 
@@ -274,9 +244,6 @@ color
 "?attr/colorPrimary"
 /selector>
 Using these might cause you to raise an eyebrow – they’re referenced with the @color/primary_60 notation – but this is fine considering we’re dealing with a CSL that itself uses ?attr/ to reference the underlying theme color.
-link
-Copy link
-Link copied
 
 ## Colors per state and theme overlays
 
@@ -334,9 +301,6 @@ Button
 app
 materialThemeOverlay
 "@style/ThemeOverlay.App.PrimarySecondary"
-link
-Copy link
-Link copied
 
 ## API compatibility
 
@@ -350,39 +314,24 @@ AppCompatResources
 context
 color
 primary60
-link
-Copy link
-Link copied
 
 ## Color in MDC widgets
 
 Earlier we said that MDC widgets respond to overrides of theme level color attributes. But how would you know, for example, that a button uses colorPrimary as its background tint and colorOnPrimary for its icon and text label? Let’s take a look at a few options.
-link
-Copy link
-Link copied
 
 ## MDC developer docs
 
 The MDC developer docs have recently been refreshed. As part of this we’ve included attribute tables which include design terminology and default values used in the library. For example, check out the “Anatomy and key properties” sections of the updated buttons doc.
 MDC button dev doc attribute table with default color values
-link
-Copy link
-Link copied
 
 ## Source code
 
 Inspecting the MDC source code is arguably the most reliable approach. MDC uses default styles to achieve Material Theming so it’s a good idea to look at these as well as any styleable attrs and the java file(s). For example, check out the styles, attrs and java file for MaterialButton.
 MDC button default style with color values
-link
-Copy link
-Link copied
 
 ## Color in custom views
 
 Your app may include custom widgets you’ve built or gotten from an existing library. Making these views responsive to Material Theming is useful when using them alongside standard MDC widgets. Let’s take a look at what to keep in mind when supporting color theming for custom widgets.
-link
-Copy link
-Link copied
 
 ## Use MDC attrs in <declare-styleable>s and default styles
 
@@ -421,9 +370,6 @@ material_on_surface_emphasis_high_type
 /item>
 ...
 /style>
-link
-Copy link
-Link copied
 
 ## MaterialColors utility class
 
@@ -448,9 +394,6 @@ colorSurface
 attr
 colorPrimary
 0.38
-link
-Copy link
-Link copied
 
 ## OK Google, what’s next?
 

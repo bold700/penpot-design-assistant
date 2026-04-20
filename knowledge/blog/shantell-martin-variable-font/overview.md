@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/shantell-martin-variable-font/overview -->
-<!-- Scraped: 2026-04-20T07:57:14.942Z -->
+<!-- Scraped: 2026-04-20T17:59:35.138Z -->
 
 Posted by
 Shantell Martin
@@ -15,9 +15,6 @@ Susanna Zaraysky
 British visual artist and philosopher Shantell Martin is famous for using words in her artwork in the Oculus at the World Trade Center, in New York City, and for her music and art collaboration with Kendrick Lamar at Art Basel in Miami. Her art has taken over the screens of New York’s Times Square and the Lincoln Center stage, home of the New York City Ballet.
 Back in school, she was scared of spelling tests. However, outside of school, she felt that words were art and provided emotional relief. A discovery in her early 20s opened her eyes to why reading and writing were so difficult for her, and set in motion her desire to create the Shantell Sans typeface. To inspire others to have fun with writing and words, she teamed up with Stephen Nixon of Arrow Type to create Shantell Sans.
 Shantell Martin, Stephen Nixon, and Anya Danilova share their experiences of the making of Shantell Sans.
-link
-Copy link
-Link copied
 
 ## Why make a new font?
 
@@ -38,9 +35,6 @@ I'm curious to see what people will do with it. I'm giving up control over somet
 I would really love to see children and young adults use Shantell Sans and learn about how it came about. I want to see it being used for personal projects, or even bigger design projects. I think with something like this, when you put it out into the wild, it's going to be used in ways that you probably didn't even think of.
 I have started to use Shantell Sans in some of my projects. I designed key tags with Shantell Sans type for the Whitney Museum shop in New York City. I also did a project with Cash App, a financial services platform, to create a cash card. The cash tag and the numbers and everything on the back of the card is in Shantell Sans.
 Key tags for the Whitney Shop, by Various Keytags, featuring artwork by Shantell Martin and text in Shantell Sans
-link
-Copy link
-Link copied
 
 ## Design process
 
@@ -92,9 +86,6 @@ The Spacing axis adds extra spacing between letters. This axis opens up new poss
 The animation shows the Weight and Spacing axes. Both lines cycle between Light and ExtraBold weights. The bottom line also cycles between Spacing 0 and 100.
 Extending the typeface for Google Fonts and open-source release
 With funding from Google Fonts, we extended the fonts to include wider language support for more Latin-script languages, including Vietnamese, and to include many more currency symbols. We also added Cyrillic with the help of type designer Anya Danilova.
-link
-Copy link
-Link copied
 
 ## Designing Shantell Sans Cyrillic
 

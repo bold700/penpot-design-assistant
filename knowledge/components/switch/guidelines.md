@@ -1,19 +1,10 @@
 <!-- Source: https://m3.material.io/components/switch/guidelines -->
-<!-- Scraped: 2026-04-20T08:16:07.005Z -->
+<!-- Scraped: 2026-04-20T18:18:44.229Z -->
 
-link
-Copy link
-Link copied
 Switches change settings and other options immediately
-link
-Copy link
-Link copied
 
 ## Usage
 
-link
-Copy link
-Link copied
 Switches are best used to adjust settings and other standalone options.
 They make a binary 
     
@@ -29,16 +20,10 @@ They make a binary
 - True and false
 The effects of a switch should start immediately, without needing to save.
 Use a switch to turn an option on and off
-link
-Copy link
-Link copied
 Use switches to:
 - Toggle a single item on or off
 - Immediately activate or deactivate something
 Switches are commonly used on mobile to turn settings on or off
-link
-Copy link
-Link copied
 Switches control binary options, not opposing ones. A binary option represents a single 
     
     selection
@@ -73,9 +58,6 @@ Use a connected button group to choose between opposing options
 close
 Don’t
 Avoid using switches to toggle between opposing options
-link
-Copy link
-Link copied
 
 ### Alternate selection controls
 
@@ -101,42 +83,24 @@ Use radio buttons to select a single option in a list.
 Use switches to select standalone or more verbose options in a list, like settings.
 Checkboxes
 Radio buttons
-link
-Copy link
-Link copied
 check
 Use checkboxes (not switches) to let people select one or more options from a list
 close
 Don’t
 A switch can't replace a button. People expect a call to action to be a button, not a switch.
-link
-Copy link
-Link copied
 check
 Use radio buttons (not switches) when only one item can be selected from a list
 close
 Don’t
 Avoid using a switch to select multiple options that require people to save. Switches should be immediate. Use checkboxes instead.
-link
-Copy link
-Link copied
 
 ## Anatomy
 
-link
-Copy link
-Link copied
 - Track
 - Handle
 - Icon (optional)
-link
-Copy link
-Link copied
 The switch handle can contain an optional icon.
 The icon within the handle should always communicate the switch's selection
-link
-Copy link
-Link copied
 Icons can be used to visually emphasize the switch’s 
     
     selection
@@ -152,30 +116,18 @@ Use icons that clearly communicate whether the switch is on or off, such as an X
 close
 Don’t
 Avoid using more ambiguous or non-binary icons, such as a moon or edit icon
-link
-Copy link
-Link copied
 
 ### Label text
 
 Switches should always be paired with an inline label describing what the switch controls when selected.
 check
 Keep labels short and direct. A label should describe what the control does when the switch is on.
-link
-Copy link
-Link copied
 close
 Don’t
 Don't add label text into the switch; the font size would be too small to be accessible. Use an appropriate icon instead.
-link
-Copy link
-Link copied
 
 ## Placement
 
-link
-Copy link
-Link copied
 Switches are often arranged in stacked 
     
     layouts
@@ -187,19 +139,10 @@ Switches are often arranged in stacked
           
   .
 Settings screens are common places to use switches
-link
-Copy link
-Link copied
 
 ## Behavior
 
-link
-Copy link
-Link copied
 A switch is successfully toggled when the handle slides to the other side of the track after an interaction.
 When selected, the switch handle slides to the opposite end of the track
-link
-Copy link
-Link copied
 When a person toggles a switch, its handle size changes and the corresponding action takes effect immediately.
 The on state of the switch is indicated by a larger handle size

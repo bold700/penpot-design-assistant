@@ -1,19 +1,10 @@
 <!-- Source: https://m3.material.io/components/radio-button/guidelines -->
-<!-- Scraped: 2026-04-20T08:12:32.388Z -->
+<!-- Scraped: 2026-04-20T18:15:26.302Z -->
 
-link
-Copy link
-Link copied
 Radio buttons
-link
-Copy link
-Link copied
 
 ## Usage
 
-link
-Copy link
-Link copied
 Radio buttons are the recommended way to allow users to make a single 
     
     selection
@@ -26,23 +17,14 @@ Radio buttons are the recommended way to allow users to make a single
    from a list of options.
 Only one radio button can be selected at a time.
 Radio buttons should always be accompanied by clear inline labels
-link
-Copy link
-Link copied
 Use radio buttons to:
 - Select a single option from a set
 - Expose all available options
 Radio buttons are single-select, unlike checkboxes which are multi-select
-link
-Copy link
-Link copied
 check
 Use radio buttons when only one option can be selected from a list
 check
 Use checkboxes when multiple options can be selected from a list
-link
-Copy link
-Link copied
 Avoid nesting radio buttons or using radio buttons to select multiple options.
 close
 Don’t
@@ -50,9 +32,6 @@ Don’t nest radio buttons
 close
 Don’t
 Don’t allow radio buttons to select multiple options
-link
-Copy link
-Link copied
 
 ### Alternate selection controls
 
@@ -85,9 +64,6 @@ Switches
    are alternative selection controls that can be used to change settings or preferences.
 Switches
 Checkboxes
-link
-Copy link
-Link copied
 Use radio buttons when there are five or fewer options.
 Consider using a drop-down 
     
@@ -103,33 +79,18 @@ check
 Use radio buttons when there are five or fewer options
 check
 Consider using a drop-down menu instead of radio buttons when space is constrained
-link
-Copy link
-Link copied
 
 ## Anatomy
 
-link
-Copy link
-Link copied
 - Selected icon
 - Adjacent label text
 - Unselected icon
-link
-Copy link
-Link copied
 Always pair radio buttons with an adjacent label describing what the radio button selects.
 Because only one radio button can be selected at a time, each choice must have its own label.
 Radio button always need label text
-link
-Copy link
-Link copied
 
 ## Placement
 
-link
-Copy link
-Link copied
 Radio buttons are often arranged in stacked 
     
     layouts
@@ -140,23 +101,14 @@ Radio buttons are often arranged in stacked
             More on layout
           
   .
-link
-Copy link
-Link copied
 Radio buttons should be vertically listed and have one option always selected.
 check
 Radio buttons should always have one option pre-selected
 exclamation
 Caution
 Avoid using horizontal radio button lists
-link
-Copy link
-Link copied
 
 ## Behavior
 
-link
-Copy link
-Link copied
 A radio button is successfully selected when a person clicks or taps either the radio button icon or the label.
 Radio buttons should take effect immediately, unless they're in a dialog or page that needs to be saved

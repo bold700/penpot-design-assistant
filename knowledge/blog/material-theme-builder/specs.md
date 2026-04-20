@@ -1,45 +1,30 @@
 <!-- Source: https://m3.material.io/blog/material-theme-builder/specs -->
-<!-- Scraped: 2026-04-20T07:48:47.913Z -->
+<!-- Scraped: 2026-04-20T17:51:21.603Z -->
 
 Posted by
 Yasmine Evjen
 , Senior Product Manager
 Material Theme Builder is a new tool that helps you visualize Material You’s dynamic color and create a custom Material Design 3 theme. With built-in code export, it’s easy to migrate to Material's new color system and take advantage of dynamic color.
-link
-Copy link
-Link copied
 
 ## Quick links
 
 Install Material Theme Builder as a Figma Plugin or try Material Theme Builder on the Web, and grab the new Material 3 Design Kit.
-link
-Copy link
-Link copied
 
 ## Themes powered by Design Tokens
 
 Material Design can be customized to represent a variety of stylistic choices. A theme is a set of style choices that define the visual appearance of a product. With Material Design 3, we are introducing design tokens—small, reusable design decisions that reflect the system’s visual style. By building with tokens instead of static values, design and code share a source of truth.
 Our Material 3 Design Kit and Material 3 Component libraries have been updated to reflect the new design tokens and their assigned roles. In Figma, Material Theme Builder generates these tokens as Figma styles. Material Theme Builder exports design tokens directly as a Design Systems Package (DSP), and theming code for our Material 3 libraries on Android Views and Jetpack Compose.
-link
-Copy link
-Link copied
 
 ## Visualize dynamic color
 
 Dynamic color plays a key role in Material You, creating individualized and expressive experiences for your users. Design tokens and their assigned color roles allow apps to seamlessly accept any dynamic color scheme in place of pre-set color values.
 Material Theme Builder on the web gives a glimpse into how dynamic color from a wallpaper may represent itself in UI. With the Figma plugin, you’ll be able to see how dynamic color represents itself across your design. First, you’ll need to manually map the design token Figma styles to your custom components or use components from the Material 3 design kit to build your UI.
 Once you have a UI built with Material Design tokens, select an element or frame of the design and click “swap” to apply the Material Theme styles, now any changes you make in the Material Theme Builder will be reflected in your UI. While selected, you can switch between light and dark themes, by clicking the moon and sun icon buttons.
-link
-Copy link
-Link copied
 
 ## Build a custom theme
 
 In order to take advantage of the latest features introduced with Material You, you’ll need to migrate to Material Design 3. Material 3 theme expands on Material 2’s color space by introducing new color roles and deprecating others. With Material Theme Builder on the web and Figma, you can easily create a custom color scheme based on your brand or style. Once you have a custom theme, you can export your code to be used with our Material Design 3 libraries for Android Views or Jetpack Compose.
 For an in depth guide of the new Material 3 theme updates, check out our migration guide.
-link
-Copy link
-Link copied
 
 ## Export to code
 
@@ -55,9 +40,6 @@ Material Theme Builder exports Theme.kt which sets up your MaterialTheme with th
 
 Within MDC-Android, res/values and res/values-night directories host your theming files
 Material Theme Builder exports colors.xml, and both themes.xml files for light and dark themes. We strongly recommend referencing the Android color attributes, such as ?attr/colorPrimary and not the hard coded @color values in your UI. This will allow you to accept dynamic colors and easily switch between light and dark themes.
-link
-Copy link
-Link copied
 
 ## Start building
 

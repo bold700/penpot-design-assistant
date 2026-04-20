@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/inclusive-imagery-at-google/guidelines -->
-<!-- Scraped: 2026-04-20T07:35:53.505Z -->
+<!-- Scraped: 2026-04-20T17:36:22.046Z -->
 
 Posted by
 Emily Blank

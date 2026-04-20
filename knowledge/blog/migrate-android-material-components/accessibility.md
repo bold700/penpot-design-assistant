@@ -1,32 +1,23 @@
 <!-- Source: https://m3.material.io/blog/migrate-android-material-components/accessibility -->
-<!-- Scraped: 2026-04-20T07:51:13.995Z -->
+<!-- Scraped: 2026-04-20T17:53:55.505Z -->
 
 Posted by
 Nick Rout
 , Material Developer Advocate
 We recently announced Material Design Components (MDC) 1.0.0 — a library update that brings Material Theming, new widgets, dark theme support and other exciting features to your Android app.
 MDC replaces the Design Support Library. This guide will show you how to migrate your codebase so you can make use of the new attributes, styles, and widgets. If you’re on MDC 1.0.0 this also provides the necessary migration steps to 1.1.0. Be sure to check out our corresponding video guide as well!
-link
-Copy link
-Link copied
 
 ## A simplified theming example
 
 This guide uses a simplified app to demonstrate the migration process. It uses an AppCompat theme, widgets from the Design Support Library (including a button with a custom background), and various other elements that require migration. We’ll start with an app theme which uses the traditional AppCompat template:
 <style name="Theme.App" parent="Theme.AppCompat.*">    <item name="colorPrimary">@color/navy_700</item>    <item name="colorPrimaryDark">@color/navy_900</item>    <item name="colorAccent">@color/green_300</item></style>
 Example app using AppCompat and the Design Support Library
-link
-Copy link
-Link copied
 
 ## Migrating from the Support Library to Jetpack
 
 Before you can use MDC, you need to migrate from the Support Library to Android Jetpack. Jetpack uses the new androidx.* namespace and splits the previous Support Library packages into separately maintained, semantically versioned libraries, providing feature parity as well as new libraries. MDC is built with AndroidX libraries so migration is mandatory.
 To migrate to AndroidX, we recommend following the official developer documentation or watching the “Migrating to AndroidX: The time is right” talk from Android Dev Summit ’19. The ‘Refactor > Migrate to AndroidX’ tool in Android Studio will refactor your Design Support Library dependency to MDC.
 Note: Jetpack and MDC artifacts with version 1.0.0 are binary compatible with the Support Library 28.0.0 artifacts. If you’re not on version 28 then we recommend upgrading to this first and then migrating.
-link
-Copy link
-Link copied
 
 ## Updating to MDC 1.0.0
 
@@ -34,9 +25,6 @@ If you used the Android Studio ‘Refactor > Migrate to AndroidX’ tool during 
 If not, you will need to manually update your dependency:
 xxxxxxxxxx-implementation ‘com.android.support:design:28.0.0’+implementation ‘com.google.android.material:material:1.0.0’
 You will also need to change the package namespace of any usages of the Design Support Library classes (in XML layouts and in code) from android.support.design.* to com.google.android.material.*. To do so, take a look at the class mapping table.
-link
-Copy link
-Link copied
 
 ## Changing your theme(s)
 
@@ -152,16 +140,10 @@ ThemeOverlay.MaterialComponents.MaterialCalendar.*
 
 N/A
 ThemeOverlay.MaterialComponents.Toolbar.*
-link
-Copy link
-Link copied
 
 ## Example updates
 
 Example app using MDC 1.0.0 and Theme.MaterialComponents.* theme
-link
-Copy link
-Link copied
 
 ## Button changes
 
@@ -170,9 +152,6 @@ Buttons in MDC 1.0.0
 To understand why this has happened, we need to start by taking a look at how we’ve added these buttons in our layout (as framework <Button>s):
 xxxxxxxxxx<Button    android:id="@+id/containedButton"    android:background="@drawable/bg_button_gradient"    android:textColor="@android:color/white"    ... /><Button    android:id="@+id/textButton"    style=”?attr/borderlessButtonStyle”    ... />
 So, what’s going on? 🤔
-link
-Copy link
-Link copied
 
 ## MDC widgets and auto-inflation
 
@@ -210,9 +189,6 @@ Note: In MDC 1.0.0 only Buttons were replaced. The other widgets above were a
 Our example app was previously replacing the framework <Button>s with <AppCompatButton>s because we had a Theme.AppCompat.* theme. Having migrated to a Theme.MaterialComponents.* theme, this has changed to <MaterialButton>s which has an updated default style.
 Unlike AppCompatButton, MaterialButton did not support custom backgrounds until release 1.2.0-alpha06 of MDC-Android. This is covered in more detail, along with a workaround, in the “Shape” section below.
 We will keep this as is for now.
-link
-Copy link
-Link copied
 
 ## Updating to MDC 1.1.0
 
@@ -225,18 +201,12 @@ A lot has changed in MDC between 1.0.0 and 1.1.0! The new features include:
 We’re now ready to bump our MDC dependency version to 1.1.0:
 xxxxxxxxxx-implementation ‘com.google.android.material:material:1.0.0’+implementation ‘com.google.android.material:material:1.1.0’
 Note: Some AndroidX dependencies, such as AppCompat, may also need updating at this time. While not strictly required, we recommend updating to the latest stable versions if possible.
-link
-Copy link
-Link copied
 
 ## Some expected changes and common issues
 
 MDC 1.1.0 changes some default widget styling to better comply with the Material Design guidelines. After upgrading you may, however, notice some unexpected changes to certain widget colors and other attributes.
 Example app using MDC 1.1.0
 In our example above, buttons have changed once again, the colors of text and icons have changed, FABs are now a shade of teal, and the text field looks entirely different. Oh dear! Don’t worry, your theme is likely missing some of the important MDC attributes while also having some AppCompat or framework attributes you no longer need. Let’s understand these issues by going through some common migration scenarios.
-link
-Copy link
-Link copied
 
 ## Text field changes
 
@@ -248,9 +218,6 @@ xxxxxxxxxx<com.google.android.material.textfield.TextInputLayout    ...+    
 Alternatively, you can make this the default style for all text fields in your theme(s):
 ​x<style name="Theme.App" parent="Theme.MaterialComponents.*">    ...+    <item name=”textInputStyle”>@style/Widget.App.TextInputLayout</item></style>​+<style name=”Widget.App.TextInputLayout” parent=”Widget.Design.TextInputLayout”>+    <!-- Custom attrs -->+</style>
 Legacy Design Support Library text field
-link
-Copy link
-Link copied
 
 ## Prefer MDC styles and widgets
 
@@ -420,15 +387,9 @@ MaterialToolbar
 Widget.MaterialComponents.Toolbar
 toolbarStyle
 Be sure to also check out the full list of Android components for widgets new to MDC as well as usage documentation.
-link
-Copy link
-Link copied
 Replaces widgets with MDC versions
 In our example, we need to change some of the widgets in our layout to use MDC versions:
 xxxxxxxxxx-<androidx.cardview.widget.CardView+<com.google.android.material.card.MaterialCardView    android:id="@+id/card"    ...>    ...-</androidx.cardview.widget.CardView>+</com.google.android.material.card.MaterialCardView>​-<androidx.appcompat.widget.SwitchCompat+<com.google.android.material.switch.SwitchMaterial    android:id="@+id/switch"    ... />
-link
-Copy link
-Link copied
 
 ## Color
 
@@ -503,9 +464,6 @@ N/A(prefer MDC "on" attrs or use defaults)
 
 colorControlNormal, colorControlHighlight, colorControlActivated
 N/A(prefer MDC "on" attrs or use defaults)Note: These are still used to tint MaterialCheckBox, MaterialRadioButton, SwitchMaterial and MaterialToolbar icons.
-link
-Copy link
-Link copied
 Update to new color attributes
 In our example, we need to update our app theme to override the preferred color attributes:
 xxxxxxxxxx
@@ -563,9 +521,6 @@ Use “on” color attributes where appropriate
 We should also switch from using an @color to one of the new “on” color attributes for our contained button text color:
 xxxxxxxxxx<Button-    android:textColor="@android:color/white"+    android:textColor="?attr/colorOnPrimary"    ... />
 Example app with updated MDC color attributes (fixed FAB color)
-link
-Copy link
-Link copied
 
 ## Typography
 
@@ -643,9 +598,6 @@ textAppearanceCaption
 N/A
 TextAppearance.MaterialComponents.Overline
 textAppearanceOverline
-link
-Copy link
-Link copied
 Update to new type attributes
 In our example, we need to update the TextViews within the card in the layout to use the preferred type attributes:
 xxxxxxxxxx<com.google.android.material.card.MaterialCardView    ...>    ...    <TextView        android:id=”@+id/headerText”-        android:textAppearance="@style/TextAppearance.AppCompat.Title"+        android:textAppearance="?attr/textAppearanceHeadline6"        ... />    <TextView        android:id=”@+id/subheadText”        android:textColor="?android:attr/textColorSecondary"-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"+        android:textAppearance="?attr/textAppearanceBody2"        ... />    <TextView        android:id=”@+id/supportingText”        android:textColor="?android:attr/textColorSecondary"-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"+        android:textAppearance="?attr/textAppearanceBody2"        ... /></com.google.android.material.card.MaterialCardView>
@@ -654,9 +606,6 @@ We can also optionally override type scales in our app theme to use a custom fon
 xxxxxxxxxx<style name="Theme.App" parent="Theme.MaterialComponents.*">    ...+    <item name="textAppearanceHeadline6">@style/TextAppearance.App.Headline6</item>+    <item name="textAppearanceBody2">@style/TextAppearance.App.Body2</item></style>​+<style name="TextAppearance.App.Headline6"+    parent="TextAppearance.MaterialComponents.Headline6">+    <item name="fontFamily">@font/roboto_mono_medium</item>+</style>+<style name="TextAppearance.App.Body2"+    parent="TextAppearance.MaterialComponents.Body2">+    <item name="fontFamily">@font/roboto_mono_regular</item>+</style>
 Note: For this example, we have only overridden some of the type scales. If you’re using a custom font, we recommend overriding all of the type scales for brand consistency.
 Example app with updated MDC type attributes (updated font family)
-link
-Copy link
-Link copied
 
 ## Shape
 
@@ -665,9 +614,6 @@ The Material Design shape system is a way to apply treatments to the corners o
 This takes the form of Android ShapeAppearance.* styles with corresponding theme attributes. They include a cornerFamily — rounded or cut — and cornerSize* as a dimension.
 MDC shape attributes
 These attributes are used by MDC widgets to style their backgrounds. Knowing which widgets apply to which shape categories requires inspecting the default widget styles in the source code.
-link
-Copy link
-Link copied
 
 ## Widget backgrounds
 
@@ -678,9 +624,6 @@ to specifically avoid this. Rather, prefer using shapeAppearance / shapeAppeara
 However, there are exceptions:
 - As mentioned above, MaterialButton ignored android:background until release 1.2.0-alpha06 of MDC-Android. If you require this functionality while using earlier versions of the library, we advise explicitly using AppCompatButton in your layout(s).
 - MaterialShapeDrawable doesn’t support gradients. If your brand requires this, using android:background with a GradientDrawable is your best bet.
-link
-Copy link
-Link copied
 Remove background attrs that do not work with shape theming
 In our example, we can remove some widget attributes that are now handled by shape theming:
 xxxxxxxxxx<com.google.android.material.bottomnavigation.BottomNavigationView-    android:background="@android:color/white"    ... />​<com.google.android.material.card.MaterialCardView-    app:cardCornerRadius="2dp"    ...>    ...</com.google.android.material.card.MaterialCardView>
@@ -694,9 +637,6 @@ xxxxxxxxxx-<Button+<androidx.appcompat.widget.AppCompatButton    android:backg
 If you’re using MDC-Android 1.2.0-alpha-06 (or later) then you can rely on MaterialButton respecting android:background. Keep in mind that you may need to clear the backgroundTint (which is set to colorPrimary in the Widget.MaterialComponents.Button default style):
 xxxxxxxxxx<Button    android:background="@drawable/bg_button_gradient"+    app:backgroundTint="@null"    ... />
 Button with restored custom gradient background
-link
-Copy link
-Link copied
 
 ## What’s next?
 

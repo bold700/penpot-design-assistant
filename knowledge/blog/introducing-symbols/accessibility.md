@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/introducing-symbols/accessibility -->
-<!-- Scraped: 2026-04-20T07:36:44.954Z -->
+<!-- Scraped: 2026-04-20T17:37:21.845Z -->
 
 Posted by
 Sarah Daily
@@ -9,17 +9,11 @@ Material Symbols on Google Fonts
 About a year ago, Google Fonts added Material Icons to its catalog as part of a larger effort to support open-source icons. This was a natural evolution for the platform, given that icons and fonts are so closely related. Today, Material Icons are one of the most popular design resources in the world and are used for both online and real-world applications.
 There are a couple obvious reasons for the icon set’s popularity. First, the library is robust—it has 2,000 distinct icons in five styles. They’re also open source. But most of all, they were designed to be minimal and universally recognizable across different cultures and languages—and that makes them extremely versatile. Now, with the launch of Material Symbols, they’re also customizable.
 “Starting last year, we wanted to rethink our iconography as a whole and asked, ‘what’s next for Icons?” said Senior Designer Sehee Lee, who leads iconography and visual system design for Google Fonts (and who designed Material Icons). “We saw a big opportunity to evolve our traditional icon format with variable fonts technology to improve their design flexibility, user experience, and accessibility benefits.”
-link
-Copy link
-Link copied
 
 ## A variable icon font
 
 The Material Symbols font is the variable version of the Material Icons font. Variable fonts are a relatively new font format that allow one font file to contain multiple stylistic variations. Not only is this single font much smaller than a collection of individual font files, but it also gives you the flexibility to select values in between the traditional definitions for specific attributes of the design. These are the “variables” of variable fonts, more commonly referred to as axes. So for example, you can increase just the weight of an icon, without having to increase its size or grade.
 Google Fonts has developed numerous variable fonts and they’re becoming increasingly common in typography overall. (In fact, “Show only variable fonts” is a filter on fonts.google.com.) But the idea of variable icons is a newer concept. “Applying the variable fonts concept to icons seemed like a wild idea in the beginning,” said Lee. “We spent a lot of time researching and prototyping the new Symbols to find the right approach. We are so excited to reveal our latest icon assets and share them with the community!”
-link
-Copy link
-Link copied
 
 ## The axes
 
@@ -32,9 +26,6 @@ The grade axis is also available in some text fonts; matching the grade levels b
 The example above shows grade compensating for visual bleed, which is when images can look bigger or smaller depending on the color contrast. To match the apparent icon size, the default grade for a dark icon on a light background is 0, and -25 for a light icon on a dark background
 The optical size axis makes it possible for the stroke weight to automatically adjust when you increase or decrease the symbol size so that it always looks “optically correct.”
 Whether you choose to adjust one or all of the axes, you can easily fine-tune a style to your liking and/or enhance the cohesive feel between your type, UI design, and even brand elements like wordmarks and logotypes. For a better idea of how the axes work, try them out for yourself on Google Fonts.
-link
-Copy link
-Link copied
 
 ## The styles
 
@@ -46,9 +37,6 @@ Rounded Symbols use a corner radius that pairs well with brands that use heavier
 This app uses the rounded style to create continuity with its rounded buttons and type
 Sharp Symbols use corners and straight edges for a crisp, rectangular style that remains legible even at smaller scales.
 The 0dp corner radius of the sharp style echoes this app’s rectangular design details
-link
-Copy link
-Link copied
 
 ## How to use Material Symbols
 

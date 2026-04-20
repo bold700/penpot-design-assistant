@@ -1,14 +1,11 @@
 <!-- Source: https://m3.material.io/blog/design-material-theme-color/overview -->
-<!-- Scraped: 2026-04-20T07:25:53.880Z -->
+<!-- Scraped: 2026-04-20T17:25:12.103Z -->
 
 Posted by
 Liam Spradlin
 , Senior UX Designer, Material Design
 Color is one of the clearest methods of expression in design, particularly when it comes to expressing your brand or product’s identity across all the places people encounter it. An app’s interface is rich ground for using color to not only create an identity, but – because the user is directly touching and manipulating the interface – express that identity in a way that connects with someone’s life and experience and reinforces the function, utility, and personality of your product.
 Material Design includes a comprehensive color system that allows designers and developers to make decisions at a global level, and have those color decisions cascade through their product, taking care of things like states, emphasis, and contrast.
-link
-Copy link
-Link copied
 
 ## Color in Material
 
@@ -17,9 +14,6 @@ The baseline Material color theme
 There are also several slots for “On” colors, named for the fact that they are colors that appear “on” top of other elements. On Primary, for example, is used for text, icons, or other elements that appear on top of the app’s primary color. To visualize this, picture an app bar with a menu icon and title. Both use an “On” color to ensure that appropriate contrast and readability are maintained.
 For more nuanced color applications like states, Material uses “tonal palettes.” A tonal palette provides a range of ten values based on the colors you choose, providing lighter and darker options that make your color theme more flexible.
 This UI uses a primary color and two primary variants, mapped across all components
-link
-Copy link
-Link copied
 
 ## Selecting brand colors
 
@@ -38,9 +32,6 @@ When building a color theme for your app, you may already have a brand color pal
 If you have a brand palette but no guidance, take a look through existing branded materials or interfaces and compare to the palette to determine which colors should be prioritized or thought of as primary and secondary. Test out these colors to determine whether they can support accessible contrast ratios. If not, you can select a variation from the tonal palette that does.
 Expand your palette with the palette generator
 To do that, check out the palette generator embedded below. Just add your chosen colors on the right, and click each generated color swatch to copy its hex code.
-link
-Copy link
-Link copied
 
 ## Visualizing your theme
 
@@ -48,9 +39,6 @@ Once you’ve chosen some colors and expanded them into tonal palettes, you’re
 To do this in a design environment (and get an instant preview of your theme on Material Components), make a copy of our Baseline Design Kit for Figma. On the Material Theme page within the kit, you’ll see a frame called Color which gives a comprehensive look at your color theme, including tonal palettes.
 On the right side of the screen, you’ll see a panel that contains global styles matching the colors in your theme under Color Styles. To start plugging colors into your theme, click the edit icon next to each color style. Go back over to your tonal palettes in the generator and click each swatch in the tool to copy its hex code, entering them into the appropriate styles in Figma.
 Once your primary and secondary swatches are taken care of, take a look at the Stickersheet page in Figma to see how your theme looks on each component.
-link
-Copy link
-Link copied
 
 ## What’s next?
 

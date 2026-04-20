@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/roboto-serif/specs -->
-<!-- Scraped: 2026-04-20T07:56:32.203Z -->
+<!-- Scraped: 2026-04-20T17:58:49.875Z -->
 
 Posted by
 Sarah Daily
@@ -30,16 +30,10 @@ Small optical sizes tend to have lower stroke contrast, more open spacing, talle
 
 Roboto Serif is Open source and available now from Google Fonts. Try it out and let us know what you think!
 Illustrations by Kyle Platts, Art direction by Elana Schlenker, Animations by Q Choi
-link
-Copy link
-Link copied
 
 ## About the type designer
 
 Greg Gazdowicz (b. 1988) hails from the suburbs of Gaithersburg, Maryland. He studied graphic design at the Maryland Institute College of Art, then completed the Type@Cooper Extended program in 2014, months after joining the design staff of Commercial Type. Greg has designed custom typefaces for Mailchimp, La Repubblica, Google, and New York magazine, and has released several families through Commercial Type, including Robinson and the ambitious Terza family.
-link
-Copy link
-Link copied
 
 ## About the type foundry
 

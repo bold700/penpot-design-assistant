@@ -1,13 +1,10 @@
 <!-- Source: https://m3.material.io/blog/start-building-with-material-you/accessibility -->
-<!-- Scraped: 2026-04-20T07:58:18.878Z -->
+<!-- Scraped: 2026-04-20T18:00:38.869Z -->
 
 Posted by
 Material Design
 We unveiled Material You—a set of design system updates that enables more beautiful, personalized expression—at Google I/O this year, and you’ve seen glimpses of it in our products. Now we’re excited to share Material You with our community.
 You’ll be able to access everything you need to start building for Android 12 on the new home for Material Design 3, along with new videos from the Android Developer Summit. Designers and developers will be able to start using dynamic color today and take advantage of new tools that make using Material easier than ever.
-link
-Copy link
-Link copied
 
 ## Dynamic color makes your app more personal
 
@@ -18,17 +15,11 @@ Dynamic color plays a key role in Material You, creating individualized and expr
 
 - New dynamic color guidelines describe how the dynamic color system works in detail, from generating tonal palettes to how color gets applied to each component.
 - Guidance on customizing for brand expression describes how you can use the new color system to keep your app unique while adapting for every user.
-link
-Copy link
-Link copied
 
 ## Material Components get a visual refresh
 
 Along with dynamic color, we’ve also updated several Material Components to support Material Design 3 with a new visual style that incorporates improved use of white space and new state indicators. We’ve designed these components to be responsive to dynamic color, applying Material’s new color roles in a consistent and comprehensive way, sensitive to usability, accessibility, and your brand. The updates allow you to maintain and blend your brand colors with dynamic colors resulting in a one-of-a-kind, personalized experience for the user.
 - Updated Figma Design Kit helps designers easily build with Material Design 3 in Figma
-link
-Copy link
-Link copied
 
 ## New tools simplify design and implementation
 
@@ -37,9 +28,6 @@ The Material Theme Builder is a tool that helps you see how Material Design 3’
 We are also releasing an updated version of Jetpack Compose Material that supports the updated Material Components. Don’t miss the session from Android Developer Summit.
 - Material Theme Builder lets you preview how your app will look with dynamic color as well as design a custom Material Design 3 theme for your product.
 - Updates to Jetpack Compose Material and MDC-Android
-link
-Copy link
-Link copied
 
 ## Design tokens improve collaboration and cohesion at scale
 
@@ -47,9 +35,6 @@ Our new tools are backed by a concept that can greatly help your team’s effici
 Design tokens represent design system styles as data, providing a source of truth for all products (and contributors!) of that system to stay in sync as the system evolves.
 Tokens for things like type styles and color roles will help keep your design and implementation aligned through a Design System Package (DSP) that bundles up all your tokens to make them portable across tools and platforms. Find token values for individual components in the new guidelines.
 - New guidelines for building with design tokens describe how to incorporate design tokens to streamline your workflow and improve consistency across your product.
-link
-Copy link
-Link copied
 
 ## Getting started and looking forward to the next step
 
@@ -61,9 +46,6 @@ By  starting with these latest Material updates today, you can prepare your app
 - Design to Code: Turning handoffs into high-fives
 - #AskAndroid: Jetpack Compose with Material You
 - #AskAndroid: Developing for large screens
-link
-Copy link
-Link copied
 
 ## What’s coming next...
 

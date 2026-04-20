@@ -1,23 +1,13 @@
 <!-- Source: https://m3.material.io/components/extended-fab/accessibility -->
-<!-- Scraped: 2026-04-20T08:07:21.929Z -->
-
-link
-Copy link
-Link copied
+<!-- Scraped: 2026-04-20T18:10:07.031Z -->
 
 ## Use cases
 
 People should be able to do the following using assistive technology:
 - Navigate to and activate the extended FAB
-link
-Copy link
-Link copied
 
 ## Interaction & style
 
-link
-Copy link
-Link copied
 To make it easier for users of screen readers to reach a primary action such as an extended FAB, consider placing the action in the upper left region of large web screens, like in an 
     
     expanded navigation rail
@@ -30,17 +20,11 @@ To make it easier for users of screen readers to reach a primary action such as 
   .
 In smaller windows, the best place for the extended FAB is the lower right corner of a screen.
 Extended FABs can be placed in the expanded navigation rail
-link
-Copy link
-Link copied
 check
 Place extended FABs in an easy-to-reach place that doesn’t obstruct other actions
 close
 Don’t
 Don’t place extended FABs over another actionable element
-link
-Copy link
-Link copied
 
 ## Initial focus
 
@@ -70,27 +54,15 @@ Ensure extended FABs get focus when navigating with assistive technology
 close
 Don’t
 Tooltips aren’t required since the extended FAB has label text
-link
-Copy link
-Link copied
 
 ## Keyboard navigation
 
-link
-Copy link
-Link copied
 | Keys | Actions |
 | Tab | Moves focus to the extended FAB |
 | Space or Enter | Activates the extended FAB |
-link
-Copy link
-Link copied
 
 ## Labeling elements
 
-link
-Copy link
-Link copied
 To ensure the action is clear, use consistent icons and text labels, such as a Compose icon with a Compose text label.
 The icon and text label combination should have one distinct purpose.
 The accessibility label must include the same first word as the visible label. For example, if the visible button is Create, then the accessibility label might say Create a new invite.

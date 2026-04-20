@@ -1,13 +1,10 @@
 <!-- Source: https://m3.material.io/blog/design-material-theme-type/develop -->
-<!-- Scraped: 2026-04-20T07:27:30.677Z -->
+<!-- Scraped: 2026-04-20T17:26:37.682Z -->
 
 Posted by
 Liam Spradlin
 , Senior UX Designer, Material Design
 When reading a book, you aren’t likely to stop and think, “what an interesting font this book is using.” Well-executed typography can be invisible, serving as the scaffolding for communicating ideas, actions, instructions, stories, and feelings. But that doesn’t mean that the typography in your app should be purely utilitarian. Material Design’s typography system provides a structure that allows text styles in your app to communicate clearly and effectively, with enough room to express a unique brand, identity, and tone.
-link
-Copy link
-Link copied
 
 ## Typography in Material
 
@@ -21,9 +18,6 @@ Having multiple body styles can come in handy when presenting content at similar
 Fortnightly's custom type scale
 You might notice that Fortnightly uses a combination of two fonts across its type scale. Libre Franklin and Merriweather are present across Headline and Body styles. While the baseline type scale is based on Roboto, adding a second typeface can create additional levels of distinction. Pairing fonts this way can help users understand what type of content they’re seeing across an app and segment that information more easily.
 In the example above, the text “US – Poverty” is set in Libre Franklin, making it distinct from the Merriweather text surrounding it. This distinction helps the user recognize that it is secondary to article content and navigational in nature, rather than a caption or part of the headline.
-link
-Copy link
-Link copied
 
 ## Creating your type theme
 
@@ -37,9 +31,6 @@ When looking for typefaces to use in your theme, consider starting with Google F
 Type pairing techniques
 If you’ve found a typeface that works for your app, but want to expand your type scale with another typeface, one technique for pairing fonts is to think of them as existing on a color wheel.
 Try finding a typeface that has characteristics adjacent or related to your first typeface (for instance similar terminal shapes or letter forms), or a typeface that contrasts those characteristics (for instance pairing serif and sans serif fonts, or a human, expressive font with something more rationalized).
-link
-Copy link
-Link copied
 
 ## Create your type scale
 
@@ -47,17 +38,11 @@ If you’re using Google Fonts, you can quickly create a type scale with Materia
 If you already have brand typefaces
 If you already have brand typefaces, then you may already have a branded type scale. If this is the case, compare your existing type scale to the typographic styles used in Material Design, and select styles from your type scale that can map to the stylistic slots available.
 If you have branded typography but don’t have a type scale yet, explore the styles available in your brand typefaces using the techniques outlined above to create a type scale that customizes the baseline scale with your chosen styles.
-link
-Copy link
-Link copied
 
 ## Visualizing your theme
 
 Once you have a type scale, it’s time to visualize your new type theme in a design environment. To start, make a copy of our Baseline Design Kit for Figma. On the Material Theme page within the kit, you’ll see a frame called Typography which gives a comprehensive look at your type scale.
 On the right side of the screen, you’ll see a panel that contains global styles matching the styles in your theme under Text Styles. To start plugging new text styles into your theme, click the edit icon next to each style. Refer back to your type scale in the type tool on material.io and copy each value in the tool into the appropriate styles in Figma.
-link
-Copy link
-Link copied
 
 ## What’s next?
 

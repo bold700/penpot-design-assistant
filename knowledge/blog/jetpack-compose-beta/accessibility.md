@@ -1,13 +1,10 @@
 <!-- Source: https://m3.material.io/blog/jetpack-compose-beta/accessibility -->
-<!-- Scraped: 2026-04-20T07:37:31.310Z -->
+<!-- Scraped: 2026-04-20T17:38:19.272Z -->
 
 Posted by
 Nick Rout
 , Material Developer Advocate
 Today marks the first beta release of Jetpack Compose, Android’s modern, declarative toolkit designed to simplify and accelerate UI development. With Jetpack Compose, you can quickly bring your apps to life with less code, powerful tools, intuitive Kotlin APIs, and built-in support for Material Design, dark theme, animations, and more.
-link
-Copy link
-Link copied
 
 ## Compose Material
 
@@ -19,9 +16,6 @@ compose
 material
 material
 $compose_version”
-link
-Copy link
-Link copied
 
 ## Material Theming
 
@@ -179,9 +173,6 @@ setContent
 MyTheme
 // Material components like Button, Checkbox, Card, etc.
 Check out the Theming in Compose guide for more information, and try the Jetpack Compose Theming codelab.
-link
-Copy link
-Link copied
 
 ## Material Components
 
@@ -285,9 +276,6 @@ padding
 ) {
 /* Card content */
 Check out the Layouts in Compose guide for more information.
-link
-Copy link
-Link copied
 
 ## Dark theme
 
@@ -317,9 +305,6 @@ elevationOverlay
 apply
 color
 elevation
-link
-Copy link
-Link copied
 
 ## Material Icons
 
@@ -360,9 +345,6 @@ tint
 MaterialTheme
 colors
 primary
-link
-Copy link
-Link copied
 
 ## Interoperability
 
@@ -405,9 +387,6 @@ xxxxxxxxxx
 implementation
 "dev.chrisbanes.accompanist:accompanist-appcompat-theme:$accompanist_version"
 Check out the Compose interoperability guide for more information.
-link
-Copy link
-Link copied
 
 ## Resources
 

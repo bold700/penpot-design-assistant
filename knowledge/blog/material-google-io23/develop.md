@@ -1,14 +1,11 @@
 <!-- Source: https://m3.material.io/blog/material-google-io23/develop -->
-<!-- Scraped: 2026-04-20T07:47:21.550Z -->
+<!-- Scraped: 2026-04-20T17:49:40.483Z -->
 
 Posted by
 Ivy Knight
 , Senior Material Design Advocate
 It’s time to celebrate another Google I/O! Google’s annual developer conference is back, along with the latest Material 3 updates and on-demand content.
 Tune-in on May 10th to watch the live-streamed keynotes. Register online to join us in the Adventure to chat and participate in virtual Material roundtables.
-link
-Copy link
-Link copied
 
 ## Sessions
 
@@ -16,9 +13,6 @@ What’s new in Material DesignAneesha Kommineni, Andy Stewart, Euphrates Dahout
 Material You for Large ScreensAnna Pfoertsch and Ryan KileyLearn how to use Material Design across form factors and devices like tablets, foldables, phones, and more. Explore new large screen guidance and previews of future work that can help you adapt your app for large screens.
 Embrace accessibility for more beautiful products with Material DesignJulia Feldman, Dahlia Shoukry, and Julián González Learn how accessible design allows us to be more expressive and more opinionated as product designers. Discover how Material Design conducts research to create accessible and beautiful experiences. Get tips on how to design with accessibility in mind when building your own products.
 Material You for ComposeGurupreet Singh This talk will give developers and designers insight on how to use the latest from Material Design to build beautiful apps using Compose, the future of developing apps in Android.
-link
-Copy link
-Link copied
 
 ## Workshops and codelabs
 
@@ -27,9 +21,6 @@ Build a complete app with Relay and ComposeIn this codelab, learn to integrate R
 Theming in Jetpack Compose with Material Design 3Learn how to use Jetpack Compose’s theming APIs to style your app. Diving into customizing colors, shapes, and typography so they’re used consistently throughout your application, supporting multiple themes.
 Build adaptive apps with Compose and Material 3Understand how to build adaptive apps for phones, tablets, and foldables, including how to enhance reachability with Jetpack Compose. You’ll also learn best practices for using Material 3 components and theming.
 Flutter and MaterialCheck out how Flutter enables you to build beautiful cross-platform apps with Material through a series of comprehensive codelabs: MDC-101, MDC-102, MDC-103, MDC-104, and Building with Material Motion.
-link
-Copy link
-Link copied
 
 ## Developer releases and updates
 
@@ -37,9 +28,6 @@ Carousel for Android ViewsIntroducing the carousel component, allowing for quick
 Predictive back for Android ViewsPredictive back provides a smoother, more intuitive navigation experience while using gesture navigation, leveraging built in animations to inform the user where their actions will take them ahead of time to reduce unexpected outcomes.
 Material Component updates for Jetpack ComposeWith Material You for Compose production-ready, you get the best of modern Android development and the latest from Material Design. We listened to feedback and requests from the developer community and added new components such as date and time pickers.
 M3 for FlutterBringing Material 3 support to the Flutter Material includes new updates and improvements across components, typography, elevation, and the color system.
-link
-Copy link
-Link copied
 
 ## I/O Connect
 

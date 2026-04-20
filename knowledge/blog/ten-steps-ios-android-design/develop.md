@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/ten-steps-ios-android-design/develop -->
-<!-- Scraped: 2026-04-20T07:58:47.087Z -->
+<!-- Scraped: 2026-04-20T18:01:07.927Z -->
 
 Posted by
 Ivy Knight
@@ -8,9 +8,6 @@ As designers we are always working toward a deadline, under tight pressure and o
 This guide is for design parity and ordered for efficiency. If you are following a shared base design system, then you should have a translated design deliverable in just a few hours.
 Both Android and iOS adhere to the idea that content comes first. After that, branding can come through as color, type, and shape. Not only does this allow for content legibility, but creating cohesion becomes easier.
 Helpful Tip before you start: have a user flow map available to help visualize, document, and sketch out any differences that would affect Android.
-link
-Copy link
-Link copied
 
 ## Starting with your iOS designs
 
@@ -55,9 +52,6 @@ Dimensions adhere to the 8dp grid
 10. Go back through and tidy up. If you are translating a prototype, this is a good point to rewire things. Go back through your primary navigation. Then your Top App Bars, remembering the difference between up and back, and making sure to select page transitions that are Android appropriate (mentioned in step 9).
 You should have a fully functioning prototype ready, and since you resized it, it’s ready for handoff.
 The finished product
-link
-Copy link
-Link copied
 
 ## Style and component guide
 

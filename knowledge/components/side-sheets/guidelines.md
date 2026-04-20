@@ -1,20 +1,11 @@
 <!-- Source: https://m3.material.io/components/side-sheets/guidelines -->
-<!-- Scraped: 2026-04-20T08:14:01.960Z -->
+<!-- Scraped: 2026-04-20T18:16:48.947Z -->
 
-link
-Copy link
-Link copied
 - Standard side sheet
 - Modal side sheet
-link
-Copy link
-Link copied
 
 ## Usage
 
-link
-Copy link
-Link copied
 Standard side sheets
     
       Standard side sheets display content without blocking access to the screen’s primary content, such as an audio player at the side of a music app. They're often used in medium and expanded window sizes like tablet or desktop. 
@@ -43,9 +34,6 @@ Common uses include:
 - Displaying a list of actions that affect the screen’s primary content, such as filters
 - Displaying supplemental content and features
 Information about a photo in a standard side sheet
-link
-Copy link
-Link copied
 Modal side sheets
     
       Modal side sheets appear in front of app content, disabling all other app functionality when they appear, and remaining on screen until confirmed, dismissed, or a required action has been taken. They're often used in compact window sizes, like mobile, due to limited screen size.
@@ -63,9 +51,6 @@ Modal side sheets
   , like mobile, due to limited screen size.
 They can display the same kinds of content as standard side sheets, but must be dismissed in order to interact with the underlying content.
 Modal side sheet with filter controls
-link
-Copy link
-Link copied
 Side sheets have a fixed width and typically span the height of the screen.
 Their dimensions depend on how the app’s 
     
@@ -82,32 +67,17 @@ Place side sheets along the edge of the screen, usually on the right side to avo
 close
 Don’t
 Don’t inset a side sheet from the screen edges far beyond the recommended margin. This makes the sheet’s position and scroll behavior unclear, while obscuring primary content.
-link
-Copy link
-Link copied
 
 ## Anatomy
 
-link
-Copy link
-Link copied
 - Divider (optional)
 - Headline
 - Container
 - Close icon button
-link
-Copy link
-Link copied
 - Back icon button (optional)
 - Action buttons (optional)
 - Scrim
-link
-Copy link
-Link copied
 Side sheet containers hold all side sheet elements. Their size is determined by the space those elements occupy. The container is the only required element of a side sheet.
-link
-Copy link
-Link copied
 Icon buttons
     
       Icon buttons help people take minor actions with one tap.
@@ -117,9 +87,6 @@ Icon buttons
           
    can provide ways to exit a side sheet or move to a different experience.Because the primary content behind or beside a side sheet is always visible, it’s important to provide affordances for leaving a side sheet and returning to the primary content.
 - Back icon button
-link
-Copy link
-Link copied
 
 ### Close icon button (optional)
 
@@ -143,9 +110,6 @@ A close icon button is highly recommended, increases
             More on focused state
           
    side sheets easier to close.
-link
-Copy link
-Link copied
 Buttons
     
       Buttons let people take action and make choices with one tap.
@@ -174,9 +138,6 @@ Use
           
    to call attention to specific actions.
 - Action buttons
-link
-Copy link
-Link copied
 Dividers
     
       Dividers are thin lines that group content in lists or other containers.
@@ -189,9 +150,6 @@ Use a divider to separate:
 - Action buttons from content
 - User-generated content from system-generated content
 - Divider
-link
-Copy link
-Link copied
 
 ### Content (optional)
 
@@ -215,19 +173,10 @@ Side sheets can display a wide variety of content and
           
    of actions to supplemental content in a tabular layout.
 Form controls shown in a side sheet for app settings
-link
-Copy link
-Link copied
 Modal side sheets on smaller screens can transition to standard side sheets at larger screen sizes
-link
-Copy link
-Link copied
 
 ## Adaptive design
 
-link
-Copy link
-Link copied
 Side sheets have a default width, but can be resized depending on the needs of the 
     
     layout
@@ -255,23 +204,14 @@ Side sheets have a default width, but can be resized depending on the needs of t
           
    on the body’s trailing edge.
 Entrance of standard side sheets will cause the body area to adjust and accommodate the new content
-link
-Copy link
-Link copied
 
 ### RTL language support
 
 In right-to-left (RTL) languages, side sheets should appear on the left edge of the window with all elements reversed.
 Side sheet elements are reversed in RTL languages
-link
-Copy link
-Link copied
 
 ## Behavior
 
-link
-Copy link
-Link copied
 Side sheets can vertically scroll independent of the rest of the UI.
 This allows their scroll position and content to persist while the page is scrolled, and vice versa.Side sheets cannot scroll horizontally.
 check
@@ -279,15 +219,9 @@ Side sheets can vertically scroll internally when their content exceeds the scre
 close
 Don’t
 Don’t allow horizontal scrolling or lay out the side sheet in a way that suggests horizontal scrolling. A side sheet’s narrow width leaves limited space to fully view items.
-link
-Copy link
-Link copied
 
 ### Predictive back
 
-link
-Copy link
-Link copied
 On Android, a 
     
     gesture

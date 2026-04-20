@@ -1,25 +1,13 @@
 <!-- Source: https://m3.material.io/components/bottom-sheets/guidelines -->
-<!-- Scraped: 2026-04-20T08:02:36.930Z -->
+<!-- Scraped: 2026-04-20T18:05:07.477Z -->
 
-link
-Copy link
-Link copied
 - Standard bottom sheets
 - Modal bottom sheets
-link
-Copy link
-Link copied
 
 ## Usage
 
-link
-Copy link
-Link copied
 Bottom sheets display supplementary content and actions on a mobile screen.
 Bottom sheet containing contacts and applications
-link
-Copy link
-Link copied
 Bottom sheets are a versatile component that can contain a wide variety of information and 
     
     layouts
@@ -49,15 +37,9 @@ Bottom sheets are a versatile component that can contain a wide variety of infor
           
    or grid layouts), actions, and supplemental content.
 Bottom sheet with menu items in a list
-link
-Copy link
-Link copied
 
 ## Anatomy
 
-link
-Copy link
-Link copied
 A container is the only required element of a bottom sheet. Bottom sheet 
     
     layouts
@@ -68,30 +50,15 @@ A container is the only required element of a bottom sheet. Bottom sheet
             More on layout
           
    can vary widely to support the kinds of content they contain.
-link
-Copy link
-Link copied
 - Container
 - Drag handle (optional)
 - Scrim (modal only)
-link
-Copy link
-Link copied
-link
-Copy link
-Link copied
 Bottom sheet containers hold all bottom sheet elements. Their size is determined by the space those elements occupy.
 The container is the only required element of a bottom sheet. All other elements are optional.
 Bottom sheets are flexible containers that adapt to their content and available space
-link
-Copy link
-Link copied
 
 ### List items (optional)
 
-link
-Copy link
-Link copied
 Lists
     
       Lists are continuous, vertical indexes of text and images.
@@ -110,15 +77,9 @@ Lists
           
   , among other elements.
 Bottom sheet containing a list with icons
-link
-Copy link
-Link copied
 
 ### Dividers (optional)
 
-link
-Copy link
-Link copied
 Dividers
     
       Dividers are thin lines that group content in lists or other containers.
@@ -128,40 +89,19 @@ Dividers
           
    can be used to separate related content in bottom sheets.
 Bottom sheet with a divider separating kinds of actions
-link
-Copy link
-Link copied
 
 ### Media (optional)
 
-link
-Copy link
-Link copied
 ThumbnailBottom sheets can include thumbnails for an avatar or logo.
 ImageBottom sheets can include photos, illustrations, and other graphics, such as weather icons.
 VideoBottom sheets can include video.
 Bottom sheets can contain thumbnails, images, and video
-link
-Copy link
-Link copied
-link
-Copy link
-Link copied
 Standard bottom sheets co-exist with the screen’s main UI region and allow for simultaneously viewing and interacting with both regions, especially when the main UI region is frequently scrolled or panned.
 Use a standard bottom sheet to display content that complements the screen’s primary content, such as an audio player in a music app.
 The music player in this standard bottom sheet allows people to control their music while browsing albums
-link
-Copy link
-Link copied
 At full-screen height, standard bottom sheets contain a collapse icon in an app bar to return to their initial position.
 Standard bottom sheets can contain supplementary content that continues below the screen, such as location information over a map.
 A bottom sheet can have preset positions from full-screen height to preview
-link
-Copy link
-Link copied
-link
-Copy link
-Link copied
 Like 
     
     dialogs
@@ -173,9 +113,6 @@ Like
           
   , modal bottom sheets appear in front of app content, disabling all other app functionality when they appear, and remaining on screen until confirmed, dismissed, or a required action has been taken.
 A modal bottom sheet must be interacted with or dismissed. Its blocking behavior makes it suitable for a menu, such as in this files app, to help people focus on their available choices.
-link
-Copy link
-Link copied
 Use a modal bottom sheet as an alternative to inline 
     
     menus
@@ -206,15 +143,9 @@ Use a modal bottom sheet as an alternative to inline
    of action items, or when items require longer descriptions and icons.
 Modal bottom sheets are used in mobile apps only.
 Modal bottom sheets can be used instead of menus to present additional actions
-link
-Copy link
-Link copied
 
 ### Visibility
 
-link
-Copy link
-Link copied
 To provide access to its top actions, the initial vertical position of 
     
     modal bottom sheets
@@ -225,9 +156,6 @@ To provide access to its top actions, the initial vertical position of
    is capped at 50% of the screen height.
 Modal bottom sheets whose contents exceed 50% of the screen height can then be pulled across the full screen and scrolled internally to access their remaining items.
 The initial vertical position of modal bottom sheets can't exceed 50% of the screen height
-link
-Copy link
-Link copied
 Modal bottom sheets
     
       Modal bottom sheets appear in front of app content, disabling all other app functionality when they appear, and remaining on screen until confirmed, dismissed, or a required action has been taken.
@@ -268,15 +196,9 @@ Modal bottom sheets
 Display a close affordance in a full-screen modal bottom sheet.
 Tapping the scrim dismisses a modal bottom sheet
 A modal bottom sheet can be dismissed by swiping the sheet down
-link
-Copy link
-Link copied
 
 ## Responsive layout
 
-link
-Copy link
-Link copied
 
 ### Compact window size
 
@@ -291,9 +213,6 @@ In
           
   , like mobile devices, bottom sheets extend across the width of a screen and are elevated above the primary content.
 Bottom sheets should extend to the width of the screen on mobile
-link
-Copy link
-Link copied
 
 ### Medium and expanded window sizes
 
@@ -333,9 +252,6 @@ For larger screens with
       
   .
 Bottom sheets on larger screens like tablet have a max width that can be overridden
-link
-Copy link
-Link copied
 On larger 
     
     expanded window sizes
@@ -356,15 +272,9 @@ On larger
           
    that shows similar content.
 Side sheets can contain the same content as bottom sheets and may be more suitable for desktop
-link
-Copy link
-Link copied
 
 ## Behavior
 
-link
-Copy link
-Link copied
 Bottom sheets can offer an expansion option where the sheet is fully raised and toggled between a collapsed and expanded 
     
     state
@@ -377,38 +287,20 @@ Bottom sheets can offer an expansion option where the sheet is fully raised and 
   . This provides a more predictable footprint of the sheet, and can be set by the system or toggled by the user.
 A bottom sheet for sharing can appear fully raised if needed
 Alternately, a bottom sheet for sharing can appear collapsed for a more focused set of actions
-link
-Copy link
-Link copied
 
 ### Custom positioning
 
-link
-Copy link
-Link copied
 The drag handle can be dragged or selected to change the bottom sheet height. Sheets should be able to cycle through preset heights and close completely without dragging. Selecting the drag handle should toggle through preset heights or close the sheet, while selecting the scrim should always close the bottom sheet.If the bottom sheet has multiple preset heights but can’t use a drag handle, Material requires the inclusion of a single-pointer alternative to change height.
 Interacting with the drag handle can quickly move a bottom sheet through preset heights
 A bottom sheet can automatically resize to another height after interacting with the drag handle
-link
-Copy link
-Link copied
 
 ### Scrolling
 
-link
-Copy link
-Link copied
 Bottom sheets can be horizontally scrolled, independent of the rest of the screen’s content.
 Bottom sheets should be scrollable when their content exceeds the initial viewable height
-link
-Copy link
-Link copied
 
 ### Back
 
-link
-Copy link
-Link copied
 On Android, a 
     
     gesture

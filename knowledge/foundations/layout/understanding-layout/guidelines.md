@@ -1,9 +1,6 @@
 <!-- Source: https://m3.material.io/foundations/layout/understanding-layout/guidelines -->
-<!-- Scraped: 2026-04-20T08:30:27.195Z -->
+<!-- Scraped: 2026-04-20T18:30:23.815Z -->
 
-link
-Copy link
-Link copied
 - Use layout to direct attention to the action users want to take
 - Adapt layouts to 
     
@@ -58,9 +55,6 @@ Link copied
       Designs for common screen layouts across window size classes
 - Consider how spacing and the parts of the layout work together
 - Material layout guidance applies to Android and the web
-link
-Copy link
-Link copied
 - Column
 - Fold
 - Margin
@@ -68,15 +62,9 @@ Link copied
 - Drag handle
 - Spacer
 - Window
-link
-Copy link
-Link copied
 
 ## What’s new
 
-link
-Copy link
-Link copied
 - When creating new layouts, begin from a canonical layout rather than a layout grid. This helps ensure that your layouts can scale across devices and form factors.
 - Window size classes are opinionated breakpoints. Material Design recommends you create layouts for five window size classes: 
     
@@ -124,15 +112,9 @@ Link copied
             More on extra-large window size
 - Layouts with multiple panes of content can be resized with a drag handle
 M3 considers multiple layouts for a variety of sizes
-link
-Copy link
-Link copied
 
 ## Layout terms
 
-link
-Copy link
-Link copied
 - Column: one or more vertical blocks of content within a pane
 - Drag handle: The component that resizes panes
 - Fold: on foldable devices, a flexible area of the screen or, on dual-screen devices, a hinge that separates two displays

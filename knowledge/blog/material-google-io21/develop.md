@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/material-google-io21/develop -->
-<!-- Scraped: 2026-04-20T07:46:32.247Z -->
+<!-- Scraped: 2026-04-20T17:48:43.116Z -->
 
 Posted by
 Yasmine Evjen
@@ -10,9 +10,6 @@ Yasmine Evjen
 Google’s developer conference will be virtual this year, providing an opportunity to connect with developers and designers from around the world May 18-20. There will be interactive sessions, hands-on learning, and a virtual I/O experience with demos, games, and fun. 🥳
 And we’ll be there, too! Material Design has a full program of sessions, workshops, an #AskMaterial AMA, and meetups where you can connect directly with the team. Don’t miss out – register for Google I/O and reserve your spot for Material Design events!
 Let’s dig into the events and learn how you can connect with the Material Design team at Google I/O 2021.
-link
-Copy link
-Link copied
 
 ## Keynotes, Sessions, Workshops, and Ask Me Anything
 
@@ -39,9 +36,6 @@ Why is the baseline Material Design primary color purple? How do I apply shape t
 Workshop: Material's communication principles: Intro to UX Writing
 Speaker: Alex Hays
 This workshop will show you how to write clear, compelling user-facing content – because better writing leads to better experiences. Create your own content matrix while learning best practices for common UI patterns such as onboarding, notifications, labels, errors, and localization. Lessons focus on English writing, and can be applied across many contexts. Advanced topics (testing content; conversation design; machine learning feature writing) are covered briefly.
-link
-Copy link
-Link copied
 
 ## Meetups with Material Design
 
@@ -54,9 +48,6 @@ A time to gather with the Material Design community. Join members of the Materia
 4:30 PM PT
 Material Design Meetup [Americas]
 A time to gather with the Material Design community. Join members of the Material Design team to chat and connect. (Americas friendly time.)
-link
-Copy link
-Link copied
 
 ## On-demand content
 
@@ -69,9 +60,6 @@ Jetpack Compose can help you build beautifully and easily with Material Design. 
 Designing A11y with Material Design
 Speakers: Michael Gilbert and Shabi Kashani
 Learn how Material Design integrates Accessibility directly into their design system, and how you can do the same with your tools and frameworks. In this session, we’ll show you how you can make your products more usable for everyone – especially those with disabilities.
-link
-Copy link
-Link copied
 
 ## #GoogleIO is in full bloom
 

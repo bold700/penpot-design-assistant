@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/material-theme-builder-2-color-match/specs -->
-<!-- Scraped: 2026-04-20T07:49:10.609Z -->
+<!-- Scraped: 2026-04-20T17:51:49.928Z -->
 
 Posted by
 Ivy Knight
@@ -7,9 +7,6 @@ Ivy Knight
 James Williams
 , Material Developer Advocate
 Material Theme Builder (MTB)  turned two recently, and with that birthday we’re excited to announce the release of an updated MTB for Figma!
-link
-Copy link
-Link copied
 
 ## Tooling journey
 
@@ -17,9 +14,6 @@ Working on the Material Theme Builder has been an exciting journey starting from
 Along the way there have been architecture changes. The very first prototypes were two separate modules: one to visualize colors and export to the now defunct Design System Package format and a separate project to create Android XML theming files from a DSP archive. The projects were merged, more platforms were added, and export was re-written. In a couple cases, we outgrew the framework and had to move to another, justifying the pain of a rewrite if the change was better for our users. You also get to benefit from the lessons you've learned along the way to fix the technical debt.Featured in a few conferences, seeing MTB featured in the I/O keynote was a highlight moment. Showing how important small experiences can make a big impact.
 And plenty of listening to our users! We learned how users were understanding dynamic color, wanted to express their branding, what new platforms they wanted to use, and more. Y’all have guided the direction of Material Theme Builder the most and our 2.0 features reflect that.
 As part of Material DevRel, our goal has always been about empowering app makers to create wonderful experiences. MTB started with the premise to make Material 3 easier to implement and we hope to continue on that mission.
-link
-Copy link
-Link copied
 
 ## On to the updates
 
@@ -31,32 +25,20 @@ Swapping to other theme variants is now within the color panel. Light and dark t
 Generating a color scheme from an image or one source color is still possible, using the wallpaper and content setting.
 Or override the all key color sources, which now include error and neutral variants.
 You’ll also find the latest tonal surface color roles to use in your color schemes.
-link
-Copy link
-Link copied
 
 ## And a few other UX changes
 
 Brand new color picker gives greater look at HCT, along with confirmation buttons.
 It’s easier to play around with color schemes in the plugin without losing your current scheme. When done editing your theme, click Update to apply changes. Cancel will stop the process of updating for any last minute changes.
-link
-Copy link
-Link copied
 
 ## What about brand colors?
 
 Color fidelity is here. Turn on Color match in settings to have resulting schemes more closely match your key color inputs. The resulting scheme is still produced by the MCU algorithm to produce tonal values and assign color roles, with your input colors landing into container slots.
 Color match diagram
-link
-Copy link
-Link copied
 
 ## Plus Variable support
 
 After Figma’s variable announcement, we heard plenty of requests to bring variables in the Material Theme Builder. So with 2.0, variables will be generated alongside styles with some options, like generating reference values as variables. Variables do require access to additional modes, but styles are still available.
-link
-Copy link
-Link copied
 
 ## Looking forward
 

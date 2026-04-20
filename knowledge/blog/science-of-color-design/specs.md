@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/science-of-color-design/specs -->
-<!-- Scraped: 2026-04-20T07:56:56.557Z -->
+<!-- Scraped: 2026-04-20T17:59:14.548Z -->
 
 Posted by
 James O'Leary
@@ -8,9 +8,6 @@ I joined Google as a software engineer with a background in print and digital de
 Miranda Kephart, a fellow engineer on the project, pointed out whether it was visually pleasing was based solely on the perceived smoothness of the color distribution while transitioning from black to transparent.
 My initial reaction was this couldn’t be the case. Designers never talked about color distribution like that, or even talked about altering it, it must be correct already. As soon as I said that, I was struck by the questions it raised: What if design and engineering aren’t completely separate? What does it even mean for a set of colors to be ‘smooth’? What does it mean for colors to be organized smoothly? Are there even answers to those questions? If we can get answers to those big questions, do they even help us know where to put the text?
 Finding answers to those questions took me a couple years and a deep dive into the history of color, both scientifically and in design. The answers pointed to a new color space that would empower designers creatively, and improve everything we do with color.
-link
-Copy link
-Link copied
 
 ## Toward a perceptually accurate color system
 
@@ -27,9 +24,6 @@ HCT’s hue and colorfulness measures, hue and chroma, are the same as CAM16’s
 For the first time, designers have a color system that truly reflects what users see, taking into account a range of variables to ensure appropriate color contrast, accessibility standards, and consistent lightness/colorfulness across hues.
 At HSL “lightness” 50, accurately measured lightness ranges from 33 to 96!
 Viewing LCH & HCT color spaces from the top, we can visualize Lab’s more inconsistent scaling
-link
-Copy link
-Link copied
 
 ## Exposing and solving for contrast
 
@@ -40,9 +34,6 @@ In the past, designers would plug color pairs into a contrast checker, receiving
 The HCT color system makes meeting accessibility standards much easier. Instead of using the unintuitive measure of a contrast ratio, the system converts those same requirements to a simple difference in tone, HCT’s measure of lightness. Contrast is guaranteed simply by picking colors whose tone values are far enough apart—no complex calculations required.
 For example, to meet WCAG contrast requirements, smaller elements (less than ¼” or 40 dp) require a tone difference of 50 with their background, larger elements require a tone difference of 40. This principle works consistently for any pair of colors.
 Claude Monet’s “Impression, Sunrise” shows why contrast measures legibility for all, not just non-standard vision: the sun and sky have exactly the same luminance, creating a hazy effect that makes the sun hard to focus on. When viewing the image in black and white, only seeing luminance, the sun disappears completely.
-link
-Copy link
-Link copied
 
 ## Creating a scalable design system
 
@@ -50,9 +41,6 @@ Just as design systems enable design at scale, HCT supports color at scale. HCT�
 When creating a design system, colors are given names, so they can be referenced in design specifications of screens and UI elements. An example in Material Design is “primary,” which refers to a color used for buttons.
 Then, the tone of each color is defined. Colors work in pairs in a user interface, such as a button color and button text color, and tones are chosen to ensure contrast between those pairs.
 The other components of color, hue and chroma, are open to any values, enabling more creativity. Material You completes its design system by determining hue and chroma dynamically based on the user’s wallpaper, creating a dynamic, personalized color system.
-link
-Copy link
-Link copied
 
 ## Dynamic color: Personalized color at scale
 
@@ -63,9 +51,6 @@ One color, defaulting to the top-ranked color by the algorithm, or chosen by the
 Using the source color, we create the core palette, which is a set of 5 tonal palettes. A tonal palette is defined by a hue and chroma; the colors in the palette come from varying tones. These tonal palettes reduce cognitive load for designers when creating a design system: instead of specifying hue and chroma for each role, a tonal palette can be substituted.
 Finally, we fill out the table that defines the hue chroma and tone of each color role, then use those values and HCT to create the colors used in the theme.
 Tonal palettes generated from Google Blue, #4285F4
-link
-Copy link
-Link copied
 
 ## A bright future, built with you
 
@@ -79,9 +64,6 @@ Scrims and shadows that ensure text is legible on any background.
 Gradients in HCT respect colorfulness and maintain legibility
 Behind all of these features, current and future, is our HCT color system. It makes designing with color easier and more successful, from generating wallpaper-based color schemes to adjusting colors for accessibility requirements. HCT drives the tools our designers and engineers use, Material Theme Builder and Material Color Utilities—the same tools used inside Google—which let you deliver consistent, beautiful, colors everywhere, every time.
 Have fun, we can’t wait to see what you make with it! Breaking the stasis of unfeeling minimalism in the flat design era will allow people to create things we can’t even imagine. Paraphrasing Tag Savage: “Modern museums are pretty in a designy way, but eventually, the particulars around them fall out of fashion. This is good for the museum. Now they can really mess up the place.”
-link
-Copy link
-Link copied
 
 ## Resources
 

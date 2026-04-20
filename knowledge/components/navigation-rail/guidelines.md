@@ -1,19 +1,10 @@
 <!-- Source: https://m3.material.io/components/navigation-rail/guidelines -->
-<!-- Scraped: 2026-04-20T08:11:33.970Z -->
+<!-- Scraped: 2026-04-20T18:14:29.107Z -->
 
-link
-Copy link
-Link copied
 Use the menu icon to transition between collapsed and expanded navigation rails
-link
-Copy link
-Link copied
 
 ## Usage
 
-link
-Copy link
-Link copied
 The navigation rail can display navigation items, a menu, and a 
     
     floating action button
@@ -67,9 +58,6 @@ It can be used in
           
    should always use a navigation bar.
 A navigation rail should be the only visible navigation element
-link
-Copy link
-Link copied
 
 ### Expanded
 
@@ -77,20 +65,11 @@ The expanded navigation rail can be standard or modal, and should always open f
 - Information dense layouts where space is limited
 - Products with many navigation items
 A navigation rail can be expanded by default on larger screen sizes, or can be expanded over content on smaller screen sizes
-link
-Copy link
-Link copied
 In immersive experiences, the expanded navigation rail can be hidden entirely, appearing only when the menu icon is selected.The collapsed navigation rail should not be hidden.
 The expanded navigation rail can also be hidden, appearing only when the menu icon is selected
-link
-Copy link
-Link copied
 
 ## Anatomy
 
-link
-Copy link
-Link copied
 - Container
 - Menu (optional)
 - Floating action button (FAB) (optional)
@@ -102,14 +81,8 @@ Link copied
 - Large badge label
 - Small badge
 - Label text - inactive
-link
-Copy link
-Link copied
 The navigation rail should be placed on the leading edge of the window. This is the left side for left-to-right languages, and the right side for right-to-left languages.The container fill can be turned off so the nav rail appears directly on the surface. When doing this, make sure all items have a minimum of 3:1 color contrast.
 The navigation rail should be placed on the leading edge of the window
-link
-Copy link
-Link copied
 The navigation rail should always run vertically along the side of a layout. Don’t make it horizontal.Use a 
     
     navigation bar
@@ -123,44 +96,26 @@ The navigation rail should always run vertically along the side of a layout. Don
 close
 Don’t
 Don’t use the navigation rail horizontally. Use a navigation bar instead.
-link
-Copy link
-Link copied
 Navigation rail items can be aligned as a group to the top or center of a layout. On tablets, use center alignment to make it easier to reach items.The menu icon and FAB should always be top-aligned.
 Top and center aligned rail destination placement
-link
-Copy link
-Link copied
 The menu button can transition between the collapsed and expanded navigation rails.Once expanded, the rail can reveal secondary destinations.When the navigation rail is expanded, the menu icon should change to represent that it can be collapsed.
 A navigation rail can expand to reveal more destinations
-link
-Copy link
-Link copied
 The container of the navigation rail is ideal for anchoring the FAB to the top of a screen, placing the app’s key action above navigation destinations.When nested within another component, such as the navigation rail, the FAB's resting elevation should be level 0.
 check
 A top-aligned FAB in the navigation rail
 close
 Don’t
 Avoid placing the FAB below navigation items
-link
-Copy link
-Link copied
 The top of the rail can also be used for a logo, however avoid using logos that could be mistaken as buttons.Don’t use a logo as a menu button to expand the navigation rail.
 exclamation
 Caution
 Use caution when placing logos in the rail where they might be confused with an action or destination
-link
-Copy link
-Link copied
 The active indicator shows which page is being displayed.
 check
 Use the active indicator only for the current open page
 close
 Don’t
 Don’t use the active indicator for more than one navigation item at a time
-link
-Copy link
-Link copied
 The active indicator hugs the label text in the expanded nav rail. To achieve a similar style to the baseline 
     
     navigation drawer
@@ -173,38 +128,23 @@ The active indicator hugs the label text in the expanded nav rail. To achieve a 
   , consider modifying the active indicator to fill the container.The target area should always span the full width.
 The active indicator hugs contents in the expanded nav rail
 Override the indicator to fill the container to more closely resemble the baseline navigation drawer
-link
-Copy link
-Link copied
 
 ### Icons
 
 Navigation rail items must use icons that symbolize the content of their page. Browse popular icons on Google Fonts.
 Icons should symbolize the content of the page they open
-link
-Copy link
-Link copied
 When a destination is selected, the icon fills and changes color. An active indicator appears behind the icon.
 Selected navigation items have an active indicator, a filled icon, and a more prominent color
-link
-Copy link
-Link copied
 
 ### Label text
 
 The label text should be a short, meaningful description of each navigation destination and another way for users to understand an icon’s meaning.All navigation items require a one word label text.
 check
 Write clear and concise labels that describe the destination page
-link
-Copy link
-Link copied
 Avoid wrapping long labels when possible. If necessary, create a line break between words, or hyphenate longer words.
 exclamation
 Caution
 Break up longer phrases into two text lines if necessary
-link
-Copy link
-Link copied
 Labels should be short enough to not be truncated. Don’t shrink the type scale to fit longer text labels.
 close
 Don’t
@@ -212,31 +152,19 @@ Don’t truncate or display an ellipsis in place of label text
 close
 Don’t
 Don’t reduce the type size to fit more characters into a destination label
-link
-Copy link
-Link copied
 
 ### Badges
 
 Navigation rail icons can include badges to communicate dynamic information about the  destination, such as counts or status.In compact nav rails, the badge is placed in the upper right corner of the icon. In expanded nav rails, the badge should be placed next to the label text.
 1. Small badge on a rail destination 2. Large badge with a number3. Large badge with a maximum character count
-link
-Copy link
-Link copied
 
 ### Divider (optional)
 
 A vertical divider can help separate the rail from app content. The divider should be positioned on the edge of the rail container that’s adjacent to the app’s content area.
 A divider can make the navigation rail container distinct from other on-screen content
-link
-Copy link
-Link copied
 
 ## Placement
 
-link
-Copy link
-Link copied
 In adaptive layouts, the navigation rail should be placed outside any 
     
     panes
@@ -257,19 +185,10 @@ In adaptive layouts, the navigation rail should be placed outside any
           
    can be used alongside a navigation rail to create an extra layer of visible navigation.
 Expanded navigation rails can open from menu buttons on mobile
-link
-Copy link
-Link copied
 
 ## Adaptive design
 
-link
-Copy link
-Link copied
 For more, see adaptive design.
-link
-Copy link
-Link copied
 
 ### Resizing
 
@@ -279,45 +198,27 @@ Compact: Don’t use a standard navigation rail for compact layouts due to space
 Medium: Use a navigation rail, especially if prioritizing persistent vertical navigation over maximizing vertical content space.
 Expanded to extra-large: Use a navigation rail, not a navigation bar. Consider available horizontal space and the number of destinations when choosing between standard and modal.
 On smaller devices, use a navigation bar. On larger displays, use a navigation rail.
-link
-Copy link
-Link copied
 
 ### Presentation
 
 When the navigation rail transitions from collapsed to expanded, the contents of the page should automatically adjust to fit.The contents of the navigation rail also expand to fill the space. For example, the FAB should transition into an extended FAB. Extra destinations can be shown in an expanded nav rail.
 Use a standard expanded rail when there are secondary destinations or actions that have lower priority than the main navigation items
-link
-Copy link
-Link copied
 
 ## Behavior
 
-link
-Copy link
-Link copied
 
 ### Scrolling
 
 Destinations in the navigation rail should remain visible and fixed when scrolling vertically.
 Rail destinations remain fixed while on-screen content scrolls vertically
-link
-Copy link
-Link copied
 If a layout scrolls horizontally, the rail can scroll off-screen or remain fixed. To distinguish that content is scrolling underneath the rail, use a divider or add elevation to the rail.
 A divider and color fill change create visual distinction between the rail and horizontally scrolling content
 Elevating the rail to level 1 creates visual distinction between the rail and horizontally scrolling content
-link
-Copy link
-Link copied
 
 ### Selection
 
 When a destination is tapped, the destination screen uses a top level transition pattern. In addition, the icon becomes filled and the active indicator expands from the center of the icon.
 Tapping a destination uses a top level transition pattern
-link
-Copy link
-Link copied
 
 ### Back
 

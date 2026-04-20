@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/google-fonts-knowledge/guidelines -->
-<!-- Scraped: 2026-04-20T07:33:01.304Z -->
+<!-- Scraped: 2026-04-20T17:33:00.061Z -->
 
 Posted by
 Elliot Jay Stocks

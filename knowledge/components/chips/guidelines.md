@@ -1,24 +1,12 @@
 <!-- Source: https://m3.material.io/components/chips/guidelines -->
-<!-- Scraped: 2026-04-20T08:05:27.345Z -->
+<!-- Scraped: 2026-04-20T18:08:08.039Z -->
 
-link
-Copy link
-Link copied
 There are four variants of chips: Assist, filter, input, and suggestion
-link
-Copy link
-Link copied
 
 ## Usage
 
-link
-Copy link
-Link copied
 Chips help people enter information, make selections, filter content, or trigger actions. They're best used to help people accomplish their current task faster and easier.
 Chips appear as a group of interactive elements
-link
-Copy link
-Link copied
 
 ### Chips aren’t buttons
 
@@ -39,9 +27,6 @@ Use chips to present contextual, supplemental options
 close
 Don’t
 Avoid replacing major actions with chips. Actions that progress people to the next or previous step should always be displayed as buttons.
-link
-Copy link
-Link copied
 Chips should dynamically offer various actions depending on the current task, whereas a button should be a persistent fixture of a layout.
 Chips represent forking paths for a current task, while buttons represent linear steps.
 check
@@ -49,9 +34,6 @@ Use buttons for the final step in a task
 close
 Don’t
 Avoid using chips to finish or progress a task
-link
-Copy link
-Link copied
 Multiple chips should appear together in a set, whereas there should be no more than 3 buttons in a single arrangement.
 Chip sets can be scrolled horizontally.
 check
@@ -59,9 +41,6 @@ Chips can be scrolled horizontally
 close
 Don’t
 Don’t display a single chip by itself. Chips should appear in a set.
-link
-Copy link
-Link copied
 
 ### Variants
 
@@ -73,57 +52,33 @@ There are four chip variants:
 - Filter
 - Input
 - Suggestion
-link
-Copy link
-Link copied
 | Purpose | Chip variant | Rationale | Example |
 | Action | Assist chip | Assist chips represent smart or automated actions that can span multiple apps | Add to calendar action |
 | Filter | Filter chip | Filter chips represent filters for a collection | Platform selector on material.io/components |
 | Information, user-authored | Input chip | Input chips represent discrete pieces of information entered by a person | Gmail contact in the To field |
 | Information, product-authored | Suggestion chip | Suggestion chips help narrow a person’s intent by presenting dynamically-generated suggestions | Suggested chat response |
-link
-Copy link
-Link copied
 
 ## Anatomy
 
-link
-Copy link
-Link copied
 - Container
 - Label text
 - Leading icon or image (optional)
 - Trailing icon (required for input chips, optional for filter chips)
-link
-Copy link
-Link copied
 All chips are slightly rounded with an 8dp corner.
 Chips have rounded corners
-link
-Copy link
-Link copied
 Shadows & elevation
 Chip containers can be elevated if placed on top of an image or dynamic background.
 When on complicated backgrounds, chip containers can be elevated
-link
-Copy link
-Link copied
 check
 Use an outline to define the edge of the chip's container on regular backgrounds
 check
 Chips may use elevation when placed on an image
-link
-Copy link
-Link copied
 close
 Don’t
 Chips shouldn't be elevated when placed directly on the page
 close
 Don’t
 Avoid using elevation to indicate a chip's pressed state. Instead, use the visual ripple effect.
-link
-Copy link
-Link copied
 Chip label text should be 20 characters or fewer, and have the same typography style as 
     
     buttons
@@ -140,14 +95,8 @@ Keep chip labels short
 close
 Don’t
 Avoid chip labels longer than 20 characters
-link
-Copy link
-Link copied
 Chips can contain a leading icon, logo, or circular image. Use a system icon to help identify a chip's category.
 Chips can contain a logo, icon, or circular image
-link
-Copy link
-Link copied
 The leading icon color for unselected chips can be customized through theming. While the default 
     
     color role
@@ -159,15 +108,9 @@ The leading icon color for unselected chips can be customized through theming. W
           
    is primary, the on surface variant color role is a good alternative when the icon style requires less emphasis.
 Primary color (left) and on surface variant color (right)
-link
-Copy link
-Link copied
 Leading circular images are sized larger than leading icons to provide more space for detail. Icons are designed to be legible at small sizes.
 See the Specs tab for precise measurement values.
 Leading images, such as avatars, are sized larger than leading icons or logos
-link
-Copy link
-Link copied
 
 ### Trailing icon (optional, input and filter chips only)
 
@@ -182,15 +125,9 @@ The trailing icon is present for input and
 On input chips, it's required and must be used to remove the chip. On filter chips, it's optional, and can be used to open a menu or remove the chip.
 Secondary actions (such as a trailing icon button for Remove) must have a 48x48dp interaction target that doesn’t interfere with the chip's primary action (such as Edit or Drag). To achieve this, apply a minimum width of 88dp to the chip, or 42dp to the label text.
 Interaction targets for actions like Edit or Close have a size of 48x48. This can be achieved by setting the minimum container width to 88dp.
-link
-Copy link
-Link copied
 
 ## Assist chips
 
-link
-Copy link
-Link copied
 Assist chips represent smart or automated actions that can span multiple apps, such as opening a calendar event from the home screen. Assist chips function as though the person asked an assistant to complete the action. They should appear dynamically and contextually in a UI.
 An alternative to assist chips are 
     
@@ -203,21 +140,12 @@ An alternative to assist chips are
           
   , which should appear persistently and consistently.
 The text in most assist chips begins with a short verb, like Get or Add
-link
-Copy link
-Link copied
 An assist chip can surface supplemental information like a calendar event, as well as provide contextual actions
 During an interaction, assist chips can transform into modals, transition into full-screen views of new content, or readjust to display more results inline
-link
-Copy link
-Link copied
 Assist chips can trigger an action or show progress and confirmation.
 Write assist chips like buttons: start with a verb. Adjust text dynamically if the state changes, like Save to Saved.
 Tapping an assist chip triggers a contextual action
 Assist chips can show progress and confirmation feedback
-link
-Copy link
-Link copied
 Assist chips are displayed after primary content, such as below a 
     
     card
@@ -229,15 +157,9 @@ Assist chips are displayed after primary content, such as below a
           
    or persistently at the bottom of a screen.
 Assist chips should be shown underneath primary content
-link
-Copy link
-Link copied
 
 ## Filter chips
 
-link
-Copy link
-Link copied
 Filter chips use tags or descriptive words to filter content. They can be a good alternative to 
     
     segmented buttons
@@ -260,20 +182,11 @@ Filter chips use tags or descriptive words to filter content. They can be a good
 Tapping on a filter chip activates it and appends a leading checkmark icon to the starting edge of the chip label.
 Write filter chips with nouns that describe the category to include in the results. Avoid negative phrases like Exclude images.
 Filter chips rely on tags or descriptive words to filter content
-link
-Copy link
-Link copied
 Filter chips in a shopping app
 Filter chips in a real estate app
-link
-Copy link
-Link copied
 Tap a chip to select it. Multiple chips can be selected or unselected.
 An icon can be added to indicate when a filter chip is selected
 Filter chip suggestions can dynamically change as a person starts to select filters
-link
-Copy link
-Link copied
 Alternatively, a single chip can be selected. This offers an alternative to 
     
     segmented buttons
@@ -304,9 +217,6 @@ Alternatively, a single chip can be selected. This offers an alternative to
   .
 However, avoid mixing chip set behaviors. All chip sets on a page should be either single-select or multi-select.
 Filter chips can be set so that selecting a single chip automatically deselects all other chips in the set
-link
-Copy link
-Link copied
 In 
     
     medium
@@ -338,9 +248,6 @@ In
   , the trailing icon's target area is too small to be accessible on its own. However, if the whole chip can be selected to accomplish the action, the chip is likely still accessible.
 The remove icon helps users remove the filter
 Filter chips can open a menu for more filtering options
-link
-Copy link
-Link copied
 When combined with a 
     
     menu
@@ -354,9 +261,6 @@ When combined with a
 exclamation
 Caution
 In compact windows, make sure the whole chip opens the menu. Otherwise, the target area is likely too small to be accessible.
-link
-Copy link
-Link copied
 Filter chips can be used with other components, such as 
     
     search
@@ -377,30 +281,15 @@ Filter chips can be used with other components, such as
           
   .
 Filter chips can be shown underneath a search field
-link
-Copy link
-Link copied
 Use a side sheet to organize many filter chips
-link
-Copy link
-Link copied
 Filter chips can wrap to a new row. If there are more than two rows, consider using horizontal scrolling to access them all.
 Filter chips can scroll horizontally to show many options
-link
-Copy link
-Link copied
 close
 Don’t
 Filter chips should not present only a single option
-link
-Copy link
-Link copied
 
 ## Input chips
 
-link
-Copy link
-Link copied
 Input chips represent discrete pieces of information entered by a person, such as Gmail contacts or filter options within a 
     
     search
@@ -413,18 +302,9 @@ Input chips represent discrete pieces of information entered by a person, such a
    field.
 They enable user input and verify that input by converting text into chips.
 Input chips transform text based on a person's input
-link
-Copy link
-Link copied
 Input chips can support editing to change their contents, such as correcting an email address. In edit mode, the chip reverts back to a text string. Editing can be triggered by interacting with the chip, either by selecting it or by a second interaction after selection.
 Input chips converted from email addresses are editable
-link
-Copy link
-Link copied
 Using the backspace key with the cursor before a chip selects the entire chip. The chip can then be deleted when the user taps the backspace key again.
-link
-Copy link
-Link copied
 A single field can contain multiple 
     
     input chips
@@ -435,14 +315,8 @@ A single field can contain multiple
   . These chips can be reordered or moved into other fields.
 Multiple input chips in one field
 Input chips being moved from one field to another
-link
-Copy link
-Link copied
 Input chips can expand to show more information or options. A container transform transition pattern is used to reveal additional content.
 Input chips can expand
-link
-Copy link
-Link copied
 
 ### Placement
 
@@ -453,49 +327,25 @@ They can appear:
 - In a list that can be horizontally scrolled
 Input chips can wrap to a new row if all chips need to be visible
 Input chips can scroll horizontally
-link
-Copy link
-Link copied
 
 ### Icons & images
 
 The leading icon of input chips can be an icon, logo, or circular image.
 Input chips can contain an icon, logo, or circular image
-link
-Copy link
-Link copied
 The trailing icon is always aligned to the end side of the container. It’s placed:
 - On the right for left-to-right (LTR) languages, such as English
 - On the left for right-to-left (RTL) languages, such as Farsi
 Input chips can be a more flexible way to filter search results, compared to filter chips
 Input chips make it easier to add and remove contacts
-link
-Copy link
-Link copied
 Overflowed chips in a text field should follow the same behavior as regular text. An unfocused text field with overflowed content should display the beginning of the input. Tapping the field snaps the user to the end of the input with the cursor and keyboard active.
-link
-Copy link
-Link copied
 
 ## Suggestion chips
 
-link
-Copy link
-Link copied
 Suggestion chips help narrow a user’s intent by presenting dynamically generated suggestions, such as possible responses or search filters.
 Write suggestion chips as nouns or short phrases, depending on context. Avoid exceeding 20 characters when possible.
 The text labels within suggestion chips are most often nouns or short phrases
-link
-Copy link
-Link copied
 Suggestion chips can offer quick-reply options in a chat or email app
 A suggestion chip can help the user start a search
-link
-Copy link
-Link copied
-link
-Copy link
-Link copied
 When displaying multiple chips together, place them inline as a row of options, not listed vertically. Overflowing chips should break to the next line.
 If the field is only one row high, chip sets can scroll horizontally instead.
 Keep an 8dp minimum space between chips. Chips must also have a minimum 48dp target size, regardless of placement or density. If required, the target can extend beyond the visible container of the chip.

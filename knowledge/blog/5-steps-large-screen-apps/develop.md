@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/5-steps-large-screen-apps/develop -->
-<!-- Scraped: 2026-04-20T07:14:56.821Z -->
+<!-- Scraped: 2026-04-20T17:14:10.000Z -->
 
 Posted by
 Liam Spradlin
@@ -8,9 +8,6 @@ Rody Davis
 , Material Developer Advocate
 As developers build apps that work on more than one type of device, and with the introduction of new form factors like foldables, the need for responsive apps that work well at every size has never been greater. To that end, Material Design recently introduced a comprehensive update to layout guidance and components that expands the system’s adaptive capabilities to help prepare your apps for all kinds of screens.
 To accompany our talk at Google I/O 2021, this post will walk through 5 things to prioritize when adapting your app for large screens, without requiring a full redesign or rewrite.
-link
-Copy link
-Link copied
 
 ## 1: Conceptualize your column grid
 
@@ -27,9 +24,6 @@ To start conceptualizing a column grid in your own layouts, grab our Material De
 Sample layout grids have columns, margins, and layout regions that correspond to Material guidance.
 Check out our understanding layout and responsive column grid spec articles for detailed information on designing for full responsiveness.
 To implement a column grid you can use flexible layouts. When using a row you can specify weights or flex values for each column in the row to have it flex predictably. On android this can be accomplished using the RecyclerView by creating a horizontal chain. You can visit the Android Developers site to learn more.
-link
-Copy link
-Link copied
 
 ## 2: Create a composition that scales
 
@@ -62,9 +56,6 @@ You may already be using this technique in your app today if, for example, you�
 The second technique, containment, can be a more explicit approach that relies on clear boundaries, either through elevation or visible dividers, to achieve the same effect as the more implicit visual grouping.
 Fortnightly groups some news items using explicit dividers.
 Material offers many components that implement containment techniques by default.
-link
-Copy link
-Link copied
 
 ## 3: Use the right components for the job
 
@@ -85,9 +76,6 @@ For example, a bottom navigation bar may switch to a navigation rail on tablets,
 The transformation may continue by swapping to a Navigation Drawer on larger screens to provide quicker access to secondary destinations, with more descriptive labels. On Flutter, this set of transformations can be implemented as an automatic behavior using the adaptive_navigation package.
 Components can switch types as well. For example, a full-screen dialog on mobile can  be exchanged with a simple dialog on larger screens. This component change maintains the function of the dialog, while also making use of screen space in a way that preserves a user’s context by revealing underlying content.
 Use caution when swapping components by ensuring that the interchangeable components are functionally equivalent. Do not, for example, swap a button for a chip. Use caution when changing between list items and cards. The component swap should always serve a functional and ergonomic purpose for the user.
-link
-Copy link
-Link copied
 
 ## 4: Ensure your app maintains continuity
 
@@ -95,9 +83,6 @@ When adapting your app for large screens, make sure the experience does not brea
 Fold and unfold events will usually trigger the “screenLayout”, “screenSize” and “smallestScreenSize” events. Since your configuration is subject to change, it’s important not to cache or hardcode any values about display size, window size or orientation since they will change at runtime.
 To ensure the best experience across configuration changes make sure to save info regarding scroll position, text that has been input in text fields, current component state such as a video playback position and other interactive aspects.
 For more information on saving UI states in Android, check out the Android Developers site.
-link
-Copy link
-Link copied
 
 ## 5: Test input support for touch, keyboard, mouse, and more
 

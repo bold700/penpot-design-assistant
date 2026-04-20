@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/google-fonts-pairing-figma/develop -->
-<!-- Scraped: 2026-04-20T07:33:59.642Z -->
+<!-- Scraped: 2026-04-20T17:34:06.379Z -->
 
 Posted by
 Sarah Daily
@@ -11,17 +11,11 @@ No matter what kind of project you’re working on or where you are in the world
 But, you’ve been asking, “what about help with pairing fonts?”
 There are millions of possible pairings on fonts.google.com! “Pairing typefaces” (also by Stocks) is a good place to start if you’re looking to gain an understanding of how good font pairs are made. Also check out his follow-up articles, “Pairing typefaces within a family & superfamily” and “Pairing typefaces by the same type designer or type foundry.”
 For inspiration, check out the Google Fonts Pairings templates on Figma. The templates are open-source and you can start using them instantly in Figma.
-link
-Copy link
-Link copied
 
 ## Google Fonts: Pairings
 
 Sehee Lee, Senior designer at Google Fonts, handpicked the nine pairings to demonstrate a variety of use cases in different contexts. All in all, it’s important for font pairings to make sense for what you’re trying to achieve, and these pairings help give you a glimpse of what’s possible. For example, for apps that need to deliver accurate information, you need fonts that are easily legible and offer various weights and styles. On the other hand, for a book cover design, you might look for more expressive fonts with interesting alternate glyphs. You may also ask questions like, “does the font support multiple languages?” or even, “what does the font make you feel?” On top of all this, a good font pairing will ensure that type is readable and harmonious at every scale.
 Included with each Pairing are extra resources, such as information on the individual typefaces and links to Google Fonts Knowledge articles on typography that might be helpful.
-link
-Copy link
-Link copied
 
 ## Made with Material Design 3
 

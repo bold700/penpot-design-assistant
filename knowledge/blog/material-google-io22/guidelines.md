@@ -1,14 +1,11 @@
 <!-- Source: https://m3.material.io/blog/material-google-io22/guidelines -->
-<!-- Scraped: 2026-04-20T07:46:47.989Z -->
+<!-- Scraped: 2026-04-20T17:49:00.411Z -->
 
 Posted by
 Material Design
 Gather around, all designers, developers, and hybrids! It’s that time of the year again: Google’s annual developer conference is back, live from Shoreline Amphitheater with the majority of attendees joining virtually May 11–12. Just like last year, there will be interactive sessions, hands-on learning, and a virtual adventure with demos, games, conversations, and, yes, fishing.
 Material Design will again take the stage with a slate of sessions, workshops, and discussions that will get you up to speed on our latest updates with Material Design 3.
 Keep reading to find out how you can connect with the Material Design team at Google I/O 2022!
-link
-Copy link
-Link copied
 
 ## Keynotes, Sessions, and Workshops
 
@@ -31,9 +28,6 @@ Focused on the design aspect of getting to the Now In Android Design, with a foc
 Take a Flutter app from boring to beautiful
 Speaker: Rody Davis
 Beautiful experiences and great UI don't happen by themselves, but that doesn't mean they have to be hard! In this workshop, you'll learn straightforward, incremental techniques to take a well-built, but boring-looking app and turn it into something memorable.
-link
-Copy link
-Link copied
 
 ## On-demand content
 
@@ -47,9 +41,6 @@ Demo: Variable Fonts
 At the end of this demo, you'll know how to generate custom variations of a typeface from a single font file instead of having a separate font file for every style, width, or weight.
 I/O Adventure
 Introduced in 2021, I/O Adventure is a virtual world for attendees to chat with Googlers and other developers, explore Google product demos, earn badges, and more. We’ve reimagined the experience to highlight all the fantastic work the team has created this year. Be sure to say hello to FABio and check out the variable sculptures.
-link
-Copy link
-Link copied
 
 ## See you there!
 

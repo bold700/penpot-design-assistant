@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/roboto-flex/guidelines -->
-<!-- Scraped: 2026-04-20T07:56:12.764Z -->
+<!-- Scraped: 2026-04-20T17:58:28.578Z -->
 
 Posted by
 Sarah Daily
@@ -8,9 +8,6 @@ Get it on Google Fonts.
 There’s no perfect typeface that works for every size, every device, every application, every style, and every mood. But as the default for Android, with over 2.5 billion active users spanning over 190 countries, Roboto needs to be as flexible as possible.
 Roboto is Google Fonts’ most popular download (you’re reading this blog post in Roboto). It was first released all the way back in 2011, but it’s been updated over the years to improve its language support and aesthetic qualities. The Roboto superfamily has grown from the initial sans and condensed to span Roboto Slab, Roboto Mono, and—most recently—Roboto Serif.
 Now there’s another Roboto joining the lineup: Introducing Roboto Flex—a major upgrade to Roboto and Google Fonts’ biggest project to date. With a huge range of weights and widths across optical sizes, plus additional capabilities for fine-tuning, Roboto Flex was designed by Font Bureau to be super scalable, adaptable, customizable, and optimizable.
-link
-Copy link
-Link copied
 
 ## A variable font with 12(!) axes
 
@@ -19,26 +16,17 @@ Like its siblings, Roboto Flex is a variable font. Using a relatively new versio
 On first glance, Roboto Flex probably looks familiar. In fact, beta versions have been in use on this blog for headlines since last year. And if you study the glyph set at size 14 (its default), you might have a difficult time finding any differences between it and the original sans Roboto (though there are a few small ones, shown below). But Flex is designed to take full advantage of what variable fonts technology can do; it’s a reimagining of Roboto for the countless and ever-changing ways people read today.
 “Everyone is switching between devices, resizing browsers, and spreading their viewport across multiple screens,” said David Berlow from Font Bureau when asked about the intent of Flex. "Fortunately, scaling, adaptability, and responsiveness are all questions variable typography can answer.”
 Font Bureau’s house standards for quality show up in a few subtle updates to Roboto’s neo-grotesque sans design, including switching the default numeral style from tabular lining to proportional; and making the zeros in the percent symbol not deviate from the regular numeral zero design.
-link
-Copy link
-Link copied
 
 ## Weights, widths, and optical sizes
 
 Optical sizes are different versions of a typeface optimized for use at specific sizes or size ranges, and are common in “pro” or “elite” typefaces. But rarely do you see a variable font like Flex, which has a wide range of optically sized weights and widths; most have a range of weights and widths, but all for one optical size … so you get a lot of flexibility stylewise, but you’re restricted to one size. Or, the fonts have a wide range of optical size designs, but the range of weights and widths doesn’t change much … so you get flexibility in the sizes you can use, but your expressive style choices are limited.
 Samples of Roboto Flex’s huge range of weights and widths at size 144
 Roboto Flex offers both: a huge range of weights and widths across a complete stack of optical sizes. And this gives designers new creative opportunities with Roboto. “The extremely light and narrow, or bold and wide styles that are now available in Flex’s largest optical sizes are so extreme, they are astonishing to me,” said Dave Crossland, Lead UX Programs and Operations Manager for Google Fonts. “And you don’t have to worry about them being illegible at small sizes, because the 1,000 weight at 144pt is not as extreme at 10pt. Everything in between is smoothly balanced too, for a very even typographic color, and this really simplifies producing high-quality typography.”
-link
-Copy link
-Link copied
 
 ## User axes
 
 Most variable fonts today include “user axes,” which offer expressive options to customize type. Type designers can create axes for almost anything. For example, axes have been created for “Casual,” “Softness,” “Cursive,” and even “Wonky.” But the most common user axes are the staples of typography: Weight, Width, Italic, Slant, Grade, and Optical Size. The only one of these six that Roboto Flex doesn’t contain is Italic—and that’s because it has an equivalent Slant axis, so it isn’t necessary.
 Demo of Roboto Flex’s five user axes: (1) Weight (2) Width (3) Optical Size (4) Grade (5) Slant
-link
-Copy link
-Link copied
 
 ## Parametric Axes
 
@@ -66,9 +54,6 @@ Left: The original Material Design type ramp using Roboto. Right: The same ramp 
 On the other hand, Flex is also designed to work out of the box, at any size, and what really excites Berlow is being able to help save people from the tedious parts of typography: “If someone has been using another font where they constantly had to change a lot of things to make it work … and then with Roboto Flex and automatic optical sizing they don’t have to adjust tracking or anything else; they can just leave the weight at 400 for all the styles … That will mean they can go home an hour earlier, or spend an hour playing outside. That little change will make me happy.”
 Roboto Flex is open source and available now from Google Fonts in Latin, Greek, and Cyrillic.
 ●●●
-link
-Copy link
-Link copied
 
 ## About the type designers
 
@@ -78,9 +63,6 @@ Irene Vlachou is a typeface designer based in Athens, Greece. She holdsan MA in 
 Ilya Ruderman is a type and graphic designer and teacher, who lives and works in Barcelona. He is a graduate of the Moscow State University of the Printing Arts (2002), where his graduation project was done under the supervision of Alexander Tarbeev. He has a MA degree in type design from the Type & Media programme at the Royal Academy of Art in the Hague (2005). After completing the programme, he returned to Moscow where he has collaborated with a number of media organizations: Kommersant, Afisha, Moskovskiye Novosti, Bolshoi Gorod and Men’s Health Russia. In 2005–2007 he was art director for Afisha’s city guidebooks, and 2007–2015 he supervised the curriculum in type and typography at the British Higher School of Art and Design in Moscow. He has been sought out as an expert consultant on Cyrillic type design by international foundries since 2008. In 2014 he founded the foundry CSTM Fonts with Yury Ostromentsky, and in 2016 the type.today font store with a focus on Cyrillic typefaces. type.today/en/designer/ilya-ruderman
 Yury Ostromentsky is a graphic and type designer, and co-founder of type.today store. Graduate of the Moscow State University of Printing Arts (Department of Arts and Technical Design of Printed Materials). Yury worked as a designer and art director for publishers and design studios. From 2004 to 2012, he was art director with Bolshoy Gorod (Big City) magazine. In 2004, he and lya Ruderman, Dmitry Yakovlev, and Daria Yarzhambek launched the DailyType webpage. Later in 2014, Yury and Ilya Ruderman founded CSTM Fonts type design studio which released Pilar, Big City Grotesque, Kazimir, Navigo, Normalidad, RIA Typeface, Lurk, Loos, Maregraph typefaces and CSTM Xprmntl series, as well as Cyrillic versions of Druk, Graphik, Spectral, Stratos and Apoc. The works by Ostromentsky and CSTM Fonts were awarded by European Design Award, Granshan and Modern Cyrillic Competition. studio.type.today/en/designer/yuriy-ostromentskiy
 Mikhail Strukov is a type designer, graduate of Ilya Ruderman’s course at BHSAD (Moscow) and Frank Blokland's program at Plantin Institute of Typography (Antwerp), where he developed a deep interest in history of type and evolution of type production. Collaborates with CSTM Fonts and Samarskaya & Partners, working mostly on Cyrillic versions for both custom and retail typefaces. When not busy with designing Cyrillic, he reviews, consults and writes about Cyrillic. Smalltown resident, road cycling fan, local communities builder.
-link
-Copy link
-Link copied
 
 ## About the type foundry
 

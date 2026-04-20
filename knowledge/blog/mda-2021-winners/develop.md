@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/mda-2021-winners/develop -->
-<!-- Scraped: 2026-04-20T07:50:50.498Z -->
+<!-- Scraped: 2026-04-20T17:53:32.553Z -->
 
 Posted by
 Liam Spradlin
@@ -8,9 +8,6 @@ Each year, the Material Design Awards celebrate product teams and creators creat
 This year, we received and reviewed hundreds of open nominations from teams and individuals around the world. We asked for the very best examples across three specific categories: large screen adaptation, dark theme, and motion design.
 Our winners for 2021 have something in common: all three of our selections address aspects of collaboration and productivity that reflect – and intersect – physical reality; tangible tasks that have been called to adapt to remote interactions.
 Keep reading to learn more about the winners and find out – in their own words – how each team brought Material Design to life in ways that help people create, communicate, and stay on track.
-link
-Copy link
-Link copied
 
 ## Motion Winner: Post-it
 
@@ -20,9 +17,6 @@ Using Material Design as a framework for both design and implementation, the tea
 Pontus Axelsson, Founder & President at Bontouch, Post-it Brand’s digital partner, notes that when it comes to motion design, restraint is essential. When designing an interaction like those that connect the Post-it app to its real-world counterparts, Bontouch views motion as one modality to be combined with others. Sound and haptic feedback are used to complete the experience, adding a tangible quality to the digital experience.
 When users capture a note in the app – using their device’s camera – the note is animated upward, lifting off its real-world background and signaling a transition from physical space to a digital experience. Touches like these serve to replicate and reinforce existing mental models, allowing Post-it Notes to function in the app as they do in reality.
 Key to the team’s approach with the Post-it app is the recognition – particularly through the pandemic – that people don’t actually want to replace tangible notes and real-world interactions entirely with an app. The team has carefully considered what to translate to the app and how to do it effectively. This thoughtfulness, which positions motion as an integral part of the app’s experience, makes Post-it stand out as one of our Material Design Award winners for 2021.
-link
-Copy link
-Link copied
 
 ## Large Screen Winner: Todoist
 
@@ -30,9 +24,6 @@ When building an adaptive experience for Android, Rastislav Vaško, head of Andr
 Todoist’s adaptive design starts with the basics: foundational layout considerations like margins and content regions. Addressing the app’s unique features and capabilities “a few layers deeper,” introduces more nuance. When designing search for large screens, Senior Product Designer Luis Abreu says Doist tested multiple layouts adapted from small screens. Real-world testing revealed that using more space for previews on tablets created a more information-rich layout that aided search interactions.
 Column-based layout grids provide convenient structure for creating and testing such layouts, also allowing for quick decisions about how components adapt; bottom sheets in Todoist respond to screen size to maintain clarity, context, and readability, and navigational components make more use of increased screen size.
 For Doist, the Material Design guidelines serve as a shared point of reference between design and implementation, allowing for quicker, easier conversations about design concepts, component behaviors, and user expectations, springboarding iteration on improved large screen designs that have made Todoist one of this year’s award winners.
-link
-Copy link
-Link copied
 
 ## Dark Theme Winner: Meetly
 

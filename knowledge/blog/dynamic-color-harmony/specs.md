@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/dynamic-color-harmony/specs -->
-<!-- Scraped: 2026-04-20T07:30:32.025Z -->
+<!-- Scraped: 2026-04-20T17:30:06.953Z -->
 
 Posted by
 Ayan Daniels
@@ -13,9 +13,6 @@ A Material color scheme provides accent, neutral, and other colors to meet most 
 ‘Semantic’ colors express conventional meaning, and intuitively represent concepts like ‘stop’.
 Before Material 3 launched to the world, our cross-functional team worked inside Google to understand how teams envisioned their products with the new Material You design language. Several teams raised a challenge with dynamic color: changing colors depending on the user conflicted with products’ chosen colors, which were often semantic and needed to stay static. For example, imagine a transit app that takes colors from real-world signage or a weather app that uses colors to represent hot and cold temperatures.
 This tension presented an opportunity to mature dynamic color—how might Material honor the end-user and product maker with a color system that respects both?
-link
-Copy link
-Link copied
 
 ## The challenges of algorithmic color
 
@@ -24,9 +21,6 @@ Material’s new color system is algorithmic. This means that all colors that Ma
 Material designers also like to work collaboratively with makers using our system, whether that’s a team inside Google or an independent outside team. In this case, we brought together designers from other Google teams in a color workshop. During this, we explored how products’ own colors might fit into dynamic color: a world where the overall color scheme changes, according to the user’s wallpaper.
 In a smart home app, specific semantic colors could be used to represent concepts like lighting and heating, which could clash with the user color scheme.
 The challenges with semantic colors became clear right away. For example, imagine a smart home app where custom colors like yellow, orange, blue, green could be used to intuitively represent concepts like lighting, heating, cooling, and success. These could clash with the user color on the same screen, especially if that color can change.
-link
-Copy link
-Link copied
 
 ## Exploring colors by hand
 
@@ -35,9 +29,6 @@ At first, our designers explored replacing semantic colors with those from the w
 The design team needed to maintain different semantic colors while creating harmony in the color scheme overall.
 This led to some pretty interesting and provocative color combinations. Ultimately, the most promising examples proved to be those in which the overall scheme appeared harmonious, while semantic colors’ original identity (‘a yellow’), and hence the viewer’s understanding of what they represent (‘lights are yellow’), were retained.
 Having just drawn examples, we knew that it was theoretically possible to create color schemes where semantic colors look pleasing rather than clash with user color. But because our color system is dynamic, we now needed to define rules for our algorithm that would create such harmonious schemes given any set of colors, across the whole spectrum.
-link
-Copy link
-Link copied
 
 ## Finding a solution with the help of color science
 
@@ -48,9 +39,6 @@ A particular hue of a color can be considered warmer or cooler, depending on whe
 Depending on where in this range a particular color falls, it can be considered a warm or cool version of that color. For example, yellows towards the orange hues are warm yellows, while those towards the green side are cool yellows. This idea of color temperature also corresponds to entire types of colors that people visually and culturally perceive as warm or cool. For example, red overall is a warm color, while blue is a cool one.
 Sets of colors that sit closer together on the hue spectrum can appear more harmonious than those farther apart.
 In Material, we quantify hue as a number from 0-360, very much like degrees on the circle. To understand why some colors looked pleasing together, we examined their hue numbers. We found that harmonious semantic colors tended to be closer to the user color: semantic colors’ hue numbers were shifting around, making them slightly warmer or cooler. For example, in a blue dynamic scheme, semantic colors like red, orange and green all became cooler, moving closer to the cool hue of the blue user color.
-link
-Copy link
-Link copied
 
 ## An algorithm to create color harmony
 

@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/inclusive-imagery-at-google/specs -->
-<!-- Scraped: 2026-04-20T07:35:46.777Z -->
+<!-- Scraped: 2026-04-20T17:36:16.386Z -->
 
 Posted by
 Emily Blank

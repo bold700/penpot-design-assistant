@@ -1,9 +1,6 @@
 <!-- Source: https://m3.material.io/components/menus/overview -->
-<!-- Scraped: 2026-04-20T08:09:55.560Z -->
+<!-- Scraped: 2026-04-20T18:12:48.282Z -->
 
-link
-Copy link
-Link copied
 - Use a menu to show a temporary set of actions. To show actions on screen at all times, use a 
     
     toolbar
@@ -41,19 +38,10 @@ Link copied
       
             More on text fields
 - Context menus provide actions for a specific element, like an image or highlighted text, and usually open with a secondary click
-link
-Copy link
-Link copied
 Vertical menus can include vibrant colors, gaps, dividers, and submenus to organize a list of choices
-link
-Copy link
-Link copied
 
 ## Availability & resources
 
-link
-Copy link
-Link copied
 | Type | Resource | Status |
 | Design |
 | Design Kit (Figma) | Available |
@@ -65,20 +53,11 @@ Link copied
 | MDC-Android: Expressive | Unavailable |
 | Web | Available |
 | Web: Expressive | Unavailable |
-link
-Copy link
-Link copied
 
 ## M3 Expressive update
 
-link
-Copy link
-Link copied
 November 2025
 Vertical menus were introduced with new shapes, color styles, selection states, and refined submenu motion. Gaps can be used for a more flexible layout on Android. More on M3 Expressive
-link
-Copy link
-Link copied
 Variants:
 - Added vertical menus, recommended for new designs
 - Baseline
@@ -93,15 +72,9 @@ Color styles:
 - Standard
 - Vibrant
 Vibrant colors help selected menu items stand out
-link
-Copy link
-Link copied
 
 ## Differences from M2
 
-link
-Copy link
-Link copied
 - Color: New color mappings and compatibility with 
     
     dynamic color

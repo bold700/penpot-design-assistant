@@ -1,53 +1,25 @@
 <!-- Source: https://m3.material.io/components/extended-fab/specs -->
-<!-- Scraped: 2026-04-20T08:07:10.714Z -->
-
-link
-Copy link
-Link copied
+<!-- Scraped: 2026-04-20T18:09:54.289Z -->
 
 ## Variants
 
-link
-Copy link
-Link copied
 - Small extended FAB
 - Medium extended FAB
 - Large extended FAB
-link
-Copy link
-Link copied
 
 ### Baseline variants
 
-link
-Copy link
-Link copied
 The baseline extended FAB is no longer recommended in the M3 expressive update. Use a small extended FAB; the type style was updated from label large to title medium, and the inner padding was reduced. View baseline extended FAB specs
-link
-Copy link
-Link copied
 - Extended FAB
-link
-Copy link
-Link copied
 | Variant | M3 | M3 Expressive |
 | Small extended FAB | -- | Available |
 | Medium extended FAB | -- | Available |
 | Large extended FAB | -- | Available |
 | Extended FAB (baseline) | Available | Not recommended.Use small extended FAB. |
-link
-Copy link
-Link copied
 
 ## Tokens & specs
 
-link
-Copy link
-Link copied
 Use the table's menu to select a token set. Extended FAB tokens are organized by size and color.
-link
-Copy link
-Link copied
 Token
 Value
 Extended FAB small container height
@@ -70,38 +42,20 @@ md.comp.extended-fab.small.icon-label-space
 Extended FAB small trailing space
 md.comp.extended-fab.small.trailing-space
 16dp
-link
-Copy link
-Link copied
 
 ## Anatomy
 
-link
-Copy link
-Link copied
 - Container
 - Label text
 - Icon
-link
-Copy link
-Link copied
 
 ## Color
 
-link
-Copy link
-Link copied
 Color values are implemented through design tokens. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. Learn more about design tokens
-link
-Copy link
-Link copied
 
 ### Color styles
 
 Extended FABs can use several combinations of color and on color styles, such as primary and on primary. The following color mappings provide the same level of contrast and functionality, so choose a color mapping based on visual preference.
-link
-Copy link
-Link copied
 Extended FAB color roles used for light and dark schemes:
 - Primary container & on primary container (default)
 - Secondary container & on secondary container
@@ -109,135 +63,57 @@ Extended FAB color roles used for light and dark schemes:
 - Primary & on primary
 - Secondary & on secondary
 - Tertiary & on tertiary
-link
-Copy link
-Link copied
 
 ### Baseline color styles
 
-link
-Copy link
-Link copied
 Extended FABs should no longer use surface color styles. They’re still available, but not recommended.
-link
-Copy link
-Link copied
 - Surface container FAB
-link
-Copy link
-Link copied
 
 ## States
 
-link
-Copy link
-Link copied
 States are visual representations used to communicate the status of a component or interactive element. Learn more about interaction states
-link
-Copy link
-Link copied
 When using a non-default color mapping for extended FABs, make sure the state layer color is the same as the icon color. For example, the state layer color for primary mapping should be md.sys.color.primary.
-link
-Copy link
-Link copied
 - Enabled
 - Hovered - elevation 4
 - Focused
 - Pressed
-link
-Copy link
-Link copied
 
 ## Measurements
 
-link
-Copy link
-Link copied
 Size and padding measurements of the small, medium, and large extended FABs
-link
-Copy link
-Link copied
 Extended FABs should have margins of 16dp
-link
-Copy link
-Link copied
 
 ## Baseline extended FAB
 
-link
-Copy link
-Link copied
-link
-Copy link
-Link copied
 
 ### Baseline configurations
 
-link
-Copy link
-Link copied
 With icon
 Without icon
-link
-Copy link
-Link copied
 
 ### Baseline tokens
 
-link
-Copy link
-Link copied
 Use the table's menu to select a token set. The baseline extended FAB token sets are organized by common tokens, then by surface and branded color styles. Other color styles like primary, secondary, and tertiary are still used by the latest extended FABs.
-link
-Copy link
-Link copied
 Token
-link
-Copy link
-Link copied
 
 ### Baseline colors
 
-link
-Copy link
-Link copied
 - Primary container + shadow
 - On primary container
-link
-Copy link
-Link copied
 
 #### Additional color mappings
 
 Extended FABs can use other combinations of container and icon colors. The color mappings below provide the same legibility and functionality as the default, so the color mapping you use depends on style alone.
-link
-Copy link
-Link copied
 Extended FABs can use different combinations of container and icon colors
-link
-Copy link
-Link copied
 
 ### Baseline states
 
-link
-Copy link
-Link copied
 - Hovered
-link
-Copy link
-Link copied
 
 ### Baseline measurements
 
-link
-Copy link
-Link copied
 Extended FABs have a padding of 16dp
 Extended FAB height, width, and icon size
-link
-Copy link
-Link copied
 | Attribute | Value |
 | Container height | 56dp |
 | Container width | Dynamic, 80dp min |

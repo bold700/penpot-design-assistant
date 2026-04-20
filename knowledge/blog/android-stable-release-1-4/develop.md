@@ -1,14 +1,11 @@
 <!-- Source: https://m3.material.io/blog/android-stable-release-1-4/develop -->
-<!-- Scraped: 2026-04-20T07:19:32.514Z -->
+<!-- Scraped: 2026-04-20T17:18:45.388Z -->
 
 Posted by
 Nick Rout
 , Material Developer Advocate
 We’re excited to announce the release of Material Design Components (MDC) 1.4.0! A host of exciting new features have been added along with many bug fixes and accessibility improvements. Get the rundown below.
 Make sure to check out the release notes, and if you’re using MDC for the first time, take a look at our getting started guide.
-link
-Copy link
-Link copied
 
 ## What’s new in 1.4.0?
 

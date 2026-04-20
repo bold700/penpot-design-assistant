@@ -1,42 +1,24 @@
 <!-- Source: https://m3.material.io/components/segmented-buttons/specs -->
-<!-- Scraped: 2026-04-20T08:13:25.466Z -->
+<!-- Scraped: 2026-04-20T18:16:16.209Z -->
 
-link
-Copy link
-Link copied
 star
 Note:
 Segmented buttons are no longer recommended in the Material 3 expressive update. For those who have updated, use the
 connected button group
 instead, which has mostly the same functionality but with an updated visual design.
-link
-Copy link
-Link copied
 - Container
 - Icon (optional for unselected state)
 - Label text
-link
-Copy link
-Link copied
 
 ## Tokens and specs
 
-link
-Copy link
-Link copied
 Browse the component elements, attributes, tokens, and their values. Learn more about design tokens
-link
-Copy link
-Link copied
 Token
 Enabled
 Disabled
 Hovered
 Focused
 Pressed (ripple)
-link
-Copy link
-Link copied
 
 ## Color
 
@@ -50,17 +32,11 @@ Color values are implemented through
             More on tokens
           
   . For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. Learn more about design tokens
-link
-Copy link
-Link copied
 Segmented button color roles used for light and dark schemes:
 - On surface
 - Outline
 - Secondary container
 - On secondary container
-link
-Copy link
-Link copied
 
 ## States
 
@@ -72,48 +48,27 @@ States
             More on states
           
    are visual representations used to communicate the status of a component or interactive element.  Learn more about interaction states
-link
-Copy link
-Link copied
 
 ### Unselected
 
-link
-Copy link
-Link copied
 Unselected button states:
 - Enabled
 - Disabled
 - Hovered
 - Focused
 - Pressed
-link
-Copy link
-Link copied
 
 ### Selected
 
-link
-Copy link
-Link copied
 Selected button states:
 - Hovered on selected
 - Focused on selected
 - Pressed on selected
-link
-Copy link
-Link copied
 
 ## Measurements
 
-link
-Copy link
-Link copied
 - Padding and container size
 - Target size
-link
-Copy link
-Link copied
 | Attribute | Value |
 | Container width | Dynamic based on labels |
 | Segment width | Container width / total segments (Example: 1/3) |
@@ -123,9 +78,6 @@ Link copied
 | Left/right padding | Min 12dp |
 | Padding between elements | 8dp |
 | Target size | 48dp |
-link
-Copy link
-Link copied
 
 ### Density
 

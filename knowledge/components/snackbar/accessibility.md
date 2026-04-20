@@ -1,9 +1,5 @@
 <!-- Source: https://m3.material.io/components/snackbar/accessibility -->
-<!-- Scraped: 2026-04-20T08:15:09.043Z -->
-
-link
-Copy link
-Link copied
+<!-- Scraped: 2026-04-20T18:17:50.228Z -->
 
 ### Use cases
 
@@ -11,9 +7,6 @@ Users should be able to:
 - Be alerted, but not disrupted, when a snackbar appears
 - Move focus to an actionable snackbar
 - Take action on a snackbar using assistive technology
-link
-Copy link
-Link copied
 
 ### Interaction & style
 
@@ -21,14 +14,8 @@ Snackbars with actions shouldn't auto-dismiss. This way, users can read and inte
 Snackbars without actions can auto-dismiss after a sufficient amount of time, however this can still present difficulties on web without additional feedback.
 Each platform has its own requirements for auto-dismiss durations, however common acceptable durations are 4–10 seconds.
 Auto-dismissing snackbars should remain on screen long enough to read the information
-link
-Copy link
-Link copied
 Snackbars use a color intended to stand out against UI elements. Use the default color mapping to avoid color conflict issues.
 Snackbar should visually stand out
-link
-Copy link
-Link copied
 
 ### Accessibility requirements on web
 
@@ -43,13 +30,7 @@ For example, update the label on a "Save" button to “Saved”, and trigger an 
 
 Alternatively, add actions to the snackbar so it doesn't dismiss until acted on. Actionable snackbars shouldn't auto-dismiss.
 Communicate snackbar information near the action that triggered the snackbar
-link
-Copy link
-Link copied
 Note: Material Web doesn't yet include the snackbar component. This guidance still applies to custom-made snackbars.
-link
-Copy link
-Link copied
 
 ### Focus
 
@@ -59,25 +40,16 @@ Snackbars have the following focus requirements:
 - Don't trap focus in the snackbar. Users should be able to freely navigate in and out.
 - On web, a shortcut should exist for users to move focus to snackbars with actions (like Alt+G). Ensure that this shortcut is clearly documented, like in a help article.
 Focus returns from the snackbar (1) to the previously focused element (2)
-link
-Copy link
-Link copied
 Focus exits the snackbar differently per platform:
 - Ideally, focus should either return to the element that triggered the snackbar, or go to the next most logical element on the page.
 - On Android Compose, focus may move to the nearest visible element, or to the first actionable item on the page.
 If the previously focused element is no longer on the page, focus should move from the snackbar (1) to the next most logical element (2)
-link
-Copy link
-Link copied
 
 ### Keyboard navigation
 
 | Keys | Actions |
 | Tab | Moves focus between interactive elements |
 | Esc | Dismisses the snackbar when in focus |
-link
-Copy link
-Link copied
 
 ### Labeling elements
 

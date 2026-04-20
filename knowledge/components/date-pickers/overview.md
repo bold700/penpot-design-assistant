@@ -1,9 +1,6 @@
 <!-- Source: https://m3.material.io/components/date-pickers/overview -->
-<!-- Scraped: 2026-04-20T08:05:42.726Z -->
+<!-- Scraped: 2026-04-20T18:08:24.840Z -->
 
-link
-Copy link
-Link copied
 - Date pickers can display past, present, or future dates
 - Three variants: 
     
@@ -33,21 +30,12 @@ Link copied
             More on modal date inputs
 - Clearly indicate important dates, such as current and selected days
 - Follow common patterns, like a calendar view
-link
-Copy link
-Link copied
 - Docked date picker
 - Modal date picker
 - Modal date input
-link
-Copy link
-Link copied
 
 ## Availability & resources
 
-link
-Copy link
-Link copied
 | Type | Resource | Status |
 | Design |
 | Design Kit (Figma) | Available |
@@ -56,15 +44,9 @@ Link copied
 | Jetpack Compose | Available |
 | MDC-Android | Available |
 | Web | Unavailable |
-link
-Copy link
-Link copied
 
 ## Differences from M2
 
-link
-Copy link
-Link copied
 - Typography and spacing: Titles and labels are larger and have increased spacing to accommodate 48dp target size
 - Color: New color mappings and compatibility with 
     
@@ -102,8 +84,5 @@ Link copied
             More on modal date input
           
    to reinforce that the user must take an action.
-link
-Copy link
-Link copied
 M2: Date pickers had a drop shadow and different color mappings
 M3: Date pickers have larger typography, no shadow, and new color mappings compatible with dynamic color

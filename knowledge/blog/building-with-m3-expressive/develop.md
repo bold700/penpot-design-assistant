@@ -1,21 +1,15 @@
 <!-- Source: https://m3.material.io/blog/building-with-m3-expressive/develop -->
-<!-- Scraped: 2026-04-20T07:24:07.968Z -->
+<!-- Scraped: 2026-04-20T17:23:17.707Z -->
 
 Posted by
 Material Design
 The world of UX design is constantly evolving, and you deserve the tools to create truly engaging and impactful experiences. That’s why Material Design’s latest evolution — Material 3 Expressive — provides new ways to make your product more engaging, easy to use, and desirable. Read on for a full introduction to the new components, motion physics, color updates, and more.
-link
-Copy link
-Link copied
 
 ## What’s Material 3 Expressive?
 
 Today, people increasingly see their devices not as tools, but as extensions of themselves. Expressive interfaces have an emotional impact, fostering connection by evoking a feeling or mood through visual design and interaction. Material 3 Expressive is an evolution of the Material 3 design system. It’s a set of new features, updated components, and design tactics for creating emotionally impactful UX.
 We’ve learned that makers are looking for ways to improve their user experiences by creating better hierarchy, making the interface more useful, and establishing improved, more personal styles that connect emotionally with their users.
 And to be clear — M3 Expressive isn’t a new version of the system. We’re not deprecating M3, and this isn’t “M4.”
-link
-Copy link
-Link copied
 
 ## The power of expressive design
 
@@ -25,9 +19,6 @@ M3 Expressive is our most researched update to the design system since its launc
 - Users are more likely to switch to products that use M3 Expressive components and techniques.
 - Expressive designs are easier to use, with participants spotting key UI elements up to four times faster in expressive screens.
 Learn more about the Expressive research over on design.google.
-link
-Copy link
-Link copied
 
 ## What’s in the update?
 
@@ -135,18 +126,12 @@ To identify your hero moment, ask yourself:
 - Is this interaction emotionally impactful? Consider whether a design choice can highlight an emotional reaction or emphasize familiarity.
 - Is this a key interaction in your product? Think about whether a detail or flow can be emphasized for clarity. Guide the user’s attention by making an important button dominant, or emphasizing key information.
 Examples of expressive apps on tablet and phone.
-link
-Copy link
-Link copied
 
 ## Handy links
 
 - Updated guidelines
 - Updated Figma Design Kit
 - Alpha code for Jetpack Compose
-link
-Copy link
-Link copied
 
 ## What’s next?
 

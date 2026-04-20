@@ -1,27 +1,14 @@
 <!-- Source: https://m3.material.io/components/cards/accessibility -->
-<!-- Scraped: 2026-04-20T08:04:06.951Z -->
-
-link
-Copy link
-Link copied
+<!-- Scraped: 2026-04-20T18:06:43.941Z -->
 
 ## Use cases
 
-link
-Copy link
-Link copied
 People should be able to do the following using assistive technology:
 - Navigate to a card and the elements within a card
 - Get appropriate feedback based on input type documented under Interaction & style
-link
-Copy link
-Link copied
 
 ## Interaction & style
 
-link
-Copy link
-Link copied
 A card can be a non-actionable container that holds actions like 
     
     buttons
@@ -32,38 +19,23 @@ A card can be a non-actionable container that holds actions like
             More on buttons
           
    and links, or it can be directly actionable without any buttons or links. This is to avoid stacking actionable elements. An action shouldn’t be placed on an actionable surface.
-link
-Copy link
-Link copied
 - Non-actionable card with buttons
 - Directly actionable card with no buttons
-link
-Copy link
-Link copied
 
 ### Touch
 
 When a user taps on a directly actionable card, a touch ripple appears across the card, indicating feedback.
 Non-actionable cards don’t ripple.
 Touch: Tap
-link
-Copy link
-Link copied
 
 ### Dragging and dismissing
 
 To meet Material's accessibility standards, any dragging and swiping interactions need a single-pointer alternative, like selecting the same actions from a menu.For example, tapping a card, or pressing and holding, should open a menu to change its position in a list. That menu could also contain an action to delete the card.
 Use containers like bottom sheets or menus to show single-pointer options
-link
-Copy link
-Link copied
 It isn’t recommended to place menus on top of the card on the draggable state. If doing so is necessary, ensure that the interaction can be completed.
 exclamation
 Caution
 Ensure that the menu doesn't cover the card
-link
-Copy link
-Link copied
 
 ### Cursor
 
@@ -79,9 +51,6 @@ When a directly actionable card is hovered, the
    provides a visual cue to the person that the element is interactive. Non-actionable cards don’t have a hover state.
 When a directly actionable card is clicked, a ripple appears, providing feedback.
 Cursor: Hover, Click
-link
-Copy link
-Link copied
 
 ### Keyboard
 
@@ -117,15 +86,9 @@ When engaging with a focused actionable card or element using the Space or Enter
   .
 Within the menu, a person is able to Arrow through the menu items, Space or Enter to select an item, or Tab to exit.
 Keyboard: Tab, Arrows
-link
-Copy link
-Link copied
 
 ## Focus
 
-link
-Copy link
-Link copied
 All interactive elements of cards need a tab stop so they can be 
     
     focused
@@ -138,31 +101,16 @@ All interactive elements of cards need a tab stop so they can be
   . Directly actionable cards are tab stops.
 For non-actionable cards, the card itself is not a tab stop. However, every actionable element in the card is a tab stop so they’re all visited before focus navigates to the next card.
 Use Tab to navigate through all buttons in a card
-link
-Copy link
-Link copied
 Card layouts can change on different devices
-link
-Copy link
-Link copied
 
 ## Keyboard navigation
 
-link
-Copy link
-Link copied
 | Keys | Actions |
 | Tab | Move to the next actionable elementDirectly actionable cards: Move to next card containerNon-actionable cards with actionable elements: Move to next actionable element |
 | Space or Enter | Confirm action |
-link
-Copy link
-Link copied
 
 ## Labeling elements
 
-link
-Copy link
-Link copied
 The informative contents of a card are verbalized when navigating to them using a screen reader. If an image in a card is purely decorative, hide it from screen readers. All actionable elements must receive both screen reader and keyboard focus.
 Directly actionable cards can have the button or link role, depending on how they’re used.
 Non-actionable cards are purely containers, so they don’t need a role.

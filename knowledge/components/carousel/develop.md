@@ -1,9 +1,6 @@
 <!-- Source: https://m3.material.io/components/carousel/develop -->
-<!-- Scraped: 2026-04-20T08:04:40.966Z -->
+<!-- Scraped: 2026-04-20T18:07:20.918Z -->
 
-link
-Copy link
-Link copied
 - Contain visual items like images or video, along with optional label text
 - Six layouts: 
     
@@ -48,19 +45,10 @@ Link copied
 - Layouts can be start-aligned or center-aligned
 - Item visuals have a parallax effect when scrolled
 - Items change size as they move through the carousel
-link
-Copy link
-Link copied
 Carousels can show items of various sizes
-link
-Copy link
-Link copied
 
 ## Availability & resources
 
-link
-Copy link
-Link copied
 | Type | Resource | Status |
 | Design |
 | Design Kit (Figma) | Available |
@@ -69,15 +57,9 @@ Link copied
 | Jetpack Compose | Available |
 | MDC-Android | Available |
 | Web | Unavailable |
-link
-Copy link
-Link copied
 
 ## Updates
 
-link
-Copy link
-Link copied
 November 2025
 New carousel layout:
 - Uncontained multi-aspect ratio
@@ -101,15 +83,9 @@ Additional layouts and configurations:
     
       The multi-browse carousel layout shows at least one large, medium, and small carousel item at a time.
 New carousel layout: uncontained multi-aspect ratio
-link
-Copy link
-Link copied
 
 ## Differences from M2
 
-link
-Copy link
-Link copied
 This component is new in Material 3.
 - Shape: Dynamic carousel items change shape when scrolled
 - Motion: Carousel items move at a different speed than their content, creating a parallax effect
@@ -129,15 +105,9 @@ This component is new in Material 3.
       
    scroll through many items at once.
 Hero carousels scroll through one large item at a time
-link
-Copy link
-Link copied
 
 ## Research
 
-link
-Copy link
-Link copied
 The Material Research Team conducted two studies (quantitative and qualitative) with over 200 participants to understand their perspectives of five different carousel designs. The studies measured their understanding of how to interact with each carousel, their expectations of the number of items in each design, and how they expected carousels to be used.
 Summary of findings:
 - Participants thought carousels were a good way to explore many different kinds of content

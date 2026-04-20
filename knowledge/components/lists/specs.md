@@ -1,26 +1,13 @@
 <!-- Source: https://m3.material.io/components/lists/specs -->
-<!-- Scraped: 2026-04-20T08:09:03.533Z -->
-
-link
-Copy link
-Link copied
+<!-- Scraped: 2026-04-20T18:11:53.387Z -->
 
 ## Variants
 
-link
-Copy link
-Link copied
 
 ### Expressive lists
 
 Use the expressive list variant for more flexible styling, highlighted selection states, and customizable slots.
-link
-Copy link
-Link copied
 An expressive list has a segmented style and round corners
-link
-Copy link
-Link copied
 
 ### Baseline lists
 
@@ -35,97 +22,52 @@ In M3 Expressive,
           
    lists are still available to use, but don’t have the latest visual style, selection treatment, and slot functionality.
 See baseline list specs
-link
-Copy link
-Link copied
 Baseline list items have square corners and standard colors
-link
-Copy link
-Link copied
 | Variants | M3 | M3 Expressive |
 | List (expressive) | -- | Available |
 | List (baseline) | Available | Available |
-link
-Copy link
-Link copied
 
 ## Configurations
 
-link
-Copy link
-Link copied
 
 ### Styles
 
 The standard and segmented styles are a visual choice, and don’t affect a list’s behavior.
-link
-Copy link
-Link copied
 - Standard
 - Segmented
-link
-Copy link
-Link copied
 
 ### List selection modes
 
 A list can have only one selection mode at a time. For example, a single-action list can change to a multi-select list, but can’t be both at once.
-link
-Copy link
-Link copied
 In a single-action list, each item is a single tappable area
 Multi-action list items include a primary action and one or more secondary actions
-link
-Copy link
-Link copied
 A single-select list
 A multi-select list
-link
-Copy link
-Link copied
 
 ### List interactions
 
-link
-Copy link
-Link copied
 
 #### Expand
 
 On Android, lists can expand and collapse.
 A list can expand to include multiple items
-link
-Copy link
-Link copied
 | Category | Configuration | M3 | M3 Expressive |
 | Styles | Standard | Available | Available |
 | Segmented | -- | Available |
 | Selection modes | Single-action, multi-action,single-select, multi-select | Available | Available |
 | Interactions | Expand | Available | Available |
-link
-Copy link
-Link copied
 
 ## Tokens & specs
 
 Use the table's menu to select a token set. The common set combines baseline tokens with new expressive shapes and sizes. The expand set has tokens for the expand interaction. Learn about design tokens
-link
-Copy link
-Link copied
 Token
 Color
 Spacing
 Shape
 Size and typography
-link
-Copy link
-Link copied
 
 ## Anatomy
 
-link
-Copy link
-Link copied
 Container and label text are required. All other elements are optional:
 - Container
 - Overline
@@ -137,9 +79,6 @@ Container and label text are required. All other elements are optional:
 - Leading avatar
 - Leading icon
 - Leading media - image or video
-link
-Copy link
-Link copied
 
 ### Flexibility & slots
 
@@ -159,15 +98,9 @@ Reserve the use of slots for use cases that maintain the list’s accessibility 
 - Leading slot
 - Content slot
 - Trailing slot
-link
-Copy link
-Link copied
 warning
 Caution:
 Slots require custom code implementation that you must create and maintain
-link
-Copy link
-Link copied
 The leading and trailing slot positions must be a smaller width than the content section.
 1. Leading slots can contain:
 - Visual elements: Avatar, icon, image, or video thumbnail
@@ -188,9 +121,6 @@ The leading and trailing slot positions must be a smaller width than the content
 - Action elements or text: Icon, icon button, or trailing text
 - Selection controls: Checkbox, radio button, or switch
 The content slot must be the largest section, placed in the middle of the list item
-link
-Copy link
-Link copied
 
 #### Selection lists
 
@@ -200,19 +130,10 @@ Use only one selection interaction per list item
 close
 Don’t
 Don't use multiple selection interactions in one item
-link
-Copy link
-Link copied
 
 ## Color
 
-link
-Copy link
-Link copied
 Color values are implemented through design tokens. For designers, this means working with color values that correspond with tokens. In implementation, a color value will be a token that references a value. Learn more about design tokens
-link
-Copy link
-Link copied
 List color roles used for light and dark themes:
 - Surface
 - On surface variant
@@ -220,59 +141,29 @@ List color roles used for light and dark themes:
 - Outline variant
 - Primary container
 - On primary container
-link
-Copy link
-Link copied
 
 ## States
 
-link
-Copy link
-Link copied
 States are visual representations used to communicate the status of a component or an interactive element. Learn more about interaction states
-link
-Copy link
-Link copied
 
 ### Default list items
 
-link
-Copy link
-Link copied
 - Enabled
 - Disabled
 - Hovered
 - Focused
 - Pressed
 - Dragged
-link
-Copy link
-Link copied
 
 ### Selected list items
 
-link
-Copy link
-Link copied
-link
-Copy link
-Link copied
 
 ## Measurements
 
-link
-Copy link
-Link copied
 List item alignment, padding, and size measurements. The icon button height is dynamic, and automatically adjusts to fill the list item height.
-link
-Copy link
-Link copied
 
 ## List (baseline)
 
-link
-Copy link
-Link copied
 The 
     
     baseline
@@ -283,9 +174,6 @@ The
             More on M3 Expressive
           
    list variant is available and continues to work in existing products. However, the expressive list variant is recommended for new designs.
-link
-Copy link
-Link copied
 Baseline list 
     
     tokens
@@ -296,74 +184,34 @@ Baseline list
             More on tokens
           
    are in the common token set. Note: This set also includes several expressive tokens.
-link
-Copy link
-Link copied
-link
-Copy link
-Link copied
-link
-Copy link
-Link copied
-link
-Copy link
-Link copied
+Token
+Color
+Spacing
+Shape
+Size and typography
 States are visual representations used to communicate the status of a component or interactive element.
-link
-Copy link
-Link copied
 1. Enabled
 2. Disabled
 3. Hovered
 4. Focused
 5. Pressed
 6. Dragged
-link
-Copy link
-Link copied
 
 ### Layout
 
 
 #### One-line lists
 
-link
-Copy link
-Link copied
 Baseline one-line list alignment, padding, and size measurements
-link
-Copy link
-Link copied
 Baseline list item measurements and padding
-link
-Copy link
-Link copied
 
 #### Two-line lists
 
-link
-Copy link
-Link copied
 Baseline two-line list alignment, padding, and size measurements
-link
-Copy link
-Link copied
-link
-Copy link
-Link copied
 
 #### Three-line lists
 
-link
-Copy link
-Link copied
 Baseline three-line list alignment, padding, and size measurements
-link
-Copy link
-Link copied
-link
-Copy link
-Link copied
 | Attribute | Value |
 | Label alignment | Center |
 | Label alignment when height is 88dp or taller | Top |
@@ -383,88 +231,37 @@ Link copied
 | Divider full-width | 100% |
 | Divider inset left padding | 16dp |
 | Divider inset right padding | 24dp |
-link
-Copy link
-Link copied
-link
-Copy link
-Link copied
-link
-Copy link
-Link copied
 - With leading avatar
 - With leading avatar and trailing checkbox
-link
-Copy link
-Link copied
 
 #### Leading image or thumbnail
 
-link
-Copy link
-Link copied
 - With leading image
 - With leading image and trailing checkbox
-link
-Copy link
-Link copied
 
 #### Leading video
 
-link
-Copy link
-Link copied
 - With leading video
 - With leading video and trailing checkbox
-link
-Copy link
-Link copied
-link
-Copy link
-Link copied
 - With leading icon
 - With leading icon and trailing checkbox
-link
-Copy link
-Link copied
 
 #### Text-only
 
-link
-Copy link
-Link copied
 - With text only
 - With text and trailing checkbox
-link
-Copy link
-Link copied
 
 #### Leading checkbox
 
-link
-Copy link
-Link copied
 - With leading checkbox
 - With leading checkbox and trailing text
-link
-Copy link
-Link copied
 
 #### Leading radio button
 
-link
-Copy link
-Link copied
 - With leading radio button
 - With leading radio button and trailing text
-link
-Copy link
-Link copied
 
 #### Trailing switch
 
-link
-Copy link
-Link copied
 - With trailing switch
 - With leading icon and trailing switch

@@ -1,9 +1,6 @@
 <!-- Source: https://m3.material.io/components/bottom-sheets/overview -->
-<!-- Scraped: 2026-04-20T08:02:25.741Z -->
+<!-- Scraped: 2026-04-20T18:04:56.111Z -->
 
-link
-Copy link
-Link copied
 - Use bottom sheets in 
     
     compact
@@ -35,20 +32,11 @@ Link copied
       Modal bottom sheets appear in front of app content, disabling all other app functionality when they appear, and remaining on screen until confirmed, dismissed, or a required action has been taken.
 - Content should be additional or secondary (not the app’s main content)
 - Bottom sheets can be dismissed in order to interact with the main content
-link
-Copy link
-Link copied
 - Standard bottom sheet
 - Modal bottom sheet
-link
-Copy link
-Link copied
 
 ## Availability & resources
 
-link
-Copy link
-Link copied
 | Type | Resource | Status |
 | Design |
 | Design Kit (Figma) | Available |
@@ -57,15 +45,9 @@ Link copied
 | MDC-Android | Available |
 | Jetpack Compose | Available |
 | Web | Unavailable |
-link
-Copy link
-Link copied
 
 ## Differences from M2
 
-link
-Copy link
-Link copied
 - Color: New color mappings and compatibility with 
     
     dynamic color

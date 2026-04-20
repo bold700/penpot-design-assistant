@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/material-design-for-large-screens/overview -->
-<!-- Scraped: 2026-04-20T07:44:07.149Z -->
+<!-- Scraped: 2026-04-20T17:46:03.049Z -->
 
 Posted by
 Liam Spradlin
@@ -8,9 +8,6 @@ Material Design has always been built to be adaptable. With today’s updates, M
 As a system capability, layout and component responsiveness are now baked into our Material guidelines. Our layout guidance, along with components and their design documentation, have all been updated to describe a method of creating interfaces that can adapt to changes in screen size and shape.
 Keep reading to see exactly what’s new, and check our session from I/O 2021: 5 things you can do to prepare your app for large screens.
 New layout guidance defines responsive grid composition and behavior.
-link
-Copy link
-Link copied
 
 ## New layout guidance
 
@@ -30,9 +27,6 @@ The Component behavior article includes new terminology to keep your layouts bid
 - The overlay behaviors has been moved to the Understanding layout article, as a distinct layout response.
 - The push behavior has been removed, to focus on preserving the context of the body region as a navigation component enters the screen.
 Component updates define new scaling and adaptation behaviors for individual Material components.
-link
-Copy link
-Link copied
 
 ## Component updates
 
@@ -61,9 +55,6 @@ The navigation rail is currently available on the following platforms:
 - Android (in the 1.4.0-beta release)
 - Flutter
 For more component updates, check out What’s New in Foldables, Tablets, and Large Screens at I/O.
-link
-Copy link
-Link copied
 
 ## Resources
 
@@ -71,9 +62,6 @@ The Material Baseline Design Kit for Figma has also been updated, adding a serie
 To see layout grids that account for newly revised breakpoint, margin, and column behaviors, grab a template for your desired screen size from the Assets panel and toggle Show Layout Grids from the View menu in Figma. The Layout regions property can be toggled in the Design panel to reveal navigation regions and app bars.
 Additionally, a bug affecting color mapping on the Material Theme page has been resolved, and we have more updates planned to make full use of Figma's capabilities.
 Grab the Design Kit from the Material Design Figma Community Page.
-link
-Copy link
-Link copied
 
 ## How to get started
 

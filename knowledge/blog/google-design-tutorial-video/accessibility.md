@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/google-design-tutorial-video/accessibility -->
-<!-- Scraped: 2026-04-20T07:32:19.055Z -->
+<!-- Scraped: 2026-04-20T17:32:09.164Z -->
 
 Posted by
 Material Design

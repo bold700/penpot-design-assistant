@@ -1,9 +1,6 @@
 <!-- Source: https://m3.material.io/components/switch/develop -->
-<!-- Scraped: 2026-04-20T08:16:18.356Z -->
+<!-- Scraped: 2026-04-20T18:18:54.175Z -->
 
-link
-Copy link
-Link copied
 - Use switches (not 
     
     radio buttons
@@ -34,19 +31,10 @@ Link copied
             More on selection
           
    (on or off) is visible at a glance
-link
-Copy link
-Link copied
 Switches can be toggled on and off
-link
-Copy link
-Link copied
 
 ## Availability & resources
 
-link
-Copy link
-Link copied
 | Type | Resource | Status |
 | Design |
 | Design Kit (Figma) | Available |
@@ -55,15 +43,9 @@ Link copied
 | Jetpack Compose | Available |
 | MDC-Android | Available |
 | Web | Available |
-link
-Copy link
-Link copied
 
 ## Differences from M2
 
-link
-Copy link
-Link copied
 - Accessibility: Visual presentation is more accessible
 - Color: New color mappings meet Material's non-text-contrast requirements in addition to compatibility with 
     
@@ -75,8 +57,5 @@ Link copied
             More on dynamic color
 - Icons: Ability to have an optional icon within the switch handle
 - Layout: Track is taller and wider
-link
-Copy link
-Link copied
 M2: Switches have a circular handle that extends beyond the edge of the track
 M3: Switches have a taller and wider track, new color mappings, and the ability to show an icon in the handle

@@ -1,13 +1,10 @@
 <!-- Source: https://m3.material.io/blog/device-metrics/overview -->
-<!-- Scraped: 2026-04-20T07:28:53.636Z -->
+<!-- Scraped: 2026-04-20T17:28:06.160Z -->
 
 Posted by
 Liam Spradlin
 , Senior UX Designer, Material Design
 New devices are always coming online, offering new formats, screen sizes, and pixel densities that you’ll want your product to accommodate. If Googling doesn’t give you the numbers you need, or you just want to show off your math skills, here’s a relatively easy way to determine the relevant metrics for your designs.
-link
-Copy link
-Link copied
 
 ## Do it yourself 🛠
 
@@ -16,9 +13,6 @@ It’s easiest to visualize this information if we have an example. So, to get a
 | Screen Diagonal | Screen Dimensions | Aspect Ratio | Pixel Resolution | dp Resolution | Density Bucket |
 | 5.7" | ~ | 19:9 | 1080×2280 | ~ | ~ |
 The screen diagonal, aspect ratio, and pixel resolution can all be found on the Pixel 4 product page. For devices that don’t have in-depth or easily accessible specification pages, sites like the GSMArena Phone Finder can be a good resource.
-link
-Copy link
-Link copied
 
 ## Finding Screen Dimensions 📐
 
@@ -32,9 +26,6 @@ And now that we know Width, we can solve for Height.
 Height = (19/9)×2.44
 Height = 5.15”
 So our screen dimensions are 2.44×5.15”
-link
-Copy link
-Link copied
 
 ## Finding dp Resolution 📏
 
@@ -50,9 +41,6 @@ Next we’ll do the same calculation for the screen’s height in density-indepe
 2280 = dp×2.775
 dp = 2280/2.775
 dp = 822
-link
-Copy link
-Link copied
 
 ## Finding the density bucket 🔍
 
@@ -67,9 +55,6 @@ Finding the density bucket is as easy as looking at the table in the documentati
 | xxxhdpi | ~640dpi | 4x | Resources for extra-extra-extra-high-density (xxxhdpi) uses. |
 | nodpi | n/a | n/a | Resources for all densities. These are density-independent resources. The system does not scale resources tagged with this qualifier, regardless of the current screen's density. |
 | tvdpi | ~213dpi | 1.33x | Resources for screens somewhere between mdpi and hdpi; approximately 213dpi. This is not considered a "primary" density group. It is mostly intended for televisions and most apps shouldn't need it—providing mdpi and hdpi resources is sufficient for most apps and the system will scale them as appropriate. If you find it necessary to provide tvdpi resources, you should size them at a factor of 1.33*mdpi. For example, a 100px x 100px image for mdpi screens should be 133px x 133px for tvdpi. |
-link
-Copy link
-Link copied
 
 ## Putting it all together 🧩
 

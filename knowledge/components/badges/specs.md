@@ -1,9 +1,6 @@
 <!-- Source: https://m3.material.io/components/badges/specs -->
-<!-- Scraped: 2026-04-20T08:02:05.060Z -->
+<!-- Scraped: 2026-04-20T18:04:35.455Z -->
 
-link
-Copy link
-Link copied
 Navigation bar
 - Small badge
 - Large badge container
@@ -13,27 +10,15 @@ Navigation bar
 Navigation rail
 - Large badge container
 - Large badge label
-link
-Copy link
-Link copied
 
 ## Tokens & specs
 
 Browse the component elements, attributes, tokens, and their values.
-link
-Copy link
-Link copied
 Token
 Enabled
-link
-Copy link
-Link copied
 
 ## Color
 
-link
-Copy link
-Link copied
 Color values are implemented through 
     
     design tokens
@@ -44,26 +29,14 @@ Color values are implemented through
             More on tokens
           
   . For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. Learn more about design tokens
-link
-Copy link
-Link copied
 Badge color roles used for light and dark schemes in navigation bar:
 - Error
 - On error
 Badge color roles used for light and dark schemes in navigation rail:
-link
-Copy link
-Link copied
 
 ## Measurements
 
-link
-Copy link
-Link copied
 Badge padding and size measurements
-link
-Copy link
-Link copied
 | Attribute | Value |
 | Small badge shape | 3dp corner radius |
 | Small badge size (HxW) | 6dp |
@@ -73,15 +46,9 @@ Link copied
 | Small badge: distance from top trailing icon corner to bottom leading badge corner (HxW) | 6x6dp |
 | Large badge: distance from top trailing icon corner to bottom leading badge corner (HxW) | 14x12dp |
 | Large badge padding between badge and text container | 4dp |
-link
-Copy link
-Link copied
 
 ## Configuration
 
-link
-Copy link
-Link copied
 Different badges are shown on navigation destinations in various 
     
     states.
@@ -90,12 +57,6 @@ Different badges are shown on navigation destinations in various
     
       
             More on states
-link
-Copy link
-Link copied
-link
-Copy link
-Link copied
 - Inactive with label - small badge
 - Inactive with label - large badge
 - Inactive with label - large badge max character count

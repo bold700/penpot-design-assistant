@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/designing-text-visual-acuity-research/specs -->
-<!-- Scraped: 2026-04-20T07:28:07.868Z -->
+<!-- Scraped: 2026-04-20T17:27:17.563Z -->
 
 Posted by
 Michael Gilbert
@@ -11,9 +11,6 @@ As a long-time wearer of glasses and contacts, I’ve been familiar with the cha
 Figure 1: Snellen chart. 
 Image source: https://commons.wikimedia.org/wiki/File:Snellen_chart.svg. This file is licensed under the Creative Commons Attribution-Share Alike 3.0 Unported license.
 There are two points to call out here. First, the size of the chart matters. If the characters are giant, your ability to read the text will understandably be impacted. Second, your distance from the chart matters. Both of these may seem obvious, but they’re worth pointing out because if you want to measure visual acuity you’ll have to control for both at the same time. The reason for this is all boils down to our first observation – visual acuity is a measure of an angle over a distance.
-link
-Copy link
-Link copied
 
 ## Observation #1: Visual acuity is a measure of an angle over a distance
 
@@ -36,9 +33,6 @@ Once again quoting The Organization of the Retina and Visual System [2], “Visu
 Figure 4: Illustrating how we can arrive at a Snellen fraction (e.g., 20/20) given the ability to resolve detail (the features of the “E”) at a specific distance (subtending 5 minutes of arc, or 5/60ths of a degree).
 Image source: This image is from a publicly accessible blog post, linked at [2]. License unknown.
 Ultimately this means that it’s possible to estimate the visual acuity of any individual given their ability to identify features of an object at a known size or distance. Of course, we already know this in general (that’s what a vision test is all about, after all!), but the detail provided here sets us up for Observation #2.
-link
-Copy link
-Link copied
 
 ## Observation #2: Text can be scaled over multiple distances
 
@@ -76,9 +70,6 @@ hperceived = ( 4.94 / 1000 ) * 350
 hperceived = 1.729mm
 Which means, if the text were 100cm away from you instead of 35cm and the text size wasn’t increased accordingly (i.e., holding the actual size constant rather than the angle), the perceived size of the text would be about 1.729mm. Which is noticeably smaller than the original 4.94mm text size!
 We’ll wrap up this section with a hopefully straightforward recommendation: when you’re designing for multiple distances (or unknown distances), you’d do well to consider the user experience at each of them. Hopefully, some of what I shared above will allow you to do that a little bit easier.
-link
-Copy link
-Link copied
 
 ## Observation #3: Text size can be expressed as a measure of visual acuity
 
@@ -103,18 +94,12 @@ Before we wrap up, let’s answer one last question (we’re almost done!). Let�
 40d = 67929.8
 d = 1698.25
 “Woah,” you may be thinking, “that seems like a long ways away!” But remember our units are mm here, so how we can interpret this is: In order to read the menu at the bakery, where the text is 14pt Roboto, or 4.94mm tall, a person with 20/40 vision would need to be within 1698mm (or 169cm) of that sign. Which, for the Americans among us, is about 5.6 feet.
-link
-Copy link
-Link copied
 
 ## Conclusion
 
 And that’s it! Thank you for reading through all this. If you have any comments or corrections, I’d love to hear them – feel free to reach out on Twitter by tagging @MaterialDesign.
 It’s also worth noting that we’ve identified some interesting cases where scaling text height by angular height alone may not be necessary – but that discussion is beyond the scope of this article. I’ll write that up separately and share with you all later.
 Until then, thanks again!
-link
-Copy link
-Link copied
 
 ## Cited
 

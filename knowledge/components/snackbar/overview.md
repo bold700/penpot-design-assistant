@@ -1,24 +1,12 @@
 <!-- Source: https://m3.material.io/components/snackbar/overview -->
-<!-- Scraped: 2026-04-20T08:14:50.290Z -->
+<!-- Scraped: 2026-04-20T18:17:32.352Z -->
 
-link
-Copy link
-Link copied
 - Snackbars shouldn’t interrupt the user’s experience
 - Usually appear at the bottom of the UI
 - Can disappear on their own or remain on screen until the user takes action
-link
-Copy link
-Link copied
-link
-Copy link
-Link copied
 
 ## Availability & resources
 
-link
-Copy link
-Link copied
 | Type | Resource | Status |
 | Design |
 | Design Kit (Figma) | Available |
@@ -27,15 +15,9 @@ Link copied
 | Jetpack Compose | Available |
 | MDC-Android | Available |
 | Web | Unavailable |
-link
-Copy link
-Link copied
 
 ## Differences from M2
 
-link
-Copy link
-Link copied
 - Color: New color mappings and compatibility with 
     
     dynamic color

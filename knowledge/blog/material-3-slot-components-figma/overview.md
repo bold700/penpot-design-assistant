@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/material-3-slot-components-figma/overview -->
-<!-- Scraped: 2026-04-20T07:41:43.855Z -->
+<!-- Scraped: 2026-04-20T17:43:14.256Z -->
 
 Posted by
 Dillon McCallum
@@ -13,9 +13,6 @@ Slot components are a step toward supporting component flexibility that makers n
 - Material Design components are simpler and more powerful than ever.
 Adding slots to components enables them to better express the maker’s needs. Slots gives designers the flexibility to create new component variations while still using the guidelines of Material’s design system.
 This aligns with how these container-like components are designed with how they are built–– crafting the design toolkit to mimic the component capabilities in code.
-link
-Copy link
-Link copied
 
 ## How to use slots
 
@@ -26,18 +23,12 @@ Select the Slot property to change to the Slot placeholder content and reveal op
 Slot enabled components will provide a layout override
 The slot can then be swapped for a local instance of another component.
 Slot swap allows for quick replacement for local components
-link
-Copy link
-Link copied
 
 ## Prior to slots
 
 Prior to slots, the design kit offered a robust range of variations and possible component permutations for designs–– allowing different aspects to be manipulated or toggled on/off to ensure safe guide-rails and preserve component boundaries and design intent.
 Behind the scenes this requires very complex library building to capture all possible iterations, exacerbated by newly introduced component features.
 These complex components served as a great “jumping off point” for most users of the design kit. However for other use cases, subtle deviations (that would otherwise still adhere to guidelines) would require designers to detach from the master library and break these components to accomplish their goals. The result is designers lose their connection to the Material Design Kit library, component variations, state controls, and future library updates.
-link
-Copy link
-Link copied
 
 ## Flexibility with slots
 

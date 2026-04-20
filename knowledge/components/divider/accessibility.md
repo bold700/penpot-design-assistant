@@ -1,8 +1,5 @@
 <!-- Source: https://m3.material.io/components/divider/accessibility -->
-<!-- Scraped: 2026-04-20T08:06:53.678Z -->
+<!-- Scraped: 2026-04-20T18:09:36.777Z -->
 
-link
-Copy link
-Link copied
 Dividers are decorative elements, which have no contrast minimums.
 Decorative elements have no contrast minimums

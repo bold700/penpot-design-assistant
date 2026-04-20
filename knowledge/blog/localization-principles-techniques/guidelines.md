@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/localization-principles-techniques/guidelines -->
-<!-- Scraped: 2026-04-20T07:38:15.421Z -->
+<!-- Scraped: 2026-04-20T17:39:07.024Z -->
 
 Posted by
 Susanna Zaraysky
@@ -14,9 +14,6 @@ Localization is the process of adapting messages, imagery, brand voice, features
 The process of localization is often misunderstood to mean translation, but in fact localization deals with much more than word-by-word translation of text and content. Translation strives for a linguistic equivalent, while localization broadly considers adaptation for a market or cultural context.
 Localization is also different from internationalization, a practice and procedure for applications to support different local conventions, such as time, date and phone number formats, currency, measurement, and other data.
 This post introduces principles and techniques to ensure that your products and experiences will work well across different contexts. Get to know the considerations and best practices for adapting content, imagery, and more.
-link
-Copy link
-Link copied
 
 ## Design flexible and concise messages
 
@@ -30,9 +27,6 @@ The height of the “Accept terms and conditions” button in English (1) is onl
 close
 Don’t
 The text in Bulgarian (2) is cut off after being translated from English (1).
-link
-Copy link
-Link copied
 
 ## Ensure that language and imagery are inclusive
 
@@ -81,9 +75,6 @@ close
 Don’t
 Don’t break words. The Japanese word for “policy” is split in half across the line break.
 Learn more: Language enablement line breaks and approaches to line breaks.
-link
-Copy link
-Link copied
 
 ## Account for local design practices
 
@@ -110,9 +101,6 @@ Canadian and French address forms are formatted differently to conform with regi
 Learn more:
 - CLDR (Unicode Common Locale Data Repository): The international standard for automatic formatting of numbers, currency, and more.
 - Material Design Data Formats guidance
-link
-Copy link
-Link copied
 
 ## Create and share guidance or visual references
 
@@ -125,9 +113,6 @@ If you work with a translator or localization team, creating and sharing documen
 - Tone and style considerations
 - Design mocks or sketches at any stage
 - How much freedom the translator can have in adapting your content. (You may consider transcreation, a process to rewrite messages to fit the target culture.)
-link
-Copy link
-Link copied
 
 ## Don’t forget to test!
 

@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/atkinson-hyperlegible-design/specs -->
-<!-- Scraped: 2026-04-20T07:23:30.977Z -->
+<!-- Scraped: 2026-04-20T17:22:35.864Z -->
 
 Posted by
 Susanna Zaraysky

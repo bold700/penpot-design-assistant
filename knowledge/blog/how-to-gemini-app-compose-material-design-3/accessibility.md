@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/how-to-gemini-app-compose-material-design-3/accessibility -->
-<!-- Scraped: 2026-04-20T07:35:07.589Z -->
+<!-- Scraped: 2026-04-20T17:35:31.324Z -->
 
 Posted by
 Abla Hamilton
@@ -9,9 +9,6 @@ How can I help? My first thought was that I wanted to change the information in 
 I’d recommend taking a look at the Prompt Best Practices. I reviewed the prompt recommendations and considered use cases specific to using Material Design and user interface design and development process.
 So, let’s go over a few basic AI prompt writing best practices and show some Material Design specific examples.
 Just a heads up: These prompts are suggestions for use with the Gemini app. Your results may vary.
-link
-Copy link
-Link copied
 
 ## 1. Prompting with text and an image
 
@@ -43,9 +40,6 @@ I hope this helps! Let me know if you have any other questions.
 Comments about the output:
 1. There is a tool that Android developers can use called the Accessibility Scanner app that developers can use to check screens and will alert contrast issues.
 2. Accessibility needs section is missing information on touch targets.
-link
-Copy link
-Link copied
 
 ## 2. Break down complex requests into multiple smaller prompts
 
@@ -85,9 +79,6 @@ Additional Considerations:
 - Touch targets: Make sure buttons and other interactive elements have a large enough touch target size for users with motor impairments.
 By considering these accessibility needs, you can create a tablet UI that's usable and comfortable for everyone, regardless of their visual abilities or how they choose to interact with the app.
 Comparing the outputs from the two revised prompts in Example 2, the model did provide a bit more detail about accessibility. This is something to consider when writing your prompts is adding the right level of context without trying to add all questions at one time.
-link
-Copy link
-Link copied
 
 ## 3. Provide contextual information
 

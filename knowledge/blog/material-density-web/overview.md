@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/material-density-web/overview -->
-<!-- Scraped: 2026-04-20T07:42:33.158Z -->
+<!-- Scraped: 2026-04-20T17:44:07.383Z -->
 
 Posted by
 Una Kravets
@@ -11,9 +11,6 @@ Various Material themes created by adjusting color, shape, and typography.
 Global density changes affect the spacing between all elements at a macro level. However, you can also apply bespoke density values to any individual component.
 Material Design’s density scale includes three levels of density: default, comfortable, and compact.
 A demo of Material’s density scale in action, created by engineer Abhinay Omkar.
-link
-Copy link
-Link copied
 
 ## The Rules of Applying Density
 
@@ -27,9 +24,6 @@ Even though density can visually decrease, it’s important for touch targets to
 For the buttons in dense layouts, we’ve applied external padding so that even when they appear smaller and condensed, they still have an accessible touch target size.
 It’s important to maintain a good design equilibrium in dense layouts, so when increasing component density you should also decrease your layout or grid density. This means that the more dense your components become, the larger your margins and gutter widths should be. This helps keep your UI legible.
 Increase horizontal spacing as you decrease vertical spacing.
-link
-Copy link
-Link copied
 
 ## Using Density on the Web
 

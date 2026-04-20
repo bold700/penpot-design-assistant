@@ -1,33 +1,18 @@
 <!-- Source: https://m3.material.io/components/floating-action-button/guidelines -->
-<!-- Scraped: 2026-04-20T08:08:15.168Z -->
+<!-- Scraped: 2026-04-20T18:11:00.774Z -->
 
-link
-Copy link
-Link copied
 FABs have multiple sizes that scale with the window size
-link
-Copy link
-Link copied
 
 ## Usage
 
-link
-Copy link
-Link copied
 Use a FAB for the most important action on a screen; it appears in front of all other content.The FAB can be aligned left, center, or right. It can be positioned above the navigation bar, or nested within it.
 FABs can use dynamic color
-link
-Copy link
-Link copied
 There are three FAB sizes:
 - FAB
 - Medium FAB (most recommended)
 - Large FAB
 Choose the FAB size based on the visual hierarchy of your layout. Note: The small FAB is no longer recommended.
 - Medium FAB
-link
-Copy link
-Link copied
 The FAB is the smallest size, and is best used in 
     
     compact windows
@@ -58,17 +43,11 @@ The FAB is the smallest size, and is best used in
    and larger window sizes, where its size helps draw attention.
 Use a medium FAB in most window sizes
 Use a large FAB when the primary action needs to be prominent
-link
-Copy link
-Link copied
 check
 FABs are not needed on every screen, such as when images represent primary actions
 close
 Don’t
 Don't display multiple FABs on a single screen
-link
-Copy link
-Link copied
 A FAB can transform into an 
     
     extended FAB
@@ -82,15 +61,9 @@ A FAB can transform into an
 More on FAB menus
 Use the extended FAB when label text is necessary
 Use the FAB menu when there are many kinds of actions relevant to the FAB
-link
-Copy link
-Link copied
 
 ## Actions
 
-link
-Copy link
-Link copied
 A FAB can trigger an action on the current screen, or it can perform an action that creates a new screen.A FAB promotes an important, constructive action such as:
 - Create
 - Favorite
@@ -98,9 +71,6 @@ A FAB can trigger an action on the current screen, or it can perform an action t
 - Start a process
 check
 Use FABs for primary, positive actions
-link
-Copy link
-Link copied
 Avoid using a FAB for minor or destructive actions, such as:
 - Archive or trash
 - Alerts or errors
@@ -109,40 +79,22 @@ Avoid using a FAB for minor or destructive actions, such as:
 close
 Don’t
 Don’t use FABs for minor, overflow, unclear, or destructive actions
-link
-Copy link
-Link copied
 
 ## Anatomy
 
-link
-Copy link
-Link copied
 - Container
 - Icon
-link
-Copy link
-Link copied
 The FAB is typically displayed in a square container. The container shouldn’t be covered by other elements, such as badges.The container must have sufficient color contrast with the surface it’s placed on.
 A FAB container color needs to stand out from its background
-link
-Copy link
-Link copied
 An icon in a FAB should be clear and understandable. When hovering over a FAB on web products, FABs should display a tooltip with an accompanying icon text label. Use a filled icon instead of an outlined icon.A FAB shouldn't contain notifications or actions found elsewhere on a screen.
 check
 Use clear and simple icons such as add, message, or edit
 close
 Don’t
 Don’t use confusing or open-ended icons to symbolize less common actions
-link
-Copy link
-Link copied
 
 ## Adaptive design
 
-link
-Copy link
-Link copied
 In 
     
     compact
@@ -181,56 +133,35 @@ In
           
   . This positions it as one of the first interactive elements people see when they land on the page.Adjust the size of the FAB based on the context. Use a medium FAB for mobile layouts, and large FAB for tablets and large screens.
 For large screens, place the FAB in the upper left corner
-link
-Copy link
-Link copied
 check
 A FAB can be used within a navigation component, such as a navigation rail
 close
 Don’t
 Individual components, such as cards, shouldn’t have their own FAB
-link
-Copy link
-Link copied
 
 ## Behaviors
 
-link
-Copy link
-Link copied
 
 ### Appearing
 
 When a FAB animates on screen, it expands outward from a central point. The icon within it can be animated as well.While FABs should be relevant to screen content, they aren't attached to the surface on which content appears. FABs move separately from other UI elements because of their relative importance.Screen transitions FABs can morph to launch related actions. When a screen changes its layout, the FAB should disappear and reappear during the transition.Reappearance The FAB should only reappear if it's relevant to the new screen. It should reappear in the same position, if possible.
 FAB animating on screen
-link
-Copy link
-Link copied
 
 ### Expanding
 
 The FAB can expand and adapt to any shape using a container transform transition pattern. This includes a surface that's part of the app structure, or a surface that spans the entire screen.The FAB can also transition into a FAB menu. More on FAB menus
 FABs can expand and adapt to any shape
-link
-Copy link
-Link copied
 
 ### Scrolling
 
 FABs remain in place on scroll.Extended FABs can collapse into a FAB on scroll and expand on reaching the bottom of the view.
 FABs stay in place above a scrolling background
-link
-Copy link
-Link copied
 
 ### Moving across tabs
 
 When tabs are present, the FAB should briefly disappear, then reappear when the new content moves into place. This shows that the FAB is not connected to any particular tab.
 check
 The FAB should disappear and reappear when switching pages
-link
-Copy link
-Link copied
 Don't animate the FAB with body content.
 close
 Don’t

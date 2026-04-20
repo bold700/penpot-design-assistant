@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/google-fonts-dark-theme/overview -->
-<!-- Scraped: 2026-04-20T07:32:29.073Z -->
+<!-- Scraped: 2026-04-20T17:32:20.323Z -->
 
 Posted by
 Mariia Subkov
@@ -9,9 +9,6 @@ SeHee Lee
 Our latest Google Fonts catalog feature is... a new dark theme! Using the Material dark theme guidelines, we were able to turn off the lights on the Google Fonts catalog while maintaining both core functionality and the Google Fonts brand.
 Besides offering a fresh aesthetic, a dark theme can help users avoid eye strain in a low lighting environment. For the Fonts team, the dark theme feature takes on another important meaning, because we offer ways for users to compare and evaluate font selections. With dark themes becoming more popular, we wanted to showcase how fonts may look in a dark themed environment.
 We even have fonts that are specialized for dark themes, like Signika Negative. This alternative version of Signika is optimized for situations where light text on a dark background generally seems thicker, such as light emitting displays from computer screens to airport signage panels.
-link
-Copy link
-Link copied
 
 ## Designing the dark from the light
 
@@ -20,9 +17,6 @@ The first step was selecting a darker background color. In our case, dark grey w
 Next, we modified the primary color to work better with the dark background. In the light theme, we use a blue from Google’s brand palette as our primary color across the pages and components. Instead of applying the same blue in the dark theme, we selected a desaturated version to meet the accessibility requirements and to avoid a sense of visual vibration that can come from using intensely saturated colors on dark backgrounds.
 We also adjusted text and icon colors, using 3 different shades of grey depending on the level of emphasis and hierarchy. We use lighter greys for primary text and navigational icons, and a darker grey for secondary text.
 Lastly, we added a different treatment for the card component. In light theme, shadows are used to express elevation on hovered, focused and pressed states. But when we applied the same default shadow values for the dark theme, the shadows did not show enough contrast and visual cues for different element states on the dark background. So we added a lighter overlay to the dark themed card components to preserve the same visual expression and experience as the light theme. This also helps with the components’ legibility and ensures elevation expression that’s distinguable from the dark background.
-link
-Copy link
-Link copied
 
 ## Implementing the dark from the light
 
@@ -45,9 +39,6 @@ So, how did we add a dark theme to such a setup? The challenge is that there is 
 - We added dark theme styles to the theme mixins when needed, by using the $theme config parameter.$is-dark-theme: map-get($color-config, is-dark);
 - In custom scoped components, we used :host-context(.gf-dark-theme) to style them when needed.
 Finally, we made our existing visual regression tests parameterized, to be able to run them for both light and dark themes. For that we used the parameterized runner, a JUnit 4 feature. Visual regression tests validate the correctness of the UI changes introduced by a new code by comparing the old and new screenshots of our rendered elements. By adding a theme parameter to them, the exact same set of tests is executed twice – once when UI elements are rendered in the light theme and once – in the dark theme.
-link
-Copy link
-Link copied
 
 ## See it in action
 

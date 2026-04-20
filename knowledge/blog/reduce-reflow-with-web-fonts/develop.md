@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/reduce-reflow-with-web-fonts/develop -->
-<!-- Scraped: 2026-04-20T07:54:40.136Z -->
+<!-- Scraped: 2026-04-20T17:57:00.090Z -->
 
 Posted by
 Dave Crossland
@@ -14,19 +14,16 @@ meta
 charset
 "utf-8"
 <!-- 2: preconnect -->
-link
 rel
 "preconnect"
 href
 "https://fonts.googleapis.com"
-link
 rel
 "preconnect"
 href
 "https://fonts.gstatic.com"
 crossorigin
 <!-- 3: use font-display -->
-link
 href
 "https://fonts.googleapis.com/css2?family=Roboto&display=optional"
 rel
@@ -40,12 +37,10 @@ By placing the font link elements immediately after the head element and the man
 #### 2. Preconnect to fonts.googleapis.com and fonts.gstatic.com
 
 xxxxxxxxxx
-link
 rel
 "preconnect"
 href
 "https://fonts.googleapis.com"
-link
 rel
 "preconnect"
 href
@@ -56,7 +51,6 @@ These links instruct the browser to open a HTTP connection to the Google Fonts A
 #### 3. Use font-display
 
 xxxxxxxxxx
-link
 href
 "https://fonts.googleapis.com/css2?family=Roboto&display=optional"
 rel
@@ -67,17 +61,11 @@ This API option requests that the CSS returned by the Google Fonts API will incl
 - fallback - a middle ground. If the font arrives a little after content is drawn in a fallback font, there is some layout shift, and a worse CLS score.
 These trade-offs are broad guidelines. Depending on what other content your page loads, the font may consistently be ready in time because other parts of the page take even longer to load. Or, if the font is the only external resource, it may almost never be ready in time. For example, the AMP team has found that using “optional” stops the font being used on the page. AMP pages only allow inline stylesheets, meaning the page is ready to render before the fonts have a chance to download. Therefore setting the API’s Display feature to “swap” may be better in this case.
 Learn more on web.dev and MDN to determine what option is right for your use-case. Tools like webpagetest.org can help review the loading characteristics of your page under varied conditions.
-link
-Copy link
-Link copied
 
 ## Other Considerations
 
 The CSS Font Loading API allows you to take direct control over loading and applying fonts. Learn more on MDN.
 There’s also an advanced technique emerging, to use fallbacks with some new CSS properties for scaling and shifting them, so that when they are replaced by web fonts the resulting layout shift is reduced. This is slightly tricky because not all operating systems have the same set of fonts to fallback to. Learn more on Smashing Magazine.
-link
-Copy link
-Link copied
 
 ## Conclusion
 

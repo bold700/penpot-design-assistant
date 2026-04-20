@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/asset-people-3/develop -->
-<!-- Scraped: 2026-04-20T07:23:21.929Z -->
+<!-- Scraped: 2026-04-20T17:22:26.935Z -->
 
 Posted by
 Euphrates Dahout
@@ -9,9 +9,6 @@ The needs of physical-object makers are not wildly different from the needs of d
 Our team of designers discovered this for themselves in the process of illustrating different interface scenarios throughout our Material 3 guidelines. To help create thousands of images, I had already put together a library of backgrounds, device frames, annotation labels, and touch targets for the team to use as a way to manage consistency across guidelines. However, the designers were still finding themselves improvising on images, names, messages, media, and regional content. They had to insert what they knew from the same few parts of the world because it was much easier and faster than to look through a detached document of vetted content that wasn’t organized into the context of their workflow.
 The realistic names and backstories that make up the collection of new profiles were missing from the easy-to-reach toolkit in the designer’s digital workshop. I needed to figure out a way to push the boundaries of Figma, the design software that our team uses, to deliver this content.
 In my experience in the field of production design, these kinds of challenges are not rare. It’s part of the fun. I play keyboard hot keys like a piano, zipping through complex design software looking for the most clever ways to solve complex technical design problems. It’s a niche arena where I get to play with both the technical and the visual to make beautiful things robust, responsive, and alive.
-link
-Copy link
-Link copied
 
 ## How to manage content with a design tool
 

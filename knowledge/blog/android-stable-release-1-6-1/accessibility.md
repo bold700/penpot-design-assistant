@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/android-stable-release-1-6-1/accessibility -->
-<!-- Scraped: 2026-04-20T07:20:19.483Z -->
+<!-- Scraped: 2026-04-20T17:19:28.720Z -->
 
 Posted by
 James Williams
@@ -7,9 +7,6 @@ James Williams
 After cooling down from Google I/O, we have a pair of Material Design Components(MDC) releases to share with you: 1.6.0 and 1.6.1. As was the case with MDC 1.5.0, color is again a major theme with new APIs targeting dynamic color and color harmony.
 Other notable highlights include Material3 style updates of various components and various bug fixes, like resolving issues on Android Oreo(8) and Pie(9), underscoring our commitment to more than just the most recent release.
 Alongside the documentation we host on Github, the Material Design 3 site is an additional source for the styling guidance and availability of components. For components available on MDC Views, the implementation page will contain code snippets showing you how to implement that component and common use cases. Below is some of the code you can find on the implementation page for Chips.
-link
-Copy link
-Link copied
 
 ## Color Harmony
 
@@ -74,9 +71,6 @@ wrapContextIfAvailable
 dynamicColorsContext
 harmonizedOptions
 For a more detailed discussion of how to apply color harmonization in code, check out the Color Harmonization section of our developer documentation on color or the codelab that demonstrates both methods.
-link
-Copy link
-Link copied
 
 ## What’s next for MDC ?
 

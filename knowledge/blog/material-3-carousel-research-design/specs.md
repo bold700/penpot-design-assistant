@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/material-3-carousel-research-design/specs -->
-<!-- Scraped: 2026-04-20T07:39:24.138Z -->
+<!-- Scraped: 2026-04-20T17:40:29.024Z -->
 
 Posted by
 Julia Feldman
@@ -23,9 +23,6 @@ A carousel component is a rotating array of content that allows users to scroll 
 For such a simple sounding interaction, there are a lot of details that need to be attended to for this component to work well for everyone, in all the products that may adopt it. For instance, how many items should a carousel component have? Is three too few? Is 15 too many? Or what about 50, or 100? And how does the amount of content influence the perception of scrolling through that content? Should pace be a function of length, or should the type of content or the product context (for example., a media player versus a news app) be a stronger determining factor for the feeling of scrolling through the list?
 Imagine a user browsing an online store for the latest novel in a mystery series, scrolling available books in a carousel. What's the right level of detail to present in that carousel to enable them to decide whether to buy the book, but not too much detail that might make the interaction feel crowded or unpleasant? Or what about a user scrolling through a carousel of short videos - what’s the right level of detail that allows them to confidently decide, “I’m gonna watch this,” without being overwhelming? And for both cases, how can a carousel support browsing, finding, and consuming, separately and together, sensitive to the content that a user is scrolling through?
 When we built the new Material Design carousel, we took into account all these possible user concerns and frustrations with the primary goal of building something both usable and expressive! Furthermore, we endeavored to build a component that is not only flexible with various content types, but also offers users a smooth experience.
-link
-Copy link
-Link copied
 
 ## How did we approach the design?
 
@@ -35,9 +32,6 @@ Link copied
 Figure 3: An example of the Material 3 carousel component, highlighting the Material shape, motion, and parallax scrolling
 Throughout all these explorations, our primary goal was to ensure that the carousel was easy to use, easy to understand, and—if we can be so bold— delightful, expressive, and fun to use!
 To make sure we could meet these goals, we relied on research.
-link
-Copy link
-Link copied
 
 ## Research
 
@@ -53,9 +47,6 @@ To gain a deeper understanding of how users felt about these new designs, we als
 Through this second study, we realized that aesthetic preference didn't impact which carousel fit a context. Knowing how to use the carousel also didn’t impact which carousel fit a context because both carousel types were intuitively understood by the participants, who felt that both variants appropriately signaled to them what was coming up next in the carousels.
 Our participants let us know that there were two factors that were important for determining which variant of carousel they wanted to use for each context. The first factor depended on whether they needed to do a deep browse versus grabbing a quick item—for instance, reading through a carousel of news headlines versus swiping through a set of images of possible recipes to cook for dinner. The second factor depended on the weight of the commitment they were making by interacting with the carousel content—for example, selecting a movie from a carousel that might involve watching that content for two hours.
 If it was a very big decision, participants explained that they wouldn’t want to swipe through too much content at once, or to do so too quickly. They explained that the multi-swipe option with previews was particularly helpful for tasks like grabbing an item and making a quick, non-critical decision, compared to browsing old photos or choosing what two hour movie to watch. More broadly, the current level of commitment and the predicted future level of commitment both had an impact on the designs of carousels that participants considered most desirable, and the contexts where participants felt those carousels could be most effectively used in.
-link
-Copy link
-Link copied
 
 ## Conclusion
 

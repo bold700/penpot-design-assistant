@@ -1,23 +1,14 @@
 <!-- Source: https://m3.material.io/foundations/designing/accessibility -->
-<!-- Scraped: 2026-04-20T08:26:30.267Z -->
+<!-- Scraped: 2026-04-20T18:26:58.632Z -->
 
-link
-Copy link
-Link copied
 Designing and implementing accessible product experiences involve a range of considerations. The framework Material uses draws on WCAG standards and industry best practices.
 The three stages described in these tabs help translate a visual UI into a text-based, linear user experience that maps to code. Color and contrast also support accessible navigation.
-link
-Copy link
-Link copied
 
 ### Accessibility markup
 
 Accessibility markup is an integral part of creating documentation for design specs.
 1. Switch in the on state with visible focus
 2. Switch in the off state with visible focus
-link
-Copy link
-Link copied
 
 ### Implementing accessibility
 

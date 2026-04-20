@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/android-stable-release-1-5/develop -->
-<!-- Scraped: 2026-04-20T07:19:59.686Z -->
+<!-- Scraped: 2026-04-20T17:19:08.911Z -->
 
 Posted by
 James Williams
@@ -7,18 +7,12 @@ James Williams
 Back in October, at Android Dev Summit, we released a preview of Material Design 3 for Material Design Components (MDC).
 Now we’re ready to announce the stable release of MDC 1.5.0 with more Material Design 3 support, component fixes and more color utilities. You can check out the release notes here.
 If you held off on migrating last year, now is a great time to explore the new design system. Beyond the resources listed above, some areas you should focus your attention on are the Material 3 Catalog App and extended color utilities.
-link
-Copy link
-Link copied
 
 ## Material 3 Catalog App
 
 Our engineering team uses the Material Catalog app to verify and show example implementations of new components and features relating to Material Design. It’s a great source for discovering the new system.
 If you haven’t yet migrated to Material 3 and dynamic color, the catalog app offers a settings area allowing you to see how a default light, dark, or user-generated theme will look throughout the app.
 You can download the apk file here. For each screen, there’s also source code to check out, organized by component.
-link
-Copy link
-Link copied
 
 ## Extended Color Utilities
 
@@ -66,9 +60,6 @@ button
 setTextColor
 roles
 onAccentContainer
-link
-Copy link
-Link copied
 
 ## What’s next for MDC?
 

@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/color-fonts-are-here/overview -->
-<!-- Scraped: 2026-04-20T07:24:12.953Z -->
+<!-- Scraped: 2026-04-20T17:23:23.295Z -->
 
 Posted by
 Sarah Daily
@@ -7,9 +7,6 @@ Sarah Daily
 Even if you’ve never heard of “color fonts,” you probably use them everyday; emoji are color fonts. Color fonts enable color specification within the font file—and one glyph can have multiple colors. Non-color fonts (i.e., most existing fonts) only specify where color goes. A glyph can only be one color, and if you want your type to be something other than black, you have to manually change it.
 Emoji is the most obvious use case for color fonts, but type designers are running with this technology to make highly expressive and customizable typefaces—especially in the newest format, COLRv1.
 We’re so excited about color fonts, we even added a search filter for them on Google Fonts.
-link
-Copy link
-Link copied
 
 ## What’s so special about the COLRv1 font format?
 
@@ -19,9 +16,6 @@ COLRv1, which is already available in both Chrome, Android, and the Google Fonts
 - Multiple color palettesThe typeface designer can choose to include multiple color palette options in the font for use in CSS (base-palette).
 - Color palette customizationYou can customize color palettes in CSS (font-palette-values).
 - OpenType VariationsWith the ability to add variable axes too, the possibilities for customizing a COLRv1 font are literally infinite!
-link
-Copy link
-Link copied
 
 ## See COLRv1 in action with nine new typefaces, available now on Google Fonts
 

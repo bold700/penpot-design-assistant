@@ -1,15 +1,8 @@
 <!-- Source: https://m3.material.io/components/dialogs/accessibility -->
-<!-- Scraped: 2026-04-20T08:06:29.127Z -->
-
-link
-Copy link
-Link copied
+<!-- Scraped: 2026-04-20T18:09:11.155Z -->
 
 ## Use cases
 
-link
-Copy link
-Link copied
 People should be able to use assistive technology to:
 - Open and close a dialog
 - Provide and submit other inputs if the dialog is interactive, such as a 
@@ -30,15 +23,9 @@ People should be able to use assistive technology to:
       
             More on lists
 - Scroll the dialog to access all of its contents if that content extends beyond the container of the dialog
-link
-Copy link
-Link copied
 
 ## Interaction & style
 
-link
-Copy link
-Link copied
 
 ### Use sparingly
 
@@ -49,9 +36,6 @@ Present non-critical information using other UI within the flow of app content
 close
 Don’t
 Avoid putting non-critical information in a dialog
-link
-Copy link
-Link copied
 
 ### 200% text size
 
@@ -60,9 +44,6 @@ On Android, headlines should be kept concise enough to fit within four lines aft
 exclamation
 Caution
 Avoid excessive text wrapping or truncation by choosing concise strings
-link
-Copy link
-Link copied
 
 ### Elements within dialogs
 
@@ -95,27 +76,15 @@ Because dialogs can contain various elements within them, refer to the relevant
       
             More on buttons
 Full-screen dialogs can contain various elements such as (1) text fields, (2) typography, and (3) buttons, which each may have their own accessibility guidelines
-link
-Copy link
-Link copied
 
 ## Initial focus
 
-link
-Copy link
-Link copied
 When a dialog appears, focus should automatically land on the first interactive element within the dialog.
 Initial focus lands on the first interactive element within a dialog. The tab key moves focus through the next interactive elements in a cycle.
 The shift and tab keys together move focus in the opposite direction. The space or enter key triggers or commits the action of the focused element.
-link
-Copy link
-Link copied
 
 ## Keyboard navigation
 
-link
-Copy link
-Link copied
 | Keys | Actions |
 | Tab | Focus lands on the next interactive element contained in the dialog, or the first element if focus is currently on the last element |
 | Shift + Tab | Focus lands on the previous interactive element contained in the dialog, or the last element if focus is currently on the first element |
@@ -130,15 +99,9 @@ Link copied
           
    element |
 | Escape | Closes the dialog |
-link
-Copy link
-Link copied
 
 ## Labeling elements
 
-link
-Copy link
-Link copied
 The 
     
     accessibility
@@ -151,9 +114,6 @@ The
    label for a dialog is typically the same as the dialog’s title or headline.
 On web, basic dialogs should have the alert dialog role.
 Basic dialogs are known as alert dialogs on web
-link
-Copy link
-Link copied
 Components contained within the dialog, such as buttons, should be labeled according to the guidelines specific to those components.
 For common examples, see:
 Elements within a dialog should be labeled according to their guidelines

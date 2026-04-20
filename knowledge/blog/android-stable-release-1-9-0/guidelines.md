@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/android-stable-release-1-9-0/guidelines -->
-<!-- Scraped: 2026-04-20T07:21:31.033Z -->
+<!-- Scraped: 2026-04-20T17:20:38.412Z -->
 
 Posted by
 James Williams
@@ -7,9 +7,6 @@ James Williams
 Fast on the heels of Google I/O, we’re happy to announce the release of Material Design Components for Android (MDC-Android) 1.9.0.
 The new Carousel component allows you to create experiences like photo galleries and interact with lists of items in more flexible ways than a RecyclerView.
 It uses RecyclerView as a core so you can rest assured that it will be performant and integrate easily into your designs.
-link
-Copy link
-Link copied
 
 ## Making your RecyclerView a Carousel
 
@@ -68,9 +65,6 @@ ignore
 Next, instead of using a LinearLayoutManager, use a CarouselLayoutManager.
 Masking in MaskableFrameLayout ranges from 0% to 100% (0.0 to 1.0 in the code). When the layout manager needs to mask an image, it calculates a masking rectangle. The image below shows different masks applied to the same image and how each will reduce the image’s visible area.
 If you are using images in your Carousel with a custom image matrix or other components such as text, verify these objects work well with Carousel’s masking or optionally let them react to changes in mask size using an OnMaskChangedListener on your MaskableFrameLayout.
-link
-Copy link
-Link copied
 
 ## How Items in A Carousel Are Masked
 
@@ -78,9 +72,6 @@ MultiBrowseCarouselStrategy allows a carousel to optimally display large, medium
 In the images below, at the start of the carousel, we can see two large items, a medium item and a small item. At the end of the carousel, the arrangement shifts to become one small item, followed by a medium item, and finally two large items.
 |  |  |
 For more information on integrating the new Carousel component into your app, check out the full developer documentation.
-link
-Copy link
-Link copied
 
 ## What’s next for MDC ?
 

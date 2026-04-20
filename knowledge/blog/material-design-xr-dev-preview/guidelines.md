@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/material-design-xr-dev-preview/guidelines -->
-<!-- Scraped: 2026-04-20T07:45:32.325Z -->
+<!-- Scraped: 2026-04-20T17:47:36.810Z -->
 
 Posted by
 Yasmine Evjen
@@ -8,9 +8,6 @@ Android is expanding into extended reality, so your app can be viewed in 3D spac
 Today, we’re releasing the Android XR SDK developer preview, a software development kit to let you build XR apps using familiar Android frameworks and tools. This release also includes Android XR design guidelines and developer documentation to help you create immersive experiences.
 The Jetpack XR SDK allows you to enhance your existing Android app for XR and see it come to life in the Android XR emulator in Android Studio. Jetpack Compose for XR provides an easy onboarding to declaratively build spatial UI layouts, with established concepts such as rows and columns. Material Design for XR provides design guidance and code for spatial adaptations of components and layouts, to help you prepare your apps for this new environment.
 In addition, we are launching advanced perception capabilities with ARCore for Jetpack XR, as well as SceneCore, our new 3D scene graph library for custom 3D manipulation.
-link
-Copy link
-Link copied
 
 ## Android apps in XR
 
@@ -20,9 +17,6 @@ The Android XR design guidelines provide a roadmap for creating exceptional XR e
 To help you build integrated and boundless experiences, Android XR includes multimodal inputs, and spatial capabilities. Users can experience your app in two modes: Home Space and Full Space. In Home Space, a user is able to multitask with your app running side by side with other apps. In Full Space, your app takes center stage as the focus of the user's experience with full access to the spatial and 3D capabilities of Android XR.
 In Home Space, a user is able to multitask with your app running side by side with other apps.
 In Full Space, your app takes center stage as the focus of the user's experience with full access to the spatial and 3D capabilities of Android XR.
-link
-Copy link
-Link copied
 
 ## Material Design for XR
 
@@ -31,9 +25,6 @@ When designing for XR, you may want to use spatial UI to place content in a user
 Spatial panels allow you to take advantage of the infinite canvas that Android XR provides, breaking out your existing UI content into panels that are resizable and moveable by the user. Orbiters are floating UI elements that control the content within spatial panels. They give the app’s main content more space, and users can quickly access features while the content remains visible. Adding spatial elevation to a component raises it above the spatial panel on the Z-axis. This can help get a user's attention, create better visual hierarchy, and improve legibility.
 Spatial UI behaviors in Material Design components and adaptive layouts will help your app adapt naturally to 3D space.
 Material Design adaptive components and layouts for XR
-link
-Copy link
-Link copied
 
 ## XR adaptations
 
@@ -62,9 +53,6 @@ Spatialized (XR-adapted) ListDetailPaneScaffold
 Compose Material 3 Adaptive Layouts in XR also have a 1:1 mapping where each pane becomes an XR spatial panel. Learn more about SupportingPaneScaffold and adaptive design guidelines.
 Non-spatialized SupportingPaneScaffold
 Spatialized (XR-adapted) SupportingPaneScaffold
-link
-Copy link
-Link copied
 
 ## Start building with Material Design for XR
 
@@ -81,9 +69,6 @@ All M3 Compose UI inside of the EnableXrComponentOverrides wrapper will adapt on
 ### Develop spatial UI with Jetpack Compose for XR
 
 With Jetpack Compose for XR, you can declaratively build your spatial UI layouts using familiar Compose concepts such as rows and columns, including new components, spatial panels and orbiters. Start building with our new subspace and spatial components.
-link
-Copy link
-Link copied
 
 ## Designing the future together
 

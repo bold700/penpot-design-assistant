@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/jamie-chung-photography-interview/accessibility -->
-<!-- Scraped: 2026-04-20T07:37:08.120Z -->
+<!-- Scraped: 2026-04-20T17:37:51.431Z -->
 
 Posted by
 Emily Blank

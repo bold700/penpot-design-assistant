@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/google-design-tutorial-video/specs -->
-<!-- Scraped: 2026-04-20T07:32:08.496Z -->
+<!-- Scraped: 2026-04-20T17:31:56.426Z -->
 
 Posted by
 Material Design

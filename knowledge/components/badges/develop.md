@@ -1,9 +1,6 @@
 <!-- Source: https://m3.material.io/components/badges/develop -->
-<!-- Scraped: 2026-04-20T08:02:20.675Z -->
+<!-- Scraped: 2026-04-20T18:04:50.641Z -->
 
-link
-Copy link
-Link copied
 - Can contain labels or numbers
 - Two variants: 
     
@@ -20,21 +17,12 @@ Link copied
 - Anchor badges inside the icon bounding box, at the upper trailing edge of the icon
 - Limit content to four characters, including a +
 - Keep the default color mapping
-link
-Copy link
-Link copied
 - Small badge on a navigation item
 - Large badge on a navigation item
 - Large badge with max characters on a navigation item
-link
-Copy link
-Link copied
 
 ## Availability & resources
 
-link
-Copy link
-Link copied
 | Type | Resource | Status |
 | Design |
 | Design Kit (Figma) | Available |
@@ -43,15 +31,9 @@ Link copied
 | Jetpack Compose | Available |
 | MDC-Android | Available |
 | Web | Unavailable |
-link
-Copy link
-Link copied
 
 ## Differences from M2
 
-link
-Copy link
-Link copied
 - Color: New color mappings and compatibility with 
     
     dynamic color

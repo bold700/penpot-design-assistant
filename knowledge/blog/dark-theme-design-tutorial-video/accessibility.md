@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/dark-theme-design-tutorial-video/accessibility -->
-<!-- Scraped: 2026-04-20T07:24:51.853Z -->
+<!-- Scraped: 2026-04-20T17:24:06.984Z -->
 
 Posted by
 Material Design

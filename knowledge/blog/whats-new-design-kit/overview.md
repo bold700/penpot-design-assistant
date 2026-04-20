@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/whats-new-design-kit/overview -->
-<!-- Scraped: 2026-04-20T07:59:38.612Z -->
+<!-- Scraped: 2026-04-20T18:02:02.075Z -->
 
 Posted by
 Euphrates Dahout
@@ -13,17 +13,11 @@ We’ve put effort into refactoring many of the components so that they are easy
 Now featuring dozens of UI components and hundreds of styles, the M3 design kit is the best place to start your journey with Material – and it’s available on our community page for free. Make a copy to your Figma account today to get started!
 These updates are brought to you by Material’s Systems Design team.
 More than design system librarians, the Systems Design team has also been up to some creative projects. Check out our interactive illustrated Figma prototype that tells the story behind what goes into the making of the M3 design kit.
-link
-Copy link
-Link copied
 
 ## Making mockups come to life
 
 Prototyping can enhance design mockups with realism to communicate design intentions and even help cut down development iterations and documentation time! That’s why the new prototyping enabled components are so exciting.
 To get started using them, simply drop the components into your design mockups and switch to Present mode, they are already set up with interaction states prototyped.
-link
-Copy link
-Link copied
 
 ## What’s new this year, so far
 

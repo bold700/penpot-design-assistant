@@ -1,28 +1,16 @@
 <!-- Source: https://m3.material.io/components/checkbox/guidelines -->
-<!-- Scraped: 2026-04-20T08:04:57.739Z -->
+<!-- Scraped: 2026-04-20T18:07:39.238Z -->
 
-link
-Copy link
-Link copied
 Checkboxes in a list of items
-link
-Copy link
-Link copied
 
 ## Usage
 
-link
-Copy link
-Link copied
 Use checkboxes to:
 - Select one or more options from a list
 - Present a list containing sub-selections
 - Turn an item on or off in a desktop environment
 - Visually group similar options together
 Checkboxes select multiple, related options
-link
-Copy link
-Link copied
 Checkboxes should be used instead of 
     
     switches
@@ -38,9 +26,6 @@ Checkboxes let users select one or more options from a list. A parent checkbox a
 close
 Don’t
 If a list consists of multiple options, don't use switches. Instead, use checkboxes. Checkboxes imply the items are related, and take up less visual space.
-link
-Copy link
-Link copied
 
 ### Alternate selection controls
 
@@ -68,26 +53,14 @@ Checkboxes,
 - Use switches to select standalone or more verbose options in a list, like settings.
 Radio buttons
 Switches
-link
-Copy link
-Link copied
 
 ## Anatomy
 
-link
-Copy link
-Link copied
 1. Container
 2. Icon
-link
-Copy link
-Link copied
 
 ## Responsive layout
 
-link
-Copy link
-Link copied
 In 
     
     expanded window sizes
@@ -108,28 +81,16 @@ In
           
    can help group related controls and available actions.
 A side sheet can group related controls on larger screens
-link
-Copy link
-Link copied
 
 ## Behavior
 
-link
-Copy link
-Link copied
 Multiple checkboxes in a list can be selected.
 Selecting multiple items in a list using checkboxes
-link
-Copy link
-Link copied
 Checkboxes can have a parent-child relationship with other checkboxes.
 - When the parent checkbox is checked, all child checkboxes are checked
 - If a parent checkbox is unchecked, all child checkboxes are unchecked
 - If some, but not all, child checkboxes are checked, the parent checkbox becomes an indeterminate checkbox. Checking an indeterminate checkbox checks all child items.
 Use a parent checkbox to make it more efficient to select many items
-link
-Copy link
-Link copied
 When selected, a checkbox clearly and instantly communicates its selected state.
 If used to turn something on or off, the action should be immediately executed.
 Turning an item on or off using a checkbox

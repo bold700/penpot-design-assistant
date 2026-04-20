@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/fonts-are-software-video/overview -->
-<!-- Scraped: 2026-04-20T07:31:15.000Z -->
+<!-- Scraped: 2026-04-20T17:30:54.992Z -->
 
 Posted by
 Susanna Zaraysky

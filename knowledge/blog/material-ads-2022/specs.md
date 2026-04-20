@@ -1,13 +1,10 @@
 <!-- Source: https://m3.material.io/blog/material-ads-2022/specs -->
-<!-- Scraped: 2026-04-20T07:42:14.725Z -->
+<!-- Scraped: 2026-04-20T17:43:45.846Z -->
 
 Posted by
 Liam Spradlin
 , Senior UX Designer, Material Design
 Android Dev Summit is back for 2022, having kicked off today in the Bay Area, and Material Design is on the scene with exciting updates on Material.io, Material 3 components and libraries, and progress on tooling. There’s a lot of news to cover, so we’ve brought it all together in one post. Let’s dig in!
-link
-Copy link
-Link copied
 
 ## System Updates
 
@@ -15,9 +12,6 @@ Link copied
 #### Material.io
 
 First off, our site has been updated for Material Design 3, officially moving from the m3.material.io subdomain to the main attraction! If you’ve taken a look around recently, you may have noticed that the official documentation for Material Design now makes more use of Material 3’s principles. Dynamic color brings together the site’s imagery and content, while the site itself demonstrates how the system can flex for product-specific use cases. Design Lead David Allin Reese points out the way new motion design contributes to the site’s design refresh, allowing Material.io to “express an energetic spirit through its motion, from changes in pixels to entire views.” Learn more about the full breakdown of the design.
-link
-Copy link
-Link copied
 
 ## Libraries
 
@@ -30,9 +24,6 @@ Material Design for Compose gets its first ever stable release, bringing with it
 #### Android Views 1.7.0 Stable Release
 
 The latest in our Android Views library includes updates to Material You styling, shape theming, accessibility, and size coherence, along with updated minimum requirements. Check out the full post for all the details.
-link
-Copy link
-Link copied
 
 ## Tooling Updates
 
@@ -53,9 +44,6 @@ With the M3 design kit, you’ll be starting with the very latest from our team,
 Last year at Android Dev Summit, we showed a glimpse into our approach to the handoff problem between design and dev; a workflow built to span across disciplines with a shared model for encoding and transporting design intent.
 Today, we have some updates to share, the first of which is a new name: Relay  includes a set of plugins for Android Studio and Figma, is now in Alpha.
 Check out the full announcement, give the tools a try, and give us your feedback!
-link
-Copy link
-Link copied
 
 ## Stay Tuned
 

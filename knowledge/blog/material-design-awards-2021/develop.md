@@ -1,25 +1,16 @@
 <!-- Source: https://m3.material.io/blog/material-design-awards-2021/develop -->
-<!-- Scraped: 2026-04-20T07:43:38.655Z -->
+<!-- Scraped: 2026-04-20T17:45:29.524Z -->
 
 Posted by
 Material Design
-link
-Copy link
-Link copied
 
 ## Update
 
 We are less than 3 weeks away from the submission form closing! Read on to learn about the 3 categories of Dark theme, large screen, and motion. The deadline to self-nominate is October 1, 2021; winners will be announced in December.
-link
-Copy link
-Link copied
 
 ## Material Design Awards 2021
 
 The annual Material Design Awards help us celebrate the best in design from our talented Material Design community. This year, we’re looking for products that use Material Design to deliver more dynamic, personal experiences through Motion, Large-screen design experiences, and expressive implementations of Dark Theme.  Nominate your product and review this year’s official rules. Keep reading to learn more about the criteria for each category, and explore some of the latest resources for building with Material Design.
-link
-Copy link
-Link copied
 
 ## Dark Theme
 
@@ -33,9 +24,6 @@ Design a dark theme in this step-by-step tutorial.
 Create your own dark theme Material layouts with this component library for Figma.
 Watch and learn how to design a dark theme with Material and implement on Android.
 See how four Google products go “into the dark” with Material.
-link
-Copy link
-Link copied
 
 ## Large Screen
 
@@ -43,9 +31,6 @@ How your design adapts is just as important as what’s adapting: we’re lookin
 Read an introduction to Material Design Guidance for Large Screens.
 Watch the I/O on-demand session on preparing your app for large screens.
 Learn how to build an adaptive layout in this step-by-step tutorial.
-link
-Copy link
-Link copied
 
 ## Motion
 

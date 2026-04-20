@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/android-material-theme-type/overview -->
-<!-- Scraped: 2026-04-20T07:17:12.888Z -->
+<!-- Scraped: 2026-04-20T17:16:21.591Z -->
 
 Posted by
 Nick Rout
@@ -7,9 +7,6 @@ Nick Rout
 Material Theming is a way to customize Material Components to align with your brand. A Material theme includes color, typography and shape parameters which you can adjust to get near-infinite variations of the components – all while maintaining their core anatomy and usability.
 On Android, Material Theming can be implemented using the Material Components (MDC) library, from version 1.0.0 onwards. If you’re looking to migrate from the Design Support Library or MDC 1.0.0, take a look at our migration guide.
 This article will be focusing on type theming.
-link
-Copy link
-Link copied
 
 ## Type attributes
 
@@ -42,9 +39,6 @@ Body1
 /item>
 style
 You might recognize TextAppearance styles from AppCompat or the platform and these are discussed in more detail in the Type resources section below. The corresponding attributes are new to MDC and give you the ability to vary typography by theme.
-link
-Copy link
-Link copied
 
 ## Picking type
 
@@ -55,17 +49,11 @@ Figuring out which type styles to use and the values within them may be the resp
 - textAppearanceButton is for buttons but also maps to parts of other components like tabs and dialog actions
 - textAppearanceCaption is for smaller text like text field hints and errors
 - textAppearanceOverline is also for smaller text but capitalization and increased letter spacing make it suitable for small titles and labels like date picker headers
-link
-Copy link
-Link copied
 
 ## Type tool
 
 Material Design provides a useful tool for previewing type scales, integrating with Google Fonts and exporting code. See "Type scale generator" in the Material Design type scale guidelines.
 Google Fonts (left) and Type scale generator (right)
-link
-Copy link
-Link copied
 
 ## Type resources
 
@@ -74,9 +62,6 @@ XML and downloadable fonts
 Fonts are stored in the res/font directory and referenced with @font/ notation. You can use either local XML fonts or downloadable fonts. Android Studio offers a built-in wizard to get you started with downloadable fonts including the necessary certificates and manifest metadata. You may also want to check out “The Android Developer’s Guide to Better Typography” by Rod Sheeter for a more detailed guide and further optimizations to font preloading.
 In general we recommend using downloadable fonts as they reduce the size of your app bundle by leveraging the shared font provider cache. However, downloadable fonts currently only work with those available on Google Fonts. If your app requires a purchased or proprietary font, use XML fonts.
 It’s also worth mentioning that variable fonts are supported on Android from API 26 onwards. Take a look at Rebbeca Franks’ “Variable Fonts in Android O 🖍” article for more information.
-link
-Copy link
-Link copied
 
 ## TextAppearance styles
 
@@ -140,9 +125,6 @@ false
 /item>
 ...
 /style>
-link
-Copy link
-Link copied
 
 ## Calculating letterSpacing
 
@@ -172,9 +154,6 @@ name
 /item>
 ...
 /style>
-link
-Copy link
-Link copied
 
 ## MaterialTextView and lineHeight
 
@@ -184,9 +163,6 @@ You can use lineHeight in various scenarios:
 - Included as an item in widget styles with parent Widget.MaterialComponents.TextView (applied with style=”...”)
 - Applied directly to <Texview>s in layouts
 Different lineHeight values
-link
-Copy link
-Link copied
 
 ## Things to consider
 
@@ -215,9 +191,6 @@ attr
 textAppearanceBody1
 /item>
 /style>
-link
-Copy link
-Link copied
 
 ## Additional type styles
 
@@ -252,9 +225,6 @@ App
 Custom
 /item>
 /style>
-link
-Copy link
-Link copied
 
 ## Overriding type styles in an app theme
 
@@ -296,39 +266,24 @@ Button
 <!-- Using default values for textAppearanceSubtitle1, textAppearanceCaption, etc. --><p></style></p>
 Material Components will respond to theme-level type overrides:
 Material Design components responding to theme-level type overrides
-link
-Copy link
-Link copied
 
 ## Type in MDC widgets
 
 Earlier we said that MDC widgets respond to overrides of theme level type attributes. But how would you know, for example, that a button uses textAppearanceButton as the style for its text label? Let’s take a look at a few options.
-link
-Copy link
-Link copied
 
 ## MDC developer docs
 
 The MDC developer docs have recently been refreshed. As part of this we’ve included attribute tables which include design terminology and default values used in the library. For example, check out the “Anatomy and key properties” sections of the updated buttons doc.
 MDC button dev doc attribute table with default type values
-link
-Copy link
-Link copied
 
 ## Source code
 
 Inspecting the MDC source code is arguably the most reliable approach. MDC uses default styles to achieve Material Theming so it’s a good idea to look at these as well as any styleable attrs and the java file(s). For example, check out the styles, attrs and java file for MaterialButton.
 MDC button default style with type values
-link
-Copy link
-Link copied
 
 ## Type in custom views
 
 Your app may include custom widgets you’ve built or gotten from an existing library. Making these views responsive to Material Theming is useful when using them alongside standard MDC widgets. Let’s take a look at what to keep in mind when supporting type theming for custom widgets.
-link
-Copy link
-Link copied
 
 ## Use MDC attrs declare-styleables and default styles
 
@@ -367,9 +322,6 @@ textAppearanceBody2
 /item>
 ...
 /style>
-link
-Copy link
-Link copied
 
 ## OK Google, what’s next?
 

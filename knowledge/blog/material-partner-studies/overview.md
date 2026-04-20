@@ -1,13 +1,10 @@
 <!-- Source: https://m3.material.io/blog/material-partner-studies/overview -->
-<!-- Scraped: 2026-04-20T07:48:19.123Z -->
+<!-- Scraped: 2026-04-20T17:50:48.523Z -->
 
 Posted by
 Material Design
 On any product team, there’s often a tension between building things fast and building beautifully. But with the latest Material Design release, teams get the best of both without having to compromise quality. Since we introduced Material Design in 2014, we’ve been working with people across Google and around the world to better understand the needs of designers and developers—we’ve conducted hundreds of design reviews and nearly as many design sprints. Collaborating with early access Material partners including Lyft, Genius, NPR, Pocket Casts, and Zappos was another important part of the process.
 The goal has always been to help you build easily and systematically, and now you can with custom Material themes to make your product unique, a growing library of customizable components, and tools that encourage (and simplify) collaboration across teams. A design system only comes to life in the hands of its users, with every touch, tap, and interaction that brings someone’s experience off the screen and into daily life. Get to know some of the new components, interactions, and expressive capabilities of Material, by diving into these explorations and interactions developed by our Material partners.
-link
-Copy link
-Link copied
 
 ## Lyft: Taking action with the extended FAB
 
@@ -19,9 +16,6 @@ Swapping out the circular floating action button for Material’s new extended F
 Extended FAB
 Wider FAB with a text label
 Related article arrow_downward
-link
-Copy link
-Link copied
 
 ## Genius: Creating a responsive layout grid
 
@@ -31,9 +25,6 @@ Genius created a unified, responsive layout grid with Material
 Responsive design isn’t always about resizing and stacking content. Genius — a community-powered platform for annotating and interpreting music lyrics, takes a unique approach to adapting between mobile and desktop experiences. A Genius user on the go is more likely to look up song lyrics and artists on their phone, while desktop users tend to engage more in sharing commentary and annotations. These two experiences are complementary and platform-aware, but the app’s layout grid didn’t always adapt as seamlessly as the rest of the interface. To better adapt, Genius recently unified its layout grid across platforms in line with updated Material guidance, making it responsive as you move between devices.
 Layout Grid
 Adapting to screen size and orientation
-link
-Copy link
-Link copied
 
 ## NPR: Organizing experience with cards
 
@@ -44,9 +35,6 @@ NPR’s On Demand screen combines multiple types of content from various sources
 NPR needed to create a more flexible and expandable approach to grouping and revealing content in the app, making it both easy to visually parse for the user and easy to manage for editors. The solution was to create customized Material cards. The white cards on a minimal, white background create a visual structure that avoids complication, and the shadows “cast” by each card further communicate each grouping of content. The team also established a branded shape system using broad, rounded corners. The custom shapes manifest in the mini player, cover art for shows and publications, and the cards themselves. A Material list component inside each card, expands to accommodate related content when needed. Touches of blue emphasize key actions, highlighting the mini player at the bottom of the screen and affordances for accessing other playable content.
 Cards
 Containing content & links on a single subject
-link
-Copy link
-Link copied
 
 ## Pocket Casts: Building a better player
 
@@ -57,9 +45,6 @@ Podcast player Pocket Casts set out with the goal to update and refine their e
 To strike a balance between expressing its identity and adapting to the varied artwork each podcast provides, Pocket Casts also fine-tuned its approach to color. Color extracted from podcast artwork is reserved for interactive components and progress indicators, while subtle gradients generated from the same palette fill in surfaces like the collapsed player for a flexible but understated aesthetic.
 Motion System
 Transition patterns & guidance
-link
-Copy link
-Link copied
 
 ## Zappos: Creating and preserving context with the backdrop
 

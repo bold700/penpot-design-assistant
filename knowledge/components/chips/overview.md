@@ -1,9 +1,6 @@
 <!-- Source: https://m3.material.io/components/chips/overview -->
-<!-- Scraped: 2026-04-20T08:05:13.031Z -->
+<!-- Scraped: 2026-04-20T18:07:54.586Z -->
 
-link
-Copy link
-Link copied
 - Use chips to show options for a specific context
 - Four variants: 
     
@@ -41,22 +38,13 @@ Link copied
             More on elevation
           
    defaults to 0 but can be elevated if they need more visual separation
-link
-Copy link
-Link copied
 - Assist chip
 - Filter chip
 - Input chip
 - Suggestion chip
-link
-Copy link
-Link copied
 
 ## Availability & resources
 
-link
-Copy link
-Link copied
 | Type | Resource | Status |
 | Design |
 | Design Kit (Figma) | Available |
@@ -65,27 +53,15 @@ Link copied
 | Jetpack Compose | Available |
 | MDC-Android | Available |
 | Web | Available |
-link
-Copy link
-Link copied
 
 ## Updates
 
-link
-Copy link
-Link copied
 Aug 2024
 Updated stroke color from outline to outline variant.
 The stroke color was softened to improve visual hierarchy between chips and buttons
-link
-Copy link
-Link copied
 
 ## Differences from M2
 
-link
-Copy link
-Link copied
 - Color: New color mappings and compatibility with 
     
     dynamic color
@@ -114,8 +90,5 @@ Link copied
     filter chips
     
       Filter chips use tags or descriptive words to filter content. They can be a good alternative to toggle buttons or checkboxes.
-link
-Copy link
-Link copied
 M2: Variants of chips are input, choice, filter, and action chips
 M3: Variants of chips updated to assist, filter, input, and suggestion chips

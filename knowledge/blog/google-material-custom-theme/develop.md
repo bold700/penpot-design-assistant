@@ -1,14 +1,11 @@
 <!-- Source: https://m3.material.io/blog/google-material-custom-theme/develop -->
-<!-- Scraped: 2026-04-20T07:34:49.337Z -->
+<!-- Scraped: 2026-04-20T17:35:04.058Z -->
 
 Posted by
 Material Design
 What makes a product look and feel unique? And how do you communicate that identity to the people on the other side of the screen. At Google, we make hundreds of digital products under the same colorful, quirky logo. And while Google’s brand has evolved and changed over the years, design remains a common thread tying together our varied constellation of apps, services, and technologies.
 With the launch of Material Theming – our end-to-end capability that allows teams to easily and systematically express a brand’s unique identity – design details, like type, shape, and color can be baked into custom Material themes and applied easily across a digital experience. We’ve built the Google Material Theme to express what makes Google uniquely Google. Details like the use of open space, the four Google colors, and our custom typeface, Google Sans, work together to convey a familiarity and trust to our users. Our theme gives Google apps a new, modern interface built with all the best practices of Material Design, but customized and adapted so that every part of the UI works together to serve that product’s function.
 A number of product teams, including Gmail, Google News, Google Pay, and Google Home, helped define and test-drive the Google Material Theme. The redesigned interfaces for all four products launched recently, and we’ll be rolling out even more refreshed Google experiences in the coming months. Anyone can use Material Theming to make their product stand out, from a small startup to a large company with a diverse set of apps. Learn from our experience developing and applying the Google Material Theme to better understand how you can use themed components to create a shared, expressive brand experience that’s flexible and uniquely yours.
-link
-Copy link
-Link copied
 
 ## Gmail: Using color to focus on content
 
@@ -19,9 +16,6 @@ Updated guidance on the responsive layout grid allowed the designers to pare dow
 The color system
 Create a color theme that reflects your brand or style
 Related article arrow_downward
-link
-Copy link
-Link copied
 
 ## Google News: Designing an AI-powered experience
 
@@ -31,9 +25,6 @@ Using a single typeface for every headline works well on mobile, where the user 
 Newscasts are a Google News feature where users swipe through AI-curated articles, videos, and insights displayed on a series of cards. These cards have a raised elevation to highlight their importance and draw a user’s attention.
 The type system
 Typography can enhance your design & content
-link
-Copy link
-Link copied
 
 ## Google Pay: Using shape to express friendliness
 
@@ -44,9 +35,6 @@ Google Pay uses elevation to “lift” its round-cornered cards, visually echoi
 About shape
 Direct attention, identify components, communicate state, and express brand
 Related link arrow_downward
-link
-Copy link
-Link copied
 
 ## Google Home: Creating a delightful onboarding experience
 

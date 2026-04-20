@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/fonts-are-software-video/accessibility -->
-<!-- Scraped: 2026-04-20T07:31:30.448Z -->
+<!-- Scraped: 2026-04-20T17:31:11.656Z -->
 
 Posted by
 Susanna Zaraysky

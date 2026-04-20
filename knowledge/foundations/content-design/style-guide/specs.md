@@ -1,9 +1,5 @@
 <!-- Source: https://m3.material.io/foundations/content-design/style-guide/specs -->
-<!-- Scraped: 2026-04-20T08:24:30.379Z -->
-
-link
-Copy link
-Link copied
+<!-- Scraped: 2026-04-20T18:25:37.072Z -->
 
 ### Explain consequences
 
@@ -13,17 +9,11 @@ Tell users what will happen if they take an action and how they can undo it
 close
 Don’t
 Don’t misrepresent consequences or try to influence a user’s decision
-link
-Copy link
-Link copied
 
 ### Use scannable words and formats
 
 People scan UI text in search of the most meaningful content to them. Help by using specific titles and headings that clearly describe a topic. When users are skimming or hurrying through an action, this organization helps them avoid mistakes and unintentional actions.
 Use headings and subheads to prioritize and group information
-link
-Copy link
-Link copied
 
 ### Use sentence case
 
@@ -34,9 +24,6 @@ Capitalize the first word of a sentence or phrase
 close
 Don’t
 Don’t use title case capitalization. Instead, use sentence case.
-link
-Copy link
-Link copied
 
 ### Use abbreviations sparingly
 

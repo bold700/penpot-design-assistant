@@ -1,19 +1,10 @@
 <!-- Source: https://m3.material.io/components/tooltips/guidelines -->
-<!-- Scraped: 2026-04-20T08:18:37.605Z -->
+<!-- Scraped: 2026-04-20T18:21:08.737Z -->
 
-link
-Copy link
-Link copied
 Plain and rich tooltips serve different purposes
-link
-Copy link
-Link copied
 
 ## Usage
 
-link
-Copy link
-Link copied
 A tooltip provides additional context for a UI element.
 Plain tooltipsPlain tooltips briefly describe a UI element. They're best used for labelling UI elements with no text, like icon-only 
     
@@ -29,58 +20,28 @@ Rich tooltipsRich tooltips provide additional context about a UI element. They c
 Rich tooltips are best used for longer text like definitions or explanations.
 - Plain tooltip
 - Rich tooltip
-link
-Copy link
-Link copied
 check
 Use plain tooltips to label icon-only buttons
 close
 Don’t
 Plain tooltips aren't needed when the UI element already has label text
-link
-Copy link
-Link copied
 check
 Use rich tooltips to provide extra information and actions about a UI element or new feature
 close
 Don’t
 Don't hide critical information within tooltips as it’s easy to miss. Use an interruptive dialog instead.
-link
-Copy link
-Link copied
 
 ## Anatomy
 
-link
-Copy link
-Link copied
-link
-Copy link
-Link copied
 - Container
 - Supporting text
-link
-Copy link
-Link copied
-link
-Copy link
-Link copied
 check
 Briefly describe a UI element
 exclamation
 Caution
 Avoid wrapping text to multiple lines or including many pieces of information
-link
-Copy link
-Link copied
-link
-Copy link
-Link copied
 - Subhead (optional)
 - Text button (optional)
-link
-Copy link
-Link copied
 Keep subheads brief, ideally to one line. They should summarize or describe the message of the 
     
     rich tooltip
@@ -95,9 +56,6 @@ Summarize the message in a few words
 close
 Don’t
 Avoid wrapping to more than one line
-link
-Copy link
-Link copied
 
 ### Text buttons (optional)
 
@@ -115,15 +73,9 @@ Keep buttons short so they can be side by side. Avoid stacking them when possibl
 exclamation
 Caution
 Avoid stacking buttons
-link
-Copy link
-Link copied
 
 ## Placement
 
-link
-Copy link
-Link copied
 
 ### Plain tooltips
 
@@ -141,9 +93,6 @@ If the element is in an
           
   , the plain tooltip appears below the element at the same distance.
 Plain tooltip with a 4dp distance between the target and tooltip
-link
-Copy link
-Link copied
 
 ### Rich tooltips
 
@@ -151,15 +100,9 @@ By default, rich tooltips are positioned to the bottom right of the parent eleme
 Dynamic positioningThe position of the tooltip adjusts in increments of 8dp to avoid going off-screen.
 Desktop placementOn desktop, tooltips may appear centered below the parent element and remain visible while moving within the target region.
 Four different rich tooltip locations based on dynamic positioning
-link
-Copy link
-Link copied
 
 ## Behavior
 
-link
-Copy link
-Link copied
 To show a tooltip, 
     
     hover
@@ -177,9 +120,6 @@ To show a tooltip,
     
       
    only appear when clicked or tapped.
-link
-Copy link
-Link copied
 
 ### Transient by default
 
@@ -193,15 +133,9 @@ Both
    and rich tooltips disappear 1.5 seconds after navigating away from the target region.
 Triggering a new tooltip immediately closes any other open tooltip.
 Tooltips disappear after a 1.5 second delay when no other element is hovered
-link
-Copy link
-Link copied
 close
 Don’t
 Only display one tooltip at a time
-link
-Copy link
-Link copied
 
 ### Persistent rich tooltips
 

@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/design-material-theme-shape/develop -->
-<!-- Scraped: 2026-04-20T07:26:55.735Z -->
+<!-- Scraped: 2026-04-20T17:26:07.598Z -->
 
 Posted by
 Liam Spradlin
@@ -9,9 +9,6 @@ Intentional use of shape can create visual hierarchy among components, separatin
 Shape can also suggest interactivity, hinting with an asymmetric corner that some affordance is present.
 And, of course, shape can be another tool in your kit for creating an experience that feels like it belongs to your brand, elevating the expression of your app’s unique identity with an extra custom touch.
 Material Theming introduced a wide variety of possibilities for shaping elements in your UI and, like the other systems we’ve covered in similar guides, shape can be defined and controlled at a global level, creating a comprehensive shape theme that automatically sets the appearance of every Material Component in your app.
-link
-Copy link
-Link copied
 
 ## Shape in Material
 
@@ -19,9 +16,6 @@ Material Design supports two primary shape families by default: rounded and angl
 Material Components are divided into three categories: small, medium, and large.
 Components in the “small” category include things like buttons, chips, floating action buttons, snackbars, and tooltips. Components in the “medium” category include cards, dialogs, image list items, and menus. And components like the backdrop, modal navigation drawer, and sheets belong to the “large” category.
 Grouping components this way allows for the creation of a shape theme that’s comprehensive (applied to all components) but thoughtful (applied differently based on the size and prominence of each component). Optically, applying a 4dp rounded corner to a button and a nav drawer would end up feeling very different. For the button, which is 40dp tall, one rounded corner represents 10% of its total height. For a nav drawer that spans the entire vertical space of the screen, this is 0.6% of the total height or less. So treating different sized components with different shape styles allows your app to have an optically balanced and sensible approach to shape, in addition to leaving space for shape to act as a tool in the ways described above.
-link
-Copy link
-Link copied
 
 ## Creating your shape theme
 
@@ -30,18 +24,12 @@ The Material Studies (example apps designed around real world use cases and prod
 As we saw before, the angular forms of Shrine’s diamond logo influences the shape of everything from buttons to backdrops.
 Your product’s typography can also serve as inspiration. For example, if you’re using a typeface with rounded corners or terminals, the shape family you choose can either amplify or contrast that geometry, depending on your preferred expression.
 To get a feel for how each shape family might look, check out the shape tool from the Material Design guidance on shape. The tool will give you a feel for how different shape families and values will impact Material Components, allowing you to make informed decisions about your shape theme before visualizing it in Figma or in code.
-link
-Copy link
-Link copied
 
 ## Visualizing your theme
 
 To visualize your new shape theme in a design environment, it will be useful to refer to the component groupings described in the shape guidance on material.io, applying the desired shapes and values to your components as needed.
 To get started with a full Material Design stickersheet, make a copy of our Baseline Design Kit for Figma. On the Components page, you’ll find the main components that serve as parents for all the Material Components shown on the Stickersheet page.
 Here, you can begin applying shape values to components by changing the corner radius values in the panel on the right side of the screen for each component’s States, Color, and Elevation layers.
-link
-Copy link
-Link copied
 
 ## What’s next?
 

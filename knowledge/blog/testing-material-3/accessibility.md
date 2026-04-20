@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/testing-material-3/accessibility -->
-<!-- Scraped: 2026-04-20T07:59:05.363Z -->
+<!-- Scraped: 2026-04-20T18:01:27.401Z -->
 
 Posted by
 Nico Thornley
@@ -20,9 +20,6 @@ Specifically, we heard that interfaces need to communicate:
 - Style: What is its brand or “vibe?” Who made this, and who’s it for?
 This helped us build out a framework for further research—the questions should directly measure a design's hierarchy, utility, and style. Using questions tuned to these properties, we could ask research participants to compare designs and tell us which one best accomplishes the design's intent.
 With a standardized set of questions, we could gather feedback from hundreds of participants in just a few hours, automating the data parsing to see the results for any pair instantly. We replicated this across a collection of many designs that represent the different contexts Material might be used in. By systematizing the research like this, we’ve been able to study the design system as a whole, not just individual changes.
-link
-Copy link
-Link copied
 
 ## What did we ask, and why?
 
@@ -39,18 +36,12 @@ Style signals so many things: Who made this? How do they want you to feel when y
 In our interviews with designers and users, we found that some people feel excited while using colorful, loud interfaces. Others find parsing the same aesthetic draining. Asking how “energetic” and “emotive” a design is provided insight into how an overall design makes users feel.
 Our interviews also suggested that the spectrum between serious and fun is a critical one, so we measured “positivity,” “playfulness,” “friendliness,” and “creativity.”
 Finally, we had participants rate “personality,” and “vibe or feel.” These ratings offer holistic, evaluative measures of the design’s style.
-link
-Copy link
-Link copied
 
 ## Measuring Material 3
 
 We've been systematically using these questions to evaluate Material 3 as a design system, by asking participants to compare Material 2 designs to their Material 3 counterparts across a range of sample use cases. Trends in the responses help us steer the evolution of the design system.
 In one experiment, we asked 229 US-based participants to rank Material 2 against Material 3 in the context of an email app.
 Note: The horizontal axis is an estimate of the percent of the population that would choose the design for each question. For example, we estimate 92% of users would find the Material 3 design to be more informative than the Material 2 version of this email app. “*” indicates a statistically significant difference.
-link
-Copy link
-Link copied
 
 ## What did we learn?
 
@@ -58,9 +49,6 @@ The hierarchy in the Material 3 version resonated strongly with participants. 81
 The Material 3 version also performed strongly in perceived utility. 77% of participants thought it was more obvious how to use the Material 3 design, and 76% found its main function was more clear.
 Finally, we found statistically-significant style differences in a few areas. 63% of respondents called the Material 3 version more creative, and 63% also preferred its personality.
 In most of the areas we measured, participants showed a preference for the Material 3 version, but one went the opposite way: 65% of respondents thought the Material 2 design was more playful.
-link
-Copy link
-Link copied
 
 ## Where do we go from here?
 
@@ -72,9 +60,6 @@ The Compose button is bigger in the Material 3 design, and includes a text label
 The Material 3 version also makes names of the people you're chatting with more prominent. Perhaps the most important characteristic of a conversation is who it's with.
 The search treatment changed significantly between the designs. In the Material 2 version it's a small icon button, but the Material 3 design opts instead for a much larger search bar. Maybe that makes it feel easier to find what you're looking for–more obvious to use.
 Finally, the Material 2 version featured a colorful top app bar. The only metric that participants rated that version higher in was playfulness. If you want your app to feel playful, consider including big splashes of color.
-link
-Copy link
-Link copied
 
 ## Final thoughts
 

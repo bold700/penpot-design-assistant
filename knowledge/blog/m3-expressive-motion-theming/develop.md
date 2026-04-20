@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/m3-expressive-motion-theming/develop -->
-<!-- Scraped: 2026-04-20T07:39:14.959Z -->
+<!-- Scraped: 2026-04-20T17:40:17.025Z -->
 
 Posted by
 Rebecca Franks
@@ -11,9 +11,6 @@ Gus Sonoda
 Material Design has an exciting new preview release — Material 3 Expressive. In this latest version 1.4.0-alpha14 of Material 3, you get access to a new theming system: motion!
 Previously, Material motion was defined through non-customizable easing and duration values. Today, we’re introducing a new, customizable motion scheme using motion physics defined through a set of motion properties. These can be customized or overridden as needed, giving you more control than ever over how motion works and feels in your product.
 Read on to learn how the new motion physics scheme works, how existing APIs have changed, and how to get started.
-link
-Copy link
-Link copied
 
 ## Why Material motion?
 
@@ -21,9 +18,6 @@ As a product developer, you know that motion can significantly enhance the user 
 - Centralized control: Define your motion theme once, and all Material Components and even your own custom components will inherit it, creating a unified and polished experience, eliminating scattered animation specs.
 - Simplified theming: Stop fussing with individual duration or easing values. Choose from predefined schemes or create your own, using physics-based spring animations for a natural and engaging feel.
 - Adaptive animations: Ensure that movement feels fast in the context of the device and adjusts based on user input since animations are not based on predefined time sets.
-link
-Copy link
-Link copied
 
 ## Getting setup
 
@@ -35,9 +29,6 @@ material3
 1.4.0
 alpha11
 If you do nothing more than update the Compose dependency, your apps will benefit from applying the standard motion scheme to all your uses of Material Components. But if you do want that extra bit of control, you can customize your scheme to suit your app.Note: When 1.4.0 goes to stable, the Material Expressive APIs will move to the next alpha (1.5.0-alphaX), and will no longer be available in 1.4.0. The APIs will go stable in the 1.5.0 release.
-link
-Copy link
-Link copied
 
 ## Fundamentals of the motion system
 
@@ -49,9 +40,6 @@ The physics system has two preset motion schemes: Expressive and Standard. The s
 - Standard, with its small amount of bounce, feels more functional and should be used for utilitarian products.
 Expressive: The Expressive motion scheme overshoots the final values to add bounce.
 Standard: The Standard motion scheme eases into the final values.
-link
-Copy link
-Link copied
 
 ## Animation specs: Spatial or Effect
 
@@ -74,9 +62,6 @@ Effects motion in fast, default, and slow speeds
 Spatial motion in fast, default, and slow speeds
 Notice that the Expressive and Standard schemes are presets of opinionated motion values. This makes it easier to swap schemes without changing the underlying property names.
 Expressive and Standard MotionScheme
-link
-Copy link
-Link copied
 
 ## Why use motion springs?
 
@@ -86,9 +71,6 @@ Tween interruptions.
 Spring interruptions.
 When interrupted and retargeted to a new destination, the spring animation uses its current velocity to perform a more seamless transition between the two states than tween.
 It’s also beneficial to use springs to ensure your animations easily adapt to different screen sizes, as the tokens will always be slow or fast in the context of the device since it is not time that is specified  but rather damping and stiffness. For more details on the benefits of springs, check out the documentation.
-link
-Copy link
-Link copied
 
 ## Customizing your motion scheme
 
@@ -210,9 +192,6 @@ content
 content
 FAB menu with an extra-stiff custom scheme.
 FAB menu with very low stiffness custom scheme.
-link
-Copy link
-Link copied
 
 ## Custom component animations
 
@@ -285,7 +264,6 @@ Center
 style
 LocalTextStyle
 current
-copy
 color
 color
 textMotion
@@ -365,23 +343,16 @@ Center
 style
 LocalTextStyle
 current
-copy
 color
 color
 textMotion
 TextMotion
 Animated
-link
-Copy link
-Link copied
 
 ## Individual Material Component changes
 
 In the expressive update, most Material 3 components use the motion physics system by default.
 To add the motion-physics system to other components, including those that are custom built, use the specifications from above. See the full M3 Expressive announcement blog post for more details on the new components.
-link
-Copy link
-Link copied
 
 ## Get started today
 

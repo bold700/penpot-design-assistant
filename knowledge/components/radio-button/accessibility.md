@@ -1,9 +1,5 @@
 <!-- Source: https://m3.material.io/components/radio-button/accessibility -->
-<!-- Scraped: 2026-04-20T08:12:38.082Z -->
-
-link
-Copy link
-Link copied
+<!-- Scraped: 2026-04-20T18:15:30.923Z -->
 
 ## Use cases
 
@@ -18,9 +14,6 @@ People should be able to do the following with assistive technology:
     
       
    type
-link
-Copy link
-Link copied
 
 ## Interaction & style
 
@@ -28,51 +21,30 @@ A radio button can be either selected or unselected. Selecting one radio button 
 Once a radio button is selected, the group can’t be deselected. To let people opt out of their selection, either provide a Not applicable or No option radio button, or provide a separate way to deselect all radio buttons, like Clear selection.
 People should be able to select either the text label or the radio button to select an option.
 Only one radio button is selected at a time
-link
-Copy link
-Link copied
 
 ### Avoid applying density by default
 
 Don't apply density to radio buttons by default. This lowers their targets below Material's recommendation of 48x48 CSS pixels. Instead, give people a way to choose a higher density, like selecting a denser layout or changing the theme.
 To ensure this density setting can be easily reverted when it's active, keep all targets to change it at a minimum of 48x48 CSS pixels each.
-link
-Copy link
-Link copied
 
 ## Initial focus
 
-link
-Copy link
-Link copied
 When outside the radio group, Tab moves focus directly to the selected radio button, or the first one if none are selected.
 Shift+Tab instead focuses on the last radio if none are selected.
 Use the arrows to navigate between options.
 Tab brings the focus to the initially selected item or the initial radio option
 Arrows move to next element in a list
-link
-Copy link
-Link copied
 
 ## Keyboard navigation
 
-link
-Copy link
-Link copied
 | Keys | Actions |
 | Tab | Moves focus into the group to the selected radio button, or the first if none are selected |
 | Shift + Tab | Moves focus into the group to the selected radio button, or the last if none are selected |
 | Arrows | Moves focus and selects the previous or next radio button. Wraps focus and selection between the first and last radio buttons. |
 | Space | Selects a focused radio button. If already selected, does nothing. |
-link
-Copy link
-Link copied
 
 ## Labeling elements
 
-link
-Copy link
-Link copied
 If the UI text is correctly linked to the radio button, assistive tech such as a screenreader will read the UI text, followed by the component’s role.
 The 
     
@@ -85,9 +57,6 @@ The
           
    label for a group of radio buttons is typically the same as its title. The role is Radio group.
 Label the radio group based on the category title
-link
-Copy link
-Link copied
 The 
     
     accessibility

@@ -1,14 +1,11 @@
 <!-- Source: https://m3.material.io/blog/material-design-wordpress-plugin/accessibility -->
-<!-- Scraped: 2026-04-20T07:44:47.665Z -->
+<!-- Scraped: 2026-04-20T17:46:46.883Z -->
 
 Posted by
 Jonathan Bingham
 , Material Design Product Manager
 Have you ever created a website? If so, there’s a good chance you built it with WordPress, the content management system used by 40 percent (!) of all sites on the web.
 Material Design provides principles, icons, and guidelines for building web experiences that can apply to WordPress sites too. That’s why we’re introducing Material Design for WordPress, an experimental plugin and theme that can customize the navigation, colors, typography and shapes, as well as access the full set of Google Fonts and Material Design icons for WordPress sites.
-link
-Copy link
-Link copied
 
 ## Get the plugin
 
@@ -20,25 +17,16 @@ Ready to dive in and give it a try? Just follow the instructions below, and keep
 - Click Install Now from the search results.
 - After installation, click the Activate button.
 - Follow the step-by-step Quick Start to install the Material WordPress theme and examples.
-link
-Copy link
-Link copied
 
 ## Create a Material theme
 
 Set up and preview your global Material theme styles within the customizer. Choose colors, typography, shapes, and icons to express your unique style. For guidance on customizing Material theme styles to express your product’s unique style, check out our series of posts on Material Theming.
 Start from our existing styles and use Material Theming to create a custom look and feel. Choose colors, typography, shapes, and icons to express your unique style.
-link
-Copy link
-Link copied
 
 ## Build with Material blocks
 
 Add Material Components like buttons and cards, and create layouts for things like image-heavy pages or styled contact forms. Customize the look of your blocks by adjusting global theme styles, or setting the style of a single component in the block editor.
 Add Material blocks inline and customize them using the block editor panel.
-link
-Copy link
-Link copied
 
 ## Tell us what you think
 

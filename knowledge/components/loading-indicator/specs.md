@@ -1,78 +1,35 @@
 <!-- Source: https://m3.material.io/components/loading-indicator/specs -->
-<!-- Scraped: 2026-04-20T08:09:32.821Z -->
-
-link
-Copy link
-Link copied
+<!-- Scraped: 2026-04-20T18:12:23.874Z -->
 
 ## Variants
 
-link
-Copy link
-Link copied
 - Loading indicator
-link
-Copy link
-Link copied
 | Variant | M3 | M3 Expressive |
 | Loading indicator | -- | Available |
-link
-Copy link
-Link copied
 
 ## Configurations
 
-link
-Copy link
-Link copied
 - Default
 - Contained
-link
-Copy link
-Link copied
 | Category | Configuration | M3 | M3 Expressive |
 | Containment | Default | -- | Available |
 | Contained | -- | Available |
-link
-Copy link
-Link copied
 
 ## Tokens & specs
 
-link
-Copy link
-Link copied
 Loading indicators have a single token set.
-link
-Copy link
-Link copied
 Token
 Color
 Size
 Shape
-link
-Copy link
-Link copied
 
 ## Anatomy
 
-link
-Copy link
-Link copied
 - Active indicator
 - Container
-link
-Copy link
-Link copied
 
 ## Color
 
-link
-Copy link
-Link copied
-link
-Copy link
-Link copied
 Color values are implemented through 
     
     design tokens
@@ -83,27 +40,12 @@ Color values are implemented through
             More on tokens
           
   . For designers, this means working with color values that correspond with tokens; in implementation, a color value will be a token that references a value.
-link
-Copy link
-Link copied
 Loading indicator color roles used for light and dark schemes:
 - Primary
-link
-Copy link
-Link copied
-link
-Copy link
-Link copied
 Contained loading indicator color roles used for light and dark schemes:
 - On primary container
 - Primary container
-link
-Copy link
-Link copied
 
 ## Measurements
 
-link
-Copy link
-Link copied
 To ensure sufficient margins, the size is 48dp while the shape container is 38dp

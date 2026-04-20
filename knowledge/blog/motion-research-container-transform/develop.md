@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/motion-research-container-transform/develop -->
-<!-- Scraped: 2026-04-20T07:52:16.954Z -->
+<!-- Scraped: 2026-04-20T17:54:54.090Z -->
 
 Posted by
 Julia Feldman
@@ -12,17 +12,11 @@ Michael Gilbert
 , Staff UX Researcher, Material Design
 Imagine you're browsing through a restaurant menu on your phone, and you tap one of the entrees.  What should happen?  Should the entree's description appear instantly, or should the card you tapped animate, expanding to show the additional detail?
 Material Research wanted to find out.
-link
-Copy link
-Link copied
 
 ## The Study
 
 A variety of transitions tested in the Basil Material study app
 We constructed a food ordering experience and showed it to a series of users in a research study.  As participants tapped through the menu, they would see one of seven transitions, or no transition at all (also called a jump cut).  We interviewed these participants to learn which transition best suited a grid of cards, and why.
-link
-Copy link
-Link copied
 
 ## The Results
 
@@ -36,9 +30,6 @@ Furthermore, some told us that container transform evoked the feeling of picking
 #### Participants liked the feeling the transition added to the experience
 
 With the container transform transition, many participants told us that it felt warm and inviting - even cozy! Only the container transform transition was perceived as conveying positive emotions and felt high end – as we called out above, participants mentioned it feeling like they were at a fancy restaurant. In contrast, the few participants who preferred a jump cut or a fade through transition called those transitions “efficient” and “quick.” Notably however, those transitions were never preferred for enhancing the feeling of an experience, and were considered overwhelming and uncomfortable for most.
-link
-Copy link
-Link copied
 
 ## Conclusion
 

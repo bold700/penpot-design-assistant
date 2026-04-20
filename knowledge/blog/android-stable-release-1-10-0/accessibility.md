@@ -1,13 +1,10 @@
 <!-- Source: https://m3.material.io/blog/android-stable-release-1-10-0/accessibility -->
-<!-- Scraped: 2026-04-20T07:17:52.574Z -->
+<!-- Scraped: 2026-04-20T17:17:04.206Z -->
 
 Posted by
 James Williams
 , Material Developer Advocate
 We’re happy to announce the release of Material Design Components for Android (MDC-Android) 1.10.0. It offers a mix of functional changes and updates so make sure to check the release notes for a complete listing.
-link
-Copy link
-Link copied
 
 ## (In-App) Predictive Back
 
@@ -25,9 +22,6 @@ At the time of writing, they are :
 - Navigation drawer / NavigationView
 To follow a detailed guide to implementing predictive back in your apps, please check out the documentation on developers.android.com.
 Our MDC Predictive Back documentation page is the best place to learn about the growing number of components that support predictive back and future slated components.
-link
-Copy link
-Link copied
 
 ## Updates and Changes
 
@@ -42,9 +36,6 @@ Previously, you could align the badge to any of the four corners of the anchor v
 TOP_START Alignment
 TOP_END Alignment (Default)
 BOTTOM_START and BOTTOM_END are deprecated and usage is discouraged. To read more about the changes, please see the BadgeDrawable developer documentation.
-link
-Copy link
-Link copied
 
 ## What’s next for MDC?
 

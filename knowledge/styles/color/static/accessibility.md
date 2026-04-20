@@ -1,20 +1,11 @@
 <!-- Source: https://m3.material.io/styles/color/static/accessibility -->
-<!-- Scraped: 2026-04-20T08:35:52.250Z -->
+<!-- Scraped: 2026-04-20T18:33:53.627Z -->
 
-link
-Copy link
-Link copied
 Baseline is the default static color scheme. It uses accessible color pairings and includes colors for both light and dark themes.
 With the baseline color scheme, end-users see
 - An accessible UI with static colors
-link
-Copy link
-Link copied
 Music app with the static baseline color scheme
 News app with the static baseline color scheme
-link
-Copy link
-Link copied
 
 ## Baseline colors
 
@@ -28,23 +19,11 @@ Get baseline colors in Figma using the
             Get the MTB
           
   .
-link
-Copy link
-Link copied
 Baseline scheme colors in light theme
-link
-Copy link
-Link copied
 Baseline scheme colors in dark theme
-link
-Copy link
-Link copied
 
 ## Baseline color tokens
 
-link
-Copy link
-Link copied
 Primary colors
 Secondary colors
 Tertiary colors
@@ -52,15 +31,9 @@ Error colors
 Surface colors
 Outline colors
 Add-ons
-link
-Copy link
-Link copied
 
 ## Design with baseline
 
-link
-Copy link
-Link copied
 
 ### Use the Design Kit and M3 baseline colors in new design files
 

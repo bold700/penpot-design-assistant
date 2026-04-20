@@ -1,52 +1,24 @@
 <!-- Source: https://m3.material.io/components/navigation-rail/specs -->
-<!-- Scraped: 2026-04-20T08:11:26.093Z -->
-
-link
-Copy link
-Link copied
+<!-- Scraped: 2026-04-20T18:14:21.363Z -->
 
 ## Variants
 
-link
-Copy link
-Link copied
 - Collapsed navigation rail
 - Expanded navigation rail
-link
-Copy link
-Link copied
 
 ### Baseline variants
 
-link
-Copy link
-Link copied
 The baseline navigation rail is no longer recommended, and should be replaced by the collapsed navigation rail. View baseline tokens
-link
-Copy link
-Link copied
 - The baseline navigation rail is no longer recommended
-link
-Copy link
-Link copied
 | Variant | M3 | M3 Expressive |
 | Collapsed navigation rail | -- | Available |
 | Expanded navigation rail | -- | Available |
 | Navigation rail (baseline) | Available | Not recommended.Use collapsed navigation rail. |
-link
-Copy link
-Link copied
 
 ## Configurations
 
-link
-Copy link
-Link copied
 - Expanded layout: standard
 - Expanded layout: modal
-link
-Copy link
-Link copied
 | Category | Configuration | M3 | M3 Expressive |
 | Expanded layout | Standard (default) | Available as 
     
@@ -65,33 +37,18 @@ Link copied
       
             More on navigation drawers | Available |
 | Expanded behavior | Hide when collapsed | -- | Available |
-link
-Copy link
-Link copied
 
 ## Tokens & specs
 
-link
-Copy link
-Link copied
 Browse the component elements, attributes, tokens, and their values. Learn about design tokens
-link
-Copy link
-Link copied
 Token
 Enabled
 Hovered
 Focused
 Pressed
-link
-Copy link
-Link copied
 
 ## Anatomy
 
-link
-Copy link
-Link copied
 Collapsed and expanded navigation rail elements:
 - Container
 - Menu (optional)
@@ -102,16 +59,10 @@ Collapsed and expanded navigation rail elements:
 - Large badge (optional)
 - Large badge label (optional)
 - Small badge (optional)
-link
-Copy link
-Link copied
 
 ## Color
 
 Color values are implemented through design tokens. For designers, this means working with color values that correspond with tokens; in implementation, a color value will be a token that references a value. Learn more about design tokens
-link
-Copy link
-Link copied
 Navigation rail color roles used for light and dark schemes:
 - Surface container (optional)
 - On secondary container
@@ -120,9 +71,6 @@ Navigation rail color roles used for light and dark schemes:
 - On surface variant
 - Error
 - On error
-link
-Copy link
-Link copied
 
 ## States
 
@@ -134,89 +82,35 @@ States
             More on states
           
    are visual representations used to communicate the status of a component or an interactive element.The navigation item’s target area always spans the full width of the nav rail, even if the item container hugs its contents.
-link
-Copy link
-Link copied
-link
-Copy link
-Link copied
 - Enabled
 - Hovered
 - Focused
 - Pressed
-link
-Copy link
-Link copied
 
 ## Measurements
 
-link
-Copy link
-Link copied
 Navigation rail padding and size measurements
-link
-Copy link
-Link copied
 
 ## Common layouts
 
-link
-Copy link
-Link copied
-link
-Copy link
-Link copied
 - Three navigation items
 - Three navigation items with a menu
 - Three navigation items with a FAB
 - Three navigation items with a menu and FAB
-link
-Copy link
-Link copied
-link
-Copy link
-Link copied
 
 ## Baseline navigation rail
 
-link
-Copy link
-Link copied
 - Menu icon (optional)
 - Badge (optional)
-link
-Copy link
-Link copied
-link
-Copy link
-Link copied
 Token
 Enabled
 Hovered
 Focused
 Pressed (ripple)
-link
-Copy link
-Link copied
-link
-Copy link
-Link copied
 Color values are implemented through design tokens. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. Learn more about design tokens
-link
-Copy link
-Link copied
 Navigation rail color roles used for light and dark themes:
 - On surface
-link
-Copy link
-Link copied
-link
-Copy link
-Link copied
 States are visual representations used to communicate the status of a component or interactive element.
-link
-Copy link
-Link copied
 Navigation rail states:
 - Enabled (on active destination)
 - Hovered (on active destination)
@@ -226,21 +120,9 @@ Navigation rail states:
 - Hovered (on inactive destination)
 - Focused (on inactive destination)
 - Pressed (on inactive destination)
-link
-Copy link
-Link copied
-link
-Copy link
-Link copied
 Navigation rail size measurements
 Navigation rail padding and margin measurements
-link
-Copy link
-Link copied
 Common arrangements of elements within a navigation rail.
-link
-Copy link
-Link copied
 - With a menu
 - With a FAB
 - With menu and FAB, without labels

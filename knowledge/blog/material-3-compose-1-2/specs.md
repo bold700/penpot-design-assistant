@@ -1,13 +1,10 @@
 <!-- Source: https://m3.material.io/blog/material-3-compose-1-2/specs -->
-<!-- Scraped: 2026-04-20T07:40:10.638Z -->
+<!-- Scraped: 2026-04-20T17:41:24.000Z -->
 
 Posted by
 James Williams
 , Material Developer Advocate
 The 1.2 release of Compose Material 3 is here, and with it comes new components, some component changes and an expansion of the Material3 color system.
-link
-Copy link
-Link copied
 
 ## Component Changes, Demotions and Promotions
 
@@ -16,9 +13,6 @@ BottomAppBar has a BottomAppBarScrollBehavior to auto-hide itself when content i
 SwipeToDismiss has been refactored into SwipeDismissBox and remains in experimental status.
 Badge and BadgedBox have been promoted to stable.
 The Chip APIs have been promoted to stable.
-link
-Copy link
-Link copied
 
 ## Color Changes
 
@@ -35,9 +29,6 @@ Surface was the former backing color for many components. It has been replaced l
 Surface Dim is guaranteed to be the darkest surface color. Like Surface Bright, they are not in use in any existing components.
 Surface Container Lowest, Low, High and Highest are additional color roles that can provide more or less emphasis in contrast to Surface Container.
 The new color roles are already available in Material Theme Builder.
-link
-Copy link
-Link copied
 
 ## Where can I find more information about Material Compose ?
 

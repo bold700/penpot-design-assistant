@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/readability-research/guidelines -->
-<!-- Scraped: 2026-04-20T07:53:30.297Z -->
+<!-- Scraped: 2026-04-20T17:56:01.665Z -->
 
 Posted by
 Michael Gilbert
@@ -14,9 +14,6 @@ Consider this scenario: you’re designing a product that has both a light mode 
 If that’s a scenario you’ve found yourself in… well, you and I are in the same boat. As researchers on the Material Design team, we were recently asked this very question.
 This blog post will describe, first, how we answered that question; second, what we found; and third, how might you use the method we describe here to use Variable Fonts to improve readability for your products, and your users.
 Let’s dive in!
-link
-Copy link
-Link copied
 
 ## First: How we answered the question, what font grade is equally readable in light mode versus dark mode?
 
@@ -37,9 +34,6 @@ Dependent variables: We measured (1) the time to read a phrase, (2) the time to 
 Analysis: Data were analyzed with a two-way repeated measures Analysis of Variance (ANOVA). We ran post hoc tests with bonferroni corrections.
 
 And that’s it! If you’d like to do a similar study the setup is pretty simple, all things considered. By doing the above, you can determine the impact of grade on readability like we did. But you could also determine the impact width, optical size, or any other variable font characteristics has on text readability! |
-link
-Copy link
-Link copied
 
 ## Second: What we found
 
@@ -58,9 +52,6 @@ First, if we’re looking to identify grade values that result in equivalent rea
 However, the visual difference between minimum and maximum grade values is a dramatic change! If you’re using the maximum grade value in light mode and are creating an equivalent dark mode, consider the balance between equivalent readability and equivalent visual design—you may be able to approach equivalent readability by minimizing grade in dark mode, but you should be sensitive to the impact this may have on how people perceive the two modes of your product as complimentary.
 And last, revisiting the question we set out to answer at the top: what font grade is equally readable in light mode versus dark mode? We can now answer: if you’re using the default value of grade (0), our results suggest there is not a significant difference in readability between light and dark mode. So, in the context we tested, there is no need to modify grade between light and dark modes to achieve equivalent readability.
 And that, is how I met your mother. Jk, but that’s pretty much how we tackled this research question, and how you might be able to tackle similar questions for your own products, in your own contexts.
-link
-Copy link
-Link copied
 
 ## Third: Where you can go from here
 

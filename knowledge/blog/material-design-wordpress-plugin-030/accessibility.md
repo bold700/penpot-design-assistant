@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/material-design-wordpress-plugin-030/accessibility -->
-<!-- Scraped: 2026-04-20T07:45:12.981Z -->
+<!-- Scraped: 2026-04-20T17:47:13.509Z -->
 
 Posted by
 Rody Davis
@@ -8,17 +8,11 @@ Rody Davis
 #### You can learn more about the Material Design for WordPress plugin in this blog post.
 
 With the 0.3.0 update to the Material Design for WordPress plugin, you can now use Block Patterns to compose beautiful layouts and reusable sections.
-link
-Copy link
-Link copied
 
 ## What are Block Patterns?
 
 Block Patterns are new components in WordPress that allow you to quickly build with templates for common layouts.
 You can combine blocks to create complex and beautiful pages.
-link
-Copy link
-Link copied
 
 ## How to add a Block Pattern
 
@@ -26,9 +20,6 @@ Using the Gutenberg WordPress Editor, you can add a new block pattern using the 
 Selecting the “Patterns” tab and choosing “Material Design” in the dropdown will filter all the new Material Block Patterns.
 You can select or drag a pattern from the list to the editor and start to customize the content.
 Templates will automatically include placeholder text where necessary, which you can replace with your own content.
-link
-Copy link
-Link copied
 
 ## Theming
 

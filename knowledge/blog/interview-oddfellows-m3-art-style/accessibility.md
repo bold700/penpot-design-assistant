@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/interview-oddfellows-m3-art-style/accessibility -->
-<!-- Scraped: 2026-04-20T07:36:21.940Z -->
+<!-- Scraped: 2026-04-20T17:36:53.590Z -->
 
 Posted by
 Liam Spradlin
@@ -19,9 +19,6 @@ Creative Director Jarratt Moody adds, “At times, we add hints of a different p
 The illustrative style also needed to function as a broader system, allowing for the creation of more assets in the future as Material Design 3 continues to expand. Designer Marc David Spengler focused on creating a visual language that “functions as a kind of building system. Each of these forms has different characteristics that can be rearranged according to requirements.” Illustrator Yuki Yamada emphasized that the system was built “to allow post-design changes for better adaptability and better results as a whole.” Illustrator Ariel Davis found it “interesting open ended challenge,” adding, “it made me problem solve the imagery in a different way where I ended up creating many spot images that could be mixed, matched and placed wherever they needed to go.”
 Seeing the final illustrations in-context on the Material Design 3 site, the team still feels the unique expressions they each brought to the project, keeping with Material’s core belief that design is, above all else, personal. Art Director Yuki Yamada sees “a lot of me built in here and there, especially in the construction of the system,” while Illustrator Ariel Davis says, “the colors and subject matter I'm drawn to are a reflection of my personal interests and taste. It feels good to be able to see myself in work used for a broader purpose or a large group of people.”
 For Creative Director Jarratt Moody, “It’s exciting to let the work go at the end of the project, and watch it become something else… The work can stay alive that way, and I hope it gives inspiration to designers that are involved in the future to contribute something instead of pulling from a locked set of assets.”
-link
-Copy link
-Link copied
 
 ## Download
 

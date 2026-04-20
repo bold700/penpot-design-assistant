@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/material-3-figma-design-kit/guidelines -->
-<!-- Scraped: 2026-04-20T07:41:30.109Z -->
+<!-- Scraped: 2026-04-20T17:42:54.998Z -->
 
 Posted by
 Euphrates Dahout
@@ -8,9 +8,6 @@ Tabula rasa – a clean slate… Sounds great, right? Sometimes a fresh, empty F
 On a design team, creativity is communal and contextual. We experiment with forms, fonts, and colors; we ingest and layer onto ideas and sources around us.
 With the M3 design kit, UX building blocks are ready to use and customize in your Figma workflow. With premade UI elements and a library of connected components and styles, you can build from a foundation of the latest in Material 3.
 Check out the new design kit in Figma and make a copy to start using M3 in your files.
-link
-Copy link
-Link copied
 
 ## More than a sticker sheet
 
@@ -21,17 +18,11 @@ What’s in the M3 design kit? Starting today, you get…
 - 429 styles
 And the design kit is still growing – it’s up-to-date and kept in sync with the design guidelines on Material.io.
 Beyond components, variants, and interaction states, the M3 design kit lets you inspect elements and apply semantic color roles. Color roles in the design kit are compatible with Material Theme Builder so you can easily integrate a custom color scheme into your Figma workflow.
-link
-Copy link
-Link copied
 
 ## How it works
 
 The new design kit uses Figma's most advanced features – we’ve added metadata showing accessibility, color values, token names, robust variants, and interaction state details.
 Inspect elements to identify Material component specs within your Figma workflow
-link
-Copy link
-Link copied
 
 ## Get started
 

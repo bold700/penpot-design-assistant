@@ -1,9 +1,6 @@
 <!-- Source: https://m3.material.io/components/tooltips/develop -->
-<!-- Scraped: 2026-04-20T08:18:48.891Z -->
+<!-- Scraped: 2026-04-20T18:21:18.833Z -->
 
-link
-Copy link
-Link copied
 - Use tooltips to add additional context to a 
     
     button
@@ -36,20 +33,11 @@ Link copied
             More on icon buttons
 - Use rich tooltips to provide more details, like describing the value of a feature
 - Rich tooltips can include an optional title, link, and buttons
-link
-Copy link
-Link copied
 - Plain tooltip
 - Rich tooltip
-link
-Copy link
-Link copied
 
 ## Availability & resources
 
-link
-Copy link
-Link copied
 | Type | Resource | Status |
 | Design |
 | Design Kit (Figma) | Available |
@@ -58,15 +46,9 @@ Link copied
 | Jetpack Compose | Available |
 | MDC-Android | Unavailable |
 | Web | Unavailable |
-link
-Copy link
-Link copied
 
 ## Differences from M2
 
-link
-Copy link
-Link copied
 - Color: New color mappings and compatibility with 
     
     dynamic color
@@ -83,8 +65,5 @@ Link copied
     
       
    have more rounded corners
-link
-Copy link
-Link copied
 M2: Rich tooltips have slightly rounded corners
 M3: Rich tooltips have more rounded corners and support dynamic color

@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/tone-based-surface-color-m3/specs -->
-<!-- Scraped: 2026-04-20T07:59:19.223Z -->
+<!-- Scraped: 2026-04-20T18:01:42.707Z -->
 
 Posted by
 Christian Moser
@@ -10,9 +10,6 @@ The update introduces dedicated surface color roles that are no longer tied to e
 The new surface container roles and tokens include five colors.
 “Surface container” is the recommended default color role for a contained area against the “surface” color role. It provides good contrast and can be flexibly combined with all other surface container roles ranging from “surface container lowest” with the lowest emphasis against the “surface” role,  to “surface container highest” with the highest emphasis against the “surface” role.
 New color roles in light and dark theme
-link
-Copy link
-Link copied
 
 ## Migrating to the new surface color roles
 

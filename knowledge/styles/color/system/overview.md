@@ -1,9 +1,6 @@
 <!-- Source: https://m3.material.io/styles/color/system/overview -->
-<!-- Scraped: 2026-04-20T08:36:03.411Z -->
+<!-- Scraped: 2026-04-20T18:34:04.792Z -->
 
-link
-Copy link
-Link copied
 The Material color system includes:
 - Built-in set of 
     
@@ -64,9 +61,6 @@ The Material color system includes:
       
             More on content-based color
 Learn how the system works
-link
-Copy link
-Link copied
 For products migrating from M2 to M3, start by mapping the 
     
     baseline color scheme
@@ -77,19 +71,10 @@ For products migrating from M2 to M3, start by mapping the
             More on the baseline color scheme
           
    to your existing product. It can easily switch to dynamic color when ready.
-link
-Copy link
-Link copied
 Learn about the value and function of Material 3’s dynamic color system and how it differs from past color systems
-link
-Copy link
-Link copied
 The baseline color scheme doesn't dynamically change
 A dynamic color scheme changes the UI's colors based on different inputs, like a wallpaper
 Specific colors, such as semantic colors, can be set to not dynamically change
-link
-Copy link
-Link copied
 Products with 
     
     dynamic color
@@ -106,9 +91,6 @@ This provides:
 - User-controlled contrast
 - Automatic dark theme
 The UI colors change dynamically
-link
-Copy link
-Link copied
 
 ## Resources
 
@@ -118,29 +100,17 @@ Link copied
 | Jetpack Compose | Available |
 | Flutter | Available |
 | Tools | Material Theme Builder | Available |
-link
-Copy link
-Link copied
 
 ## What's new
 
-link
-Copy link
-Link copied
 May 2025
 
 ### Three levels of contrast
 
 Color roles support three levels of contrast so people can select the one that best suits their vision needs. Contrasts also are tokenized.
-link
-Copy link
-Link copied
 Standard contrast
 Medium contrast
 High contrast
-link
-Copy link
-Link copied
 August 2024
 
 ### More colorful text and icons
@@ -162,9 +132,6 @@ Affected components:
 - Navigation rail
 - Switches
 Colors used for text and icons now appear more colorful
-link
-Copy link
-Link copied
 Oct 2023
 
 ### Reorganized guidelines
@@ -174,9 +141,6 @@ Same color system, explained in a new way. Updated sections include:
 - Advanced customizations
 - Color resources
 The guidelines have been reorganized and updated
-link
-Copy link
-Link copied
 Feb 2023
 
 ### Tone-based surface colors
@@ -201,17 +165,11 @@ Tone-based surface color roles have replaced the previous approach of surfaces a
           
   .
 New tone-based surface colors offer more flexibility and support
-link
-Copy link
-Link copied
 Technical changes were made to align the color system with Android SysUI:
 - Updated the default light theme surface from tone 99 to tone 98
 - Updated the chroma for the neutral palette, increasing it from 4 to 6
 - Slightly darkened surface roles in dark theme
 Changes in tone and chroma in the default light theme surface
-link
-Copy link
-Link copied
 
 ### Additional accent colors
 

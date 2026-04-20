@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/inclusive-imagery-at-google/accessibility -->
-<!-- Scraped: 2026-04-20T07:35:58.067Z -->
+<!-- Scraped: 2026-04-20T17:36:26.853Z -->
 
 Posted by
 Emily Blank

@@ -1,9 +1,6 @@
 <!-- Source: https://m3.material.io/components/button-groups/overview -->
-<!-- Scraped: 2026-04-20T08:02:51.548Z -->
+<!-- Scraped: 2026-04-20T18:05:22.994Z -->
 
-link
-Copy link
-Link copied
 - Two variants: standard and connected
 - Applies shape morph when pressed and selected
 - Connected button groups replace the 
@@ -16,19 +13,10 @@ Link copied
             More on segmented buttons
 - Works with all button sizes: XS, S, M, L, and XL
 - Support for single-select, multi-select, and selection-required
-link
-Copy link
-Link copied
 Button groups can contain buttons and icon buttons
-link
-Copy link
-Link copied
 
 ## Availability & resources
 
-link
-Copy link
-Link copied
 | Type | Resource | Status |
 | Design |
 | Design Kit (Figma) | Available |
@@ -36,15 +24,9 @@ Link copied
 | Jetpack Compose: Expressive | Available |
 | MDC-Android: Expressive | Available |
 | Web: Expressive | Unavailable |
-link
-Copy link
-Link copied
 
 ## M3 Expressive update
 
-link
-Copy link
-Link copied
 Button groups apply shape, motion, and width changes to 
     
     buttons
@@ -64,9 +46,6 @@ Button groups apply shape, motion, and width changes to
             More on icon buttons
           
    to make them more interactive. More on M3 Expressive
-link
-Copy link
-Link copied
 May 2025
 New component added to catalog.Variants and naming:
 - Added standard button group

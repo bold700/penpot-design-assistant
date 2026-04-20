@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/material-3-compose-stable/guidelines -->
-<!-- Scraped: 2026-04-20T07:41:05.625Z -->
+<!-- Scraped: 2026-04-20T17:42:26.353Z -->
 
 Posted by
 Gurupreet Singh
@@ -17,17 +17,11 @@ material3
 material3
 $material3_version”
 Note: See the latest M3 versions on the Compose Material 3 releases page.
-link
-Copy link
-Link copied
 
 ## Color schemes
 
 Material 3 brings extensive, finer grained color customisation, and comes with both light and dark color scheme support out of the box. The Material Theme Builder allows you to generate a custom color scheme using core colors, and optionally export Compose theming code. You can read more about color schemes and color roles.
 Material Theme Builder to export Material 3 color schemes
-link
-Copy link
-Link copied
 
 ## Dynamic color
 
@@ -72,9 +66,6 @@ shapes
 shapes
 ) {
 // M3 App content
-link
-Copy link
-Link copied
 
 ## Material components
 
@@ -150,9 +141,6 @@ navigationIcon
 actions
 /* App bar actions */
 See the latest M3 components and layouts on the Compose Material 3 API reference overview. Keep an eye on the releases page for new and updated APIs.
-link
-Copy link
-Link copied
 
 ## Typography
 
@@ -212,9 +200,6 @@ letterSpacing
 baselineShift
 BaselineShift
 Subscript
-link
-Copy link
-Link copied
 
 ## Shapes
 
@@ -245,9 +230,6 @@ extraLarge
 RoundedCornerShape
 28.
 You can read more about applying shape.
-link
-Copy link
-Link copied
 
 ## Window size classes
 
@@ -259,9 +241,6 @@ implementation
 Window size classes group sizes into standard size buckets, which are breakpoints that are designed to optimize your app for most unique cases.
 WindowWidthSize Class for grouping devices in different size buckets
 See the Reply Compose sample to learn more about adaptive apps and the window size classes implementation.
-link
-Copy link
-Link copied
 
 ## Window insets support
 
@@ -275,9 +254,6 @@ WindowInsets
 16.
 ) {
 // Scaffold content
-link
-Copy link
-Link copied
 
 ## Resources
 

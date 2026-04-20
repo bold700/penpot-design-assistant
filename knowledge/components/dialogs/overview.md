@@ -1,9 +1,6 @@
 <!-- Source: https://m3.material.io/components/dialogs/overview -->
-<!-- Scraped: 2026-04-20T08:06:09.301Z -->
+<!-- Scraped: 2026-04-20T18:08:51.870Z -->
 
-link
-Copy link
-Link copied
 - Use dialogs to make sure users act on information
 - Two variants: 
     
@@ -25,20 +22,11 @@ Link copied
 - Should be dedicated to completing a single task
 - Can also display information relevant to the task
 - Commonly used to confirm high-risk actions like deleting progress
-link
-Copy link
-Link copied
 - Basic dialog
 - Full-screen dialog
-link
-Copy link
-Link copied
 
 ## Availability & resources
 
-link
-Copy link
-Link copied
 | Type | Resource | Status |
 | Design |
 | Design Kit (Figma) | Available |
@@ -47,15 +35,9 @@ Link copied
 | Jetpack Compose | Available |
 | MDC-Android | Available |
 | Web | Available |
-link
-Copy link
-Link copied
 
 ## Differences from M2
 
-link
-Copy link
-Link copied
 - Color: New color mappings and compatibility with 
     
     dynamic color

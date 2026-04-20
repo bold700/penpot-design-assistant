@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/2023-google-fonts-redesign/accessibility -->
-<!-- Scraped: 2026-04-20T07:14:04.228Z -->
+<!-- Scraped: 2026-04-20T17:13:16.509Z -->
 
 Posted by
 Tobias Kunisch
@@ -7,23 +7,14 @@ Tobias Kunisch
 Over the past 10 years, the Google Fonts website has grown to include over 1,500 font families in over 1,000 languages and more than 6,000 Material Symbols (our variable icon set).
 A site with this much choice requires better ways of exploring, browsing, searching and finding the assets people are looking for.
 To improve the user experience today while giving us more flexibility for future improvements, we’ve rolled out several updates to our website.
-link
-Copy link
-Link copied
 
 ## Better site navigation
 
 We’ve updated our site navigation to use the Material 3 Navigation Rail. Just like the navigation rail on Material.io, it provides easier access to the main sections of our site: Fonts, Icons and Knowledge. You might also notice that we’ve elevated Noto to the navigation rail so that users can easily access the Noto family covering over 150 different writing systems.
-link
-Copy link
-Link copied
 
 ## Improved mobile experience
 
 Our new navigation also enhances the mobile experience using the bottom navigation bar. This makes switching between sections much more comfortable on smaller screens.
-link
-Copy link
-Link copied
 
 ## Searching and filtering
 
@@ -31,9 +22,6 @@ Notably, the new layout also introduces a new sidebar. This is our home for all 
 Customization, preview and search filter controls for fonts (left) and icons (right)
 All the filters are now easier to reach and sectioned out meaningfully and in a way that makes it easy for us to add more over time. The language dropdown now supports filtering of the options simply by typing the name of the script you are looking for.
 In our Google Fonts Knowledge section, the sidebar helps provide better orientation across the many topics that are now available.
-link
-Copy link
-Link copied
 
 ## A new color palette, for light and dark mode
 

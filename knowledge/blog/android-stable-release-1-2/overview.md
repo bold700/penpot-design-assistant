@@ -1,21 +1,15 @@
 <!-- Source: https://m3.material.io/blog/android-stable-release-1-2/overview -->
-<!-- Scraped: 2026-04-20T07:18:25.035Z -->
+<!-- Scraped: 2026-04-20T17:17:38.764Z -->
 
 Posted by
 Nick Rout
 , Material Developer Advocate
 We’re excited to announce the release of Material Components for Android (MDC-Android) 1.2.0! A host of exciting new features have been added along with many bug fixes and accessibility improvements. Get the rundown below.
 Be sure to check out the release notes. If you’re using MDC for the first time, also take a look at our getting started guide.
-link
-Copy link
-Link copied
 
 ## What’s new in 1.2.0?
 
 A fair bit has changed since we launched 1.1.0 in February — we added the motion system, slider component, a widget for image shape theming, and more. The things you loved from the alpha, beta, and RC releases of 1.2.0 are now officially stable. If you haven’t yet started using version 1.2.0 of MDC, there’s never been a better time to update.
-link
-Copy link
-Link copied
 
 ## Material motion
 
@@ -34,9 +28,6 @@ xxxxxxxxxx// FragmentA.ktoverride fun onCreate(savedInstanceState: Bundle?) {  
 Fade a target View (using TransitionManager)
 xxxxxxxxxxval fade = MaterialFade()TransitionManager.beginDelayedTransition(container, fade)view.visibility = View.VISIBLE // Use View.GONE to fade out
 Learn more about how to implement motion for Android.
-link
-Copy link
-Link copied
 
 ## Slider
 
@@ -44,41 +35,26 @@ Sliders allow users to make selections from a range of values. They are ideal f
 MDC 1.2.0 allows you to use sliders in your Android app with the Slider and RangeSlider widgets. They’re similar to SeekBar but have additional features and support Material Theming.
 xxxxxxxxxx<!-- In layout --><com.google.android.material.slider.Slider    android:id=”@+id/slider”    ...    android:valueFrom="0.0"    android:valueTo="100.0"    android:stepSize="10.0" />    ...<com.google.android.material.slider.RangeSlider    android:id=”@+id/rangeSlider”    ...    android:valueFrom="0.0"    android:valueTo="100.0"    android:stepSize="10.0"    app:values="@array/initial_slider_values" /><!-- In res/values/arrays.xml --><resources>    ...    <array name="initial_slider_values">        <item>20.0</item>        <item>70.0</item>    </array></resources>// In codeslider.addOnChangeListener { slider, value, fromUser ->    // Respond to change in slider's value}...val values = rangeSlider.values
 Learn more about how to implement sliders.
-link
-Copy link
-Link copied
 
 ## ShapeableImageView
 
 The new ShapeableImageView widget is an extension of AppCompatImageView which understands shape theming. A common use case is to apply circular clips to rectangular source images. However, it also supports varying corner sizes, cut corners, as well as different stroke widths and colors.
 xxxxxxxxxx<!-- res/values/shape.xml --><style name=”ShapeAppearanceOverlay.App.CornerSize50Percent”    parent=””>    <!--    Sets size of corners to be 50% of min(width, height) of widget    -->    <item name=”cornerSize”>50%</item></style><!-- res/values/styles.xml --><style name=”Widget.App.ShapeableImageView”    parent=”Widget.MaterialComponents.ShapeableImageView”>    <item name=”shapeAppearance”>        ?attr/shapeAppearanceSmallComponent    </item>    <item name=”shapeAppearanceOverlay”>        @style/ShapeAppearanceOverlay.App.CornerSize50Percent    </item>    <item name=”strokeWidth”>1dp</item>    <item name=”strokeColor”>?attr/colorPrimary</item></style><!-- In layout --><com.google.android.material.imageview.ShapeableImageView    ...    style=”@style/Widget.App.ShapeableImageView”    app:srcCompat=”@drawable/image” />
-link
-Copy link
-Link copied
 
 ## MaterialColors
 
 The MaterialColors utility class was made public in MDC 1.2.0. It gives you a variety of useful static methods to use when dealing with colors programmatically in your app.
 xxxxxxxxxx// Resolve color from theme attrval primaryColor = MaterialColors.getColor(    view, R.attr.colorPrimary)// Layer background color with overlay color + alphaval overlayedColor = MaterialColors.layer(    view, R.attr.colorSurface, R.attr.colorPrimary, 0.38f)
-link
-Copy link
-Link copied
 
 ## Support for materialThemeOverlay in all components
 
 The materialThemeOverlay attribute allows you to apply theme overlays. Unlike android:theme, it can be used in default component styles (e.g., materialButtonStyle). By default it can only be used with MDC; full support for all components was added in 1.2.0. You can use MaterialThemeOverlay#wrap to add this functionality to custom views.
-link
-Copy link
-Link copied
 
 ## MaterialButton respects android:background
 
 MaterialButton previously ignored custom background drawables applied with android:background. This has been fixed in MDC 1.2.0. A MaterialShapeDrawable will still be used as the default background if no custom background is set.
 Note: The default style for MaterialButton includes a backgroundTint which will also be applied to a custom background drawable. You may need to change this to a different color or set it as @empty to remove it.
 xxxxxxxxxx<!--Note: Button is auto-inflated asMaterialButton by MaterialComponentsViewInflater--><Button    ...    android:background=”@drawable/custom_background”    app:backgroundTint=”@empty” />
-link
-Copy link
-Link copied
 
 ## What’s next for MDC?
 

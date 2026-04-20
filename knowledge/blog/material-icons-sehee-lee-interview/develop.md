@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/material-icons-sehee-lee-interview/develop -->
-<!-- Scraped: 2026-04-20T07:47:44.796Z -->
+<!-- Scraped: 2026-04-20T17:50:08.293Z -->
 
 Posted by
 Liam Spradlin
@@ -8,9 +8,6 @@ Sehee Lee is a Senior Visual Designer on Material Design, leading iconography an
 Lee has been with Material since before it was Material, contributing to the original launch of the system back in 2014. During that period, as platform guidelines, navigation patterns, and components took shape, it became clear that there was no central system for creating action icons.
 The effort to build more structure into the creation of these icons, which appear frequently throughout every Material interface, continued into the buildup to 2018’s Material Theming launch, when Lee took ownership of creating Google’s first proprietary icon set and open-sourcing five different styles of Material icons that stayed true to the system while tweaking parameters that could create new types of expression.
 Four years later, the team has introduced Material Symbols, a variable font that captures over 2,500 individual glyphs with multiple stylistic axes in a single font file, exploding the expressive capacity of Material Icons. Coinciding with the launch, I got a chance to speak with Lee about her work, the project, and what it’s like to design something iconic.
-link
-Copy link
-Link copied
 
 ## Designing an icon
 
@@ -24,9 +21,6 @@ This must be especially complex for a product like Material Icons, where the lib
 This is why we take a systematic approach to handle the majority of our edge cases. And for the most part, the Material Design System provides a clear cut way to create icons that can fit 99% of our use cases. However, it’s also important to recognize the metaphor that can be offensive or have different contexts in different areas of the world. For example, we had user feedback from a Cyrillic native speaker and the user informed us about our 4k icon at the time. For English speakers, it was just an icon with ‘4k’ letters but those letters could be interpreted differently in Cyrillic. It turned out that the icon could be seen as a symbol of Secret Police working under Lenin. We had no idea! As soon as we heard of the feedback, we took an immediate action by modifying the icon so that it properly reads as 4k even in Cyrillic languages. So, sometimes we have unforeseeable events like this but our goal is to always create and maintain iconography that is socially unbiased and universally applicable.
 How do you maintain an editorial perspective when the catalog has over 2,000 glyphs across 5 styles, and especially now that there are variable axes to work with?
 The reason our iconography is popular with our users is because using our Material Design metrics and system grid, new icons can easily be created in the Material Design style. The way I think about this is essentially, by sticking to a system that’s proven to produce icons with consistent style, our iconography was able to reach millions of users while maintaining objectivity throughout the process.
-link
-Copy link
-Link copied
 
 ## From Material Icons to Material Symbols
 
@@ -42,9 +36,6 @@ For developers, Traditional font/symbol storage requires multiple files, and tak
 For both, when using variable fonts, there’s a benefit of not having to choose just one or a few styles to speed up performance. Variable fonts are able to provide users with all available styles with just one file, which also means that now you can do CSS animation between different styles of icons with one file.
 How does it work?
 Traditionally icons are designed by hand one by one. If we needed icons with different stroke weights, those would be created manually. Material Symbols are technically a new font and not a simple vector drawing. Since Material Symbols are created in a font development tool, the produced symbols also have the characteristics only seen in fonts and users are able to take advantage of features like the 4 stylistic attributes: Fill, Optical Size, Weight and Grade.
-link
-Copy link
-Link copied
 
 ## Identifying with icons
 

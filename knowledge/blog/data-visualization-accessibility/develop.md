@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/data-visualization-accessibility/develop -->
-<!-- Scraped: 2026-04-20T07:25:22.518Z -->
+<!-- Scraped: 2026-04-20T17:24:38.564Z -->
 
 Posted by
 Kent Eisenhuth
@@ -8,9 +8,6 @@ Gerrit de Vries
 , Co-founder, Google Data Accessibility Working Group
 Data visualizations like charts should work for everyone, regardless of their ability. But creating accessible data visualizations extends beyond simply meeting compliance requirements. Explore the six tips below to learn how to represent data in a way that is accessible, scalable, and helpful.
 See the Material Design data visualization principles for general guidance on portraying information in graphical form.
-link
-Copy link
-Link copied
 
 ## 1. Facilitate comparisons
 
@@ -19,9 +16,6 @@ In practice:
 - Reduce the amount of information that people need to process to understand how data sets differ or relate to each other. Keep comparable data sets on the same scales and measures where possible.
 - Provide inclusive controls like filtering  to allow people to quickly locate outliers or other instances where the data deviates from the common trend.
 - Whenever possible, use a chart type that makes it easier to differentiate between data sets. For example, line charts make it easy to spot small changes over time with continuous data.
-link
-Copy link
-Link copied
 
 ## 2. Be a helpful guide
 
@@ -30,9 +24,6 @@ Provide the right context at the right time. Build affordances that prioritize d
 - Orient people within the data by consistently highlighting where they are, where they came from, and where they can go. For example, supply information on data recency and data collection methods, and standardize patterns and components across different data visualization projects whenever possible.
 - Offer flexible ways to explore and prioritize data so that people using assistive technology can manipulate the data using familiar tools (for example, through sorting).
 - Provide an accessible method for linking to the underlying data set so people can explore the data on their own (for example, link to downloadable data in CSV format or in an accessible table).
-link
-Copy link
-Link copied
 
 ## 3. Focus on what matters
 
@@ -40,9 +31,6 @@ Always prioritize data accuracy, integrity, and simplicity. Every action, color,
 - Use common charts, such as area charts, bar charts, donut charts, line charts, and other charts that most people already understand.
 - Use colors that achieve required  contrast ratios with adjacent elements (for example, background, metrics, and interaction states) along with an additional element or encoding to draw focus and communicate consistent meaning.
 - Ensure the visual elements and encodings within your data visualization accurately represent the underlying data.
-link
-Copy link
-Link copied
 
 ## 4. Provide structure
 
@@ -50,18 +38,12 @@ Hierarchy and structure make it easy to understand what the chart is for and wha
 - Provide labels for legends, data points, axes, and marks so that chart elements can be unambiguously interpreted.
 - For interactive charts, use proper accessibility markup, like ARIA, to describe the organization of the data and the elements of the visualization. This will help people relying on assistive technology to interpret the visualization.
 - Use elements that support keyboard navigation (or ensure it works on your custom elements), in a way that isn’t taxing (for example, decreasing tab stops for people with limited motor skills). See the Material accessibility principles for more tips on keyboard navigation.
-link
-Copy link
-Link copied
 
 ## 5. Embrace flexibility
 
 Respect different needs on data depth, complexity, and modality. Allow your data visualizations to extend and adapt over time.
 - Consider how chart elements (color palettes, axes, etc.) meet a variety of needs, abilities, screen sizes, and data types.
 - If appropriate, provide discoverable  options that allow people to choose  the visualization’s theme, contrast, and density based on their needs.
-link
-Copy link
-Link copied
 
 ## 6. Exceed expectations
 
@@ -69,9 +51,6 @@ Embrace dynamic, smart, and clever experiences that overdeliver for your audienc
 - Strive to create a multisensory experience that leverages a device's core capabilities, including audio, haptic, and visual representations.
 - Account for overall performance and compatibility with all platforms and assistive technology.
 - Factor in polish, surprise, and innovation as you design your data visualizations or data experiences.
-link
-Copy link
-Link copied
 
 ## Applying this guidance
 

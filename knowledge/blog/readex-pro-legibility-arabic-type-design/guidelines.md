@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/readex-pro-legibility-arabic-type-design/guidelines -->
-<!-- Scraped: 2026-04-20T07:53:59.406Z -->
+<!-- Scraped: 2026-04-20T17:56:25.986Z -->
 
 Posted by
 Susanna Zaraysky
@@ -13,9 +13,6 @@ Rebecca Hsiao
 Could a new typeface make it easier for the more than 400 million Arabic speakers around the world to read?
 Type designers Dr. Nadine Chahine and Thomas Jockin joined forces to find out. They created Readex Pro in Arabic using the methodology behind Lexend, made for Latin. The name Readex was chosen as a shortened form of “reading expanded.”
 When Dr. Bonnie Shaver-Troup started the Lexend project, her goal was to help people to read more easily and fluently by reducing visual noise. The Lexend fonts have distinct letterforms, and offer the option to widen tracking (the spacing between letters) together with widening the shapes of individual letterforms themselves. This novel functionality is based on a theory known as the “Shaver-Troup Formulation,” which was described in detail in a 2003 USA patent application.
-link
-Copy link
-Link copied
 
 ## Possible impact
 
@@ -23,9 +20,6 @@ Chahine and Jockin knew that an Arabic typeface designed for enhanced legibility
 John Daniel, former UNESCO Assistant Director General for Education, warned that “only 62.2% of the Arab region's population aged 15 and over were able to read and write in 2000-2004, well below the world average of 84%, and the developing countries' average of 76.4%”. According to Arab Weekly, the literacy rate among women and girls of all ages in Arab countries is estimated at 74%, the lowest in the world.
 “Distinguishable letterforms could make Lexend’s Arabic expansion to Readex Pro ideal for Arabic speakers learning to read. There is potential to support those with visual impairments, dyslexia, reading challenges, and people early in their journey to become readers regardless of their age. When we take away barriers to reading, the whole world benefits,” said Dr. Shaver-Troup.
 There are at least 2.2 billion people with vision impairments worldwide, according to the World Health Organization (WHO). Dyslexia, neurocognitive conditions that makes reading more difficult for some people, may impact 20% of the global population.
-link
-Copy link
-Link copied
 
 ## Inspiration to expand Lexend to Arabic
 
@@ -36,18 +30,12 @@ Chahine, a native Arabic speaker from Beirut, Lebanon, has an academic and profe
 “My interest in legibility research comes from my dedication to support reading in Arabic, as it is a vehicle for economic and societal change in the Middle East. I have designed other font families that are focused on improving readability, such as Amariya and Afandem. My main drive is to encourage people to read more, given how young the Arabic speaking population is, and all the economic and social challenges our region faces.”
 Chahine and Jockin asked Google Fonts to commission them to translate the ideas and methodology behind Lexend into Arabic, and begin the Readex Pro project.
 "I am passionate about libre fonts projects that advance the field of typeface design. Open access is essential for human progress. With Thomas’ prior experience in the Lexend project, started by Dr. Shaver-Troup, along with Nadine’s academic pedigree in applying reading science to the Arabic writing system, I thought this libre font project had high merit for financial support," said Dave Crossland, type director for the Google Fonts team.
-link
-Copy link
-Link copied
 
 ## Challenges in translating concepts formulated for Latin into Arabic
 
 To start the project, Chahine and Jockin considered how to re-apply the ideas in “Shaver-Troup Formulation” from Latin to Arabic. The formulation focuses on the differences and relationships of the width of a glyph to the spaces between glyphs. The combination of widening the spaces both within and between letters is called “Hyper Expansion”.
 “The treatment of spacing between Arabic letters requires much more manual attention, compared to Lexend’s Latin design. Arabic operates with connected letters (similar to ligatures in Latin), instead of individual and isolated letters. A formula alone would not create beautiful Arabic shapes. The hand, along with the eye, were necessary,” explained Jockin.
 There weren’t any existing Arabic typefaces made with hyper-expansion, where letters get wider and farther apart from one another. The designers had no references for how to translate the letterform shapes from their regular width and normal spacing, to something hyper-expanded. It has never been done before.
-link
-Copy link
-Link copied
 
 ## Custom Naskh style with geometric shapes
 
@@ -63,17 +51,11 @@ Readex Pro: Magazine style, with geometric influence
 The line (1) points to subtle pen influences, and references the angle of the pen and the way it moves to create the shape.
 (1) Instead of a shallow, waved line, like in calligraphic Naskh, the top is curved and open, adding a geometric quality to the letter. (2) The curves are static using the typical Naskh structure, but treated in a controlled, geometric way.
 (1) The almost constant thickness of the strokes is similar to the Latin counterpart of Readex Pro, derived from Lexend. (2) The baseline is flat and horizontal, following the Naskh magazine style, and brings the rhythm closer to the Latin. The diacritic (accent mark) is a rhombus, like in Naskh.
-link
-Copy link
-Link copied
 
 ## Depth and baseline
 
 In addition to creating a custom Naskh with a contemporary blend of genre influences, the designers also had to implement adjustments to the Latin, such as the standard practice of increasing the vertical metrics of the font to accommodate how characters such as “ع” (ain, an unvoiced sound) go deep below the baseline.
 Comparison of the Latin lowercase “g” in Lexend compared to the "ع" in Readex Pro. (1) Baseline (2) Latin descender (3) Arabic descender
-link
-Copy link
-Link copied
 
 ## Spacing options
 
@@ -88,9 +70,6 @@ As a variable font, the Hyper Expansion axis allows for customized spacing optio
 To find the amount of hyperexpansion that works for you, on the Google Fonts specimen page for Readex Pro navigate to the Type Tester and use the slider to control the Hyper Expansion axis value.
 GIF of the Type Tester
 During the initial release of Lexend, Crossland worked with Jockin and Dr. Shaver-Troup to support software that does not yet support variable fonts (such as Google Docs and Slides). This was done by making seven hyper-expansion options available as separate font families, each with only a range of weights and a fixed amount of hyper-expansion. They are named in alphabetical order: Lexend Deca, Exa, Giga, Mega, Peta, Tera, and Zetta. Readex Pro is not currently available in this way, but only as a variable font.
-link
-Copy link
-Link copied
 
 ## Creating Readex Pro in Latin
 

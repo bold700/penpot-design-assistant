@@ -1,14 +1,11 @@
 <!-- Source: https://m3.material.io/blog/relay-ravn-case-study/accessibility -->
-<!-- Scraped: 2026-04-20T07:55:30.027Z -->
+<!-- Scraped: 2026-04-20T17:57:44.408Z -->
 
 Posted by
 Louise Macfadyen
 , Senior Material Design Advocate
 Handing off design represents one of the most critical, and often most stressful, stages of a development project. The exchange of visual and interaction work from designers to developers requires detailed documentation and communication, and, as an inherently collaborative endeavor, asks teams to work together often and early.
 Design handoff is a progression of steps throughout the design process, not a single moment in time. Given good communication between design and development, the process should be simple. However, many issues can crop up over the lifecycle of product development. Details can become lost, miscommunications can cause setbacks. Often, the sheer volume of questions to be answered can be overwhelming, especially in most organizations where there’s a mismatch between the number of designers and developers.
-link
-Copy link
-Link copied
 
 ## Meet Ravn
 
@@ -18,9 +15,6 @@ Product Designer Lea Escobar agrees. The design team at Ravn had tried setting u
 In some ways, this hurdle can never disappear: design workflows are conversations. However, solving some basic issues frees up time to solve bigger problems: designers can pay more attention to their work, and developers are freed up to do more code. If great product design involves developers and designers collaborating to find great solutions to difficult problems, a product like Relay provides enormous value in creating more time in the day for these vital conversations.
 Handoff across specialties can boil down to individual preference, or broad commercial standards. How details like interaction and styles get transferred are predicated on expectations set early in the process. Engineers might have a preference to how a specific component is annotated, but having a standardized structure can make things more efficient across the board.
 Providing a consistent understanding of handoff standards and details like dynamic elements can work wonders - Relay’s detailed parameters provide for more rich messaging across handoff. Details around design intent, like interaction behaviors, can be hard to guess. “Designers do everything on a stop motion layout” says Mario, whereas the reality can be a lot more complicated.
-link
-Copy link
-Link copied
 
 ## Enter Relay
 

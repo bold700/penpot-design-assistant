@@ -1,5 +1,5 @@
 <!-- Source: https://m3.material.io/blog/android-stable-release-1-7-0/develop -->
-<!-- Scraped: 2026-04-20T07:20:50.572Z -->
+<!-- Scraped: 2026-04-20T17:19:59.770Z -->
 
 Posted by
 James Williams
@@ -10,9 +10,6 @@ MDC 1.7.0 has new minimum version requirements:
 - Android Gradle Plugin (AGP) 7.3.3, previously 4.0.0
 - Android Studio Chipmunk, version 2021.2.1
 This is a fairly large jump in terms of the Gradle plugin version, so make sure to secure changes in your build files first before moving on to UI code. As always, our release notes contain the full details of what has been updated. There are a couple standout updates we’d like to highlight.
-link
-Copy link
-Link copied
 
 ## MaterialSwitch component
 
@@ -20,9 +17,6 @@ The Switch component has undergone a visual refresh that increases contrast and 
 It now differentiates between the on and off states more by making the “on” thumb larger and able to contain an icon in addition to an on state color. The “off” state has a smaller thumb with less contrast.
 Much of the new component’s core API aligns with the obsolete SwitchMaterial class so to get started, you can simply replace the class references.
 For more information on how the obsolete component stacks against the new implementation, check the documentation on GitHub.
-link
-Copy link
-Link copied
 
 ## Shape Theming
 
@@ -39,9 +33,6 @@ You are able to set the shape family and value individually and arbitrarily on e
 | Full | N/A |
 Default theming will apply the same shape family and value on all four edges. You can apply shape family and shape style (or alternatively a custom value) independently on each corner.
 The Shape Theming card in the Catalog app allows you to see how different values affect rounded or cut corners.
-link
-Copy link
-Link copied
 
 ## What’s next for MDC ?
 
