@@ -160,6 +160,16 @@ async function run() {
   // Step 1: discover all URLs
   await discoverUrls(page);
 
+  // Step 1b: add sub-pages for each discovered URL
+  const discovered = Array.from(toVisit);
+  for (const base of discovered) {
+    for (const sub of SUB_PAGES) {
+      const subUrl = `${base}/${sub}`;
+      if (!visited.has(subUrl)) toVisit.add(subUrl);
+    }
+  }
+  console.log(`Total URLs including sub-pages: ${toVisit.size}`);
+
   // Step 2: scrape each page
   let success = 0;
   let failed  = 0;

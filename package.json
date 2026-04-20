@@ -4,7 +4,8 @@
   "description": "AI design system assistant for Penpot",
   "scripts": {
     "start": "node server.js",
-    "scrape": "node scripts/scrape-m3.js"
+    "scrape": "node scripts/scrape-m3.js",
+    "scrape-sub": "node scripts/scrape-subpages.js"
   },
   "devDependencies": {
     "puppeteer": "^22.15.0"
