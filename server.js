@@ -78,9 +78,17 @@ function findRelevantKnowledge(question) {
     if (score > 0) scored.push({ key, content, score });
   }
 
-  // Return top 3 most relevant files
+  // Return top results, capped at ~12000 chars total to stay within context
   scored.sort((a, b) => b.score - a.score);
-  return scored.slice(0, 3).map(s => s.content);
+  const results = [];
+  let totalChars = 0;
+  for (const s of scored) {
+    if (totalChars + s.content.length > 12000) break;
+    results.push(s.content);
+    totalChars += s.content.length;
+    if (results.length >= 8) break;
+  }
+  return results;
 }
 
 function buildSystemPrompt(question) {
