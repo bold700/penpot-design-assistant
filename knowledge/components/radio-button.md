@@ -1,8 +1,9 @@
 <!-- Source: https://m3.material.io/components/radio-button -->
-<!-- Scraped: 2026-04-20T03:48:01.309Z -->
+<!-- Scraped: 2026-04-20T04:28:18.737Z -->
 
-# Radio button
-
+link
+Copy link
+Link copied
 - Use radio buttons (not 
     
     switches
@@ -22,13 +23,36 @@
             More on lists
 - Label should be scannable
 - Selected items are more prominent than unselected items
+link
+Copy link
+Link copied
 Radio buttons can be selected
+link
+Copy link
+Link copied
 
 ## Resources & availability
 
+link
+Copy link
+Link copied
+| Type | Resource | Status |
+| Design |
+| Design Kit (Figma) | Available |
+| Implementation |
+| Flutter | Available |
+| Jetpack Compose | Available |
+| MDC-Android | Available |
+| Web | Available |
+link
+Copy link
+Link copied
 
 ## What’s new
 
+link
+Copy link
+Link copied
 - Color: New color mappings and compatibility with 
     
     dynamic color
@@ -37,3 +61,4 @@ Radio buttons can be selected
     
       
             More on dynamic color
+Radio buttons feature new color mappings

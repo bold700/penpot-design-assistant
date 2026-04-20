@@ -1,44 +1,71 @@
 <!-- Source: https://m3.material.io/components/sliders -->
-<!-- Scraped: 2026-04-20T03:48:15.331Z -->
+<!-- Scraped: 2026-04-20T04:28:39.838Z -->
 
-# Sliders
-
+link
+Copy link
+Link copied
 - Three variants: Standard, centered, range
-Three variants: Standard, centered, range
 - Has five sizes, vertical and horizontal orientation, and an optional inset icon
-Has five sizes, vertical and horizontal orientation, and an optional inset icon
 - Sliders should present the full range of available values
-Sliders should present the full range of available values
 - The slider value should take effect immediately
-The slider value should take effect immediately
+link
+Copy link
+Link copied
 Sliders change values along a range
+link
+Copy link
+Link copied
 
 ## Availability & resources
 
+link
+Copy link
+Link copied
+| Type | Resource | Status |
+| Design |
+| Design Kit (Figma) | Available |
+| Implementation |
+| Flutter | Available |
+| Jetpack Compose | Available |
+| Jetpack Compose: Expressive | Available |
+| MDC-Android | Available |
+| MDC-Android: Expressive | Available |
+| Web | Available |
+| Web: Expressive | Unavailable |
+link
+Copy link
+Link copied
 
 ## M3 Expressive update
 
+link
+Copy link
+Link copied
 May 2025
 The slider includes expressive configurations for orientation, shape sizes, and an inset icon. More on M3 Expressive
+link
+Copy link
+Link copied
 Updated on MDC-Android and Jetpack Compose.
 Variants and naming:
 - Changed continuous slider to standard slider
-Changed continuous slider to standard slider
 - The discrete slider is now the stops configuration
-The discrete slider is now the stops configuration
 New configurations:
 - Orientation: Horizontal, vertical
-Orientation: Horizontal, vertical
 - Optional inset icon (standard slider only)
-Optional inset icon (standard slider only)
 - Sizes: XS (existing default), S, M, L, XL
-Sizes: XS (existing default), S, M, L, XL
 - Standard slider
 - Centered slider
 - Range slider
+link
+Copy link
+Link copied
 
 ## Previous updates
 
+link
+Copy link
+Link copied
 
 ### Visual refresh to improve non-text contrast
 
@@ -48,9 +75,15 @@ Dec 2023: Updated on MDC-Android and Jetpack Compose.
 - Motion: Slider handle adjusts width upon selection. Slider tracks adjust in shape when sliding to the edge.
 - Color: Refreshed color mappings
 M3 visual refresh: Sliders have a stop indicator, larger label text, and a vertical handle that narrows when pressed. Centered sliders start from the middle instead of the leading edge.
+link
+Copy link
+Link copied
 
 ## Differences from M2
 
+link
+Copy link
+Link copied
 - Color: New color mappings and compatibility with 
     
     dynamic color

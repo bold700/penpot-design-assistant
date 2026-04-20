@@ -1,10 +1,10 @@
 <!-- Source: https://m3.material.io/components/dialogs -->
-<!-- Scraped: 2026-04-20T03:47:12.523Z -->
+<!-- Scraped: 2026-04-20T04:27:09.156Z -->
 
-# Dialogs
-
+link
+Copy link
+Link copied
 - Use dialogs to make sure users act on information
-Use dialogs to make sure users act on information
 - Two variants: 
     
     basic
@@ -22,37 +22,40 @@ Use dialogs to make sure users act on information
     
       
             More on full-screen dialogs
-Two variants: 
-    
-    basic
-    
-      Basic dialogs interrupt users with urgent information, details, or actions. They're often used for alerts, quick selection, or confirmation.
-    
-      
-            More on basic dialogs
-          
-   and 
-    
-    full-screen
-    
-      Full-screen dialogs fill the entire screen, displaying actions that require a series of tasks to complete. They're often used for creating a calendar entry.
-    
-      
-            More on full-screen dialogs
 - Should be dedicated to completing a single task
-Should be dedicated to completing a single task
 - Can also display information relevant to the task
-Can also display information relevant to the task
 - Commonly used to confirm high-risk actions like deleting progress
-Commonly used to confirm high-risk actions like deleting progress
+link
+Copy link
+Link copied
 - Basic dialog
 - Full-screen dialog
+link
+Copy link
+Link copied
 
 ## Availability & resources
 
+link
+Copy link
+Link copied
+| Type | Resource | Status |
+| Design |
+| Design Kit (Figma) | Available |
+| Implementation |
+| Flutter | Available |
+| Jetpack Compose | Available |
+| MDC-Android | Available |
+| Web | Available |
+link
+Copy link
+Link copied
 
 ## Differences from M2
 
+link
+Copy link
+Link copied
 - Color: New color mappings and compatibility with 
     
     dynamic color

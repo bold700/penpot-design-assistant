@@ -1,29 +1,45 @@
 <!-- Source: https://m3.material.io/foundations/adaptive-design -->
-<!-- Scraped: 2026-04-20T03:48:58.814Z -->
+<!-- Scraped: 2026-04-20T04:30:02.285Z -->
 
-# Adaptive design
-
+link
+Copy link
+Link copied
 
 ## What does adaptive mean?
 
+link
+Copy link
+Link copied
 Adaptive design is a collection of techniques that allows an interface to respond or change to contexts like:
 - The user: Preferences and user settings
-The user: Preferences and user settings
 - The device: Watch, phone, foldable, tablet, desktop, or XR devices
-The device: Watch, phone, foldable, tablet, desktop, or XR devices
 - Usage: Screens may dynamically change as the user resizes windows or changes orientation, or when a user switches between devices
-Usage: Screens may dynamically change as the user resizes windows or changes orientation, or when a user switches between devices
 Designing adaptive experiences goes beyond customizable properties like color, typography, and shape. Individual components and entire layouts can adapt based on device and user context.
+link
+Copy link
+Link copied
 
 ## Conditions
 
+link
+Copy link
+Link copied
 A condition is a signal that determines when and how an app should adapt. The Material adaptive system supports platform, window size, and input modality conditions.
+link
+Copy link
+Link copied
 Device conditions include full-screen, windowed, and spatialized environments, as well as device states like posture
 Window size conditions include window size classes and orientation
 Input modality conditions include methods like touch, stylus, peripherals, eye, and hand tracking
+link
+Copy link
+Link copied
 
 ## Layout
 
+link
+Copy link
+Link copied
 The Material adaptive system uses 
     
     panes
@@ -43,15 +59,27 @@ The Material adaptive system uses
             Learn more
           
    to organize content and adapt interface layouts.Panes are the building blocks of layout; a pane is a single destination in the product. For example, in a messaging app, the list of messages is one pane, and a specific conversation thread is another.As the pane or window resizes—or as someone navigates the product—panes may change size, enter and exit the screen, and reorganize themselves to make the experience more usable or easier to navigate. These patterns are called adaptive strategies. Material has three adaptive strategies that create a cohesive experience across window sizes: show and hide, levitate, and reflow.
+link
+Copy link
+Link copied
 Like the panes of glass that make up a window in the real world, panes in Material design are the primary segments of a digital layout, and can change based on context
+link
+Copy link
+Link copied
 
 ## Components
 
+link
+Copy link
+Link copied
 Components can adapt in appearance, placement, and behavior based on factors like:
 - Where components are placed in relation to their containers, content, and pane boundaries
 - How components use space
 - How components enable usage across different device and input types
 Most Material components respond using three main strategies: resizing, hiding and showing, and presentation changes.
+link
+Copy link
+Link copied
 
 ### Resizing
 
@@ -66,6 +94,9 @@ Components should resize in response to their content and their placement in a l
           
    may scale along with their parent container, or hug their contents and maintain a left or right alignment.
 Buttons can hug their contents or span their containers based on context
+link
+Copy link
+Link copied
 
 ### Hiding & showing
 
@@ -80,22 +111,15 @@ Components should hide and show information, or collapse and expand to selective
           
    items may reveal descriptions or other additional information as their parent container scales.
 List items can reveal more text on a tablet
+link
+Copy link
+Link copied
 
 ### Presentation changes
 
 Presentation changes include the orientation of elements and changes to specific properties, like color, type, and shape.
 Components can also change configurations. For example:
 - When a window size increases, a 
-    
-    FAB
-    
-      Floating action buttons (FABs) help people take primary actions.
-    
-      
-            More on FABs
-          
-   can change sizes, like from medium to large
-When a window size increases, a 
     
     FAB
     
@@ -113,15 +137,10 @@ When a window size increases, a
             More on navigation bars
           
    can change nav items from vertical to horizontal
-Navigation bars
-    
-      Navigation bars let people switch between UI views on smaller devices.
-    
-      
-            More on navigation bars
-          
-   can change nav items from vertical to horizontal
 The extended FAB can change to a standard FAB when the app window is made smaller
+link
+Copy link
+Link copied
 
 ## Getting started & resources
 

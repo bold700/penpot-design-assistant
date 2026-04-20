@@ -1,8 +1,9 @@
 <!-- Source: https://m3.material.io/components/checkbox -->
-<!-- Scraped: 2026-04-20T03:46:59.573Z -->
+<!-- Scraped: 2026-04-20T04:26:53.682Z -->
 
-# Checkbox
-
+link
+Copy link
+Link copied
 - Use checkboxes (instead of 
     
     switches
@@ -31,22 +32,37 @@
             More on lists
 - Label should be scannable
 - Selected items are more prominent than unselected items
+link
+Copy link
+Link copied
 Unselected, selected (hover), and indeterminate checkboxes
+link
+Copy link
+Link copied
 
 ## Availability & resources
 
+link
+Copy link
+Link copied
+| Type | Resource | Status |
+| Design |
+| Design Kit (Figma) | Available |
+| Implementation |
+| Flutter | Available |
+| Jetpack Compose | Available |
+| MDC-Android | Available |
+| Web | Available |
+link
+Copy link
+Link copied
 
 ## Differences from M2
 
+link
+Copy link
+Link copied
 - Color: New color mappings and compatibility with 
-    
-    dynamic color
-    
-      Dynamic color takes a single color from a user's wallpaper or in-app content and creates an accessible color scheme assigned to elements in the UI.
-    
-      
-            More on dynamic color
-Color: New color mappings and compatibility with 
     
     dynamic color
     
@@ -62,11 +78,5 @@ Color: New color mappings and compatibility with 
             More on states
           
   : New indeterminate states as well as error states for unselected, selected, and indeterminate
-States
-    
-      States show the interaction status of a component or UI element.
-    
-      
-            More on states
-          
-  : New indeterminate states as well as error states for unselected, selected, and indeterminate
+M2
+M3
